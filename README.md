@@ -1,2 +1,2 @@
 # ShadowHavenChummerAmends
-Chummer amends for the ShadowHaven living community
+Chummer amends for the ShadowHavenReloaded living community
