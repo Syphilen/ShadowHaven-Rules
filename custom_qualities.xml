@@ -565,56 +565,6 @@
 						<cyberware>Obvious Skull</cyberware>
 						<ess>-3.0</ess>
 					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
-						<cyberwarecategory>Cyber Implant Weapon</cyberwarecategory>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
-						<biowarecategory>Bio-Weapons</biowarecategory>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<category>Cyber Implant Weapon</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Full Arm</cyberware>
-						<cyberwarecategory>Cyber Implant Weapon</cyberwarecategory>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Full Leg</cyberware>
-						<cyberwarecategory>Cyber Implant Weapon</cyberwarecategory>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<biowarecategory>Bio-Weapons</biowarecategory>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Full Arm</cyberware>
-						<biowarecategory>Bio-Weapons</biowarecategory>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Full Leg</cyberware>
-						<biowarecategory>Bio-Weapons</biowarecategory>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Torso</cyberware>
-						<biowarecategory>Bio-Weapons</biowarecategory>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Skull</cyberware>
-						<biowarecategory>Bio-Weapons</biowarecategory>
-						<ess>-3.0</ess>
-					</group>
 				</oneof>
 			</required>
 			<bonus>
@@ -688,56 +638,6 @@
 					<group>
 						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Skull</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
-						<category>Cyber Implant Weapon</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
-						<category>Bio-Weapons</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<category>Cyber Implant Weapon</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Full Arm</cyberware>
-						<category>Cyber Implant Weapon</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Full Leg</cyberware>
-						<category>Cyber Implant Weapon</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<category>Bio-Weapons</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Full Arm</cyberware>
-						<category>Bio-Weapons</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Full Leg</cyberware>
-						<category>Bio-Weapons</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Torso</cyberware>
-						<category>Bio-Weapons</category>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Obvious Skull</cyberware>
-						<category>Bio-Weapons</category>
 						<ess>-3.0</ess>
 					</group>
 				</oneof>

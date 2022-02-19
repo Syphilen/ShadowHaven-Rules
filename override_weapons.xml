@@ -1086,7 +1086,7 @@
 	<weapon>
 	  <id>ad2ea9ea-74d0-411d-89b7-20702ee4105d</id>
 	  <name>Retractable Climbing Claws</name>
-	  <category>Cyberweapon</category>
+	  <category>Blades</category>
 	  <type>Melee</type>
 	  <conceal>-2</conceal>
 	  <accuracy>Physical-1</accuracy>

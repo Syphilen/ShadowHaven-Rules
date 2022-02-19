@@ -38,6 +38,30 @@
       <name>Omegaware (Adapsin)</name>
       <hide />
     </grade>
+	<grade>
+		<name>Standard (Adapsin)</name>
+		<hide />
+	</grade>
+	<grade>
+		<name>Alphaware (Adapsin)</name>
+		<hide />
+	</grade>
+	<grade>
+		<name>Betaware (Adapsin)</name>
+		<hide />
+	</grade>
+	<grade>
+		<name>Deltaware (Adapsin)</name>
+		<hide />
+	</grade>
+	<grade>
+		<name>Greyware (Adapsin)</name>
+		<hide />
+	</grade>
+	<grade>
+		<name>Used (Adapsin)</name>
+		<hide />
+	</grade>
     <!-- End Region -->
   </grades>
   <cyberwares>
