@@ -23,34 +23,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a34e502-f99b-4201-a82c-465f140e5a81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShadowHaven-Rules.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_armor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_bioware.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_complexforms.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_critterpowers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_cyberware.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amend_cyberware.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amend_echoes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amend_echoes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_gear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_licenses.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_lifestyles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_martialarts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_mentors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_metamagic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_metatypes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_powers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_programs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/amend_qualities.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amend_qualities.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_skills.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_spells.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_traditions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_vehicles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_books" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_cyberware.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/custom_qualities.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom_qualities.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_weapons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/override_weapons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/override_weapons.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
