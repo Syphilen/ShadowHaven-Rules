@@ -22,6 +22,11 @@
          xsi:schemaLocation="http://www.w3.org/2001/XMLSchema echoes.xsd">
 
   <echoes>
+    <!-- Region Core-->
+    <echo>
+      <name>Mind Over Machine</name>
+      <hide />
+    </echo>
     <!-- Region Kill Code-->
     <echo>
       <name>Draining Spike</name>

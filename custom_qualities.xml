@@ -1373,5 +1373,24 @@
 			<source>SR5</source>
 			<page>0</page>
 		</quality>
+		<quality>
+			<id>96fd6002-b1b6-4d3d-aba8-3f56347028c2</id>
+			<name>Resonant Autosoft</name>
+			<karma>2</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<required>
+				<allof>
+					<quality>Resonant Stream: Machinist</quality>
+				</allof>
+			</required>
+			<notes>Rating is equal to the lower of RES and 6.</notes>
+			<source>KC</source>
+			<page>0</page>
+		</quality>
 	</qualities>
 </chummer>
