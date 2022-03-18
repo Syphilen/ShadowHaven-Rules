@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"      xsi:schemaLocation="http://www.w3.org/2001/XMLSchema gear.xsd">
+  <categories>
+    <category blackmarket="Weapons">Ammunition Handloads +DV</category>
+    <category blackmarket="Weapons">Ammunition Handloads +AP</category>
+  </categories>
+  <gears>
+    <!-- Region Handload AP -->
+    <gear>
+      <id>0198f16e-8bb2-a618-ab2a-f010abe0a1c6</id>
+      <name>Ammo +AP: Depleted Uranium</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>28F</avail>
+      <cost>1000 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-6</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>adef0fa4-a7b7-41e1-b534-f15308c9c8c1</id>
+      <name>Ammo +DV: Silver</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>12R</avail>
+      <cost>250 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>60b7ad79-a5b7-4803-8d1f-9145218eaf5b</id>
+      <name>Ammo +AP: Wood Pulp</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>6R</avail>
+      <cost>10 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>4</ap>
+        <damage>-5</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b286a62d-a7cb-472a-bea8-0f41a300bb9c</id>
+      <name>Ammo +AP: Hi-De Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>10F</avail>
+      <cost>150 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>c429fc81-d11b-a34b-b98b-5fbdda9db905</id>
+      <name>Ammo +AP: Subsonic</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>8F</avail>
+      <cost>40 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>ef9c8aae-26df-afe6-88b3-79fbb5eb77c5</id>
+      <name>Ammo +AP: APDS</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>12F</avail>
+      <cost>120 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-5</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>1315cecd-1c13-ad69-9828-a3ea535675da</id>
+      <name>Ammo +AP: Explosive Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>9F</avail>
+      <cost>80 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>95bff6e2-d788-407b-a069-093250f89fcb</id>
+      <name>Ammo +AP: Flechette Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>65 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>4</ap>
+        <damage>2</damage>
+        <damagetype>P(f)</damagetype>
+      </weaponbonus>
+      <isflechetteammo>True</isflechetteammo>
+      <flechetteweaponbonus>
+        <damagetype>P(f)</damagetype>
+      </flechetteweaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>0dbcca24-c152-47c5-baa2-8feadff22321</id>
+      <name>Ammo +AP: Stick-n-Shock Flechette Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>TSG</source>
+      <page>29</page>
+      <avail>6R</avail>
+      <cost>110 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <isflechetteammo>True</isflechetteammo>
+      <flechetteweaponbonus>
+        <ap>-4</ap>
+        <damage>-2</damage>
+        <damagetype>S(e)</damagetype>
+      </flechetteweaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>0c8aa6cb-6e96-4d95-8454-104a36091cf9</id>
+      <name>Ammo +AP: Gel Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>25 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>0</ap>
+        <damagetype>S</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f486fa14-ee2c-46db-92ea-c682861d8fe0</id>
+      <name>Ammo +AP: Hollow Points</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>4F</avail>
+      <cost>70 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>1</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>63AAadA3-E0B7-4193-8B15-290F6B5DD21E</id>
+      <name>Ammo +AP: Taurus Omni-6 Heavy</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>20 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-2</apreplace>
+        <damagereplace>7P</damagereplace>
+        <modereplace>SS</modereplace>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b2a0b340-c793-4322-8122-8b03d18a6fae</id>
+      <name>Ammo +AP: Regular Ammo</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>20 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d9f69780-93eb-41f1-9a9c-893f8c52794e</id>
+      <name>Ammo +AP: Stick-n-Shock</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>80 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-4</apreplace>
+        <damage>-2</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>e0d7aea7-52ac-4170-bac3-b13ce144257c</id>
+      <name>Ammo +AP: Tracer</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>60 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>96eb3f57-26e0-40c5-8dac-61cf8a0bc52f</id>
+      <name>Ammo +AP: EX-Explosive Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>54</page>
+      <avail>14F</avail>
+      <cost>120 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>ecc8aafc-f8a3-408b-1b47-6f85a473de13</id>
+      <name>Ammo +AP: Frangible Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>54</page>
+      <avail>2R</avail>
+      <cost>10 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>3</ap>
+        <damage>-1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>506dd9c6-ea57-4ae2-8187-81ce93e5a7b2</id>
+      <name>Ammo +AP: Flare Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>6R</avail>
+      <cost>20 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>1</ap>
+        <damage>-2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f29f0642-65a5-4461-dca1-396907dbf82e</id>
+      <name>Ammo +AP: Tracker Rounds, Security Tag</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>8R</avail>
+      <cost>150 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>4b844ac3-20e8-4982-8721-20579b5295a8</id>
+      <name>Ammo +AP: Tracker Rounds, Stealth Tag</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>8R</avail>
+      <cost>150 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>4257a39e-41eb-45ee-916e-41c3c0bf960c</id>
+      <name>Ammo +AP: Capsule Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>2</avail>
+      <addoncategory>Drugs</addoncategory>
+      <addoncategory>Toxins</addoncategory>
+      <addoncategory>Custom</addoncategory>
+      <cost>5 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>3</ap>
+        <damage>-4</damage>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>8C9AE7B4-EF1F-4983-9008-79513592B417</id>
+      <name>Ammo +AP: AV Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>14R</avail>
+      <cost>175 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <!-- Region Kill Code-->
+    <gear>
+      <id>7e104b61-69b3-4a7e-8221-a1190314c411</id>
+      <name>Ammo +AP: Zapper</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>48</page>
+      <avail>12R</avail>
+      <cost>140 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>(M)</damagetype>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b8ad4fef-4092-42ac-87a1-518dd8b60fb7</id>
+      <name>Ammo +AP: Looper</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>6</rating>
+      <source>KC</source>
+      <page>49</page>
+      <avail>FixedValues(7R,8R,9R,10R,11R,12R)</avail>
+      <cost>FixedValues(20,30,40,50,100,200) * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <userange>Light Pistol</userange>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>c41a91b0-7896-4ad1-b1e6-f39c9c93bf1b</id>
+      <name>Ammo +AP: Fuzzy</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>2</rating>
+      <source>KC</source>
+      <page>50</page>
+      <avail>FixedValues(10R,12R)</avail>
+      <cost>FixedValues(30,50) * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <userange>Light Pistol</userange>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>efa87c80-d712-41d8-813e-768a2f41fcf7</id>
+      <name>Ammo +AP: E0-E0 (Public Grid)</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>50 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+        <ap>-1</ap>
+     </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f4be287a-2ed8-4e7b-8144-32243905fe84</id>
+      <name>Ammo +AP: E0-E0 (Local Grid)</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>60 * 1.1</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>8ddf2080-2444-4d9a-a101-5be4147b183d</id>
+      <name>Ammo +AP: E0-E0 (Megacorporate Grid)</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>100 * 1.1</cost>
+      <bonus>
+        <selecttext xml="lifemodules.xml" xpath="/chummer/storybuilder/macros/mega/persistent/*" allowedit="True" />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>bf9001db-6484-47ab-9149-5f068f5fe04b</id>
+      <name>Ammo +AP: E0-E0 Rifle (Public Grid)</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>50 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d1e0807b-6c6e-44bb-a210-c6f328ee26a5</id>
+      <name>Ammo +AP: E0-E0 Rifle (Local Grid)</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>60 * 1.1</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b580d8fc-9987-403a-9be1-760b1d88f926</id>
+      <name>Ammo +AP: E0-E0 Rifle (Megacorporate Grid)</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>100 * 1.1</cost>
+      <bonus>
+        <selecttext xml="lifemodules.xml" xpath="/chummer/storybuilder/macros/mega/persistent/*" allowedit="True" />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-4</damage>
+        <ap>-5</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <!-- End Region -->
+    <!-- Region Krime Katalog -->
+    <gear>
+      <id>9d4cd46c-1fb9-4182-8a81-0479cf2adaae</id>
+      <name>Ammo +AP: Krime Power Rounds</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>3R</avail>
+      <cost>75 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>6afa3fc7-e390-43b5-b27e-3101baecec92</id>
+      <name>Ammo +AP: Krime Penetrator Buckshot Shells</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>16F</avail>
+      <cost>250 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-3</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>959b02ff-b3b3-4027-8ada-799131a7a323</id>
+      <name>Ammo +AP: Krime Crackle Fin-Stabilized HEAT Slugs</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>20F</avail>
+      <cost>300 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>2</damage>
+        <ap>-4</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>97febd7d-6385-472e-87af-29213f9224ae</id>
+      <name>Ammo +AP: Krime Laser Bullets</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>6R</avail>
+      <cost>125 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>17136c4b-af3b-44a4-15cf-2eedf7e9d217</id>
+      <name>Ammo +AP: Krime Splash Self-Defense Ammunition</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>4R</avail>
+      <cost>100 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>(S)</damagetype>
+        <ap>0</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>    <!-- End Region -->
+
+    <!-- Region +DV Handload Ammo -->
+    <gear>
+      <id>0198f16e-8bb2-4618-ab1a-f010abe0a1c6</id>
+      <name>Ammo +DV: Depleted Uranium</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>28F</avail>
+      <cost>1000 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-5</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>adef0fa4-67b7-41e1-b534-f1530829c8c1</id>
+      <name>Ammo +DV: Silver</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>12R</avail>
+      <cost>250 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>2</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>60b7ad79-55b7-4803-8d1f-9122218eaf5b</id>
+      <name>Ammo +DV: Wood Pulp</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>6R</avail>
+      <cost>10 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>4</ap>
+        <damage>-3</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b286a62d-c1cb-472a-bea8-0f41a300bb9c</id>
+      <name>Ammo +DV: Hi-De Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>10F</avail>
+      <cost>150 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>c429fc81-d11b-431b-b98b-5fbdda9db905</id>
+      <name>Ammo +DV: Subsonic</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>8F</avail>
+      <cost>40 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>0</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>ef9c8aae-26df-4fe6-8823-79fbb5eb77c5</id>
+      <name>Ammo +DV: APDS</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>12F</avail>
+      <cost>120 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-4</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>1315cecd-1c13-4d69-9828-a3ea535395da</id>
+      <name>Ammo +DV: Explosive Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>9F</avail>
+      <cost>80 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>95bff6e2-d788-407b-9069-092250f89fcb</id>
+      <name>Ammo +DV: Flechette Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>65 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>5</ap>
+        <damage>3</damage>
+        <damagetype>P(f)</damagetype>
+      </weaponbonus>
+      <isflechetteammo>True</isflechetteammo>
+      <flechetteweaponbonus>
+        <damagetype>P(f)</damagetype>
+      </flechetteweaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>0dbcca24-c152-47c5-b1e2-8feadff22321</id>
+      <name>Ammo +DV: Stick-n-Shock Flechette Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>TSG</source>
+      <page>29</page>
+      <avail>6R</avail>
+      <cost>110 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <isflechetteammo>True</isflechetteammo>
+      <flechetteweaponbonus>
+        <ap>-5</ap>
+        <damage>-1</damage>
+        <damagetype>S(e)</damagetype>
+      </flechetteweaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>0c8d16cb-6e26-4d95-8454-104a36091cf9</id>
+      <name>Ammo +DV: Gel Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>25 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>1</ap>
+        <damage>2</damage>
+        <damagetype>S</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f486f414-ee2c-46db-91ea-c682861d8fe0</id>
+      <name>Ammo +DV: Hollow Points</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>4F</avail>
+      <cost>70 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>2</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>63AA2CA3-E0B7-4193-8B15-296F6B5DD21E</id>
+      <name>Ammo +DV: Taurus Omni-6 Heavy</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>20 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-1</apreplace>
+        <damagereplace>8P</damagereplace>
+        <modereplace>SS</modereplace>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b2a0b330-c793-4322-8422-8b03d18a6fae</id>
+      <name>Ammo +DV: Regular Ammo</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>20 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>2</damage>
+      </weaponbonus>
+     <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d9f69780-92eb-41ff-9a9c-893f8c52794e</id>
+      <name>Ammo +DV: Stick-n-Shock</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>80 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-5</apreplace>
+        <damage>0</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>e0d7aea7-51ac-4170-bac3-b13ce144257c</id>
+      <name>Ammo +DV: Tracer</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>60 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>96eb3f57-2ae0-40c5-8dac-62cf8a0bc52f</id>
+      <name>Ammo +DV: EX-Explosive Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>54</page>
+      <avail>14F</avail>
+      <cost>120 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>3</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>ecc8aafc-faa3-408b-9b47-6f85a473de13</id>
+      <name>Ammo +DV: Frangible Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>54</page>
+      <avail>2R</avail>
+      <cost>10 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>4</ap>
+        <damage>0</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>506d19c6-ea57-4ae2-8887-81ce93e5a7b2</id>
+      <name>Ammo +DV: Flare Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>6R</avail>
+      <cost>20 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>2</ap>
+        <damage>-1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f29f0612-65a5-4461-bca1-396907dbf82e</id>
+      <name>Ammo +DV: Tracker Rounds, Security Tag</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>8R</avail>
+      <cost>150 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>4b824ac3-20e8-4982-8711-20579b5295a8</id>
+      <name>Ammo +DV: Tracker Rounds, Stealth Tag</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>8R</avail>
+      <cost>150 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>4257a33e-41eb-45ee-976e-41c3c0bf960c</id>
+      <name>Ammo +DV: Capsule Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>2</avail>
+      <addoncategory>Drugs</addoncategory>
+      <addoncategory>Toxins</addoncategory>
+      <addoncategory>Custom</addoncategory>
+      <cost>5 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>4</ap>
+        <damage>-3</damage>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>8C9AE7A4-EF1F-4983-9008-795D3592B417</id>
+      <name>Ammo +DV: AV Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>14R</avail>
+      <cost>175 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <!-- Region Kill Code-->
+    <gear>
+      <id>7e104b61-69b3-4a7e-8221-a6190314c411</id>
+      <name>Ammo +DV: Zapper</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>48</page>
+      <avail>12R</avail>
+      <cost>140 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>(M)</damagetype>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b8ad4fef-f092-42ac-87ad-518dd8b60fb7</id>
+      <name>Ammo +DV: Looper</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>6</rating>
+      <source>KC</source>
+      <page>49</page>
+      <avail>FixedValues(7R,8R,9R,10R,11R,12R)</avail>
+      <cost>FixedValues(20,30,40,50,100,200) * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <userange>Light Pistol</userange>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>c40a91b0-7896-4ad1-b1e6-f3fc9c93bf1b</id>
+      <name>Ammo +DV: Fuzzy</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>2</rating>
+      <source>KC</source>
+      <page>50</page>
+      <avail>FixedValues(10R,12R)</avail>
+      <cost>FixedValues(30,50) * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <userange>Light Pistol</userange>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>efaf7c80-d712-41d8-813e-768a2f4ffcf7</id>
+      <name>Ammo +DV: E0-E0 (Public Grid)</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>50 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f4fe287a-2ed8-4e7b-8244-32243905fe84</id>
+      <name>Ammo +DV: E0-E0 (Local Grid)</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>60 * 1.1</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>8ddf2f80-2444-4d9a-a601-5be4147b183d</id>
+      <name>Ammo +DV: E0-E0 (Megacorporate Grid)</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>100 * 1.1</cost>
+      <bonus>
+        <selecttext xml="lifemodules.xml" xpath="/chummer/storybuilder/macros/mega/persistent/*" allowedit="True" />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>bf9f01db-6484-47ab-9449-5f068f5fe04b</id>
+      <name>Ammo +DV: E0-E0 Rifle (Public Grid)</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>50 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d1ef807b-6c6e-44bb-a230-c6f328ee26a5</id>
+      <name>Ammo +DV: E0-E0 Rifle (Local Grid)</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>60 * 1.1</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b58fd8fc-9987-403a-9be5-760b1d88f926</id>
+      <name>Ammo +DV: E0-E0 Rifle (Megacorporate Grid)</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>100 * 1.1</cost>
+      <bonus>
+        <selecttext xml="lifemodules.xml" xpath="/chummer/storybuilder/macros/mega/persistent/*" allowedit="True" />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-3</damage>
+        <ap>-4</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <!-- End Region -->
+    <!-- Region Krime Katalog -->
+    <gear>
+      <id>9d4cd4fc-1fb9-4182-8a82-0479cf2adaae</id>
+      <name>Ammo +DV: Krime Power Rounds</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>3R</avail>
+      <cost>75 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>6ffa3fc7-e390-4fb5-b27e-3d01baecec92</id>
+      <name>Ammo +DV: Krime Penetrator Buckshot Shells</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>16F</avail>
+      <cost>250 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>959b02ff-b3b3-4027-8ada-79ff31a7a323</id>
+      <name>Ammo +DV: Krime Crackle Fin-Stabilized HEAT Slugs</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>20F</avail>
+      <cost>300 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>3</damage>
+        <ap>-3</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>97febd7d-6385-4f2e-87af-29313f9224ae</id>
+      <name>Ammo +DV: Krime Laser Bullets</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>6R</avail>
+      <cost>125 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>17136c4b-af3b-44f4-b5cf-2eedf7e9d217</id>
+      <name>Ammo +DV: Krime Splash Self-Defense Ammunition</name>
+      <category>Ammunition Handloads +DV</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>4R</avail>
+      <cost>100 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>(S)</damagetype>
+        <ap>1</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <!-- End Region -->
+    <!-- End Region -->
+  </gears>
+</chummer>
