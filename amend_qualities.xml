@@ -63,6 +63,331 @@
       </bonus>
     </quality>
     <quality>
+      <name>Arcane Arrester</name>
+      <forbidden>
+        <oneof>
+          <quality>Magic Resistance</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Bone Spikes</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Dermal Alteration (Granite Shell)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Glamour</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Magic Sense</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Body)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Agility)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Reaction)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Strength)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Charisma)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Intuition)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Logic)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Willpower)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Nasty Vibe</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Shiva Arms</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Astral Hazing</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Critter Spook</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Mood Hair</name>
+      <forbidden>
+        <oneof>
+          <quality>Feathers</quality>
+          <quality>Scales</quality>
+          <quality>Unusual Hair</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Third Eye</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Dermal Alteration (Rhino Hide)</name>
+      <forbidden>
+        <oneof>
+          <quality>Dermal Alteration (Bark Skin)</quality>
+          <quality>Dermal Alteration (Blubber)</quality>
+          <quality>Dermal Alteration (Dragon Skin)</quality>
+          <quality>Dermal Alteration (Granite Shell)</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Dermal Alteration (Blubber)</name>
+      <forbidden>
+        <oneof>
+          <quality>Dermal Alteration (Bark Skin)</quality>
+          <quality>Dermal Alteration (Rhino Hide)</quality>
+          <quality>Dermal Alteration (Dragon Skin)</quality>
+          <quality>Dermal Alteration (Granite Shell)</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Elongated Limbs</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Functional Tail (Balance)</name>
+      <forbidden>
+        <oneof>
+          <quality>Vestigial Tail</quality>
+          <quality>Functional Tail (Paddle)</quality>
+          <quality>Functional Tail (Prehensile)</quality>
+          <quality>Functional Tail (Thagomizer)</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Functional Tail (Paddle)</name>
+      <forbidden>
+        <oneof>
+          <quality>Vestigial Tail</quality>
+          <quality>Functional Tail (Balance)</quality>
+          <quality>Functional Tail (Prehensile)</quality>
+          <quality>Functional Tail (Thagomizer)</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Functional Tail (Prehensile)</name>
+      <forbidden>
+        <oneof>
+          <quality>Vestigial Tail</quality>
+          <quality>Functional Tail (Paddle)</quality>
+          <quality>Functional Tail (Balance)</quality>
+          <quality>Functional Tail (Thagomizer)</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Functional Tail (Thagomizer)</name>
+      <forbidden>
+        <oneof>
+          <quality>Vestigial Tail</quality>
+          <quality>Functional Tail (Paddle)</quality>
+          <quality>Functional Tail (Prehensile)</quality>
+          <quality>Functional Tail (Balance)</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Proboscis</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Functional Tail (Balance)</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Bioluminescense</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Cephalopod Skull</name>
+      <forbidden>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Feathers</name>
+      <forbidden>
+        <oneof>
+          <quality>Animal Pelage (Quills)</quality>
+          <quality>Animal Pelage (Insulating Pelt)</quality>
+          <quality>Animal Pelage (Camo Fur)</quality>
+          <quality>Mood Hair</quality>
+          <quality>Scales</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Scales</name>
+      <forbidden>
+        <oneof>
+          <quality>Animal Pelage (Quills)</quality>
+          <quality>Animal Pelage (Insulating Pelt)</quality>
+          <quality>Animal Pelage (Camo Fur)</quality>
+          <quality>Feathers</quality>
+          <quality>Mood Hair</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Vestigial Tail</name>
+      <forbidden>
+        <oneof>
+          <quality>Functional Tail (Balance)</quality>
+          <quality>Functional Tail (Paddle)</quality>
+          <quality>Functional Tail (Prehensile)</quality>
+          <quality>Functional Tail (Thagomizer)</quality>
+          <quality>Changeling (Class I SURGE)</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
       <name>College Education</name>
       <forbidden>
         <oneof>
