@@ -52,11 +52,15 @@
     <!-- Region Run Faster Positive Qualities -->
     <quality>
       <name>Changeling (Class I SURGE)</name>
-      <hide />
+      <bonus>
+        <metageniclimit>10</metageniclimit>
+      </bonus>
     </quality>
     <quality>
       <name>Changeling (Class II SURGE)</name>
-      <hide />
+      <bonus>
+        <metageniclimit>15</metageniclimit>
+      </bonus>
     </quality>
     <quality>
       <name>College Education</name>
@@ -179,15 +183,72 @@
       <hide />
     </quality>
     <quality>
-      <name>Infected: Sukuyan (Human)</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Infected: Sukuyan (Non-Human)</name>
-      <hide />
-    </quality>
-    <quality>
       <name>Infected: Wendigo</name>
+      <hide />
+    </quality>
+	<quality>
+      <id>0a3f2c4f-efdc-422f-91bf-07baf2229bc6</id>
+      <!--<name>Infected: Banshee</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>8325c7f3-c578-458a-9068-e159b2c686ef</id>
+      <!--<<name>Infected: Ghoul (Sasquatch)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>2d99bbb6-7af0-45c6-a83b-46d9d9f10838</id>
+      <!--<<name>Infected: Ghoul (Human)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>e156dc45-66ca-4b45-baf8-5c875b9866c4</id>
+      <!--<<name>Infected: Ghoul (Elf)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>92123580-1f4f-4c6a-b2f5-3b9c9031d705</id>
+      <!--<<name>Infected: Ghoul (Troll)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>ea7c269f-6843-488a-b0fa-8f79c935f568</id>
+      <!--<<name>Infected: Ghoul (Ork)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>ed801fa4-0514-458a-b850-9eeddf0c2fed</id>
+      <!--<<name>Infected: Ghoul (Dwarf)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>5f31925d-cc76-49da-acab-644b66d5e93d</id>
+      <!--<<name>Infected: Gnawer</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>fe0c2ae0-fc0f-40fe-9bae-1c3ad5c7e29a</id>
+      <!--<<name>Infected: Loup-Garou</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>7d0a1679-846a-4cf2-b8b5-b5c686766a90</id>
+      <!--<<name>Infected: Vampire (Human)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>4024b100-c762-4354-95e4-db5cb0694a9a</id>
+      <!--<<name>Infected: Vampire (Non-Human)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>3c746778-bec5-4b9b-a1a4-62ac6eb98342</id>
+      <!--<<name>Infected: Sukuyan (Human)</name>-->
+      <hide />
+    </quality>
+	<quality>
+      <id>735aee59-2236-43e4-b618-9b9923513597</id>
+      <!--<<name>Infected: Sukuyan (Non-Human)</name>-->
       <hide />
     </quality>
     <!-- End Region -->
