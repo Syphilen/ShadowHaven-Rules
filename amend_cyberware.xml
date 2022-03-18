@@ -18,224 +18,256 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema cyberware.xsd">
-  <grades>
-    <!-- Region Standard -->
-    <grade>
-      <name>Gammaware</name>
-      <hide />
-    </grade>
-    <grade>
-      <name>Omegaware</name>
-      <hide />
-    </grade>
-    <!-- End Region -->
-    <!-- Region Adapsin -->
-    <grade>
-      <name>Gammaware (Adapsin)</name>
-      <hide />
-    </grade>
-    <grade>
-      <name>Omegaware (Adapsin)</name>
-      <hide />
-    </grade>
-	<grade>
-		<name>Standard (Adapsin)</name>
-		<hide />
-	</grade>
-	<grade>
-		<name>Alphaware (Adapsin)</name>
-		<hide />
-	</grade>
-	<grade>
-		<name>Betaware (Adapsin)</name>
-		<hide />
-	</grade>
-	<grade>
-		<name>Deltaware (Adapsin)</name>
-		<hide />
-	</grade>
-	<grade>
-		<name>Greyware (Adapsin)</name>
-		<hide />
-	</grade>
-	<grade>
-		<name>Used (Adapsin)</name>
-		<hide />
-	</grade>
-    <!-- End Region -->
-  </grades>
-  <cyberwares>
-    <cyberware amendoperation="addnode">
-      <id>70553a3b-e874-45c5-9990-b49491a4de9c</id>
-      <name>Special Modification: Improved AP</name>
-      <limit>False</limit>
-      <category>Cyber Implant Weapon Accessory</category>
-      <ess>0</ess>
-      <addtoparentess />
-      <capacity>[0]</capacity>
-      <addtoparentcapacity />
-      <avail>0</avail>
-      <cost>0</cost>
-      <source>BTB</source>
-      <page>161</page>
-	  <ap>-1</ap>
-      <required>
-	    <allof>
-          <parentdetails>
-            <category>Cyber Implant Weapon</category>
-          </parentdetails>
-		  <oneof>
-            <specialmodificationlimit>1</specialmodificationlimit>
-          </oneof>
-		</allof>
-      </required>
-    </cyberware>
-	<cyberware amendoperation="addnode">
-      <id>d544c3d6-123c-4de6-90de-0d1b52002e24</id>
-      <name>Special Modification: Improved Accuracy</name>
-      <limit>False</limit>
-      <category>Cyber Implant Weapon Accessory</category>
-      <ess>0</ess>
-      <addtoparentess />
-      <capacity>[0]</capacity>
-      <addtoparentcapacity />
-      <avail>0</avail>
-      <cost>0</cost>
-      <source>BTB</source>
-      <page>161</page>
-	  <accuracy>1</accuracy>
-      <required>
-        <parentdetails>
-          <category>Cyber Implant Weapon</category>
-        </parentdetails>
-		<oneof>
-          <specialmodificationlimit>1</specialmodificationlimit>
-        </oneof>
-      </required>
-    </cyberware>
-	<cyberware amendoperation="addnode">
-      <id>1c15bd22-2ed2-4fd5-a64d-f828e040034d</id>
-      <name>Special Modification: Improved Ammunition Capacity</name>
-      <limit>False</limit>
-      <category>Cyber Implant Weapon Accessory</category>
-      <ess>0</ess>
-      <addtoparentess />
-      <capacity>[0]</capacity>
-      <addtoparentcapacity />
-      <avail>0</avail>
-      <cost>0</cost>
-      <source>BTB</source>
-      <page>161</page>
-	  <modifyammocapacity>+(Weapon * 0.5)</modifyammocapacity>
-      <required>
-        <parentdetails>
-          <category>Cyber Implant Weapon</category>
-        </parentdetails>
-		<oneof>
-          <specialmodificationlimit>1</specialmodificationlimit>
-        </oneof>
-      </required>
-    </cyberware>
-	<cyberware amendoperation="addnode">
-      <id>ac16f799-2016-4a44-870c-775506a8f33f</id>
-      <name>Special Modification: Improved Concealment</name>
-      <limit>False</limit>
-      <category>Cyber Implant Weapon Accessory</category>
-      <ess>0</ess>
-      <addtoparentess />
-      <capacity>[0]</capacity>
-      <addtoparentcapacity />
-      <avail>0</avail>
-      <cost>0</cost>
-      <source>BTB</source>
-      <page>161</page>
-	  <conceal>-1</conceal>
-      <required>
-        <parentdetails>
-          <category>Cyber Implant Weapon</category>
-        </parentdetails>
-		<oneof>
-          <specialmodificationlimit>1</specialmodificationlimit>
-        </oneof>
-      </required>
-    </cyberware>
-	<cyberware amendoperation="addnode">
-      <id>8f03060d-ec02-438a-83ae-e86208284e25</id>
-      <name>Special Modification: Damage</name>
-      <limit>False</limit>
-      <category>Cyber Implant Weapon Accessory</category>
-      <ess>0</ess>
-      <addtoparentess />
-      <capacity>[0]</capacity>
-      <addtoparentcapacity />
-      <avail>0</avail>
-      <cost>0</cost>
-      <source>BTB</source>
-      <page>161</page>
-	  <conceal>-1</conceal>
-      <required>
-        <parentdetails>
-          <category>Cyber Implant Weapon</category>
-        </parentdetails>
-		<oneof>
-          <specialmodificationlimit>2</specialmodificationlimit>
-        </oneof>
-      </required>
-    </cyberware>
-	<cyberware amendoperation="addnode">
-      <id>bfe918ab-dbdf-4c02-8454-4ca1da5002a4</id>
-      <name>Special Modification: Improved Reach</name>
-      <limit>False</limit>
-      <category>Cyber Implant Weapon Accessory</category>
-      <ess>0</ess>
-      <addtoparentess />
-      <capacity>[0]</capacity>
-      <addtoparentcapacity />
-      <avail>0</avail>
-      <cost>0</cost>
-      <source>BTB</source>
-      <page>161</page>
-	  <reach>1</reach>
-      <required>
-        <parentdetails>
-          <category>Cyber Implant Weapon</category>
-        </parentdetails>
-		<oneof>
-          <specialmodificationlimit>1</specialmodificationlimit>
-        </oneof>
-      </required>
-    </cyberware>
-	<cyberware amendoperation="addnode">
-      <id>f1e48435-cd07-4c73-8c29-4d2efda53f51</id>
-      <name>Special Modification: Improved Recoil Comp</name>
-      <limit>False</limit>
-      <category>Cyber Implant Weapon Accessory</category>
-      <ess>0</ess>
-      <addtoparentess />
-      <capacity>[0]</capacity>
-      <addtoparentcapacity />
-      <avail>0</avail>
-      <cost>0</cost>
-      <source>BTB</source>
-      <page>161</page>
-	  <rc>1</rc>
-      <required>
-        <parentdetails>
-          <category>Cyber Implant Weapon</category>
-        </parentdetails>
-		<oneof>
-          <specialmodificationlimit>1</specialmodificationlimit>
-        </oneof>
-      </required>
-    </cyberware>
-    <cyberware>
-      <name>Skilljack</name>
-      <ess>0.1</ess>
-      <cost>Rating * 1000</cost>
-    </cyberware>
-    <cyberware>
-      <name>Skillwires</name>
-      <ess>Rating * 0.1</ess>
-    </cyberware>
-  </cyberwares>
+	<grades>
+		<!-- Region Standard -->
+		<grade>
+			<name>Gammaware</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Omegaware</name>
+			<hide />
+		</grade>
+		<!-- End Region -->
+		<!-- Region Adapsin -->
+		<grade>
+			<name>Gammaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Omegaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Standard (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Alphaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Betaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Deltaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Greyware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Used (Adapsin)</name>
+			<hide />
+		</grade>
+		<!-- End Region -->
+	</grades>
+	<cyberwares>
+		<cyberware amendoperation="addnode">
+			<id>70553a3b-e874-45c5-9990-b49491a4de9c</id>
+			<name>Special Modification: Improved AP</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<ap>-1</ap>
+			<required>
+				<allof>
+					<parentdetails>
+						<category>Cyber Implant Weapon</category>
+					</parentdetails>
+					<oneof>
+						<specialmodificationlimit>1</specialmodificationlimit>
+					</oneof>
+				</allof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>d544c3d6-123c-4de6-90de-0d1b52002e24</id>
+			<name>Special Modification: Improved Accuracy</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<accuracy>1</accuracy>
+			<required>
+				<parentdetails>
+					<category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+                    <specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>1c15bd22-2ed2-4fd5-a64d-f828e040034d</id>
+			<name>Special Modification: Improved Ammunition Capacity</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<modifyammocapacity>+(Weapon * 0.5)</modifyammocapacity>
+			<required>
+				<parentdetails>
+                    <category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+					<specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>ac16f799-2016-4a44-870c-775506a8f33f</id>
+			<name>Special Modification: Improved Concealment</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<conceal>-1</conceal>
+			<required>
+				<parentdetails>
+                    <category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+                    <specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+			</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>8f03060d-ec02-438a-83ae-e86208284e25</id>
+			<name>Special Modification: Damage</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<conceal>-1</conceal>
+			<required>
+				<parentdetails>
+					<category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+                    <specialmodificationlimit>2</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>bfe918ab-dbdf-4c02-8454-4ca1da5002a4</id>
+			<name>Special Modification: Improved Reach</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<reach>1</reach>
+			<required>
+				<parentdetails>
+					<category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+					<specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>f1e48435-cd07-4c73-8c29-4d2efda53f51</id>
+			<name>Special Modification: Improved Recoil Comp</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<rc>1</rc>
+			<required>
+				<parentdetails>
+					<category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+					<specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+		<cyberware>
+			<name>Skilljack</name>
+			<ess>0.1</ess>
+			<cost>Rating * 1000</cost>
+		</cyberware>
+		<cyberware>
+			<name>Skillwires</name>
+			<ess>Rating * 0.1</ess>
+		</cyberware>
+		<cyberware>
+            <name>Breast Implant (One Breast)</name>
+            <ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Cosmetic Surgery</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Cyber Genitalia</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Fiberoptic Hair</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Large LED Tattoo</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Medium LED Tattoo</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Small LED Tattoo</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Steamers</name>
+			<ess>0</ess>
+		</cyberware>
+	</cyberwares>
 </chummer>
