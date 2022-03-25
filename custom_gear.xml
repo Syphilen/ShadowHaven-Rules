@@ -386,22 +386,6 @@
     </gear>
     <!-- Region Kill Code-->
     <gear>
-      <id>7e104b61-69b3-4a7e-8221-a1190314c411</id>
-      <name>Ammo +AP: Zapper</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>48</page>
-      <avail>12R</avail>
-      <cost>140 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damagetype>(M)</damagetype>
-        <ap>-1</ap>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
       <id>b8ad4fef-4092-42ac-87a1-518dd8b60fb7</id>
       <name>Ammo +AP: Looper</name>
       <category>Ammunition Handloads +AP</category>
@@ -414,137 +398,6 @@
       <weaponbonus>
         <userange>Light Pistol</userange>
         <ap>-1</ap>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>c41a91b0-7896-4ad1-b1e6-f39c9c93bf1b</id>
-      <name>Ammo +AP: Fuzzy</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>2</rating>
-      <source>KC</source>
-      <page>50</page>
-      <avail>FixedValues(10R,12R)</avail>
-      <cost>FixedValues(30,50) * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <userange>Light Pistol</userange>
-        <ap>-1</ap>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>efa87c80-d712-41d8-813e-768a2f41fcf7</id>
-      <name>Ammo +AP: E0-E0 (Public Grid)</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>50 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-        <ap>-1</ap>
-     </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>f4be287a-2ed8-4e7b-8144-32243905fe84</id>
-      <name>Ammo +AP: E0-E0 (Local Grid)</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>60 * 1.1</cost>
-      <bonus>
-        <selecttext />
-      </bonus>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <ap>-1</ap>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>8ddf2080-2444-4d9a-a101-5be4147b183d</id>
-      <name>Ammo +AP: E0-E0 (Megacorporate Grid)</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>100 * 1.1</cost>
-      <bonus>
-        <selecttext xml="lifemodules.xml" xpath="/chummer/storybuilder/macros/mega/persistent/*" allowedit="True" />
-      </bonus>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <ap>-1</ap>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>bf9001db-6484-47ab-9149-5f068f5fe04b</id>
-      <name>Ammo +AP: E0-E0 Rifle (Public Grid)</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>50 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <ap>-1</ap>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>d1e0807b-6c6e-44bb-a210-c6f328ee26a5</id>
-      <name>Ammo +AP: E0-E0 Rifle (Local Grid)</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>60 * 1.1</cost>
-      <bonus>
-        <selecttext />
-      </bonus>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <ap>-1</ap>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>b580d8fc-9987-403a-9be1-760b1d88f926</id>
-      <name>Ammo +AP: E0-E0 Rifle (Megacorporate Grid)</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>100 * 1.1</cost>
-      <bonus>
-        <selecttext xml="lifemodules.xml" xpath="/chummer/storybuilder/macros/mega/persistent/*" allowedit="True" />
-      </bonus>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>-4</damage>
-        <ap>-5</ap>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
@@ -581,22 +434,6 @@
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
     <gear>
-      <id>959b02ff-b3b3-4027-8ada-799131a7a323</id>
-      <name>Ammo +AP: Krime Crackle Fin-Stabilized HEAT Slugs</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KK</source>
-      <page>24</page>
-      <avail>20F</avail>
-      <cost>300 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>2</damage>
-        <ap>-4</ap>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
       <id>97febd7d-6385-472e-87af-29213f9224ae</id>
       <name>Ammo +AP: Krime Laser Bullets</name>
       <category>Ammunition Handloads +AP</category>
@@ -611,23 +448,6 @@
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
-    <gear>
-      <id>17136c4b-af3b-44a4-15cf-2eedf7e9d217</id>
-      <name>Ammo +AP: Krime Splash Self-Defense Ammunition</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>0</rating>
-      <source>KK</source>
-      <page>24</page>
-      <avail>4R</avail>
-      <cost>100 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damagetype>(S)</damagetype>
-        <ap>0</ap>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>    <!-- End Region -->
-
     <!-- Region +DV Handload Ammo -->
     <gear>
       <id>0198f16e-8bb2-4618-ab1a-f010abe0a1c6</id>
@@ -994,22 +814,6 @@
     </gear>
     <!-- Region Kill Code-->
     <gear>
-      <id>7e104b61-69b3-4a7e-8221-a6190314c411</id>
-      <name>Ammo +DV: Zapper</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>48</page>
-      <avail>12R</avail>
-      <cost>140 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damagetype>(M)</damagetype>
-        <damage>1</damage>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
       <id>b8ad4fef-f092-42ac-87ad-518dd8b60fb7</id>
       <name>Ammo +DV: Looper</name>
       <category>Ammunition Handloads +DV</category>
@@ -1022,137 +826,6 @@
       <weaponbonus>
         <userange>Light Pistol</userange>
         <damage>1</damage>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>c40a91b0-7896-4ad1-b1e6-f3fc9c93bf1b</id>
-      <name>Ammo +DV: Fuzzy</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>2</rating>
-      <source>KC</source>
-      <page>50</page>
-      <avail>FixedValues(10R,12R)</avail>
-      <cost>FixedValues(30,50) * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <userange>Light Pistol</userange>
-        <damage>1</damage>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>efaf7c80-d712-41d8-813e-768a2f4ffcf7</id>
-      <name>Ammo +DV: E0-E0 (Public Grid)</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>50 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>1</damage>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>f4fe287a-2ed8-4e7b-8244-32243905fe84</id>
-      <name>Ammo +DV: E0-E0 (Local Grid)</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>60 * 1.1</cost>
-      <bonus>
-        <selecttext />
-      </bonus>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>1</damage>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>8ddf2f80-2444-4d9a-a601-5be4147b183d</id>
-      <name>Ammo +DV: E0-E0 (Megacorporate Grid)</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>100 * 1.1</cost>
-      <bonus>
-        <selecttext xml="lifemodules.xml" xpath="/chummer/storybuilder/macros/mega/persistent/*" allowedit="True" />
-      </bonus>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>1</damage>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>bf9f01db-6484-47ab-9449-5f068f5fe04b</id>
-      <name>Ammo +DV: E0-E0 Rifle (Public Grid)</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>50 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>1</damage>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>d1ef807b-6c6e-44bb-a230-c6f328ee26a5</id>
-      <name>Ammo +DV: E0-E0 Rifle (Local Grid)</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>60 * 1.1</cost>
-      <bonus>
-        <selecttext />
-      </bonus>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>1</damage>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>b58fd8fc-9987-403a-9be5-760b1d88f926</id>
-      <name>Ammo +DV: E0-E0 Rifle (Megacorporate Grid)</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KC</source>
-      <page>51</page>
-      <avail>5R</avail>
-      <cost>100 * 1.1</cost>
-      <bonus>
-        <selecttext xml="lifemodules.xml" xpath="/chummer/storybuilder/macros/mega/persistent/*" allowedit="True" />
-      </bonus>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>-3</damage>
-        <ap>-4</ap>
-        <damagetype>(M)</damagetype>
-        <userange>Light Pistol</userange>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
@@ -1190,22 +863,6 @@
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
     <gear>
-      <id>959b02ff-b3b3-4027-8ada-79ff31a7a323</id>
-      <name>Ammo +DV: Krime Crackle Fin-Stabilized HEAT Slugs</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KK</source>
-      <page>24</page>
-      <avail>20F</avail>
-      <cost>300 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>3</damage>
-        <ap>-3</ap>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
       <id>97febd7d-6385-4f2e-87af-29313f9224ae</id>
       <name>Ammo +DV: Krime Laser Bullets</name>
       <category>Ammunition Handloads +DV</category>
@@ -1216,23 +873,6 @@
       <cost>125 * 1.1</cost>
       <costfor>10</costfor>
       <weaponbonus>
-        <damage>1</damage>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>17136c4b-af3b-44f4-b5cf-2eedf7e9d217</id>
-      <name>Ammo +DV: Krime Splash Self-Defense Ammunition</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>0</rating>
-      <source>KK</source>
-      <page>24</page>
-      <avail>4R</avail>
-      <cost>100 * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damagetype>(S)</damagetype>
-        <ap>1</ap>
         <damage>1</damage>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>

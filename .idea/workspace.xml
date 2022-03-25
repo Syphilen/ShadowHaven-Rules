@@ -4,6 +4,8 @@
     <list default="true" id="36d67898-9ba9-4439-aed8-b8211a6cdb49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amend_vehicles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amend_vehicles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_gear.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom_gear.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_qualities.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom_qualities.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +29,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/amend_qualities.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/custom_gear(2).xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/amend_qualities.xml" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/custom_gear(2).xml" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,13 +45,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog" timestamp="1647580405987">
+    <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog" timestamp="1647862822498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1647580405987" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1647580346222">
+    <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1647862822497" />
+    <state x="173" y="174" key="FileChooserDialogImpl" timestamp="1647862670670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1647580346222" />
+    <state x="173" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1647862670670" />
   </component>
 </project>

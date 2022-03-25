@@ -102,7 +102,7 @@
 					<bonus>2</bonus>
 				</specificskill>
 			</bonus>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>10</page>
 		</quality>
 		<quality>
@@ -126,7 +126,7 @@
 					<ess>-3.0</ess>
 				</allof>
 			</required>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>10</page>
 			<notes>Remember to discount one of [Armor, Vehicles, Weapons] manually.</notes>
 		</quality>
@@ -226,8 +226,8 @@
 					<quality>Panzer (Fear/Pain Resistance)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
-			<page>0</page>
+			<source>WotS</source>
+			<page>10</page>
 		</quality>
 		<quality>
 			<id>566b54c9-ca4b-4349-a40c-865fd4296898</id>
@@ -321,8 +321,8 @@
 				<quality>Panzer (Fear/Soak)</quality>
 				<quality>Panzer (Fear/Pain Resistance)</quality>
 			</forbidden>
-			<source>SR5</source>
-			<page>0</page>
+			<source>WotS</source>
+			<page>10</page>
 		</quality>
 		<quality>
 			<id>80d57497-0094-42be-95a5-a3ba94a694fa</id>
@@ -416,7 +416,7 @@
 					<quality>Panzer (BOD Intim/Soak)</quality>
 				</one>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>10</page>
 		</quality>
 		<quality>
@@ -509,7 +509,7 @@
 					<quality>Panzer (Fear/Pain Resistance)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>10</page>
 		</quality>
 		<quality>
@@ -519,53 +519,17 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<required>
-				<oneof>
-					<group>
+				<allof>
+					<ess>-3.0</ess>
+					<oneof>
 						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Infrasonic Generator</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Obvious Full Arm</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Obvious Full Leg</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Obvious Torso</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Obvious Skull</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
 						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Full Arm</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Full Leg</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Torso</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Skull</cyberware>
-						<ess>-3.0</ess>
-					</group>
-				</oneof>
+					</oneof>
+				</allof>
 			</required>
 			<bonus>
 				<skillcategory>
@@ -584,7 +548,7 @@
 			<forbidden>
 				<quality>Razorboy (Intimidation)</quality>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>11</page>
 		</quality>
 		<quality>
@@ -594,53 +558,17 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<required>
-				<oneof>
-					<group>
+				<allof>
+					<ess>-3.0</ess>
+					<oneof>
 						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Infrasonic Generator</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Obvious Full Arm</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Obvious Full Leg</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Obvious Torso</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
-						<cyberware>Obvious Skull</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
 						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Full Arm</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Full Leg</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Torso</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Infrasonic Generator</cyberware>
 						<cyberware>Obvious Skull</cyberware>
-						<ess>-3.0</ess>
-					</group>
-				</oneof>
+					</oneof>
+				</allof>
 			</required>
 			<bonus>
 				<skillcategory>
@@ -657,7 +585,7 @@
 					<quality>Razorboy (Cyberweapon DV)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>11</page>
 		</quality>
 		<quality>
@@ -747,7 +675,7 @@
 					<quality>Biocompatibility (Cyberware)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>11</page>
 		</quality>
 		<quality>
@@ -777,7 +705,7 @@
 					<quality>Biocompatibility (Cyberware)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>11</page>
 		</quality>
 		<quality>
@@ -807,7 +735,7 @@
 					<quality>Biocompatibility (Bioware)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>11</page>
 		</quality>
 		<quality>
@@ -828,8 +756,8 @@
 					<bonus>1</bonus>
 				</weaponcategorydv>
 			</bonus>
-			<source>SR5</source>
-			<page>0</page>
+			<source>WotS</source>
+			<page>11</page>
 		</quality>
 		<quality>
 			<id>83520956-ded2-4ca6-99ca-aed59f770db2</id>
@@ -916,7 +844,7 @@
 					<quality>Sharpshooter (WotS) (RCP)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>11</page>
 		</quality>
 		<quality>
@@ -1007,7 +935,7 @@
 					<quality>Sharpshooter (WotS) (TA)</quality>
 				</one>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>11</page>
 		</quality>
 		<quality>
@@ -1165,7 +1093,7 @@
 					<quality>Street Ninja (Surprise)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 			<page>11</page>
 		</quality>
 		<quality>
@@ -1324,7 +1252,7 @@
 					<quality>Street Ninja (CS)</quality>
 				</oneof>
 			</forbidden>
-			<source>SR5</source>
+			<source>WotS</source>
 		 <page>11</page>
 		</quality>
 		<quality>
@@ -1347,7 +1275,7 @@
 					<quality>Special Modifications</quality>
 				</oneof>
 			</required>
-			<source>SR5</source>
+			<source>DM</source>
 			<page>0</page>
 		</quality>
 		<quality>
@@ -1370,7 +1298,7 @@
 					<quality>Prototype Materials</quality>
 				</allof>
 			</required>
-			<source>SR5</source>
+			<source>DM</source>
 			<page>0</page>
 		</quality>
 		<quality>
@@ -1389,7 +1317,7 @@
 				</allof>
 			</required>
 			<notes>Rating is equal to the lower of RES and 6.</notes>
-			<source>KC</source>
+			<source>DM</source>
 			<page>0</page>
 		</quality>
         <quality>
