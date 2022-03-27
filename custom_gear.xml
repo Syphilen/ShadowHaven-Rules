@@ -166,6 +166,7 @@
       <costfor>10</costfor>
       <weaponbonus>
         <damagetype>S(e)</damagetype>
+        <ap>-1</ap>
       </weaponbonus>
       <isflechetteammo>True</isflechetteammo>
       <flechetteweaponbonus>
@@ -592,6 +593,7 @@
       <costfor>10</costfor>
       <weaponbonus>
         <damagetype>S(e)</damagetype>
+        <damage>1</damage>
       </weaponbonus>
       <isflechetteammo>True</isflechetteammo>
       <flechetteweaponbonus>
@@ -662,7 +664,7 @@
       <cost>20 * 1.1</cost>
       <costfor>10</costfor>
       <weaponbonus>
-        <damage>2</damage>
+        <damage>1</damage>
       </weaponbonus>
      <ammoforweapontype>gun</ammoforweapontype>
     </gear>
