@@ -29,6 +29,7 @@
 			<cost>1.7</cost>
 			<devicerating>3</devicerating>
 			<avail>+2</avail>
+			<careeronly />
 			<bonus>
 				<specificattribute>
 					<name>MAG</name>
