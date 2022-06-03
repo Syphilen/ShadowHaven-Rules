@@ -4011,7 +4011,7 @@
 	  <conceal>6</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>0</reach>
-	  <damage>7P</damage>
+	  <damage>10P</damage>
 	  <ap>-10</ap>
 	  <mode>SA</mode>
 	  <rc>0</rc>
@@ -4038,7 +4038,7 @@
 	  <conceal>2</conceal>
 	  <accuracy>9</accuracy>
 	  <reach>0</reach>
-	  <damage>5P</damage>
+	  <damage>8P</damage>
 	  <ap>-10</ap>
 	  <mode>SA</mode>
 	  <rc>0</rc>
@@ -8505,7 +8505,7 @@
 	  <conceal>+6</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>0</reach>
-	  <damage>6P</damage>
+	  <damage>11P</damage>
 	  <ap>-5</ap>
 	  <mode>SA</mode>
 	  <rc>0</rc>
@@ -8833,7 +8833,7 @@
 	  <conceal>6</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>0</reach>
-	  <damage>7P</damage>
+	  <damage>11P</damage>
 	  <ap>-8</ap>
 	  <mode>SA/BF/FA</mode>
 	  <rc>0</rc>

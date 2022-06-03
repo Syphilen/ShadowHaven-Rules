@@ -69,6 +69,14 @@
       <name>Spiritual Sacrifice</name>
       <hide />
     </metamagic>
+    <metamagic>
+      <id>fa550487-39ef-4ea2-a613-5b9bdee0961c</id>
+      <name>Noble Sacrifice</name>
+      <adept>True</adept>
+      <magician>True</magician>
+      <source>FA</source>
+      <page>46</page>
+    </metamagic>
     <!-- End Region -->
     <!-- End Region -->
   </metamagics>
