@@ -39,14 +39,14 @@
     </quality>
     <!-- End Region-->
     <!-- Region Sail Away, Sweet Sister Positive Qualities -->
-<!--    <quality>
-      <name>College Education</name>
+    <quality>
+      <id>4e2ddf3d-802f-4206-85ce-81f1defa528f</id> <!-- College Education From SASS -->
       <hide />
     </quality>
     <quality>
-      <name>Inspired</name>
+      <id>fd9b9b6d-c969-40f1-8dc7-61f8e5d9cd4d</id> <!-- Inspired from SASS -->
       <hide />
-    </quality> -->
+    </quality>
     <!-- End Region-->
     <!-- Region Run Faster -->
     <!-- Region Run Faster Positive Qualities -->
