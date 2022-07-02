@@ -145,5 +145,30 @@
       <name>Ram Plate</name>
       <cost>Body * 250</cost>
     </mod>
+    <mod>
+      <name>Large Weapon Mount (Drone)</name>
+      <weaponmountcategories>
+        Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,
+        Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Grenade Launchers,
+        Sporting Rifles,Carbines
+      </weaponmountcategories>
+    </mod>
+    <mod>
+      <name>Huge Weapon Mount (Drone)</name>
+      <weaponmountcategories>
+        Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,
+        Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Machine Guns,
+        Grenade Launchers,Laser Weapons,Light Machine Guns,Medium Machine Guns,Sporting Rifles,Sniper Rifles,Carbines
+      </weaponmountcategories>
+    </mod>
+    <mod>
+      <name>Heavy Weapon Mount (Drone)</name>
+      <weaponmountcategories>
+        Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,
+        Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Machine Guns,
+        Assault Cannons,Grenade Launchers,Missile Launchers,Laser Weapons,Light Machine Guns,Medium Machine Guns,
+        Heavy Machine Guns,Sporting Rifles,Sniper Rifles,Carbines
+      </weaponmountcategories>
+    </mod>
   </mods>
 </chummer>

@@ -53,7 +53,7 @@
 			<page>0</page>
 			<notes>
 				"Adds 5 + 5/rating degrees Celsius to the current temperature before you need
-				to determine penalties for Cold-Blooded."
+				to determine penalties for Cold-Blooded. Requires Insulation at the same level."
 			</notes>
 		</mod>
 	</mods>
