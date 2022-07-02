@@ -32,6 +32,11 @@
       </forbidden>
     </quality>
     <!-- End Region -->
+    <!-- Region Bullets and Bandages Positive Qualities -->
+    <quality>
+      <name>Gifted Healer</name>
+      <hide />
+    </quality>
     <!-- Region Bullets and Bandages Negative Qualities -->
     <quality>
       <name>Pregnant</name>
