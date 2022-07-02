@@ -8839,7 +8839,7 @@
 	  <rc>0</rc>
 	  <ammo>10(c) or External Source</ammo>
 	  <avail>16F</avail>
-	  <cost>1000000</cost>
+	  <cost>100000</cost>
 	  <source>LCD</source>
 	  <page>209</page>
 	  <accessorymounts>
