@@ -7818,7 +7818,6 @@
 	  <cyberware>True</cyberware>
 	  <hide />
 	  <range>Tasers</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
 	</weapon>
 	<weapon>
 	  <id>8a842089-5a2c-43ee-9613-7f3db793fa71</id>
@@ -16071,7 +16070,7 @@
 	  <conceal>10</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>Grenade</damage>
+	  <damage>Missile</damage>
 	  <ap>-</ap>
 	  <mode>SS</mode>
 	  <rc>-</rc>
@@ -16079,7 +16078,7 @@
 	  <avail>9F</avail>
 	  <cost>2500</cost>
 	  <source>KK</source>
-	  <page>23</page>
+	  <page>18</page>
 	  <accessories>
 		<accessory>
 		  <name>Metahuman Adaptation</name>

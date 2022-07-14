@@ -76,9 +76,8 @@
 		<quality>
 			<id>43772e65-1f3f-4c4b-8ed0-e75dc64fa534</id>
 			<name>Bodyguard</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<allof>
 					<skill>
@@ -108,9 +107,8 @@
 		<quality>
 			<id>5a81e308-06bf-41b6-bb42-1176419d454c</id>
 			<name>Merc</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<allof>
 					<oneof>
@@ -133,9 +131,8 @@
 		<quality>
 			<id>34b45573-d7e7-4a20-974e-ba90a6ad52ac</id>
 			<name>Panzer (BOD Intim/Pain Resistance)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
 					<group>
@@ -232,9 +229,8 @@
 		<quality>
 			<id>566b54c9-ca4b-4349-a40c-865fd4296898</id>
 			<name>Panzer (BOD Intim/Soak)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
 					<group>
@@ -327,9 +323,8 @@
 		<quality>
 			<id>80d57497-0094-42be-95a5-a3ba94a694fa</id>
 			<name>Panzer (Fear/Pain Resistance)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
 					<group>
@@ -422,9 +417,8 @@
 		<quality>
 			<id>8f5a297f-d59e-4dc6-bff9-402a25299c65</id>
 			<name>Panzer (Fear/Soak)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
 					<group>
@@ -515,9 +509,8 @@
 		<quality>
 			<id>778550a1-4597-4cf7-97b5-acfdd2d88635</id>
 			<name>Razorboy (Cyberweapon DV)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<allof>
 					<ess>-3.0</ess>
@@ -554,9 +547,8 @@
 		<quality>
 			<id>83cef3f5-f143-418f-80ba-a4a2feeef075</id>
 			<name>Razorboy (Intimidation)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<allof>
 					<ess>-3.0</ess>
@@ -591,9 +583,8 @@
 		<quality>
 			<id>c0f60b15-5ab0-4959-a928-64540f4f655c</id>
 			<name>Ronin (DV/Bioware)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<allof>
 					<attributetotal>
@@ -636,9 +627,8 @@
 		<quality>
 			<id>95740ea6-2578-4866-a6c9-d51ab6573fe6</id>
 			<name>Ronin (DV/Cyberware)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<allof>
 					<attributetotal>
@@ -681,9 +671,8 @@
 		<quality>
 			<id>b0ee60ec-d662-40de-b002-37649fccc1ab</id>
 			<name>Ronin (Dodge/Cyberware)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<allof>
 					<attributetotal>
@@ -711,9 +700,8 @@
 		<quality>
 			<id>4ef004e8-278a-4371-8925-648c02420a2e</id>
 			<name>Ronin (Dodge/Bioware)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<allof>
 					<attributetotal>
@@ -762,9 +750,8 @@
 		<quality>
 			<id>83520956-ded2-4ca6-99ca-aed59f770db2</id>
 			<name>Sharpshooter (WotS) (TA)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
 					<group>
@@ -850,9 +837,8 @@
 		<quality>
 			<id>5fab34eb-8936-4d0a-823c-9f0739f36567</id>
 			<name>Sharpshooter (WotS) (RCP)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
 					<group>
@@ -941,9 +927,8 @@
 		<quality>
 			<id>7f0ec452-e6cb-4743-bd3c-1192e67bc93a</id>
 			<name>Street Ninja (CS)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
 					<group>
@@ -1099,9 +1084,8 @@
 		<quality>
 			<id>64e66553-b1b7-4c1b-8b6b-33794ba39e91</id>
 			<name>Street Ninja (Surprise)</name>
-			<karma>20</karma>
+			<karma>10</karma>
 			<category>Positive</category>
-			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
 					<group>
