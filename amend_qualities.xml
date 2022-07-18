@@ -989,6 +989,12 @@
       </required>
     </quality>
     <!-- End Region -->
+    <!-- Region Aspects -->
+    <quality>
+      <name>Apprentice</name>
+      <limitspellcategory exclude="Rituals" />
+    </quality>
+    <!-- End Region -->
     <!-- End Region -->
   	<!--Region Dark Terrors -->
 	  <quality>
