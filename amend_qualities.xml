@@ -992,7 +992,19 @@
     <!-- Region Aspects -->
     <quality>
       <name>Apprentice</name>
-      <limitspellcategory exclude="Rituals" />
+      <bonus amendoperation="replace">
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+        <enabletab>
+          <name>magician</name>
+        </enabletab>
+        <limitspellcategory exclude="Rituals" />
+        <limitspellcategory>Rituals</limitspellcategory>
+        <limitspiritcategory />
+        <unlockskills>Sorcery</unlockskills>
+        <unlockskills>Conjuring</unlockskills>
+      </bonus>
     </quality>
     <!-- End Region -->
     <!-- End Region -->
@@ -1000,7 +1012,7 @@
 	  <quality>
 		  <name>Wildcard Chimera</name>
 		  <hide />
-  	</quality>
+  	  </quality>
     <!-- End Region -->
     <!-- Region The Complete Trog -->
     <quality>
