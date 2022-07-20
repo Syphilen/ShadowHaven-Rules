@@ -880,6 +880,27 @@
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
     <!-- End Region -->
+    <!-- Region Street Lethal -->
+    <gear>
+      <id>be56ed13-cff0-47a8-b6ba-556f2313f650</id>
+      <name>Vulcan Systems "Hotdrop" Rapid-Egress Jetpack System</name>
+      <category>Survival Gear</category>
+      <rating>5</rating> <!-- FIAT -->
+      <source>SL</source>
+      <page>55</page>
+      <avail>18F</avail>
+      <cost>50000</cost>
+    </gear>
+    <gear>
+      <id>be56ed13-cff0-47a8-b6ba-556f2313f651</id>
+      <name>Vulcan Systems "Hotdrop" Rapid-Egress Jetpack System Refuel</name>
+      <category>Survival Gear</category>
+      <rating>0</rating> <!-- FIAT -->
+      <source>SL</source>
+      <page>55</page>
+      <avail>16F</avail>
+      <cost>250</cost>
+    </gear>
     <!-- End Region -->
   </gears>
 </chummer>
