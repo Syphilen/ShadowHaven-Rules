@@ -992,18 +992,9 @@
     <!-- Region Aspects -->
     <quality>
       <name>Apprentice</name>
-      <bonus amendoperation="replace">
-        <enableattribute>
-          <name>MAG</name>
-        </enableattribute>
-        <enabletab>
-          <name>magician</name>
-        </enabletab>
-        <limitspellcategory exclude="Rituals" />
-        <limitspellcategory>Rituals</limitspellcategory>
-        <limitspiritcategory />
-        <unlockskills>Sorcery</unlockskills>
-        <unlockskills>Conjuring</unlockskills>
+      <bonus>
+        <allowspellcategory amendoperation="addnode">Rituals</allowspellcategory>
+        <limitspellcategory exclude="Rituals" amendoperation="replace" />
       </bonus>
     </quality>
     <!-- End Region -->
