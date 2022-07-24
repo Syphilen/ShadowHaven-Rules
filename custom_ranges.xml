@@ -21,11 +21,13 @@
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ranges.xsd">
 	<ranges>
-		<name>Carbines</name>
-		<min>0</min>
-		<short>10</short>
-		<medium>40</medium>
-		<long>80</long>
-		<extreme>150</extreme>
+		<range>
+			<name>Carbines</name>
+			<min>0</min>
+			<short>10</short>
+			<medium>40</medium>
+			<long>80</long>
+			<extreme>150</extreme>
+		</range>
 	</ranges>
 </chummer>
