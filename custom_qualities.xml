@@ -512,17 +512,32 @@
 			<karma>10</karma>
 			<category>Positive</category>
 			<required>
-				<allof>
-					<ess>-3.0</ess>
-					<oneof>
+				<oneof>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Cybereyes Basic System</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Infrasonic Generator</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Obvious Full Arm</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Obvious Full Leg</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Obvious Torso</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Obvious Skull</cyberware>
-					</oneof>
-				</allof>
+					</group>
+				</oneof>
 			</required>
 			<bonus>
 				<skillcategory>
@@ -550,17 +565,32 @@
 			<karma>10</karma>
 			<category>Positive</category>
 			<required>
-				<allof>
-					<ess>-3.0</ess>
-					<oneof>
+				<oneof>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Cybereyes Basic System</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Infrasonic Generator</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Obvious Full Arm</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Obvious Full Leg</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Obvious Torso</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
 						<cyberware>Obvious Skull</cyberware>
-					</oneof>
-				</allof>
+					</group>
+				</oneof>
 			</required>
 			<bonus>
 				<skillcategory>
@@ -931,6 +961,7 @@
 			<category>Positive</category>
 			<required>
 				<oneof>
+					<!--
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<category>Cyber Implant Weapon</category>
@@ -940,131 +971,138 @@
 							<val>4</val>
 						</specificskill>
 					</group>
+					-->
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Enhanced Articulation</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
+					<!--
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<bioware>Enhanced Articulation</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
+					-->
+					<!--
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
+					-->
+					<!-- Testing removing this block
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
+					-->
 					<group>
 						<bioware>Enhanced Articulation</bioware>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Enhanced Articulation</bioware>
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Enhanced Articulation</bioware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Synthacardium</bioware>
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Synthacardium</bioware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Reflex Recorder</bioware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 				</oneof>
 			</required>
@@ -1088,6 +1126,7 @@
 			<category>Positive</category>
 			<required>
 				<oneof>
+					<!--
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<category>Cyber Implant Weapon</category>
@@ -1097,136 +1136,143 @@
 							<val>4</val>
 						</specificskill>
 					</group>
+					-->
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Enhanced Articulation</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<cyberware>Cybereyes Basic System</cyberware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
+					<!--
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<bioware>Enhanced Articulation</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
+					-->
+					<!--
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
+					-->
+					<!-- Testing removing this block
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
+					-->
 					<group>
 						<bioware>Enhanced Articulation</bioware>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Enhanced Articulation</bioware>
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Enhanced Articulation</bioware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Synthacardium</bioware>
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Synthacardium</bioware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 					<group>
 						<bioware>Reflex Recorder</bioware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
-						<specificskill>
-							<name>Sneaking</name>
-							<val>4</val>
-						</specificskill>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
 					</group>
 				</oneof>
 			</required>
 			<bonus>
-				<selectskill limittoskill="Sneaking,Throwing Weapons,Blades,Clubs,Exotic Melee Weapon,Unarmed">
+				<selectskill limittoskill="Sneaking,Throwing Weapons,Blades,Clubs,Exotic Melee Weapon,Unarmed Combat">
 					<val>1</val>
 				</selectskill>
 				<surprise>3</surprise>

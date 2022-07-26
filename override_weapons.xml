@@ -1086,7 +1086,7 @@
 	<weapon>
 	  <id>ad2ea9ea-74d0-411d-89b7-20702ee4105d</id>
 	  <name>Retractable Climbing Claws</name>
-	  <category>Blades</category>
+	  <category>Bio-Weapon</category>
 	  <type>Melee</type>
 	  <conceal>-2</conceal>
 	  <accuracy>Physical-1</accuracy>
@@ -7756,7 +7756,7 @@
 	<weapon>
 	  <id>c73077d0-fc16-474c-a8e6-ce9635a36224</id>
 	  <name>Foot Anchor</name>
-	  <category>Blades</category>
+	  <category>Cyberweapon</category>
 	  <type>Melee</type>
 	  <conceal>0</conceal>
 	  <accuracy>Physical</accuracy>
