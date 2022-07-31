@@ -24,7 +24,7 @@
     <!-- Region Core Negative Qualities -->
     <quality>
       <name>Uneducated</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>College Education</quality>
           <quality>Technical School Education</quality>
@@ -66,7 +66,7 @@
     <quality>
       <name>Arcane Arrester</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Magic Resistance</quality>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -75,7 +75,7 @@
     </quality>
     <quality>
       <name>Bone Spikes</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -85,7 +85,7 @@
     <quality>
       <name>Dermal Alteration (Granite Shell)</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="addnode">
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
         </oneof>
@@ -94,7 +94,7 @@
     <quality>
       <name>Glamour</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="addnode">
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
         </oneof>
@@ -102,7 +102,7 @@
     </quality>
     <quality>
       <name>Magic Sense</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -111,7 +111,7 @@
     </quality>
     <quality>
       <name>Metagenic Improvement (Body)</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -120,7 +120,7 @@
     </quality>
     <quality>
       <name>Metagenic Improvement (Agility)</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -129,7 +129,7 @@
     </quality>
     <quality>
       <name>Metagenic Improvement (Reaction)</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -138,7 +138,7 @@
     </quality>
     <quality>
       <name>Metagenic Improvement (Strength)</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -147,7 +147,7 @@
     </quality>
     <quality>
       <name>Metagenic Improvement (Charisma)</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -156,7 +156,7 @@
     </quality>
     <quality>
       <name>Metagenic Improvement (Intuition)</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -165,7 +165,7 @@
     </quality>
     <quality>
       <name>Metagenic Improvement (Logic)</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -174,7 +174,7 @@
     </quality>
     <quality>
       <name>Metagenic Improvement (Willpower)</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -183,7 +183,7 @@
     </quality>
     <quality>
       <name>Nasty Vibe</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -192,7 +192,7 @@
     </quality>
     <quality>
       <name>Shiva Arms</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -201,7 +201,7 @@
     </quality>
     <quality>
       <name>Astral Hazing</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -210,7 +210,7 @@
     </quality>
     <quality>
       <name>Critter Spook</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
@@ -220,7 +220,7 @@
     <quality>
       <name>Mood Hair</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Feathers</quality>
           <quality>Scales</quality>
           <quality>Unusual Hair</quality>
@@ -232,7 +232,7 @@
     <quality>
       <name>Third Eye</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="addnode">
           <quality>Changeling (Class I SURGE)</quality>
           <quality>Changeling (Class II SURGE)</quality>
         </oneof>
@@ -241,7 +241,7 @@
     <quality>
       <name>Dermal Alteration (Rhino Hide)</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Dermal Alteration (Bark Skin)</quality>
           <quality>Dermal Alteration (Blubber)</quality>
           <quality>Dermal Alteration (Dragon Skin)</quality>
@@ -253,7 +253,7 @@
     <quality>
       <name>Dermal Alteration (Blubber)</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Dermal Alteration (Bark Skin)</quality>
           <quality>Dermal Alteration (Rhino Hide)</quality>
           <quality>Dermal Alteration (Dragon Skin)</quality>
@@ -264,7 +264,7 @@
     </quality>
     <quality>
       <name>Elongated Limbs</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
         </oneof>
@@ -273,7 +273,7 @@
     <quality>
       <name>Functional Tail (Balance)</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Vestigial Tail</quality>
           <quality>Functional Tail (Paddle)</quality>
           <quality>Functional Tail (Prehensile)</quality>
@@ -285,7 +285,7 @@
     <quality>
       <name>Functional Tail (Paddle)</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Vestigial Tail</quality>
           <quality>Functional Tail (Balance)</quality>
           <quality>Functional Tail (Prehensile)</quality>
@@ -297,7 +297,7 @@
     <quality>
       <name>Functional Tail (Prehensile)</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Vestigial Tail</quality>
           <quality>Functional Tail (Paddle)</quality>
           <quality>Functional Tail (Balance)</quality>
@@ -309,7 +309,7 @@
     <quality>
       <name>Functional Tail (Thagomizer)</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Vestigial Tail</quality>
           <quality>Functional Tail (Paddle)</quality>
           <quality>Functional Tail (Prehensile)</quality>
@@ -320,7 +320,7 @@
     </quality>
     <quality>
       <name>Proboscis</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
         </oneof>
@@ -329,14 +329,14 @@
     <quality>
       <name>Functional Tail (Balance)</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="addnode">
           <quality>Changeling (Class I SURGE)</quality>
         </oneof>
       </forbidden>
     </quality>
     <quality>
       <name>Bioluminescense</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
         </oneof>
@@ -344,7 +344,7 @@
     </quality>
     <quality>
       <name>Cephalopod Skull</name>
-      <forbidden>
+      <forbidden amendoperation="addnode">
         <oneof>
           <quality>Changeling (Class I SURGE)</quality>
         </oneof>
@@ -353,7 +353,7 @@
     <quality>
       <name>Feathers</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Animal Pelage (Quills)</quality>
           <quality>Animal Pelage (Insulating Pelt)</quality>
           <quality>Animal Pelage (Camo Fur)</quality>
@@ -366,7 +366,7 @@
     <quality>
       <name>Scales</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Animal Pelage (Quills)</quality>
           <quality>Animal Pelage (Insulating Pelt)</quality>
           <quality>Animal Pelage (Camo Fur)</quality>
@@ -379,7 +379,7 @@
     <quality>
       <name>Vestigial Tail</name>
       <forbidden>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Functional Tail (Balance)</quality>
           <quality>Functional Tail (Paddle)</quality>
           <quality>Functional Tail (Prehensile)</quality>
@@ -446,8 +446,8 @@
     </quality>
 	<quality>
       <name>Trust Fund II</name>
-      <required amendoperation="replace">
-        <oneof>
+      <required>
+        <oneof amendoperation="replace">
           <quality>SINner (National)</quality>
           <quality>SINner (Corporate)</quality>
 		  <quality>SINner (Corporate Limited)</quality>
@@ -456,8 +456,8 @@
     </quality>
 	<quality>
       <name>Trust Fund III</name>
-      <required amendoperation="replace">
-        <oneof>
+      <required>
+        <oneof amendoperation="replace">
           <quality>SINner (National)</quality>
           <quality>SINner (Corporate)</quality>
 		  <quality>SINner (Corporate Limited)</quality>
@@ -466,8 +466,8 @@
     </quality>
 	<quality>
       <name>Trust Fund IV</name>
-      <required amendoperation="replace">
-        <oneof>
+      <required>
+        <oneof amendoperation="replace">
           <quality>SINner (National)</quality>
           <quality>SINner (Corporate)</quality>
 		  <quality>SINner (Corporate Limited)</quality>
@@ -685,8 +685,8 @@
     </quality>
     <quality>
       <name>Biocompatibility (Bioware)</name>
-      <forbidden amendoperation="replace">
-        <oneof>
+      <forbidden>
+        <oneof amendoperation="replace">
           <quality>Ronin (DV/Bioware)</quality>
           <quality>Ronin (Dodge/Bioware)</quality>
           <quality>Biocompatibility (Cyberware)</quality>
@@ -695,8 +695,8 @@
     </quality>
     <quality>
       <name>Biocompatibility (Cyberware)</name>
-      <forbidden amendoperation="replace">
-        <oneof>
+      <forbidden>
+        <oneof amendoperation="replace">
           <quality>Ronin (DV/Cyberware)</quality>
           <quality>Ronin (Dodge/Cyberware)</quality>
           <quality>Biocompatibility (Bioware)</quality>
@@ -936,7 +936,7 @@
 	  <name>Chain Breaker</name>
 	  <costdiscount>
         <required>
-          <oneof>
+          <oneof amendoperation="replace">
             <quality>Aspected Magician</quality>
 			<quality>Apprentice</quality>
           </oneof>
@@ -1009,7 +1009,7 @@
     <quality>
       <name>Community Connection</name>
       <required>
-        <oneof>
+        <oneof amendoperation="addnode">
           <metatype>Ork</metatype>
           <metatype>Troll</metatype>
         </oneof>
@@ -1021,7 +1021,7 @@
     </quality>
     <quality>
       <name>Nasty Trog</name>
-      <required>
+      <required amendoperation="addnode">
         <oneof>
           <metatype>Ork</metatype>
           <metatype>Troll</metatype>
@@ -1030,7 +1030,7 @@
     </quality>
     <quality>
       <name>Trog Traitor</name>
-      <required>
+      <required amendoperation="addnode">
         <oneof>
           <metatype>Ork</metatype>
           <metatype>Troll</metatype>
@@ -1042,7 +1042,7 @@
     <!-- Region Positive Qualities -->
     <quality>
       <name>Corporate Loyalist</name>
-      <required>
+      <required amendoperation="addnode">
         <oneof>
           <quality>SINner (Corporate Limited)</quality>
           <quality>SINner (Corporate)</quality>
@@ -1053,7 +1053,7 @@
     <!-- Region Negative Qualities -->
     <quality>
       <name>Corporate Pariah I</name>
-      <required>
+      <required amendoperation="addnode">
         <oneof>
           <quality>SINner (Corporate Limited)</quality>
           <quality>SINner (Corporate)</quality>
