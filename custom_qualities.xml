@@ -625,7 +625,7 @@
 				</allof>
 			</required>
 			<bonus>
-				<cyberwareessmultiplier>90</cyberwareessmultiplier>
+				<biowareessmultiplier>90</biowareessmultiplier>
 				<weaponcategorydv>
 					<name>Clubs</name>
 					<bonus>1</bonus>
@@ -742,7 +742,7 @@
 				</allof>
 			</required>
 			<bonus>
-				<basicbiowareessmultiplier>90</basicbiowareessmultiplier>
+				<biowareessmultiplier>90</biowareessmultiplier>
 				<dodge>2</dodge>
 			</bonus>
 			<forbidden>
