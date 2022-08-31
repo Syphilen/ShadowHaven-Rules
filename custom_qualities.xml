@@ -523,11 +523,19 @@
 					</group>
 					<group>
 						<ess>-3.0</ess>
-						<cyberware>Obvious Full Arm</cyberware>
+						<cyberware>Obvious Full Arm (Left)</cyberware>
 					</group>
 					<group>
 						<ess>-3.0</ess>
-						<cyberware>Obvious Full Leg</cyberware>
+						<cyberware>Obvious Full Arm (Right)</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
+						<cyberware>Obvious Full Leg (Left)</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
+						<cyberware>Obvious Full Leg (Right)</cyberware>
 					</group>
 					<group>
 						<ess>-3.0</ess>
@@ -576,11 +584,19 @@
 					</group>
 					<group>
 						<ess>-3.0</ess>
-						<cyberware>Obvious Full Arm</cyberware>
+						<cyberware>Obvious Full Arm (Left)</cyberware>
 					</group>
 					<group>
 						<ess>-3.0</ess>
-						<cyberware>Obvious Full Leg</cyberware>
+						<cyberware>Obvious Full Arm (Right)</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
+						<cyberware>Obvious Full Leg (Left)</cyberware>
+					</group>
+					<group>
+						<ess>-3.0</ess>
+						<cyberware>Obvious Full Leg (Right)</cyberware>
 					</group>
 					<group>
 						<ess>-3.0</ess>
