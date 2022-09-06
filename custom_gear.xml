@@ -22,6 +22,7 @@
   <categories>
     <category blackmarket="Weapons">Ammunition Handloads +DV</category>
     <category blackmarket="Weapons">Ammunition Handloads +AP</category>
+    <category>Possession Homonculi</category>
   </categories>
   <gears>
     <!-- Region Handload AP -->
@@ -900,6 +901,38 @@
       <page>55</page>
       <avail>16F</avail>
       <cost>250</cost>
+    </gear>
+    <!-- End Region -->
+    <!-- Possession Homonculi -->
+    <gear>
+      <id>5b69896a-3c27-43c7-b904-d84959478930</id>
+      <name>Plasteel Homonculus</name>
+      <category>Possession Homonculi</category>
+      <rating>10</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>12R</avail>
+      <cost>Rating * 2500</cost>
+    </gear>
+    <gear>
+      <id>a98483bf-1fea-4bee-95b6-7578440cac90</id>
+      <name>Stone Homonculus</name>
+      <category>Possession Homonculi</category>
+      <rating>10</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>8</avail>
+      <cost>Rating * 1000</cost>
+    </gear>
+    <gear>
+      <id>0767c47a-e59b-43f6-bc16-bdf46a551bf1</id>
+      <name>Wickerman</name>
+      <category>Possession Homonculi</category>
+      <rating>10</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0R</avail>
+      <cost>Rating * 100</cost>
     </gear>
     <!-- End Region -->
   </gears>
