@@ -14402,7 +14402,7 @@
 	  <name>Aztechnology Blood Drinker Combat Axe</name>
 	  <category>Blades</category>
 	  <type>Melee</type>
-	  <conceal>10</conceal>
+	  <conceal>2</conceal>
 	  <accuracy>Physical</accuracy>
 	  <reach>0</reach>
 	  <damage>({STR}+3)P</damage>
