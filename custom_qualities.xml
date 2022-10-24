@@ -3032,5 +3032,231 @@
             <source>HT</source>
             <page>127</page>
         </quality>
+		<quality>
+			<id>25e12560-5f00-436d-ac72-152ee7a87366</id>
+			<name>Trajectory Mastery</name>
+			<karma>12</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus></bonus>
+			<required>
+				<oneof>
+					<cyberware>Smartlink</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+					<quality>Augmented Strength Mastery</quality>
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>455dfd37-5a5c-4036-9b98-d6005809512c</id>
+			<name>Augmented Strength Mastery</name>
+			<karma>12</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<bioware>Muscle Augmentation</bioware>
+					<cyberware>Muscle Replacement</cyberware>
+					<cyberware>Enhanced Strength</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+					<quality>Trajectory Mastery</quality>
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>1c1e0898-1768-4b85-8819-4c5c16b3726b</id>
+			<name>Corner Shooter</name>
+			<karma>4</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<cyberware>Smartlink</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>59495ad4-4f8e-4f60-bb25-7691caf72384</id>
+			<name>Master Brawler</name>
+			<karma>4</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<bioware>Muscle Augmentation</bioware>
+					<cyberware>Muscle Replacement</cyberware>
+					<cyberware>Enhanced Strength</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>15e8b663-c862-47bb-b79e-bc7ea5c219d8</id>
+			<name>Hard Skin</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<bioware>Orthoskin</bioware>
+					<cyberware>Dermal Plating</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>97bf000d-c813-4e70-ad84-3669d9ba04db</id>
+			<name>Shock Abrogation Training</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<bioware>Platelet Factories</bioware>
+					<bioware>Double Elastin</bioware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>b15c9a12-695c-4e5f-9149-932cbeb285b2</id>
+			<name>Pain is Gain</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<bioware>Adrenaline Pump</bioware>
+					<bioware>Damage Compensators</bioware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>3ba42158-9a6a-4bda-8e55-3c4c28d8ae56</id>
+			<name>Skillsoft Adaptation</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<cyberware>Skilljack</cyberware>
+					<cyberware>Knowledge Hardwires</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>815bbb11-3708-4f8d-9cfa-6d4b503dcc42</id>
+			<name>Redundant Protection</name>
+			<karma>4</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<cyberware>Eye Protector (Plastic)</cyberware>
+					<cyberware>Eye Protector (Ballistic Glass)</cyberware>
+					<cyberware>Ear Protector</cyberware>
+					<cyberware>Damper</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
+		<quality>
+			<id>27b653f6-d967-4388-a59c-50f84039c3dc</id>
+			<name>Instinctive Optimization</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<allof>
+					<cyberware>Math SPU</cyberware>
+					<attribute>
+						<name>LOG</name>
+						<val>4</val>
+					</attribute>
+				</allof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>DM</source>
+        	<page>0</page>
+		</quality>
 	</qualities>
 </chummer>
