@@ -74,4 +74,112 @@
       </accessorymounts>
     </weapon>
   </weapons>
+  <accessories>
+    <accessory>
+      <id>b25496f8-bb3e-49a3-923f-f779528f220b</id>
+      <name>Trajectory Mastery Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>3</accuracy>
+      <required>
+        <oneof>
+            <group>
+              <quality>Trajectory Mastery</quality>
+              <accessory>Smartgun System, External</accessory>
+            </group>
+            <group>
+              <quality>Trajectory Mastery</quality>
+              <accessory>Smartgun System, Internal</accessory>
+            </group>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>774d4974-0a24-44c1-87d9-b43fa8078eed</id>
+      <name>Augmented Strenght Mastery Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>4</accuracy>
+      <required>
+        <allof>
+          <weapondetails>
+            <type>Melee</type>
+          </weapondetails>
+          <quality>Augmented Strength Mastery</quality>
+        </allof>
+      </required>
+      <forbidden />
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>4c6b1978-02a4-418e-81fb-54d614b88f21</id>
+      <name>Trajectory Mastery Damage Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <damage>+1</damage>
+      <required>
+        <oneof>
+            <group>
+              <quality>Trajectory Mastery</quality>
+              <accessory>Smartgun System, External</accessory>
+            </group>
+            <group>
+              <quality>Trajectory Mastery</quality>
+              <accessory>Smartgun System, Internal</accessory>
+            </group>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>1e0ae700-f5d2-4bfb-bad7-17a1d9739018</id>
+      <name>Augmented Strength Mastery Damage Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <damage>+1</damage>
+      <required>
+        <allof>
+          <weapondetails>
+            <type>Melee</type>
+          </weapondetails>
+          <quality>Augmented Strength Mastery</quality>
+        </allof>
+      </required>
+      <forbidden />
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+  </accessories>
 </chummer>
