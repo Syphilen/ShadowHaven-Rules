@@ -234,7 +234,6 @@
       <forbidden>
         <oneof amendoperation="addnode">
           <quality>Changeling (Class I SURGE)</quality>
-          <quality>Changeling (Class II SURGE)</quality>
         </oneof>
       </forbidden>
     </quality>
@@ -476,26 +475,6 @@
     </quality>
     <!-- End Region -->
     <!-- Region Run Faster Infected Qualities -->
-    <quality>
-      <name>Infected: Bandersnatch</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Infected: Dzoo-Noo-Qua</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Infected: Fomoraig</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Infected: Goblin</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Infected: Grendel</name>
-      <hide />
-    </quality>
     <quality>
       <name>Infected: Harvester</name>
       <hide />
