@@ -556,6 +556,31 @@
       <!--<<name>Infected: Sukuyan (Non-Human)</name>-->
       <hide />
     </quality>
+    <quality>
+      <id>ae5e7ba4-5b9e-40f9-8ace-66f19c6e11eb</id>
+      <!--<<name>Infected: Golbin</name>-->
+      <hide />
+    </quality>
+    <quality>
+      <id>6556d48f-2cbd-4bc6-a2c8-e9fe3f99ac7e</id>
+      <!--<<name>Infected: Dzoo-Noo-Qua</name>-->
+      <hide />
+    </quality>
+    <quality>
+      <id>fe01a71d-50c2-4ba3-9604-54af663ae8af</id>
+      <!--<<name>Infected: Fomoraig</name>-->
+      <hide />
+    </quality>
+    <quality>
+      <id>ba87adfa-6c7e-4c9b-bf13-b6576b59bd1f</id>
+      <!--<<name>Infected: Grendel</name>-->
+      <hide />
+    </quality>
+    <quality>
+      <id>65026e10-6fa5-49a4-9da6-d9575b5b9cde</id>
+      <!--<<name>Infected: Bandersnatch</name>-->
+      <hide />
+    </quality>
     <!-- End Region -->
     <!-- End Region -->
 	<!-- Region Run & Gun Qualities -->
