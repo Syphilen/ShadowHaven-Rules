@@ -3131,6 +3131,15 @@
             <val>1</val>
           </selectattribute>
         </selectattributes>
+		</selectattributes>
+                <specificattribute>
+                    <name>CHA</name>
+                    <val>-1</val>
+                </specificattribute>
+                <specificattribute>
+                    <name>LOG</name>
+                    <val>-1</val>
+        </specificattribute>
       </bonus>
       <forbidden>
         <oneof>
@@ -3390,6 +3399,11 @@
             <val>1</val>
           </selectattribute>
         </selectattributes>
+		</selectattributes>
+                <specificattribute>
+                    <name>LOG</name>
+                    <val>-1</val>
+                </specificattribute>
       </bonus>
       <forbidden>
         <oneof>
