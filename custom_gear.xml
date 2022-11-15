@@ -25,6 +25,23 @@
     <category>Possession Homonculi</category>
   </categories>
   <gears>
+  <gear>
+      <id>0198f16e-8bb2-a618-ab2a-f478abe6a4c7</id>
+      <name>Gyrojet Stick'n'shock</name>
+      <category>Ammunition Handloads +AP</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>14R</avail>
+      <cost>160</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-5</ap>
+        <damage>-2</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
     <!-- Region Handload AP -->
     <gear>
       <id>0198f16e-8bb2-a618-ab2a-f010abe0a1c6</id>
