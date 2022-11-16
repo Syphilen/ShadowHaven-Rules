@@ -3690,20 +3690,20 @@
                 </walkmultiplier>
             </bonus>
             <forbidden>
-            <oneof>
-                <quality>Magic Resistance</quality>
-                <resenabled />
-                <depenabled />
-                <quality>Latent Dracomorphosis</quality>
-            </oneof>
-        </forbidden>
-        <required>
-            <allof>
-                <metatype>Dwarf</metatype>
-            </allof>
-        </required>
-        <source>RF</source>
-        <page>138</page>
+                <oneof>
+                    <quality>Magic Resistance</quality>
+                    <resenabled />
+                    <depenabled />
+                    <quality>Latent Dracomorphosis</quality>
+                </oneof>
+            </forbidden>
+            <required>
+                <allof>
+                    <metatype>Dwarf</metatype>
+                </allof>
+            </required>
+            <source>RF</source>
+            <page>138</page>
         </quality>
 		<!--Mundane Masteries-->
 		<quality>
