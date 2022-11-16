@@ -3721,7 +3721,6 @@
 				<oneof>
 					<magenabled />
 					<resenabled />
-					<quality>Augmented Strength Mastery</quality>
 				</oneof>
 			</forbidden>
 			<source>DM</source>
@@ -3745,7 +3744,6 @@
 				<oneof>
 					<magenabled />
 					<resenabled />
-					<quality>Trajectory Mastery</quality>
 				</oneof>
 			</forbidden>
 			<source>DM</source>
