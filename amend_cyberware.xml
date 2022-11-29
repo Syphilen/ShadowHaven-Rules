@@ -103,7 +103,9 @@
 			<cost>0</cost>
 			<source>BTB</source>
 			<page>161</page>
-			<accuracy>1</accuracy>
+			<bonus>
+				<accuracy>1</accuracy>
+			</bonus>
 			<required>
 				<parentdetails>
 					<category>Cyber Implant Weapon</category>
@@ -183,29 +185,6 @@
 			</required>
 		</cyberware>
 		<cyberware amendoperation="addnode">
-			<id>bfe918ab-dbdf-4c02-8454-4ca1da5002a4</id>
-			<name>Special Modification: Improved Reach</name>
-			<limit>False</limit>
-			<category>Cyber Implant Weapon Accessory</category>
-			<ess>0</ess>
-			<addtoparentess />
-			<capacity>[0]</capacity>
-			<addtoparentcapacity />
-			<avail>0</avail>
-			<cost>0</cost>
-			<source>BTB</source>
-			<page>161</page>
-			<reach>1</reach>
-			<required>
-				<parentdetails>
-					<category>Cyber Implant Weapon</category>
-				</parentdetails>
-				<oneof>
-					<specialmodificationlimit>1</specialmodificationlimit>
-				</oneof>
-			</required>
-		</cyberware>
-		<cyberware amendoperation="addnode">
 			<id>f1e48435-cd07-4c73-8c29-4d2efda53f51</id>
 			<name>Special Modification: Improved Recoil Comp</name>
 			<limit>False</limit>
@@ -268,6 +247,185 @@
 		<cyberware>
 			<name>Steamers</name>
 			<ess>0</ess>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>d0b4a7d7-81eb-4b3a-a8c7-bb5a89c74cad</id>
+			<name>Trajectory Mastery Damage Boost</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<mount />
+			<avail>0</avail>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<cost>0</cost>
+			<damage>+1</damage>
+			<required>
+				<oneof>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Smartgun System, External</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Smartgun System, Internal</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Krime Dual-Mode External Smartgun Link</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Laser Sight</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Red Dot Sight</cyberware>
+					</group>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<accessory>Ceramic/Plasteel Components</accessory>
+					<accessory>Collapsible Traditional Bow</accessory>
+					<accessory>Vintage</accessory>
+				</oneof>
+				<weapondetails>
+					<type>Melee</type>
+				</weapondetails>
+			</forbidden>
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>cb87d124-7c17-4f5c-8322-dde26c7672e6</id>
+			<name>Augmented Strength Mastery Damage Boost</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<mount />
+			<avail>0</avail>
+			<cost>0</cost>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<damage>+1</damage>
+			<required>
+				<allof>
+					<quality>Augmented Strength Mastery</quality>
+				</allof>
+			</required>
+			<forbidden>
+				<weapondetails>
+					<type>Ranged</type>
+				</weapondetails>
+			</forbidden>
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>7ee25acd-24e2-49e4-ad23-c61e92ea1700</id>
+			<name>Trajectory Mastery Accuracy Boost</name>
+			<category>Cyber Implant Weapon Accessory</category>
+			<mount />
+			<avail>0</avail>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<cost>0</cost>
+			<accuracy>3</accuracy>
+			<required>
+				<oneof>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Smartgun System, External</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Smartgun System, Internal</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Krime Dual-Mode External Smartgun Link</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Laser Sight</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Red Dot Sight</cyberware>
+					</group>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<accessory>Ceramic/Plasteel Components</accessory>
+					<accessory>Collapsible Traditional Bow</accessory>
+					<accessory>Vintage</accessory>
+				</oneof>
+				<weapondetails>
+					<type>Melee</type>
+				</weapondetails>
+			</forbidden>
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>e2c9f9f9-91f7-425a-8880-1eec7265be03</id>
+			<name>Augmented Strength Mastery Accuracy Boost</name>
+			<category>Cyber Implant Weapon Accessory</category>
+			<mount />
+			<avail>0</avail>
+			<cost>0</cost>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<accuracy>4</accuracy>
+			<required>
+				<allof>
+					<weapondetails>
+						<type>Melee</type>
+					</weapondetails>
+					<quality>Augmented Strength Mastery</quality>
+				</allof>
+			</required>
+			<forbidden />
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>51cbeba1-c754-44da-891c-245b48d7af59</id>
+			<name>Hard Skin Torso Boost</name>
+			<category>Cyberlimb Enhancement</category>
+			<ess>0</ess>
+			<capacity>[0]</capacity>
+			<bonus>
+				<armor>2</armor>
+			</bonus>
+			<required>
+				<allof>
+					<quality>Hard Skin</quality>
+					<parentdetails>
+						<OR>
+							<name>Obvious Torso</name>
+							<name>Synthetic Torso</name>
+						</OR>
+					</parentdetails>
+				</allof>
+			</required>
+			<avail>0</avail>
+			<cost>0</cost>
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
 		</cyberware>
 	</cyberwares>
 </chummer>
