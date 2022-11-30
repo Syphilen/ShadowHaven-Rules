@@ -20,6 +20,11 @@
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.w3.org/2001/XMLSchema weapons.xsd">
+
+			  
+																  
+																 
+																			  
   <weapons>
 	<!-- Region Shadowrun 5 -->
     <weapon>
@@ -343,7 +348,6 @@
 		<mount>Stock</mount>
 		<mount>Side</mount>
 		<mount>Internal</mount>
-		<mount>Barrel</mount>
 		<mount>Top</mount>
 		<mount>Under</mount>
 	  </accessorymounts>
@@ -1854,7 +1858,7 @@
 	  <source>RG</source>
 	  <page>23</page>
 	  <range>Heavy Pistols</range>
-	  <spec>crossbow</spec>
+	  <spec>Crossbow</spec>
 	  <accessorymounts>
 		<mount>Top</mount>
 		<mount>Side</mount>
@@ -3199,8 +3203,8 @@
 	  <conceal>8</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
-	  <damage>As Grenade</damage>
-	  <ap>As Grenade</ap>
+      <damage>Grenade</damage>
+      <ap>Grenade</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>2(m)/6(c)</ammo>
@@ -3881,7 +3885,7 @@
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>({STR}+1)P</damage>
-	  <ap>-1/-2</ap>
+	  <ap>-1//-2</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
 	  <ammo>0</ammo>
@@ -4562,9 +4566,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+        <mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4598,9 +4602,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+        <mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4628,9 +4632,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+        <mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4685,9 +4689,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4718,9 +4722,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+        <mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4754,9 +4758,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+        <mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4784,9 +4788,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+        <mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4814,9 +4818,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+        <mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4847,9 +4851,9 @@
 	  </accessories>
 	  <accessorymounts>
 		<mount>Internal</mount>
+        <mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -4968,7 +4972,7 @@
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
 	  <damage>Missile</damage>
-	  <ap>-</ap>
+      <ap>Missile</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>1(ml)</ammo>
@@ -4977,10 +4981,10 @@
 	  <source>SR5</source>
 	  <page>431</page>
 	  <accessorymounts>
-		<mount>Top</mount>
-		<mount>Side</mount>
-		<mount>Under</mount>
 		<mount>Stock</mount>
+		<mount>Side</mount>
+		<mount>Top</mount>
+		<mount>Under</mount>
 		<mount>Internal</mount>
 	  </accessorymounts>
 	</weapon>
@@ -5002,10 +5006,10 @@
 	  <source>RG</source>
 	  <page>47</page>
 	  <accessorymounts>
-		<mount>Top</mount>
-		<mount>Side</mount>
-		<mount>Under</mount>
 		<mount>Stock</mount>
+		<mount>Side</mount>
+		<mount>Top</mount>
+		<mount>Under</mount>
 		<mount>Internal</mount>
 	  </accessorymounts>
 	</weapon>
@@ -5027,10 +5031,10 @@
 	  <source>RG</source>
 	  <page>46</page>
 	  <accessorymounts>
-		<mount>Top</mount>
-		<mount>Side</mount>
-		<mount>Under</mount>
 		<mount>Stock</mount>
+		<mount>Side</mount>
+		<mount>Top</mount>
+		<mount>Under</mount>
 		<mount>Internal</mount>
 	  </accessorymounts>
 	</weapon>
@@ -5043,7 +5047,7 @@
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>Missile</damage>
-	  <ap>-</ap>
+      <ap>Missile</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>2(ml)</ammo>
@@ -5057,10 +5061,10 @@
 		</accessory>
 	  </accessories>
 	  <accessorymounts>
-		<mount>Top</mount>
-		<mount>Side</mount>
-		<mount>Under</mount>
 		<mount>Stock</mount>
+		<mount>Side</mount>
+		<mount>Top</mount>
+		<mount>Under</mount>
 		<mount>Internal</mount>
 	  </accessorymounts>
 	</weapon>
@@ -6020,7 +6024,7 @@
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
 	  <damage>Special</damage>
-	  <ap />
+      <ap>-</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>Special</ammo>
@@ -6048,7 +6052,7 @@
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
 	  <damage>9P</damage>
-	  <ap />
+      <ap>-</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>1(b)</ammo>
@@ -6089,7 +6093,7 @@
 	  <accuracy>6</accuracy>
 	  <reach>0</reach>
 	  <damage>7P</damage>
-	  <ap />
+      <ap>-</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>1(b)</ammo>
@@ -7161,7 +7165,7 @@
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
 	  <damage>Grenade</damage>
-	  <ap>-</ap>
+      <ap>Grenade</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>6(m)</ammo>
@@ -7189,10 +7193,10 @@
 	  <category>Underbarrel Weapons</category>
 	  <type>Ranged</type>
 	  <conceal>6</conceal>
-	  <accuracy>3</accuracy>
+	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>Grenade</damage>
-	  <ap>-</ap>
+      <ap>Grenade</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>6(c)</ammo>
@@ -7220,10 +7224,10 @@
 	  <category>Underbarrel Weapons</category>
 	  <type>Ranged</type>
 	  <conceal>6</conceal>
-	  <accuracy>3</accuracy>
+	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>Grenade</damage>
-	  <ap>-</ap>
+      <ap>Grenade</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>6(c)</ammo>
@@ -8501,7 +8505,7 @@
 	  <name>Ares Armatus</name>
 	  <category>Laser Weapons</category>
 	  <type>Ranged</type>
-	  <conceal>+6</conceal>
+	  <conceal>6</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>0</reach>
 	  <damage>11P</damage>
@@ -10392,7 +10396,7 @@
 	  <accuracy>3</accuracy>
 	  <reach>0</reach>
 	  <damage>Grenade</damage>
-	  <ap>-</ap>
+      <ap>Grenade</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>6(m)</ammo>
@@ -10401,10 +10405,10 @@
 	  <source>2050</source>
 	  <page>185</page>
 	  <ammocategory>Grenade Launchers</ammocategory>
+	  <hide />
 	  <range>Grenade Launchers</range>
 	  <useskill>Heavy Weapons</useskill>
 	  <weapontype>glauncher</weapontype>
-	  <hide />
 	</weapon>
 	<weapon>
 	  <id>2f4724d3-4644-411c-998c-b0a12461e508</id>
@@ -10610,18 +10614,23 @@
 	  <category>Assault Rifles</category>
 	  <type>Ranged</type>
 	  <conceal>6</conceal>
-	  <accuracy>0</accuracy>
-	  <reach>0</reach>
-	  <damage>0</damage>
-	  <ap>0</ap>
-	  <mode>0</mode>
-	  <rc>0</rc>
+	  <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
 	  <ammo>40(c)</ammo>
 	  <avail>10F</avail>
 	  <cost>4500</cost>
 	  <source>2050</source>
 	  <page>184</page>
-	  <accessorymounts>
+	  <accessories>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
 		<mount>Stock</mount>
 		<mount>Side</mount>
 		<mount>Internal</mount>
@@ -10629,13 +10638,10 @@
 		<mount>Top</mount>
 		<mount>Under</mount>
 	  </accessorymounts>
-	  <underbarrels>
-		<underbarrel>Steyr AUG-CSL SMG (2050)</underbarrel>
-		<underbarrel>Steyr AUG-CSL Carbine (2050)</underbarrel>
-		<underbarrel>Steyr AUG-CSL Assault Rifles (2050)</underbarrel>
-		<underbarrel>Steyr AUG-CSL LMG (2050)</underbarrel>
-	  </underbarrels>
-	</weapon>
+	  <addweapon>Steyr AUG-CSL SMG (2050)</addweapon>
+      <addweapon>Steyr AUG-CSL Carbine (2050)</addweapon>			
+      <addweapon>Steyr AUG-CSL LMG (2050)</addweapon>			  
+    </weapon>
 	<weapon>
 	  <id>5e116545-08b4-4eae-8dab-6f1546786296</id>
 	  <name>Steyr AUG-CSL SMG (2050)</name>
@@ -10693,39 +10699,6 @@
 	  <accessorymounts>
 		<mount>Stock</mount>
 		<mount>Side</mount>
-		<mount>Internal</mount>
-		<mount>Barrel</mount>
-		<mount>Top</mount>
-		<mount>Under</mount>
-	  </accessorymounts>
-	  <hide />
-	</weapon>
-	<weapon>
-	  <id>4c09761e-d2a2-4958-9113-5b61db145a20</id>
-	  <name>Steyr AUG-CSL Assault Rifles (2050)</name>
-	  <category>Assault Rifles</category>
-	  <type>Ranged</type>
-	  <conceal>6</conceal>
-	  <accuracy>5</accuracy>
-	  <reach>0</reach>
-	  <damage>9P</damage>
-	  <ap>-2</ap>
-	  <mode>SA/BF/FA</mode>
-	  <rc>0</rc>
-	  <ammo>40(c)</ammo>
-	  <avail>0</avail>
-	  <cost>0</cost>
-	  <source>2050</source>
-	  <page>184</page>
-	  <accessories>
-		<accessory>
-		  <name>Gas-Vent 1 System</name>
-		</accessory>
-	  </accessories>
-	  <accessorymounts>
-		<mount>Stock</mount>
-		<mount>Side</mount>
-		<mount>Internal</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
 		<mount>Under</mount>
@@ -10763,7 +10736,10 @@
 		<mount>Under</mount>
 	  </accessorymounts>
 	  <hide />
-	</weapon>
+	 <range>Light Machine Guns</range>
+      <spec>Machine Guns</spec>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
 	<!-- Grenade -->
 	<weapon>
 	  <id>1c4b568b-7591-433f-8618-2ca75fedabb2</id>
@@ -11351,8 +11327,8 @@
 	  <accessorymounts>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Revolvers</spec>
 	</weapon>
@@ -11387,8 +11363,8 @@
 	  <accessorymounts>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -11412,8 +11388,8 @@
 	  <accessorymounts>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -11445,8 +11421,8 @@
 	  <accessorymounts>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
@@ -11477,8 +11453,8 @@
 		</accessory>
 	  </accessories>
 	  <accessorymounts>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
 	  </accessorymounts>
@@ -11527,8 +11503,8 @@
 		</accessory>
 	  </accessories>
 	  <accessorymounts>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
 	  </accessorymounts>
@@ -11568,8 +11544,8 @@
 	  <accessorymounts>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
 	</weapon>
 	<weapon>
@@ -11607,8 +11583,8 @@
 	  <accessorymounts>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
 	</weapon>
 	<weapon>
@@ -11642,8 +11618,8 @@
 	  <accessorymounts>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
 	  <ammocategory>Assault Rifles</ammocategory>
 	</weapon>
@@ -11685,8 +11661,8 @@
 	  <accessorymounts>
 		<mount>Barrel</mount>
 		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
+		<mount>Side</mount>
 	  </accessorymounts>
 	  <underbarrels>
 		<underbarrel>HK Urban Enforcer Microgrenade Launcher</underbarrel>
@@ -11701,7 +11677,7 @@
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>Grenade</damage>
-	  <ap>-</ap>
+      <ap>Grenade</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>4(m)</ammo>
@@ -11759,11 +11735,9 @@
 		<mount>Top</mount>
 		<mount>Under</mount>
 	  </accessorymounts>
-	  <underbarrels>
-		<underbarrel>Steyr AUG-CSL III (Carbine)</underbarrel>
-		<underbarrel>Steyr AUG-CSL III (LMG)</underbarrel>
-		<underbarrel>Steyr AUG-CSL III (Sniper Rifle)</underbarrel>
-	  </underbarrels>
+	  <addweapon>Steyr AUG-CSL III (Carbine)</addweapon>
+      <addweapon>Steyr AUG-CSL III (LMG)</addweapon>
+      <addweapon>Steyr AUG-CSL III (Sniper Rifle)</addweapon>
 	</weapon>
 	<weapon>
 	  <id>037bfd07-2130-4fcf-bbd5-2413f74ca23f</id>
@@ -11952,7 +11926,7 @@
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>Grenade</damage>
-	  <ap>-</ap>
+      <ap>Grenade</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>8(m)</ammo>
@@ -12878,7 +12852,7 @@
 	  <source>SL</source>
 	  <page>24</page>
 	  <addweapon>Krime Trollbow Horns</addweapon>
-	  <spec>Bows</spec>
+	  <spec>Bow</spec>
 	  <accessorymounts>
 		<mount>Top</mount>
 		<mount>Internal</mount>
@@ -13839,9 +13813,9 @@
 	  <ap>-2</ap>
 	  <mode>FA</mode>
 	  <rc>0</rc>
-	  <ammo>100(belt)</ammo>
+      <ammo>30(c)</ammo>
 	  <avail>6F</avail>
-	  <cost>500</cost>
+      <cost>0</cost>
 	  <source>SL</source>
 	  <page>38</page>
 	  <accessories>
@@ -13858,7 +13832,10 @@
 		<mount>Top</mount>
 	  </accessorymounts>
 	  <hide />
-	</weapon>
+	  <range>Submachine Guns</range>
+      <spec>Submachine Guns</spec>
+      <useskill>Automatics</useskill>
+    </weapon>
 	<weapon>
 	  <id>6704239c-42c0-43c2-8d4c-3f8ff6c01212</id>
 	  <name>Onotari HL-13 Urban Assault</name>
@@ -13871,9 +13848,9 @@
 	  <ap>-2</ap>
 	  <mode>FA</mode>
 	  <rc>0</rc>
-	  <ammo>100(belt)</ammo>
+      <ammo>30(c)</ammo>
 	  <avail>6F</avail>
-	  <cost>500</cost>
+      <cost>0</cost>
 	  <source>SL</source>
 	  <page>38</page>
 	  <accessories>
@@ -13895,7 +13872,10 @@
 		<mount>Top</mount>
 	  </accessorymounts>
 	  <hide />
-	</weapon>
+	  <range>Submachine Guns</range>
+      <spec>Carbines</spec>
+      <useskill>Automatics</useskill>
+    </weapon>
 	<weapon>
 	  <id>75a192ee-b109-4c68-a139-65de302f622d</id>
 	  <name>PSG Enforcer</name>
@@ -14192,7 +14172,7 @@
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>Missile</damage>
-	  <ap>-</ap>
+      <ap>Missile</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>1(ml)</ammo>
@@ -14216,7 +14196,7 @@
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
 	  <damage>Missile</damage>
-	  <ap>-</ap>
+      <ap>Missile</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>1(ml)</ammo>
@@ -14419,7 +14399,7 @@
 	<weapon>
 	  <id>5fb07347-76a1-4d15-b1b5-b24e3880563b</id>
 	  <name>Horizon-Flynn Defense-Com Commlink Holdout</name>
-	  <category>Hold-outs</category>
+	  <category>Holdouts</category>
 	  <type>Ranged</type>
 	  <conceal>-2</conceal>
 	  <accuracy>5</accuracy>
@@ -14641,7 +14621,7 @@
 	  <accuracy>5</accuracy>
 	  <reach>0</reach>
 	  <damage>Grenade</damage>
-	  <ap>-</ap>
+      <ap>Grenade</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
 	  <ammo>6(c)</ammo>
@@ -15254,7 +15234,7 @@
 	  <accuracy>0</accuracy>
 	  <reach>0</reach>
 	  <damage>18P (-6/m)</damage>
-	  <ap>-4/-10</ap>
+	  <ap>-4//-10</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
 	  <ammo>0</ammo>
@@ -15411,7 +15391,7 @@
 	  <name>Krime Varmint</name>
 	  <category>Heavy Pistols</category>
 	  <type>Ranged</type>
-	  <conceal>0</conceal>
+	  <conceal>2</conceal>
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>8P</damage>
@@ -15437,6 +15417,7 @@
 		<mount>Side</mount>
 		<mount>Internal</mount>
 	  </accessorymounts>
+      <range>Submachine Guns</range>
 	  <spec>Semi-Automatics</spec>
 	</weapon>
 	<weapon>
@@ -15765,7 +15746,6 @@
 		</accessory>
 	  </accessories>
 	  <accessorymounts>
-		<mount>Stock</mount>
 		<mount>Side</mount>
 		<mount>Internal</mount>
 		<mount>Barrel</mount>
@@ -16403,7 +16383,10 @@
 	  <rating>0</rating>
 	  <required>
 		<weapondetails>
-		  <conceal operation="lessthanequals">0</conceal>
+		  <OR>
+			<conceal operation="lessthanequals">0</conceal>
+			<name>Krime Stopper-II</name>
+		  </OR>
 		</weapondetails>
 	  </required>
 	</accessory>
@@ -16527,7 +16510,10 @@
 	  <rating>0</rating>
 	  <required>
 		<weapondetails>
-		  <conceal operation="lessthanequals">0</conceal>
+		  <OR>
+			<conceal operation="lessthanequals">0</conceal>
+			<name>Krime Stopper-II</name>
+		  </OR>
 		</weapondetails>
 	  </required>
 	</accessory>
@@ -16617,7 +16603,18 @@
 	  <rating>0</rating>
 	</accessory>
 	<accessory>
-	  <id>7e25eb59-3ce1-44d8-8367-527fd8c8bc1d</id>
+	  <id>5D5D9FC6-9CB9-40A4-8185-891E29DAECC5</id>
+      <name>External Clip Port</name>
+      <mount />
+      <avail>0</avail>
+      <cost>1000</cost>
+      <source>SR5</source>
+      <page>458</page>
+      <hide />
+      <rating>0</rating>
+    </accessory>
+    <accessory>
+      <id>7e25eb59-3ce1-44d8-8367-527fd8c8bc1d</id>
 	  <name>Smart Firing Platform</name>
 	  <mount>Under</mount>
 	  <avail>12F</avail>
@@ -16756,10 +16753,7 @@
 	  <rating>0</rating>
 	  <required>
 		<weapondetails>
-		  <OR>
-			<name>Enfield AS-7</name>
-			<name>Enfield AS-7 (2050)</name>
-		  </OR>
+		            <name operation="contains">Enfield AS-7</name>
 		</weapondetails>
 	  </required>
 	</accessory>
@@ -16776,9 +16770,7 @@
 	  <rating>0</rating>
 	  <required>
 		<weapondetails>
-		  <OR>
 			<name>Auto-Assault 16</name>
-		  </OR>
 		</weapondetails>
 	  </required>
 	</accessory>
@@ -17054,7 +17046,10 @@
 	  </forbidden>
 	  <required>
 		<weapondetails>
-		  <conceal operation="lessthanequals">0</conceal>
+		  <OR>
+		    <conceal operation="lessthanequals">0</conceal>
+		    <name>Krime Stopper-II</name>
+		  </OR>
 		</weapondetails>
 	  </required>
 	</accessory>
@@ -17565,20 +17560,9 @@
 	  <rating>0</rating>
 	  <required>
 		<oneof>
-		  <group>
+		    <accessory>Drum Magazine, 24-round</accessory>
+			<accessory>Drum Magazine, 32-round</accessory>
 			<weapondetails>
-			  <OR>
-				<name>Enfield AS-7</name>
-				<name>Enfield AS-7 (2050)</name>
-				<name>Auto-Assault 16</name>
-			  </OR>
-			</weapondetails>
-			<grouponeof>
-			  <accessory>Drum Magazine, 24-round</accessory>
-			  <accessory>Drum Magazine, 32-round</accessory>
-			</grouponeof>
-		  </group>
-		  <weapondetails>
 			<OR>
 			  <ammo operation="contains">(cy)</ammo>
 			  <ammo operation="contains">(d)</ammo>
@@ -17700,6 +17684,8 @@
 		  <OR>
 			<conceal operation="lessthanequals">0</conceal>
 			<category operation="contains">Pistol</category>
+			<category operation="contains">Submachine Guns</category>
+			<name>Krime Stopper-II</name>
 		  </OR>
 		</weapondetails>
 	  </required>
@@ -17725,6 +17711,8 @@
 		  <OR NOT="">
 			<conceal operation="lessthanequals">0</conceal>
 			<category operation="contains">Pistol</category>
+			<category operation="contains">Submachine Guns</category>
+			<name>Krime Stopper-II</name>
 		  </OR>
 		</weapondetails>
 	  </required>
@@ -18039,7 +18027,14 @@
 		</weapondetails>
 	  </forbidden>
 	  <rating>0</rating>
-	</accessory>
+	<required>
+        <oneof>
+          <accessory>Smartgun System, Internal</accessory>
+          <accessory>Smartgun System, External</accessory>
+          <accessory>Krime Dual-Mode External Smartgun Link</accessory>
+        </oneof>
+      </required>
+    </accessory>
 	<accessory>
 	  <id>85b01b5c-c788-4b43-8190-9e0c18391436</id>
 	  <name>Personalized Grip</name>
@@ -18450,7 +18445,6 @@
 	  <cost>400</cost>
 	  <source>SL</source>
 	  <page>27</page>
-	  <accuracy>0</accuracy>
 	  <forbidden>
 		<oneof>
 		  <accessory>Ceramic/Plasteel Components</accessory>
@@ -18548,7 +18542,14 @@
 	  <ammoreplace>2500(belt)</ammoreplace>
 	  <ammoslots>1</ammoslots>
 	  <rating>0</rating>
-	</accessory>
+	  <required>
+        <weapondetails>
+          <OR>
+            <ammo operation="contains">(belt)</ammo>
+          </OR>
+        </weapondetails>
+      </required>
+    </accessory>
 	<accessory>
 	  <id>f52db08a-a2f5-482b-8cd0-4cf3045e0d60</id>
 	  <name>Krime Stun-O-Net</name>
