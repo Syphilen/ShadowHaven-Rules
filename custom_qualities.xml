@@ -101,6 +101,16 @@
 					<bonus>2</bonus>
 				</specificskill>
 			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
+				</oneof>
+			</forbidden>
 			<source>WotS</source>
 			<page>10</page>
 		</quality>
@@ -124,6 +134,16 @@
 					<ess>-3.0</ess>
 				</allof>
 			</required>
+			<forbidden>
+				<oneof>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
+				</oneof>
+			</forbidden>
 			<source>WotS</source>
 			<page>10</page>
 			<notes>Remember to discount one of [Armor, Vehicles, Weapons] manually.</notes>
@@ -221,6 +241,12 @@
 					<quality>Panzer (BOD Intim/Soak)</quality>
 					<quality>Panzer (Fear/Soak)</quality>
 					<quality>Panzer (Fear/Pain Resistance)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -313,9 +339,17 @@
 				<damageresistance>1</damageresistance>
 			</bonus>
 			<forbidden>
-				<quality>Panzer (BOD Intim/Pain Resistance)</quality>
-				<quality>Panzer (Fear/Soak)</quality>
-				<quality>Panzer (Fear/Pain Resistance)</quality>
+				<oneof>
+					<quality>Panzer (BOD Intim/Pain Resistance)</quality>
+					<quality>Panzer (Fear/Soak)</quality>
+					<quality>Panzer (Fear/Pain Resistance)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
+				</oneof>
 			</forbidden>
 			<source>WotS</source>
 			<page>10</page>
@@ -405,11 +439,17 @@
 				</conditionmonitor>
 			</bonus>
 			<forbidden>
-				<one>
+				<oneof>
 					<quality>Panzer (BOD Intim/Pain Resistance)</quality>
 					<quality>Panzer (Fear/Soak)</quality>
 					<quality>Panzer (BOD Intim/Soak)</quality>
-				</one>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
+				</oneof>
 			</forbidden>
 			<source>WotS</source>
 			<page>10</page>
@@ -501,6 +541,12 @@
 					<quality>Panzer (BOD Intim/Pain Resistance)</quality>
 					<quality>Panzer (Fear/Soak)</quality>
 					<quality>Panzer (Fear/Pain Resistance)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -562,7 +608,15 @@
 				</weaponcategorydv>
 			</bonus>
 			<forbidden>
-				<quality>Razorboy (Intimidation)</quality>
+				<oneof>
+					<quality>Razorboy (Intimidation)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
+				</oneof>
 			</forbidden>
 			<source>WotS</source>
 			<page>11</page>
@@ -621,6 +675,12 @@
 			<forbidden>
 				<oneof>
 					<quality>Razorboy (Cyberweapon DV)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -665,6 +725,12 @@
 					<quality>Ronin (Dodge/Cyberware)</quality>
 					<quality>Ronin (Dodge/Bioware)</quality>
 					<quality>Biocompatibility (Bioware)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -709,6 +775,12 @@
 					<quality>Ronin (Dodge/Cyberware)</quality>
 					<quality>Ronin (Dodge/Bioware)</quality>
 					<quality>Biocompatibility (Cyberware)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -738,6 +810,12 @@
 					<quality>Ronin (DV/Cyberware)</quality>
 					<quality>Ronin (Dodge/Bioware)</quality>
 					<quality>Biocompatibility (Cyberware)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -767,6 +845,12 @@
 					<quality>Ronin (DV/Cyberware)</quality>
 					<quality>Ronin (Dodge/Cyberware)</quality>
 					<quality>Biocompatibility (Bioware)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -875,6 +959,12 @@
 			<forbidden>
 				<oneof>
 					<quality>Sharpshooter (WotS) (RCP)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -963,9 +1053,15 @@
 				</weaponrangemodifier>
 			</bonus>
 			<forbidden>
-				<one>
+				<oneof>
 					<quality>Sharpshooter (WotS) (TA)</quality>
-				</one>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
+				</oneof>
 			</forbidden>
 			<source>WotS</source>
 			<page>11</page>
@@ -1130,6 +1226,12 @@
 			<forbidden>
 				<oneof>
 					<quality>Street Ninja (Surprise)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
@@ -1296,6 +1398,12 @@
 			<forbidden>
 				<oneof>
 					<quality>Street Ninja (CS)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
 				</oneof>
 			</forbidden>
 			<source>WotS</source>
