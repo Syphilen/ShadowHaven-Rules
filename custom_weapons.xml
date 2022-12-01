@@ -84,14 +84,26 @@
       <accuracy>3</accuracy>
       <required>
         <oneof>
-            <group>
-              <quality>Trajectory Mastery</quality>
-              <accessory>Smartgun System, External</accessory>
-            </group>
-            <group>
-              <quality>Trajectory Mastery</quality>
-              <accessory>Smartgun System, Internal</accessory>
-            </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, External</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, Internal</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Krime Dual-Mode External Smartgun Link</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Laser Sight</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Red Dot Sight</accessory>
+          </group>
         </oneof>
       </required>
       <forbidden>
@@ -131,7 +143,7 @@
     <accessory>
       <id>4c6b1978-02a4-418e-81fb-54d614b88f21</id>
       <name>Trajectory Mastery Damage Boost</name>
-      <limit>False</False>
+      <limit>False</limit>
       <mount />
       <avail>0</avail>
       <cost>0</cost>

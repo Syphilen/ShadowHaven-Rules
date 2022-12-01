@@ -363,6 +363,14 @@
       </forbidden>
     </quality>
     <quality>
+      <name>Neoteny</name>
+      <required amendoperation="addnode">
+        <allof>
+          <metatype>Gnome</metatype>
+        </allof>
+      </required>
+    </quality>
+    <quality>
       <name>Scales</name>
       <forbidden>
         <oneof amendoperation="replace">
@@ -758,26 +766,6 @@
     <!-- End Region -->
     <!-- Region Howling Shadows -->
     <!-- Region Positive Qualities -->
-    <quality>
-      <name>Latent Dracomorphosis</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Dracoform (Eastern Drake)</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Dracoform (Western Drake)</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Dracoform (Feathered Drake)</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Dracoform (Sea Drake)</name>
-      <hide />
-    </quality>
     <!-- End Region -->
     <!-- End Region -->
     <!-- Region Cutting Aces -->
