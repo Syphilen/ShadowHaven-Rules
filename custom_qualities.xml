@@ -1085,7 +1085,9 @@
 					</group>
 					-->
 					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
 						<bioware>Enhanced Articulation</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1094,7 +1096,9 @@
 						</skilltotal>
 					</group>
 					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1103,7 +1107,9 @@
 						</skilltotal>
 					</group>
 					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1112,7 +1118,9 @@
 						</skilltotal>
 					</group>
 					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1256,7 +1264,9 @@
 					</group>
 					-->
 					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
 						<bioware>Enhanced Articulation</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1265,7 +1275,9 @@
 						</skilltotal>
 					</group>
 					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1274,7 +1286,9 @@
 						</skilltotal>
 					</group>
 					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1283,7 +1297,9 @@
 						</skilltotal>
 					</group>
 					<group>
-						<cyberware>Cybereyes Basic System</cyberware>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
 						<skilltotal>
