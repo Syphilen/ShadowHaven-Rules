@@ -1132,7 +1132,7 @@
 						<allof>
 							<cyberware>Cybereyes Basic System</cyberware>
 						</allof>
-						<cyberware>Reflex Recorder</cyberware>
+						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
 							<skills>{Sneaking}</skills>
@@ -1322,7 +1322,7 @@
 						<allof>
 							<cyberware>Cybereyes Basic System</cyberware>
 						</allof>
-						<cyberware>Reflex Recorder</cyberware>
+						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
 							<skills>{Sneaking}</skills>
