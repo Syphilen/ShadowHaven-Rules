@@ -1128,6 +1128,17 @@
 							<value>4</value>
 						</skilltotal>
 					</group>
+					<group>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
+						<cyberware>Reflex Recorder</cyberware>
+						<ess>-3.0</ess>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
+					</group>
 					<!--
 					<group>
 						<category>Cyber Implant Weapon</category>
@@ -1301,6 +1312,17 @@
 							<cyberware>Cybereyes Basic System</cyberware>
 						</allof>
 						<cyberware>Radar Sensor</cyberware>
+						<ess>-3.0</ess>
+						<skilltotal>
+							<skills>{Sneaking}</skills>
+							<value>4</value>
+						</skilltotal>
+					</group>
+					<group>
+						<allof>
+							<cyberware>Cybereyes Basic System</cyberware>
+						</allof>
+						<cyberware>Reflex Recorder</cyberware>
 						<ess>-3.0</ess>
 						<skilltotal>
 							<skills>{Sneaking}</skills>
