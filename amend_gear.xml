@@ -80,22 +80,22 @@
       <name>Grenade: DumDum</name>
       <hide />
     </gear>
-	<gear>
+    <gear>
       <name>Ammo: Krime Splash Self-Defense Ammunition</name>
       <hide />
     </gear>
     <!-- End Region -->
     <!-- End Region -->
-	<!-- Region Programs -->
-	<gear amendoperation="addnode">
-	  <id>c5d0e712-94d4-420e-998a-096695f283be</id>
-	  <name>Cry Wolf</name>
+    <!-- Region Programs -->
+    <gear amendoperation="addnode">
+      <id>c5d0e712-94d4-420e-998a-096695f283be</id>
+      <name>Cry Wolf</name>
       <category>Hacking Programs</category>
       <avail>4F</avail>
       <cost>250</cost>
       <source>KC</source>
       <page>65</page>
-	</gear>
+    </gear>
     <!-- End Region -->
     <!-- Region Disguises -->
     <gear>
@@ -180,18 +180,259 @@
 
     <!-- Region Formulae -->
     <gear>
-      <id>6006ea2c-55b2-44cd-88ea-1b2184716486</id>
-      <name>Spell Formula, Ritual</name>
-      <category>Formulae</category>
-      <rating>0</rating>
-      <source>SR5</source>
-      <page>326</page>
-      <avail>8R</avail>
-      <bonus>
-        <selecttext />
-      </bonus>
-      <cost>2000</cost>
-      <allowrename>True</allowrename>
+      <id>30bdbf30-929a-4221-9982-f9de8574f87b</id>
+      <name>Counterspelling Focus, Combat</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>e1b66500-1c39-4747-87a6-071b8b1966cc</id>
+      <name>Ritual Spellcasting Focus, Combat</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>2f485376-54c1-41be-8678-79cc98e04ebc</id>
+      <name>Spellcasting Focus, Combat</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>a56807b8-e430-479d-847d-e0e294b5e937</id>
+      <name>Counterspelling Focus, Detection</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>2c465730-38cb-41d4-9d19-366435fb71bb</id>
+      <name>Ritual Spellcasting Focus, Detection</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>90885434-a40c-416d-8eb3-2d93b96414c2</id>
+      <name>Spellcasting Focus, Detection</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>49e7fc11-d3c6-4021-9162-cdf217a4579a</id>
+      <name>Counterspelling Focus, Health</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>41842bc7-e48b-446c-b5ce-73f8399f64c0</id>
+      <name>Ritual Spellcasting Focus, Health</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>630114f3-b538-4a4f-ad02-36df0e577d9c</id>
+      <name>Spellcasting Focus, Health</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>8f69fd55-e5ff-404f-99ec-45a9c8498657</id>
+      <name>Counterspelling Focus, Illusion</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>db0e5016-8ae3-4190-ad94-fe3f318f3f3f</id>
+      <name>Ritual Spellcasting Focus, Illusion</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>aa849313-adf9-4134-b86b-1f6a15f6620f</id>
+      <name>Spellcasting Focus, Illusion</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>2f4f52bb-a198-4d7a-ab4c-d82de4f80cbf</id>
+      <name>Counterspelling Focus, Manipulation</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>7057c240-d998-4b45-a119-de8a3ffaa717</id>
+      <name>Ritual Spellcasting Focus, Manipulation</name>
+    <hide />
+    </gear>
+    <gear>
+      <id>8783e50c-f80b-4efe-b440-d2963b55c54e</id>
+      <name>Spellcasting Focus, Manipulation</name>
+    <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+        <gear>
+      <name>Counterspelling Focus Formula, Combat</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus Formula, Combat</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus Formula, Combat</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus Formula, Detection</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus Formula, Detection</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus Formula, Detection</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus Formula, Health</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus Formula, Health</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus Formula, Health</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus Formula, Illusion</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus Formula, Illusion</name>
+     <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus Formula, Illusion</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus Formula, Manipulation</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus Formula, Manipulation</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Spellcasting Focus Formula, Manipulation</name>
+      <hide />
     </gear>
     <!-- End Region -->
 
@@ -212,7 +453,7 @@
     <gear>
       <name>Shaman Tuxedo</name>
       <cost>16000</cost>
-	  <avail>16</avail>
+      <avail>16</avail>
     </gear>
     <!-- End Region -->
 
@@ -255,17 +496,17 @@
     <!-- Region Street Lethal -->
     <!-- End Region -->
 
-	<!-- Region Krime Katalog -->
-	<gear>
-	  <id>959b02ff-b3b3-4027-8ada-799f31a7a323</id>
-	  <name>Ammo: Krime Crackle Fin-Stabilized HEAT Slugs</name>
-	  <hide />
-	</gear>
-	<gear>
-	  <id>17136c4b-af3b-44a4-b5cf-2eedf7e9d217</id>
-	  <name>Ammo: Krime Splash Self-Defense Ammunition</name>
-	  <hide />
-	</gear>
+    <!-- Region Krime Katalog -->
+    <gear>
+      <id>959b02ff-b3b3-4027-8ada-799f31a7a323</id>
+      <name>Ammo: Krime Crackle Fin-Stabilized HEAT Slugs</name>
+      <hide />
+    </gear>
+    <gear>
+      <id>17136c4b-af3b-44a4-b5cf-2eedf7e9d217</id>
+      <name>Ammo: Krime Splash Self-Defense Ammunition</name>
+      <hide />
+    </gear>
   </gears>
   <!-- End Region -->
 </chummer>

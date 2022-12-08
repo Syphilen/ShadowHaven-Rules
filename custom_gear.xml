@@ -951,6 +951,264 @@
       <avail>0R</avail>
       <cost>Rating * 100</cost>
     </gear>
+	<gear>
+      <id>bdeb3eb6-25aa-4143-b3fc-308ae345c73c</id>
+      <name>Counterspelling Focus</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SR5</source>
+      <page>320</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <selecttradition />
+      </bonus>
+      <cost>Rating * 4000</cost>
+    </gear>
+	<gear>
+      <id>f5475a83-35bc-4efb-b30a-80b10210d2d7</id>
+      <name>Ritual Spellcasting Focus</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SR5</source>
+      <page>320</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+		<spellcategory>
+          <name>Rituals</name>
+          <val>Rating</val>
+        </spellcategory>
+        <selecttradition />
+      </bonus>
+      <cost>Rating * 4000</cost>
+    </gear>
+    <gear>
+      <id>af746809-dd77-462a-af62-b68998ce3197</id>
+      <name>Spellcasting Focus</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SR5</source>
+      <page>320</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <spellcategory>
+          <name>Combat</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Detection</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Health</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Illusion</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Manipulation</name>
+          <val>Rating</val>
+        </spellcategory>
+        <selecttradition />
+      </bonus>
+      <cost>Rating * 4000</cost>
+    </gear>
+	<gear>
+      <id>4fa4b3d5-5526-4c56-9086-5cb392fe0ce7</id>
+      <name>Counterspelling Focus, Individualized, Partial</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SG</source>
+      <page>230</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <selecttradition />
+      </bonus>
+      <required>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
+      <cost>Rating * 4000</cost>
+    </gear>
+	    <gear>
+      <id>a96a6e92-c6d0-460e-8d15-9d608fbe0a8c</id>
+      <name>Ritual Spellcasting Focus, Individualized, Partial</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SG</source>
+      <page>230</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+		<spellcategory>
+          <name>Rituals</name>
+          <val>Rating</val>
+        </spellcategory>
+        <selecttradition />
+      </bonus>
+      <required>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
+      <cost>Rating * 4000</cost>
+    </gear>
+    <gear>
+      <id>4ade1ddc-3897-49cc-b6d9-1244ea0856d0</id>
+      <name>Spellcasting Focus, Individualized, Partial</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SG</source>
+      <page>230</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <spellcategory>
+          <name>Combat</name>
+          <val>Rating</val>
+		</spellcategory>
+	    <spellcategory>
+          <name>Detection</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Health</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Illusion</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Manipulation</name>
+          <val>Rating</val>
+        </spellcategory>
+        <selecttradition />
+      </bonus>
+      <required>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
+      <cost>Rating * 4000</cost>
+    </gear>
+	<gear>
+      <id>2981dfbf-aeba-4033-8d04-77a42014e1e6</id>
+      <name>Counterspelling Focus, Individualized, Complete</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SG</source>
+      <page>230</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <selecttradition />
+      </bonus>
+      <required>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
+      <cost>Rating * 4000</cost>
+    </gear>
+    <gear>
+      <id>34a20319-287d-403a-8c20-e4ff464e312d</id>
+      <name>Ritual Spellcasting Focus, Individualized, Complete</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SG</source>
+      <page>230</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+		<spellcategory>
+          <name>Rituals</name>
+          <val>Rating</val>
+        </spellcategory>
+        <selecttradition />
+      </bonus>
+      <required>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
+      <cost>Rating * 4000</cost>
+    </gear>
+    <gear>
+      <id>e6f92c10-6c89-4755-9443-5e185154afa4</id>
+      <name>Spellcasting Focus, Individualized, Complete</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SG</source>
+      <page>230</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <spellcategory>
+          <name>Combat</name>
+          <val>Rating</val>
+		</spellcategory>
+		<spellcategory>
+          <name>Detection</name>
+          <val>Rating</val>
+		</spellcategory>
+		<spellcategory>
+          <name>Health</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Illusion</name>
+          <val>Rating</val>
+        </spellcategory>
+		<spellcategory>
+          <name>Manipulation</name>
+          <val>Rating</val>
+        </spellcategory>
+        <selecttradition />
+      </bonus>
+      <required>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
+      <cost>Rating * 4000</cost>
+    </gear>
+    <gear>
+      <id>60f6c0f2-3066-43d3-a71b-a564f26c9bc1</id>
+      <name>Counterspelling Focus Formula</name>
+      <category>Formulae</category>
+      <rating>18</rating>
+      <source>SR5</source>
+      <page>320</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <selecttradition />
+      </bonus>
+      <cost>Rating * 1000</cost>
+    </gear>
+    <gear>
+      <id>8a3746dc-eb54-49f0-ade6-7736495b0de7</id>
+      <name>Ritual Spellcasting Focus Formula</name>
+      <category>Formulae</category>
+      <rating>18</rating>
+      <source>SR5</source>
+      <page>320</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <selecttradition />
+      </bonus>
+      <cost>Rating * 1000</cost>
+    </gear>
+    <gear>
+      <id>ddce829a-9076-4785-a591-50e916b3dd95</id>
+      <name>Spellcasting Focus Formula</name>
+      <category>Formulae</category>
+      <rating>18</rating>
+      <source>SR5</source>
+      <page>320</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <selecttradition />
+      </bonus>
+      <cost>Rating * 1000</cost>
+    </gear>
     <!-- End Region -->
   </gears>
 </chummer>

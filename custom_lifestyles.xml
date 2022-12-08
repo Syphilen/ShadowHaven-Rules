@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema lifestyles.xsd">
+	<qualities>
+		<quality>
+		  <id>8095f9b9-a3c5-4059-870b-7bbc618c575c</id>
+		  <name>National SIN Tax</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>SR5</source>
+		  <multiplier>15</multiplier>
+		  <page>84</page>
+		</quality>
+		<quality>
+		  <id>a7440305-1553-41e4-9185-ab2375866e73</id>
+		  <name>Criminal SIN Tax</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>SR5</source>
+		  <multiplier>15</multiplier>
+		  <page>84</page>
+		</quality>
+		<quality>
+		  <id>e6bc4e0e-d848-454d-8b92-d2e4af0713c9</id>
+		  <name>Corporate Limited SIN Tax</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>SR5</source>
+		  <multiplier>20</multiplier>
+		  <page>84</page>
+		</quality>
+		<quality>
+		  <id>e4de4d96-889f-4f15-ac6c-3c63ea662a7d</id>
+		  <name>Corporate SIN Tax</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>SR5</source>
+		  <multiplier>10</multiplier>
+		  <page>84</page>
+		</quality>
+		<quality>
+		  <id>e21dd279-6b33-44a9-9019-be63b0a9478c</id>
+		  <name>Lifestyle Reduction -1kY</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-1000</cost>
+		  <page>165</page>
+		</quality>
+		<quality>
+		  <id>c1ede74f-4231-4f91-8b4a-010f085e339c</id>
+		  <name>Lifestyle Reduction -5kY</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-5000</cost>
+		  <page>165</page>
+		</quality>
+	</qualities>
+</chummer>
