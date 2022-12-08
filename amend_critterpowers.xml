@@ -34,5 +34,15 @@
         </oneof>
       </required>
 	</power>
+	<power>
+      <id>9c59fb9c-85b4-449a-978a-a07d6ccf31a2</id>
+      <name>Pounce</name>
+      <category>Mundane/Infected</category>
+      <required>
+        <oneof>
+          <quality>Infected: Bandersnatch</quality>
+        </oneof>
+      </required>
+    </power>
   </powers>
 </chummer>

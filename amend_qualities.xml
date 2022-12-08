@@ -589,6 +589,108 @@
       <!--<<name>Infected: Bandersnatch</name>-->
       <hide />
     </quality>
+
+    <quality>
+      <!-- Infected Optional Power: Armor -->
+      <id>f466b913-5df0-4370-abf0-fad4ab380d19</id>
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Infected: Dzoo-Noo-Qua</quality>
+          <quality>Infected: Fomoraig</quality>
+          <quality>Infected: Gnawer</quality>
+          <quality>Infected: Mutaqua</quality>
+          <quality>Infected: Bandersnatch</quality>
+          <quality>Infected: Ghoul (Dwarf)</quality>
+          <quality>Infected: Ghoul (Elf)</quality>
+          <quality>Infected: Ghoul (Human)</quality>
+          <quality>Infected: Ghoul (Ork)</quality>
+          <quality>Infected: Ghoul (Sasquatch)</quality>
+          <quality>Infected: Ghoul (Troll)</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>ae0312ad-acb2-4ae8-974e-99af82e81211</id>
+      <!-- Infected Optional Power: Enhanced Sense (Hearing) -->
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Infected: Banshee</quality>
+          <quality>Infected: Dzoo-Noo-Qua</quality>
+          <quality>Infected: Mutaqua</quality>
+          <quality>Infected: Nosferatu</quality>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
+          <quality>Infected: Wendigo</quality>
+          <quality>Infected: Bandersnatch</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>c0e9082b-4930-4f0a-8d84-090878a28a7b</id>
+      <!-- Infected Optional Power: Enhanced Sense (Smell) -->
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Infected: Banshee</quality>
+          <quality>Infected: Goblin</quality>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
+          <quality>Infected: Wendigo</quality>
+          <quality>Infected: Bandersnatch</quality>
+        </oneof>
+      </required>
+    </quality>
+      <quality>
+      <id>b0460fde-7bf8-4e77-b402-6fe7143aa590</id>
+      <!-- Infected Optional Power: Immunity (Pathogens) -->
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Infected: Banshee</quality>
+          <quality>Infected: Nosferatu</quality>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
+          <quality>Infected: Wendigo</quality>
+          <quality>Infected: Bandersnatch</quality>
+          <quality>Infected: Ghoul (Dwarf)</quality>
+          <quality>Infected: Ghoul (Elf)</quality>
+          <quality>Infected: Ghoul (Human)</quality>
+          <quality>Infected: Ghoul (Ork)</quality>
+          <quality>Infected: Ghoul (Sasquatch)</quality>
+          <quality>Infected: Ghoul (Troll)</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>ad81bcdf-2f45-4ca3-ab46-c766fd734800</id>
+      <!-- Infected Optional Power: Immunity (Toxins) -->
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Infected: Banshee</quality>
+          <quality>Infected: Dzoo-Noo-Qua</quality>
+          <quality>Infected: Goblin</quality>
+          <quality>Infected: Mutaqua</quality>
+          <quality>Infected: Nosferatu</quality>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
+          <quality>Infected: Wendigo</quality>
+          <quality>Infected: Bandersnatch</quality>
+          <quality>Infected: Ghoul (Dwarf)</quality>
+          <quality>Infected: Ghoul (Elf)</quality>
+          <quality>Infected: Ghoul (Human)</quality>
+          <quality>Infected: Ghoul (Ork)</quality>
+          <quality>Infected: Ghoul (Sasquatch)</quality>
+          <quality>Infected: Ghoul (Troll)</quality>
+        </oneof>
+      </required>
+    </quality>
+
     <!-- End Region -->
     <!-- End Region -->
 	<!-- Region Run & Gun Qualities -->
