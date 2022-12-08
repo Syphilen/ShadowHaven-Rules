@@ -1282,6 +1282,15 @@
       <name>Stolen Gear</name>
       <hide />
     </quality>
+    <quality>
+      <!--Sensei -->
+      <id>dc7a0c59-5f9c-4ba9-8b63-aaf442472673</id>
+      <forbidden>
+        <oneof>
+          <quality>Sensei</quality>
+        </oneof>
+      </forbidden>
+    </quality>
   	<!-- End Region -->
   </qualities>
 </chummer>
