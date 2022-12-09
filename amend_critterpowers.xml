@@ -82,6 +82,7 @@
           <quality>Dracoform, Latent (Western Drake)</quality>
         </oneof>
       </required>
+      <karma>16</karma>
     </power>
     <power>
       <id>276c718b-7176-403a-9452-48e58b1f29e3</id>
