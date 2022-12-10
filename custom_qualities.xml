@@ -4146,5 +4146,289 @@
 				effects of this action are applied before initiative is ordered for the first pass.
 			</notes>
 		</quality>
+        <quality>
+          <id>c8bdb94e-fb33-43f7-b22f-3bb50c6651ed</id>
+          <name>Dracoform, Latent (Eastern Drake)</name>
+          <karma>70</karma>
+          <category>Positive</category>
+          <contributetolimit>False</contributetolimit>
+          <naturalweapons>
+            <naturalweapon>
+              <name>Dracoform Claws</name>
+              <reach>0</reach>
+              <damage>({STR}+1)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>HS</source>
+              <page>163</page>
+            </naturalweapon>
+          </naturalweapons>
+          <stagedpurchase>True</stagedpurchase>
+          <bonus>
+            <addqualities>
+              <addquality>Wanted</addquality>
+            </addqualities>
+            <critterpowers>
+              <power>Dual Natured</power>
+              <power>Shift (Dracoform)</power>
+              <power>Vestigial Wings</power>
+              <power rating="2">Hardened Armor</power>
+              <power rating="2">Hardened Mystic Armor</power>
+              <power select="Fire">Elemental Attack</power>
+            </critterpowers>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <limitcritterpowercategory>Drake</limitcritterpowercategory>
+            <specificattribute>
+              <name>BOD</name>
+              <val>1</val>
+            </specificattribute>
+            <specificattribute>
+              <name>STR</name>
+              <val>2</val>
+            </specificattribute>
+            <specificattribute>
+              <name>AGI</name>
+              <val>1</val>
+            </specificattribute>
+            <specificattribute>
+              <name>LOG</name>
+              <val>1</val>
+            </specificattribute>
+          </bonus>
+          <forbidden>
+            <oneof>
+              <quality>Dracoform (Western Drake)</quality>
+              <quality>Dracoform (Feathered Drake)</quality>
+              <quality>Dracoform (Sea Drake)</quality>
+            </oneof>
+          </forbidden>
+          <required>
+            <oneof>
+                <quality>Latent Dracomorphosis</quality>
+            </oneof>
+          </required>
+          <doublecareer>False</doublecareer>
+          <source>HS</source>
+          <page>163</page>
+        </quality>
+        <quality>
+          <id>b95f318a-92c5-491a-87c5-f607f37ef506</id>
+          <name>Dracoform, Latent (Western Drake)</name>
+          <karma>70</karma>
+          <category>Positive</category>
+          <contributetolimit>False</contributetolimit>
+          <naturalweapons>
+            <naturalweapon>
+              <name>Dracoform Horns</name>
+              <reach>0</reach>
+              <damage>({STR}+2)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>HS</source>
+              <page>163</page>
+            </naturalweapon>
+          </naturalweapons>
+          <stagedpurchase>True</stagedpurchase>
+          <bonus>
+            <addqualities>
+              <addquality>Wanted</addquality>
+            </addqualities>
+            <critterpowers>
+              <power>Dual Natured</power>
+              <power>Shift (Dracoform)</power>
+              <power>Vestigial Wings</power>
+              <power rating="2">Hardened Armor</power>
+              <power rating="2">Hardened Mystic Armor</power>
+              <power select="Fire">Elemental Attack</power>
+            </critterpowers>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <limitcritterpowercategory>Drake</limitcritterpowercategory>
+            <specificattribute>
+              <name>BOD</name>
+              <val>2</val>
+            </specificattribute>
+            <specificattribute>
+              <name>STR</name>
+              <val>2</val>
+            </specificattribute>
+            <specificattribute>
+              <name>CHA</name>
+              <val>1</val>
+            </specificattribute>
+          </bonus>
+          <forbidden>
+            <oneof>
+              <quality>Dracoform (Eastern Drake)</quality>
+              <quality>Dracoform (Feathered Drake)</quality>
+              <quality>Dracoform (Sea Drake)</quality>
+            </oneof>
+          </forbidden>
+          <required>
+            <oneof>
+                <quality>Latent Dracomorphosis</quality>
+            </oneof>
+          </required>
+          <doublecareer>False</doublecareer>
+          <source>HS</source>
+          <page>163</page>
+        </quality>
+        <quality>
+          <id>173d6ecb-049b-48f3-bda3-3ef71ca8286c</id>
+          <name>Dracoform, Latent (Feathered Drake)</name>
+          <karma>70</karma>
+          <category>Positive</category>
+          <contributetolimit>False</contributetolimit>
+          <naturalweapons>
+            <naturalweapon>
+              <name>Dracoform Tail</name>
+              <reach>1</reach>
+              <damage>({STR}+3)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>HS</source>
+              <page>163</page>
+            </naturalweapon>
+          </naturalweapons>
+          <stagedpurchase>True</stagedpurchase>
+          <bonus>
+            <addqualities>
+              <addquality>Wanted</addquality>
+            </addqualities>
+            <critterpowers>
+              <power>Dual Natured</power>
+              <power>Shift (Dracoform)</power>
+              <power>Vestigial Wings</power>
+              <power rating="2">Hardened Armor</power>
+              <power rating="2">Hardened Mystic Armor</power>
+              <power select="Fire">Elemental Attack</power>
+            </critterpowers>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <limitcritterpowercategory>Drake</limitcritterpowercategory>
+            <specificattribute>
+              <name>BOD</name>
+              <val>1</val>
+            </specificattribute>
+            <specificattribute>
+              <name>STR</name>
+              <val>1</val>
+            </specificattribute>
+            <specificattribute>
+              <name>AGI</name>
+              <val>1</val>
+            </specificattribute>
+            <specificattribute>
+              <name>REA</name>
+              <val>1</val>
+            </specificattribute>
+            <specificattribute>
+              <name>WIL</name>
+              <val>1</val>
+            </specificattribute>
+          </bonus>
+          <forbidden>
+            <oneof>
+              <quality>Dracoform (Eastern Drake)</quality>
+              <quality>Dracoform (Western Drake)</quality>
+              <quality>Dracoform (Sea Drake)</quality>
+            </oneof>
+          </forbidden>
+          <required>
+            <oneof>
+                <quality>Latent Dracomorphosis</quality>
+            </oneof>
+          </required>
+          <source>HS</source>
+          <page>163</page>
+        </quality>
+        <quality>
+          <id>ffbb00d2-cb28-4ad0-b191-ade46ccd1ebc</id>
+          <name>Dracoform, Latent (Sea Drake)</name>
+          <karma>70</karma>
+          <category>Positive</category>
+          <contributetolimit>False</contributetolimit>
+          <naturalweapons>
+            <naturalweapon>
+              <name>Dracoform Fangs</name>
+              <reach>0</reach>
+              <damage>({STR}+1)P</damage>
+              <ap>-2</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <doublecareer>False</doublecareer>
+              <source>HS</source>
+              <page>163</page>
+            </naturalweapon>
+          </naturalweapons>
+          <stagedpurchase>True</stagedpurchase>
+          <bonus>
+            <addqualities>
+              <addquality>Wanted</addquality>
+            </addqualities>
+            <critterpowers>
+              <power>Dual Natured</power>
+              <power>Shift (Dracoform)</power>
+              <power>Underwater Adaptation</power>
+              <power rating="2">Hardened Armor</power>
+              <power rating="2">Hardened Mystic Armor</power>
+              <power select="Fire">Elemental Attack</power>
+            </critterpowers>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <limitcritterpowercategory>Drake</limitcritterpowercategory>
+            <specificattribute>
+              <name>BOD</name>
+              <val>1</val>
+            </specificattribute>
+            <specificattribute>
+              <name>STR</name>
+              <val>1</val>
+            </specificattribute>
+            <specificattribute>
+              <name>REA</name>
+              <val>2</val>
+            </specificattribute>
+            <specificattribute>
+              <name>INT</name>
+              <val>1</val>
+            </specificattribute>
+          </bonus>
+          <forbidden>
+            <oneof>
+              <quality>Dracoform (Eastern Drake)</quality>
+              <quality>Dracoform (Western Drake)</quality>
+              <quality>Dracoform (Feathered Drake)</quality>
+            </oneof>
+          </forbidden>
+          <required>
+            <oneof>
+                <quality>Latent Dracomorphosis</quality>
+            </oneof>
+          </required>
+          <doublecareer>False</doublecareer>
+          <source>HS</source>
+          <page>163</page>
+        </quality>
 	</qualities>
 </chummer>
