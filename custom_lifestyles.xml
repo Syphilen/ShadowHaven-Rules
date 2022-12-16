@@ -24,7 +24,7 @@
 		<quality>
 		  <id>8095f9b9-a3c5-4059-870b-7bbc618c575c</id>
 		  <name>National SIN Tax</name>
-		  <category>Contracts</category>
+		  <category>Negative</category>
 		  <lp>0</lp>
 		  <source>SR5</source>
 		  <multiplier>15</multiplier>
@@ -33,7 +33,7 @@
 		<quality>
 		  <id>a7440305-1553-41e4-9185-ab2375866e73</id>
 		  <name>Criminal SIN Tax</name>
-		  <category>Contracts</category>
+		  <category>Negative</category>
 		  <lp>0</lp>
 		  <source>SR5</source>
 		  <multiplier>15</multiplier>
@@ -42,7 +42,7 @@
 		<quality>
 		  <id>e6bc4e0e-d848-454d-8b92-d2e4af0713c9</id>
 		  <name>Corporate Limited SIN Tax</name>
-		  <category>Contracts</category>
+		  <category>Negative</category>
 		  <lp>0</lp>
 		  <source>SR5</source>
 		  <multiplier>20</multiplier>
@@ -51,7 +51,7 @@
 		<quality>
 		  <id>e4de4d96-889f-4f15-ac6c-3c63ea662a7d</id>
 		  <name>Corporate SIN Tax</name>
-		  <category>Contracts</category>
+		  <category>Negative</category>
 		  <lp>0</lp>
 		  <source>SR5</source>
 		  <multiplier>10</multiplier>
@@ -60,7 +60,7 @@
 		<quality>
 		  <id>e21dd279-6b33-44a9-9019-be63b0a9478c</id>
 		  <name>Lifestyle Reduction -1kY</name>
-		  <category>Contracts</category>
+		  <category>Positive</category>
 		  <lp>0</lp>
 		  <source>BTB</source>
 		  <cost>-1000</cost>
@@ -69,7 +69,7 @@
 		<quality>
 		  <id>c1ede74f-4231-4f91-8b4a-010f085e339c</id>
 		  <name>Lifestyle Reduction -5kY</name>
-		  <category>Contracts</category>
+		  <category>Positive</category>
 		  <lp>0</lp>
 		  <source>BTB</source>
 		  <cost>-5000</cost>
