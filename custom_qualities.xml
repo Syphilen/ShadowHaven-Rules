@@ -4184,22 +4184,6 @@
               <name>critter</name>
             </enabletab>
             <limitcritterpowercategory>Drake</limitcritterpowercategory>
-            <specificattribute>
-              <name>BOD</name>
-              <val>1</val>
-            </specificattribute>
-            <specificattribute>
-              <name>STR</name>
-              <val>2</val>
-            </specificattribute>
-            <specificattribute>
-              <name>AGI</name>
-              <val>1</val>
-            </specificattribute>
-            <specificattribute>
-              <name>LOG</name>
-              <val>1</val>
-            </specificattribute>
           </bonus>
           <forbidden>
             <oneof>
@@ -4255,18 +4239,6 @@
               <name>critter</name>
             </enabletab>
             <limitcritterpowercategory>Drake</limitcritterpowercategory>
-            <specificattribute>
-              <name>BOD</name>
-              <val>2</val>
-            </specificattribute>
-            <specificattribute>
-              <name>STR</name>
-              <val>2</val>
-            </specificattribute>
-            <specificattribute>
-              <name>CHA</name>
-              <val>1</val>
-            </specificattribute>
           </bonus>
           <forbidden>
             <oneof>
@@ -4322,26 +4294,6 @@
               <name>critter</name>
             </enabletab>
             <limitcritterpowercategory>Drake</limitcritterpowercategory>
-            <specificattribute>
-              <name>BOD</name>
-              <val>1</val>
-            </specificattribute>
-            <specificattribute>
-              <name>STR</name>
-              <val>1</val>
-            </specificattribute>
-            <specificattribute>
-              <name>AGI</name>
-              <val>1</val>
-            </specificattribute>
-            <specificattribute>
-              <name>REA</name>
-              <val>1</val>
-            </specificattribute>
-            <specificattribute>
-              <name>WIL</name>
-              <val>1</val>
-            </specificattribute>
           </bonus>
           <forbidden>
             <oneof>
@@ -4397,22 +4349,6 @@
               <name>critter</name>
             </enabletab>
             <limitcritterpowercategory>Drake</limitcritterpowercategory>
-            <specificattribute>
-              <name>BOD</name>
-              <val>1</val>
-            </specificattribute>
-            <specificattribute>
-              <name>STR</name>
-              <val>1</val>
-            </specificattribute>
-            <specificattribute>
-              <name>REA</name>
-              <val>2</val>
-            </specificattribute>
-            <specificattribute>
-              <name>INT</name>
-              <val>1</val>
-            </specificattribute>
           </bonus>
           <forbidden>
             <oneof>
