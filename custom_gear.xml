@@ -633,7 +633,7 @@
       <costfor>10</costfor>
       <weaponbonus>
         <ap>1</ap>
-        <damage>2</damage>
+        <damage>1</damage>
         <damagetype>S</damagetype>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
