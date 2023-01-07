@@ -656,6 +656,7 @@
           <quality>Infected: Sukuyan (Non-Human)</quality>
           <quality>Infected: Wendigo</quality>
           <quality>Infected: Bandersnatch</quality>
+          <quality>Infected: Loup-Garou</quality>
           <quality>Infected: Ghoul (Dwarf)</quality>
           <quality>Infected: Ghoul (Elf)</quality>
           <quality>Infected: Ghoul (Human)</quality>
@@ -689,6 +690,18 @@
           <quality>Infected: Ghoul (Troll)</quality>
         </oneof>
       </required>
+    </quality>
+    <quality>
+      <id>6d9f205e-52a0-4bb2-a4c2-e49232dd8346</id>
+      <!-- Infected Optional Power: Paralyzing Howl -->
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Infected: Banshee</quality>
+          <quality>Infected: Loup-Garou</quality>
+        </oneof>
+      </required>
+      <source>RF</source>
+      <page>136</page>
     </quality>
 
     <!-- End Region -->

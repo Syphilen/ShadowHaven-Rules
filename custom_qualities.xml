@@ -2509,6 +2509,56 @@
             <page>138</page>
         </quality>
         <quality>
+            <id>8617a473-5fd5-4929-b354-617c1be3df91</id>
+            <name>Infected Optional Power: Armor 1</name>
+            <karma>6</karma>
+            <category>Positive</category>
+            <doublecareer>False</doublecareer>
+            <limit>False</limit>
+            <bonus>
+            <critterpowers>
+              <power rating="1">Armor</power>
+            </critterpowers>
+            </bonus>
+            <required>
+            <oneof>
+              <quality>Infected: Loup-Garou</quality>
+            </oneof>
+            </required>
+            <forbidden>
+              <oneof>
+                <quality>Infected Optional Power: Armor 1</quality>
+              </oneof>
+            </forbidden>
+            <source>RF</source>
+            <page>136</page>
+        </quality>
+        <quality>
+            <id>31584480-6835-4f85-a491-a9ef7db3b781</id>
+            <name>Infected Optional Power: Armor 2</name>
+            <karma>6</karma>
+            <category>Positive</category>
+            <doublecareer>False</doublecareer>
+            <limit>False</limit>
+            <bonus>
+            <critterpowers>
+              <power rating="1">Armor</power>
+            </critterpowers>
+            </bonus>
+            <required>
+            <oneof>
+              <quality>Infected: Loup-Garou</quality>
+            </oneof>
+            </required>
+            <forbidden>
+              <oneof>
+                <quality>Infected Optional Power: Armor 2</quality>
+              </oneof>
+            </forbidden>
+            <source>RF</source>
+            <page>136</page>
+        </quality>
+        <quality>
 	        <id>da3d20ca-7d81-4bba-b12a-1af9cb0b4fe0</id>
             <name>Infected: Loup-Garou</name>
             <karma>30</karma>
@@ -2539,7 +2589,6 @@
             <bonus useselected="False">
                 <armor>2</armor>
                 <critterpowers>
-                    <power>Movement</power>
                     <power select="Hearing">Enhanced Senses</power>
                     <power select="Low-Light Vision">Enhanced Senses</power>
                     <power select="Smell">Enhanced Senses</power>

@@ -44,6 +44,16 @@
         </oneof>
       </required>
     </power>
+    <power>
+      <id>7cdbe90b-b16a-43c0-a20e-b4a54b83c6ed</id>
+      <name>Wall Walking</name>
+      <category>Mundane/Infected</category>
+      <required>
+        <oneof>
+          <quality>Infected: Loup-Garou</quality>
+        </oneof>
+      </required>
+    </power>
   <!-- Drake Stuff -->
     <power>
       <id>dafb81bd-7b92-487a-a739-465c69bcefcd</id>
