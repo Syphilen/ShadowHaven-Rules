@@ -35,6 +35,15 @@
       </required>
     </power>
     <power>
+      <id>4881c2cc-1e45-43ad-89df-9e5b264648f2</id>
+      <category>Paranormal/Infected</category>
+      <required>
+        <oneof>
+          <quality>Infected: Banshee</quality>
+        </oneof>
+      </required>
+    </power>
+    <power>
       <id>9c59fb9c-85b4-449a-978a-a07d6ccf31a2</id>
       <name>Pounce</name>
       <category>Mundane/Infected</category>
