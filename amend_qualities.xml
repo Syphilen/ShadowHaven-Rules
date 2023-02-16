@@ -881,6 +881,102 @@
     <!-- End Region -->
     <!-- Region Howling Shadows -->
     <!-- Region Positive Qualities -->
+    <quality>
+      <id>3a8006d6-72c2-4655-9200-45ec21cad760</id>
+      <!-- Dracoform (Eastern Drake) -->
+      <bonus amendoperation="replace">
+        <addqualities>
+          <addquality>Wanted</addquality>
+        </addqualities>
+        <critterpowers>
+          <power>Dual Natured</power>
+          <power>Shift (Dracoform)</power>
+          <power>Vestigial Wings</power>
+          <power rating="2">Hardened Armor</power>
+          <power rating="2">Hardened Mystic Armor</power>
+          <power select="Fire">Elemental Attack</power>
+        </critterpowers>
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+        <enabletab>
+          <name>critter</name>
+        </enabletab>
+        <limitcritterpowercategory>Drake</limitcritterpowercategory>
+      </bonus>
+    </quality>
+    <quality>
+      <id>f257ce85-fc27-4fa1-8d34-6eb4102e7614</id>
+      <!-- Dracoform (Western Drake) -->
+      <bonus amendoperation="replace">
+        <addqualities>
+          <addquality>Wanted</addquality>
+        </addqualities>
+        <critterpowers>
+          <power>Dual Natured</power>
+          <power>Shift (Dracoform)</power>
+          <power>Vestigial Wings</power>
+          <power rating="2">Hardened Armor</power>
+          <power rating="2">Hardened Mystic Armor</power>
+          <power select="Fire">Elemental Attack</power>
+        </critterpowers>
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+        <enabletab>
+          <name>critter</name>
+        </enabletab>
+        <limitcritterpowercategory>Drake</limitcritterpowercategory>
+      </bonus>
+    </quality>
+    <quality>
+      <id>90a7cc01-ee0f-4d60-aeb9-05752e68ddf9</id>
+      <!-- Dracoform (Feathered Drake) -->
+      <bonus amendoperation="replace">
+        <addqualities>
+          <addquality>Wanted</addquality>
+        </addqualities>
+        <critterpowers>
+          <power>Dual Natured</power>
+          <power>Shift (Dracoform)</power>
+          <power>Vestigial Wings</power>
+          <power rating="2">Hardened Armor</power>
+          <power rating="2">Hardened Mystic Armor</power>
+          <power select="Fire">Elemental Attack</power>
+        </critterpowers>
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+        <enabletab>
+          <name>critter</name>
+        </enabletab>
+        <limitcritterpowercategory>Drake</limitcritterpowercategory>
+      </bonus>
+    </quality>
+    <quality>
+      <id>c284e172-1d20-4844-b24c-e094d2588b72</id>
+      <!-- Dracoform (Sea Drake) -->
+      <bonus amendoperation="replace">
+        <addqualities>
+          <addquality>Wanted</addquality>
+        </addqualities>
+        <critterpowers>
+          <power>Dual Natured</power>
+          <power>Shift (Dracoform)</power>
+          <power>Underwater Adaptation</power>
+          <power rating="2">Hardened Armor</power>
+          <power rating="2">Hardened Mystic Armor</power>
+          <power select="Fire">Elemental Attack</power>
+        </critterpowers>
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+        <enabletab>
+          <name>critter</name>
+        </enabletab>
+        <limitcritterpowercategory>Drake</limitcritterpowercategory>
+      </bonus>
+    </quality>
     <!-- End Region -->
     <!-- End Region -->
     <!-- Region Cutting Aces -->

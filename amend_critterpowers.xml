@@ -28,7 +28,7 @@
       <category>Mundane/Infected</category>
       <karma>9</karma>
       <required>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Infected: Vampire (Human)</quality>
           <quality>Infected: Vampire (Non-Human)</quality>
         </oneof>
@@ -38,7 +38,7 @@
       <id>4881c2cc-1e45-43ad-89df-9e5b264648f2</id>
       <category>Paranormal/Infected</category>
       <required>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Infected: Banshee</quality>
         </oneof>
       </required>
@@ -48,7 +48,7 @@
       <name>Pounce</name>
       <category>Mundane/Infected</category>
       <required>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Infected: Bandersnatch</quality>
         </oneof>
       </required>
@@ -58,7 +58,7 @@
       <name>Wall Walking</name>
       <category>Mundane/Infected</category>
       <required>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Infected: Loup-Garou</quality>
         </oneof>
       </required>
@@ -107,7 +107,7 @@
       <id>276c718b-7176-403a-9452-48e58b1f29e3</id>
       <!-- Magical Flight -->
       <required>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Dracoform (Eastern Drake)</quality>
           <quality>Dracoform, Latent (Eastern Drake)</quality>
         </oneof>
@@ -117,7 +117,7 @@
       <id>283f5a56-3d53-4155-8a85-63248e4d7cdc</id>
       <!-- Tail Stinger -->
       <required>
-        <oneof>
+        <oneof amendoperation="replace">
           <quality>Dracoform (Feathered Drake)</quality>
           <quality>Dracoform, Latent (Feathered Drake)</quality>
         </oneof>
