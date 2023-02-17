@@ -75,5 +75,47 @@
 		  <cost>-5000</cost>
 		  <page>165</page>
 		</quality>
+        <quality>
+		  <id>c84cc1b5-29e3-4f08-8b18-54f501513b55</id>
+		  <name>Illness Treatment 1</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>BB</source>
+		  <cost>1000</cost>
+		  <page>12</page>
+          <required>
+            <oneof>
+                <quality>Illness</quality>
+            </oneof>
+          </required>
+		</quality>
+        <quality>
+		  <id>6c2b41c5-3ad8-42e7-9cca-75ad4cbaefbe</id>
+		  <name>Illness Treatment 2</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>BB</source>
+		  <cost>2000</cost>
+		  <page>12</page>
+          <required>
+            <oneof>
+                <quality>Illness</quality>
+            </oneof>
+          </required>
+		</quality>
+        <quality>
+		  <id>114c7358-4b54-4a93-b011-33f9ae946eb1</id>
+		  <name>Illness Treatment 3</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>BB</source>
+		  <cost>3000</cost>
+		  <page>12</page>
+          <required>
+            <oneof>
+                <quality>Illness</quality>
+            </oneof>
+          </required>
+		</quality>
 	</qualities>
 </chummer>
