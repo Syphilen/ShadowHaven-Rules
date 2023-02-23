@@ -3090,6 +3090,11 @@
 					<quality>Latent Dracomorphosis</quality>
 				</oneof>
 			</forbidden>
+	        <required>
+		        <allof>
+			        <metatype>Human</metatype>
+		        </allof>
+	        </required>
 			<source>HT</source>
 			<page>127</page>
 		</quality>
@@ -3643,15 +3648,14 @@
             <bonus useselected="False">
                 <armor>1</armor>
                 <critterpowers>
-                    <power>Animal Control</power>
+                    <power select="Subterranean Critters">Animal Control</power>
                     <power>Concealment</power>
                     <power>Dual Natured</power>
-                    <power select="Toxins">Immunity</power>
-                    <power>Noxious Breath</power>
+                    <power select="Smell">Enhanced Senses</power>
+                    <power select="Thermographic Vision">Enhanced Senses</power>
                     <power>Paralyzing Touch</power>
-                    <power select="Sunlight, Moderate">Allergy</power>
-                    <power select="Metahuman Flesh">Dietary Requirement</power>
-                    <power select="Iron">Vulnerability</power>
+		            <power select="Sunlight, Moderate">Allergy</power>
+		            <power select="Metahuman Flesh">Dietary Requirement</power>                    
                 </critterpowers>
                 <enableattribute>
                     <name>MAG</name>
@@ -3660,14 +3664,9 @@
                     <name>critter</name>
                 </enabletab>
 	            <essencepenalty>-1</essencepenalty>
+                <reach>1</reach>
                 <initiative>1</initiative>
                 <limitcritterpowercategory>Infected</limitcritterpowercategory>
-                <optionalpowers>
-                    <optionalpower select="Hearing">Enhanced Senses</optionalpower>
-                    <optionalpower select="Taste">Enhanced Senses</optionalpower>
-                    <optionalpower select="Fire">Immunity</optionalpower>
-                    <optionalpower select="Toxins">Immunity</optionalpower>
-                </optionalpowers>
                 <specificattribute>
                     <name>BOD</name>
                     <max>2</max>

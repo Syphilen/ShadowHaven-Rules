@@ -63,6 +63,17 @@
         </oneof>
       </required>
     </power>
+    <power>
+      <id>8af6b45a-ed52-4063-a60e-7428a818a7ab</id>
+      <!-- Darkness -->
+      <category>Paranormal/Infected</category>
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Infected: Grendel</quality>
+        </oneof>
+      </required>
+    </power>
+    
   <!-- Drake Stuff -->
     <power>
       <id>dafb81bd-7b92-487a-a739-465c69bcefcd</id>
