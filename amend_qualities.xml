@@ -624,6 +624,7 @@
           <quality>Infected: Sukuyan (Non-Human)</quality>
           <quality>Infected: Wendigo</quality>
           <quality>Infected: Bandersnatch</quality>
+          <quality>Infected: Grendel</quality>
         </oneof>
       </required>
     </quality>
@@ -656,6 +657,7 @@
           <quality>Infected: Sukuyan (Non-Human)</quality>
           <quality>Infected: Wendigo</quality>
           <quality>Infected: Bandersnatch</quality>
+          <quality>Infected: Grendel</quality>
           <quality>Infected: Loup-Garou</quality>
           <quality>Infected: Ghoul (Dwarf)</quality>
           <quality>Infected: Ghoul (Elf)</quality>
