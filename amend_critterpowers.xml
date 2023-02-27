@@ -24,41 +24,44 @@
   <powers>
     <power>
       <id>224f6093-af49-4fd4-a30a-b0c38673ffb7</id>
-      <name>Secretion/Substance Extrusion</name>
+      <!-- Secretion/Substance Extrusion -->
       <category>Mundane/Infected</category>
       <karma>9</karma>
       <required>
-        <oneof amendoperation="replace">
+        <oneof>
           <quality>Infected: Vampire (Human)</quality>
           <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
         </oneof>
       </required>
     </power>
     <power>
       <id>4881c2cc-1e45-43ad-89df-9e5b264648f2</id>
+      <!-- Silence -->
       <category>Paranormal/Infected</category>
       <required>
-        <oneof amendoperation="replace">
+        <oneof>
           <quality>Infected: Banshee</quality>
         </oneof>
       </required>
     </power>
     <power>
       <id>9c59fb9c-85b4-449a-978a-a07d6ccf31a2</id>
-      <name>Pounce</name>
+      <!-- Pounce -->
       <category>Mundane/Infected</category>
       <required>
-        <oneof amendoperation="replace">
+        <oneof>
           <quality>Infected: Bandersnatch</quality>
         </oneof>
       </required>
     </power>
     <power>
       <id>7cdbe90b-b16a-43c0-a20e-b4a54b83c6ed</id>
-      <name>Wall Walking</name>
+      <!-- Wall Walking -->
       <category>Mundane/Infected</category>
       <required>
-        <oneof amendoperation="replace">
+        <oneof>
           <quality>Infected: Loup-Garou</quality>
         </oneof>
       </required>
@@ -68,7 +71,7 @@
       <!-- Darkness -->
       <category>Paranormal/Infected</category>
       <required>
-        <oneof amendoperation="replace">
+        <oneof>
           <quality>Infected: Grendel</quality>
         </oneof>
       </required>
