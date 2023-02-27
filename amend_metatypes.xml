@@ -103,8 +103,6 @@
     </metatype>
     <metatype>
       <name>Shapeshifter: Bovine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -170,8 +168,6 @@
     </metatype>
     <metatype>
       <name>Shapeshifter: Canine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -237,8 +233,6 @@
     </metatype>
         <metatype>
       <name>Shapeshifter: Equine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -304,8 +298,6 @@
     </metatype>
         <metatype>
       <name>Shapeshifter: Falconine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -371,8 +363,6 @@
     </metatype>
         <metatype>
       <name>Shapeshifter: Leonine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -438,8 +428,6 @@
     </metatype>
         <metatype>
       <name>Shapeshifter: Lupine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -505,8 +493,6 @@
     </metatype>
         <metatype>
       <name>Shapeshifter: Pantherine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -572,8 +558,6 @@
     </metatype>
         <metatype>
       <name>Shapeshifter: Tigrine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -639,8 +623,6 @@
     </metatype>
         <metatype>
       <name>Shapeshifter: Ursine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
@@ -706,8 +688,6 @@
     </metatype>
         <metatype>
       <name>Shapeshifter: Vulpine</name>
-      <logmax>6</logmax>
-      <logaug>10</logaug>
       <metavariants>
       <metavariant>
         <name>Xapiri Thëpë</name>
