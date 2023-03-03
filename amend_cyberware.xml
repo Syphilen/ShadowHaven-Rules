@@ -427,5 +427,9 @@
 			<source>DM</source>
 			<page>0</page>
 		</cyberware>
+    <cyberware>
+      <name>Renraku Tradejack</name>
+      <ess>0.63</ess>
+    </cyberware>
 	</cyberwares>
 </chummer>
