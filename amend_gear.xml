@@ -84,6 +84,78 @@
       <name>Ammo: Krime Splash Self-Defense Ammunition</name>
       <hide />
     </gear>
+    <gear>
+      <name>Tainted Reagents</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Tainted Reagents, Refined</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Tainted Reagents, Radical</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Inferior Reagents</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Inferior Reagents, Refined</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Inferior Reagents, Radical</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Subpar Reagents</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Subpar Reagents, Refined</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Subpar Reagents, Radical</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Baseline Reagents</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Baseline Reagents, Refined</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Baseline Reagents, Radical</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Superior Reagents</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Superior Reagents, Refined</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Superior Reagents, Radical</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Prime Reagents</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Prime Reagents, Refined</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Prime Reagents, Radical</name>
+      <hide />
+    </gear>
     <!-- End Region -->
     <!-- End Region -->
     <!-- Region Programs -->
