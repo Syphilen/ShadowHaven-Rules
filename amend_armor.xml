@@ -39,16 +39,10 @@
 -->
 
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema armor.xsd">
-  <armors>
     <!-- Region Street Lethal-->
-    <armor>
-      <name>Ares Arms Bug Stomper Custom Armor</name>
-      <hide />
-    </armor>
     <!-- End Region -->
     <!-- Region Kill Code -->
     <!-- End Region -->
-  </armors>
   <mods>
     <!-- Region Shadowrun 5 -->
     <mod>
