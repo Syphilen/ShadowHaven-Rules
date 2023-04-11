@@ -1414,5 +1414,32 @@
       </forbidden>
     </quality>
   	<!-- End Region -->
+    <!-- Region Streams -->
+    <quality>
+      <name>Resonant Stream: Cyberadept</name>
+      <bonus amendoperation="replace">
+        <specificskill>
+          <name>Compiling</name>
+          <bonus>2</bonus>
+          <condition>Fault Sprite</condition>
+        </specificskill>
+        <specificskill>
+          <name>Compiling</name>
+          <bonus>2</bonus>
+          <condition>Companion Sprite</condition>
+        </specificskill>
+        <specificskill>
+          <name>Decompiling</name>
+          <bonus>2</bonus>
+          <condition>Fault Sprite</condition>
+        </specificskill>
+        <specificskill>
+          <name>Decompiling</name>
+          <bonus>2</bonus>
+          <condition>Companion Sprite</condition>
+        </specificskill>
+      </bonus>
+    </quality>
+    <!-- End Region -->
   </qualities>
 </chummer>
