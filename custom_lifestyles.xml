@@ -83,11 +83,6 @@
 		  <source>BB</source>
 		  <cost>1000</cost>
 		  <page>12</page>
-          <required>
-            <oneof>
-                <quality>Illness</quality>
-            </oneof>
-          </required>
 		</quality>
         <quality>
 		  <id>6c2b41c5-3ad8-42e7-9cca-75ad4cbaefbe</id>
@@ -97,11 +92,6 @@
 		  <source>BB</source>
 		  <cost>2000</cost>
 		  <page>12</page>
-          <required>
-            <oneof>
-                <quality>Illness</quality>
-            </oneof>
-          </required>
 		</quality>
         <quality>
 		  <id>114c7358-4b54-4a93-b011-33f9ae946eb1</id>
@@ -111,11 +101,6 @@
 		  <source>BB</source>
 		  <cost>3000</cost>
 		  <page>12</page>
-          <required>
-            <oneof>
-                <quality>Illness</quality>
-            </oneof>
-          </required>
 		</quality>
 	</qualities>
 </chummer>
