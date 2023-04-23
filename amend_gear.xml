@@ -172,16 +172,19 @@
     <!-- Region Disguises -->
     <gear>
       <name>Faceless - Specific Face</name>
+      <rating>6</rating>
       <avail>(Rating*4)+4F</avail>
       <cost>(Rating*1000)+5000</cost>
     </gear>
     <gear>
       <name>Faceless - Generic</name>
+      <rating>6</rating>
       <avail>(Rating*4)F</avail>
       <cost>(Rating*1000)+1000</cost>
     </gear>
     <gear>
       <name>Faceless - Blurred Face</name>
+      <rating>6</rating>
       <avail>(Rating*4)F</avail>
       <cost>Rating*1000</cost>
     </gear>
