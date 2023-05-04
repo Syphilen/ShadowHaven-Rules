@@ -74,6 +74,34 @@
       <name>AR Fashion Subscription, Designer</name>
       <allowed>Luxury</allowed>
     </quality>
+    <quality>
+      <name>CarnivoreGold</name>
+      <category>Positive</category>
+    </quality>
+    <quality>
+      <name>MonaLisa</name>
+      <category>Positive</category>
+    </quality>
+    <quality>
+      <name>Pheromone Detection</name>
+      <hide />
+    </quality>
+    <quality>
+      <name>Speech Template Comparison</name>
+      <category>Positive</category>
+    </quality>
+    <quality>
+      <name>Target Tracking Software</name>
+      <category>Positive</category>
+    </quality>
+    <quality>
+      <name>Thermal Mood Reading</name>
+      <category>Positive</category>
+    </quality>
+    <quality>
+      <name>Vocal Tension Lie Detection</name>
+      <category>Positive</category>
+    </quality>
     <!-- End Region -->
   </qualities>
 </chummer>
