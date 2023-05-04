@@ -237,5 +237,25 @@
       <page>0</page>
       <notes>Can NOT be applied to grenades!</notes>
     </accessory>
+    <accessory>
+      <id>a6981da9-0013-4c3f-a3a9-0f4c6c9bc676</id>
+      <name>Ammo Skip(Revolver)</name>
+      <mount>Internal</mount>
+      <avail>8R</avail>
+      <cost>250</cost>
+      <source>HT</source>
+      <page>180</page>
+      <forbidden>
+        <oneof>
+          <accessory>Vintage</accessory>
+        </oneof>
+      </forbidden>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <ammo operation="contains">(cy)</ammo>
+        </weapondetails>
+      </required>
+    </accessory>
   </accessories>
 </chummer>
