@@ -36,6 +36,10 @@
       <hide />
     </gear> --> <!-- FIXME: Chummer bug makes the houseruled ammo not selectable (since you can't add categories to the chooser) -->
     <!-- Region Kill Code -->
+    <gear amendoperation="replace">
+      <name>Ammo: Looper</name>
+      <hide />
+    </gear>
     <gear>
       <name>Ammo: Zapper</name>
       <hide />

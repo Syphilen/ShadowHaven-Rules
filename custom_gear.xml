@@ -405,18 +405,16 @@
     </gear>
     <!-- Region Kill Code-->
     <gear>
-      <id>b8ad4fef-4092-42ac-87a1-518dd8b60fb7</id>
-      <name>Ammo +AP: Looper</name>
-      <category>Ammunition Handloads +AP</category>
-      <rating>6</rating>
+      <id>ca034b7a-ba07-41d8-8083-fe9b0f8141ed</id>
+      <name>Ammo: Looper Rounds</name>
+      <category>Ammunition</category>
       <source>KC</source>
       <page>49</page>
-      <avail>FixedValues(7R,8R,9R,10R,11R,12R)</avail>
-      <cost>FixedValues(20,30,40,50,100,200) * 1.1</cost>
+      <avail>12R</avail>
+      <cost>200</cost>
       <costfor>10</costfor>
       <weaponbonus>
         <userange>Light Pistol</userange>
-        <ap>-1</ap>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
@@ -832,24 +830,6 @@
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
-    <!-- Region Kill Code-->
-    <gear>
-      <id>b8ad4fef-f092-42ac-87ad-518dd8b60fb7</id>
-      <name>Ammo +DV: Looper</name>
-      <category>Ammunition Handloads +DV</category>
-      <rating>6</rating>
-      <source>KC</source>
-      <page>49</page>
-      <avail>FixedValues(7R,8R,9R,10R,11R,12R)</avail>
-      <cost>FixedValues(20,30,40,50,100,200) * 1.1</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <userange>Light Pistol</userange>
-        <damage>1</damage>
-      </weaponbonus>
-      <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <!-- End Region -->
     <!-- Region Krime Katalog -->
     <gear>
       <id>9d4cd4fc-1fb9-4182-8a82-0479cf2adaae</id>
