@@ -56,5 +56,26 @@
 				to determine penalties for Cold-Blooded. Requires Insulation at the same level."
 			</notes>
 		</mod>
+        <mod>
+          <id>fec214cf-8125-4038-98d2-ed5a4abe4fd2</id>
+          <name>Ares Arms Bug Stomper Custom Armor: Helmet</name>
+          <category>General</category>
+          <armor>+2</armor>
+          <maxrating>1</maxrating>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity>6</gearcapacity>
+          <required>
+            <parentdetails>
+              <name>Ares Arms Bug Stomper Custom Armor</name>
+            </parentdetails>
+          </required>
+          <avail>0</avail>
+          <cost>5000</cost>
+          <mods>
+            <name>Custom Fit</name>
+          </mods>
+          <source>SL</source>
+          <page>130</page>
+        </mod>
 	</mods>
 </chummer>
