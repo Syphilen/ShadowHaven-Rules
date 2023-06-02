@@ -77,6 +77,10 @@
       <source>FA</source>
       <page>46</page>
     </metamagic>
+    <metamagic>
+      <name>Cleansing</name>
+      <adept>True</adept>
+    </metamagic>
     <!-- End Region -->
     <!-- End Region -->
   </metamagics>
