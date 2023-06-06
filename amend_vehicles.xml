@@ -104,6 +104,11 @@
       <name>Manual Operation</name>
       <hide />
     </mod>
+    <mod>
+      <name>Armor (Drone)</name>
+      <cost>Rating * (number(Body = 0) * 100 + Body * 200)</cost>
+      <slots>ceiling((Rating - Armor - 3) * 0.33) * number(Rating - Armor - 3 >= 0)</slots>
+    </mod>
     <!-- End -->
     <!-- Region Cosmetic -->
     <mod>
