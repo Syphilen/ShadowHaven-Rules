@@ -1190,5 +1190,17 @@
       <cost>Rating * 1000</cost>
     </gear>
     <!-- End Region -->
+    <gear>
+      <id>d65bf36e-d255-4daf-a716-839706e8d2b5</id>
+      <name>Zone</name>
+      <category>Drugs</category>
+      <addoncategory>Drug Grades</addoncategory>
+      <addoncategory>Custom</addoncategory>
+      <rating>0</rating>
+      <source>CF</source>
+      <page>184</page>
+      <avail>3R</avail>
+      <cost>80</cost>
+    </gear>
   </gears>
 </chummer>
