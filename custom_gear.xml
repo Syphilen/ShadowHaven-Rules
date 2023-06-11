@@ -1202,5 +1202,16 @@
       <avail>3R</avail>
       <cost>80</cost>
     </gear>
+    <gear>
+      <id>7194e1bf-9256-46b6-bd8f-050aec2fda27</id>
+      <name>Flashlight, UV</name>
+      <category>Survival Gear</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>449</page>
+      <avail>0</avail>
+      <armorcapacity>[1]</armorcapacity>
+      <cost>25</cost>
+    </gear>
   </gears>
 </chummer>
