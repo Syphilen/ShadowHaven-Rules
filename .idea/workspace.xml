@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="36d67898-9ba9-4439-aed8-b8211a6cdb49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amend_skills.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amend_skills.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_bioware.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amend_bioware.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amend_cyberware.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amend_cyberware.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

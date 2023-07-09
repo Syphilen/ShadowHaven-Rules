@@ -427,9 +427,15 @@
 			<source>DM</source>
 			<page>0</page>
 		</cyberware>
-    <cyberware>
-      <name>Renraku Tradejack</name>
-      <ess>0.63</ess>
-    </cyberware>
+        <cyberware>
+            <name>Renraku Tradejack</name>
+            <ess>0.63</ess>
+        </cyberware>
+		<cyberware>
+			<name>Metatype Reduction (Troll)</name>
+			<bonus>
+				<disablequality amendoperation="addnode">fe67d02c-e9f0-4d8f-9888-adbea2797376</disablequality>
+			</bonus>
+		</cyberware>
 	</cyberwares>
 </chummer>

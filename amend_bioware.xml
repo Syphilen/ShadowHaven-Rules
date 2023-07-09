@@ -61,6 +61,12 @@
 	    </oneof>
       </forbidden>
     </bioware>
+    <bioware>
+      <name>Troll Reduction</name>
+      <bonus>
+        <disablequality amendoperation="addnode">fe67d02c-e9f0-4d8f-9888-adbea2797376</disablequality>
+      </bonus>
+    </bioware>
     <!-- End Region -->
     <!-- Region Genemods -->
     <bioware>
