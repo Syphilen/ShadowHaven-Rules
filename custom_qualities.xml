@@ -120,19 +120,7 @@
 			<karma>10</karma>
 			<category>Positive</category>
 			<required>
-				<allof>
-					<oneof>
-						<skillgrouptotal>
-							<skillgroups>Athletics+Close Combat+Firearms+Outdoors</skillgroups>
-							<val>4</val>
-						</skillgrouptotal>
-						<skilltotal>
-							<skills>{Flight}+{Gymnastics}+{Running}+{Swimming}+{Blades}+{Clubs}+{Unarmed}+{Automatics}+{Longarms}+{Pistols}+{Navigation}+{Survival}+{Tracking}+{Pilot Aerospace}+{Pilot Aircraft}+{Pilot Groundcraft}+{Pilot Walker}+{Pilot Watercraft}</skills>
-							<val>14</val>
-						</skilltotal>
-					</oneof>
-					<ess>-3.0</ess>
-				</allof>
+				<ess>-3.0</ess>
 			</required>
 			<forbidden>
 				<oneof>
@@ -3655,7 +3643,7 @@
                     <power select="Thermographic Vision">Enhanced Senses</power>
                     <power>Paralyzing Touch</power>
 		            <power select="Sunlight, Moderate">Allergy</power>
-		            <power select="Metahuman Flesh">Dietary Requirement</power>                    
+		            <power select="Metahuman Flesh">Dietary Requirement</power>
                 </critterpowers>
                 <enableattribute>
                     <name>MAG</name>
