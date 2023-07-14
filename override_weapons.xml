@@ -21,10 +21,10 @@
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.w3.org/2001/XMLSchema weapons.xsd">
 
-			  
-																  
-																 
-																			  
+
+
+
+
   <weapons>
 	<!-- Region Shadowrun 5 -->
     <weapon>
@@ -10639,8 +10639,8 @@
 		<mount>Under</mount>
 	  </accessorymounts>
 	  <addweapon>Steyr AUG-CSL SMG (2050)</addweapon>
-      <addweapon>Steyr AUG-CSL Carbine (2050)</addweapon>			
-      <addweapon>Steyr AUG-CSL LMG (2050)</addweapon>			  
+      <addweapon>Steyr AUG-CSL Carbine (2050)</addweapon>
+      <addweapon>Steyr AUG-CSL LMG (2050)</addweapon>
     </weapon>
 	<weapon>
 	  <id>5e116545-08b4-4eae-8dab-6f1546786296</id>
@@ -12891,7 +12891,7 @@
 	  <accuracy>4</accuracy>
 	  <reach>0</reach>
 	  <damage>14P</damage>
-	  <ap>-3</ap>
+	  <ap>-4</ap>
 	  <mode>0</mode>
 	  <rc>0</rc>
 	  <ammo>1</ammo>

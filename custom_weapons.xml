@@ -240,7 +240,7 @@
     <accessory>
       <id>a6981da9-0013-4c3f-a3a9-0f4c6c9bc676</id>
       <name>Ammo Skip(Revolver)</name>
-      <mount>Internal</mount>
+      <mount />
       <avail>8R</avail>
       <cost>250</cost>
       <source>HT</source>
