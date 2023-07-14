@@ -1255,6 +1255,10 @@
     </quality>
     <!-- End Region -->
 	  <!-- Region Street Lethal -->
+    <quality>
+      <name>Observant</name>
+      <hide />
+    </quality>
     <!-- Region Positive Qualities -->
     <quality>
       <name>Corporate Loyalist</name>
