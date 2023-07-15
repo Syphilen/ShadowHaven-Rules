@@ -4402,5 +4402,43 @@
           <source>HS</source>
           <page>163</page>
         </quality>
+        <quality>
+          <id>27775e04-ae3e-4870-b1c3-336ff30187bc</id>
+          <name>Pure Adept Bonus PP</name>
+          <karma>0</karma>
+          <category>Positive</category>
+          <contributetolimit>False</contributetolimit>
+          <limit>4</limit>
+          <bonus>
+            <adeptpowerpoints>1</adeptpowerpoints>
+          </bonus>
+          <required>
+            <allof>
+              <quality>Adept</quality>
+              <ess>6</ess>
+            </allof>
+          </required>
+          <forbidden>
+            <oneof>
+              <quality>Dracoform (Eastern Drake)</quality>
+              <quality>Dracoform (Western Drake)</quality>
+              <quality>Dracoform (Feathered Drake)</quality>
+              <quality>Dracoform (Sea Drake)</quality>
+              <quality>Dracoform, Latent (Eastern Drake)</quality>
+              <quality>Dracoform, Latent (Western Drake)</quality>
+              <quality>Dracoform, Latent (Feathered Drake)</quality>
+              <quality>Dracoform, Latent (Sea Drake)</quality>
+              <quality>Latent Dracomorphosis</quality>
+              <quality>Infected: Vampire (Human)</quality>
+              <quality>Infected: Vampire (Non-Human)</quality>
+              <quality>Infected: Banshee</quality>
+              <quality>Infected: Sukuyan (Human)</quality>
+              <quality>Infected: Sukuyan (Non-Human)</quality>
+              <quality>Infected: Dzoo-Noo-Qua</quality>
+            </oneof>
+          </forbidden>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
 	</qualities>
 </chummer>
