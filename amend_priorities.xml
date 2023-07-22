@@ -26,9 +26,32 @@
     <priority>
       <name>B - Adept, Magician, or Technomancer</name>
       <talents amendoperation="recurse">
+        <talent amendoperation="addnode">
+          <name>Aspected Conjurer - 5 Magic</name>
+          <value>Aspected Conjurer</value>
+          <qualities>
+            <quality>Aspected Magician</quality>
+          </qualities>
+          <skillgroupchoices>
+            <skillgroup>Conjuring</skillgroup>
+          </skillgroupchoices>
+          <magic>5</magic>
+          <skillgroupqty>1</skillgroupqty>
+          <skillgroupval>4</skillgroupval>
+          <skillgrouptype>grouped</skillgrouptype>
+          <forbidden>
+            <oneof>
+              <metatype>A.I.</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
         <talent>
           <name>Aspected Magician - 5 Magic</name>
           <spells>8</spells>
+          <skillgroupchoices amendoperation="replace">
+            <skillgroup>Enchanting</skillgroup>
+            <skillgroup>Sorcery</skillgroup>
+          </skillgroupchoices>
         </talent>
         <talent>
           <name>Apprentice - 5 Magic</name>
@@ -39,9 +62,32 @@
     <priority>
       <name>C - Adept, Magician, or Technomancer</name>
       <talents amendoperation="recurse">
+        <talent amendoperation="addnode">
+          <name>Aspected Conjurer - 3 Magic</name>
+          <value>Aspected Conjurer</value>
+          <qualities>
+            <quality>Aspected Magician</quality>
+          </qualities>
+          <skillgroupchoices>
+            <skillgroup>Conjuring</skillgroup>
+          </skillgroupchoices>
+          <magic>3</magic>
+          <skillgroupqty>1</skillgroupqty>
+          <skillgroupval>2</skillgroupval>
+          <skillgrouptype>grouped</skillgrouptype>
+          <forbidden>
+            <oneof>
+              <metatype>A.I.</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
         <talent>
           <name>Aspected Magician - 3 Magic</name>
           <spells>6</spells>
+          <skillgroupchoices amendoperation="replace">
+            <skillgroup>Enchanting</skillgroup>
+            <skillgroup>Sorcery</skillgroup>
+          </skillgroupchoices>
         </talent>
         <talent>
           <name>Enchanter - 5 Magic</name>
@@ -56,9 +102,32 @@
     <priority>
       <name>D - Adept or Aspected Magician</name>
       <talents amendoperation="recurse">
+        <talent amendoperation="addnode">
+          <name>Aspected Conjurer - 2 Magic</name>
+          <value>Aspected Conjurer</value>
+          <qualities>
+            <quality>Aspected Magician</quality>
+          </qualities>
+          <skillgroupchoices>
+            <skillgroup>Conjuring</skillgroup>
+          </skillgroupchoices>
+          <magic>2</magic>
+          <skillgroupqty>1</skillgroupqty>
+          <skillgroupval>0</skillgroupval>
+          <skillgrouptype>grouped</skillgrouptype>
+          <forbidden>
+            <oneof>
+              <metatype>A.I.</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
         <talent>
           <name>Aspected Magician - 2 Magic</name>
           <spells>4</spells>
+          <skillgroupchoices amendoperation="replace">
+            <skillgroup>Enchanting</skillgroup>
+            <skillgroup>Sorcery</skillgroup>
+          </skillgroupchoices>
         </talent>
         <talent>
           <name>Apprentice - 2 Magic</name>
