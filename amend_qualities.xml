@@ -1214,6 +1214,11 @@
       </bonus>
     </quality>
     <!-- End Region -->
+    <quality>
+      <id>bf68095e-35b9-49dc-a008-f67bbac9b83b</id>
+      <!-- Mentor's Mask -->
+      <hide />
+    </quality>
     <!-- End Region -->
   	<!--Region Dark Terrors -->
 	  <quality>
