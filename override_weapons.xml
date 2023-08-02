@@ -15359,7 +15359,7 @@
 	<weapon>
 	  <id>3c2d7e43-5c50-4f4b-9989-0db0215b4d5d</id>
 	  <name>Krime Heater</name>
-	  <category>Heavy Pistols</category>
+	  <category>Light Pistols</category>
 	  <type>Ranged</type>
 	  <conceal>0</conceal>
 	  <accuracy>3</accuracy>

@@ -1449,6 +1449,10 @@
         </specificskill>
       </bonus>
     </quality>
+    <quality>
+      <name>Busted Cyberware</name>
+      <limit>False</limit>
+    </quality>
     <!-- End Region -->
   </qualities>
 </chummer>
