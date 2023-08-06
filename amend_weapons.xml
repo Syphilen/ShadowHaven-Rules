@@ -23,10 +23,6 @@
          xsi:schemaLocation="http://www.w3.org/2001/XMLSchema skills.xsd">
 
   <weapons>
-    <weapon>
-      <name>Krime Heater</name>
-      <category>Light Pistols</category>
-    </weapon>
   </weapons>
 </chummer>
 -->

@@ -136,5 +136,31 @@
 				<spec>Atlantis</spec>
 			</specs>
 		</skill>
+		<skill>
+			<id>27bbce45-81df-44f4-9749-56b0ea2b9543</id>
+			<name>4th World Knowledge</name>
+			<attribue>INT</attribue>
+			<category>Interest</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>4th World Magic</spec>
+				<spec>Dragons</spec>
+				<spec>Metahuman Settlements</spec>
+			</specs>
+		</skill>
+		<skill>
+			<id>beea7ff9-7ddd-456d-b10f-09993cce03a1</id>
+			<name>The Enemy</name>
+			<attribute>INT</attribute>
+			<category>Interest</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Tactics</spec>
+				<spec>History</spec>
+				<spec>The Bridge</spec>
+			</specs>
+		</skill>
 	</knowledgeskills>
 </chummer>

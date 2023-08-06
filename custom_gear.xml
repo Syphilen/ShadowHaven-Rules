@@ -1213,5 +1213,25 @@
       <armorcapacity>[1]</armorcapacity>
       <cost>25</cost>
     </gear>
+    <gear>
+      <id>525fd4b4-c174-4154-ab6d-5ff1cabf645e</id>
+      <name>All Common Programs</name>
+      <category>Common Programs</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>245</page>
+      <avail>0</avail>
+      <cost>800</cost>
+    </gear>
+    <gear>
+      <id>3333e1c5-7bc3-4462-b54c-b9e1108397a9</id>
+      <name>All Hacking Programs (Except Cry Wolf)</name>
+      <category>Hacking Programs</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>245</page>
+      <avail>12F</avail>
+      <cost>8000</cost>
+    </gear>
   </gears>
 </chummer>
