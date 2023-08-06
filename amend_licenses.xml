@@ -20,6 +20,7 @@
 <chummer>
   <licenses amendoperation="replace">
     <license>Adept License</license>
+    <license>Aware License</license>
     <license>Bodyguard License</license>
     <license>Bounty Hunter's License</license>
     <license>Concealed Carry Permit</license>
@@ -29,12 +30,15 @@
     <license>Drone License</license>
     <license>Exotic Weapons License</license>
     <license>Explosives License</license>
+    <license>Explorer License</license>
     <license>Firearms License</license>
     <license>Hunting License</license>
+    <license>Lawyer License</license>
     <license>Mage License</license>
     <license>Marine License</license>
     <license>Matrix Software License</license>
     <license>Medical License</license>
+    <license>Mystic Adept</license>
     <license>Pet License</license>
     <license>Pilot License</license>
     <license>Private Investigator License</license>

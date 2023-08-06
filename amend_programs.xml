@@ -23,15 +23,6 @@
 
   <programs>
     <!-- Region Kill Code -->
-    <program>
-      <id>c5d0e712-94d4-420e-998a-096695f283be</id>
-      <name>Cry Wolf</name>
-      <category>Hacking Programs</category>
-      <avail>4F</avail>
-      <cost>250</cost>
-      <source>KC</source>
-      <page>65</page>
-    </program>
     <!-- End Region -->
   </programs>
 </chummer>
