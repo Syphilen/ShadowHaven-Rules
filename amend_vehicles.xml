@@ -89,6 +89,13 @@
 	  <id>34d93e94-55af-463b-bec3-ed719dbd9d91</id>
 	  <avail>14R</avail>
 	</vehicle>
+    <vehicle>
+      <name>Horizon Mini-Zep (Small)</name>
+      <mods amendoperation="replace">
+        <name>Rigger Interface</name>
+        <name>Chameleon Coating</name>
+      </mods>
+    </vehicle>
   </vehicles>
   <mods>
     <!-- Weapon Mounts from Core -->
