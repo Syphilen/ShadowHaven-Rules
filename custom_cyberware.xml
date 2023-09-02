@@ -42,6 +42,9 @@
 		</grade>
     <!-- End Region -->
 	</grades>
+	<categories>
+    <category blackmarket="Cyberware">Cyborg</category>
+  </categories>
 	<cyberwares>
 		<cyberware>
 			<id>230e61d4-c6a1-4da1-a68b-be0fd55c7422</id>
@@ -58,6 +61,195 @@
         		<armor>Rating</armor>
       		</bonus>
       		<rating>3</rating>
+		</cyberware>
+		<cyberware>
+			<id>5e159433-21c4-44d9-9d63-f9984e2a53d2</id>
+      		<name>Cranial Containment Unit</name>
+     		<limit>False</limit>
+      		<category>Cyborg</category>
+      		<ess>5.9</ess>
+      		<capacity>50</capacity>
+      		<avail>6</avail>
+      		<cost>220000</cost>
+      		<source>DM</source>
+      		<page>0</page>
+			<bannedwaregrades>
+        		<grade>Used</grade>
+        		<grade>Alphaware</grade>
+				<grade>Betaware</grade>
+				<grade>Deltaware</grade>
+      		</bannedwaregrades>
+			<allowsubsystems>
+        		<category>Cyborg</category>
+      		</allowsubsystems>
+			<allowgear>
+        		<gearcategory>Commlinks</gearcategory>
+				<gearcategory>Cyberdecks</gearcategory>
+				<gearcategory>Rigger Command Consoles</gearcategory>
+      		</allowgear>
+			<subsystems>
+	        	<cyberware>
+	        		<name>Skilljack</name>
+					<rating>6</rating>
+		        </cyberware>
+		        <cyberware>
+		          	<name>Skillwires</name>
+					<rating>5</rating>
+		        </cyberware>
+		        <cyberware>
+		          	<name>Control Rig</name>
+		          	<rating>2</rating>
+		        </cyberware>
+				<cyberware>
+		         	 <name>Datajack</name>
+		        </cyberware>
+	      	</subsystems>
+			<required>
+				<metatype>Cyborg</metatype>
+			</required>
+		</cyberware>
+		<cyberware>
+			<id>c3437482-0f7d-4910-ab9d-a6b6bf8015bb</id>
+      		<name>Cranial GPU</name>
+     		<limit>False</limit>
+      		<category>Cyborg</category>
+      		<ess>0</ess>
+      		<capacity>Rating * 5</capacity>
+      		<avail>(Rating * 4)+4</avail>
+      		<cost>Rating * 40000</cost>
+      		<source>DM</source>
+      		<page>0</page>
+      		<bonus>
+        		<specificattribute>
+          			<name>INT</name>
+          			<val>Rating</val>
+        		</specificattribute>
+      		</bonus>
+			<required>
+        		<parentdetails>
+					<name>Cranial Containment Unit</name>
+        		</parentdetails>
+      		</required>
+      		<rating>4</rating>
+		</cyberware>
+		<cyberware>
+			<id>b44ccfb7-a74f-4b66-a25d-04a711e928ef</id>
+      		<name>Encephalon Mk 2</name>
+     		<limit>False</limit>
+      		<category>Cyborg</category>
+      		<ess>0</ess>
+      		<capacity>Rating * 5</capacity>
+      		<avail>Rating * 6</avail>
+      		<cost>Rating * 40000</cost>
+      		<source>DM</source>
+      		<page>0</page>
+      		<bonus>
+        		<specificattribute>
+          			<name>LOG</name>
+          			<val>Rating</val>
+        		</specificattribute>
+				<specificskill>
+          			<name>Computer</name>
+          			<bonus>+1</bonus>
+        		</specificskill>
+				<specificskill>
+          			<name>Hardware</name>
+          			<bonus>+1</bonus>
+        		</specificskill>
+				<specificskill>
+          			<name>Software</name>
+          			<bonus>+1</bonus>
+        		</specificskill>
+      		</bonus>
+			<required>
+        		<parentdetails>
+					<name>Cranial Containment Unit</name>
+        		</parentdetails>
+      		</required>
+      		<rating>4</rating>
+		</cyberware>
+		<cyberware>
+			<id>73aa7626-b3ab-4616-b84d-64b2831a90fc</id>
+      		<name>Skillwires Upgrade</name>
+     		<limit>False</limit>
+      		<category>Cyborg</category>
+      		<ess>0</ess>
+      		<capacity>5</capacity>
+      		<avail>24</avail>
+      		<cost>20000</cost>
+      		<source>DM</source>
+      		<page>0</page>
+			<subsystem>
+				<cyberware>
+		          	<name>Skillwires</name>
+					<rating>6</rating>
+		        </cyberware>
+			</subsystem>
+			<required>
+        		<parentdetails>
+					<name>Cranial Containment Unit</name>
+        		</parentdetails>
+      		</required>
+			<notes>Does not grant additional Skillwires, it replaces them.</notes>
+		</cyberware>
+		<cyberware>
+			<id>62212b1b-6eb2-47c6-92b9-8d42b2302b2f</id>
+      		<name>Control Rig Upgrade</name>
+     		<limit>False</limit>
+      		<category>Cyborg</category>
+      		<ess>0</ess>
+      		<capacity>15</capacity>
+      		<avail>15R</avail>
+      		<cost>100000</cost>
+      		<source>DM</source>
+      		<page>0</page>
+			<subsystem>
+				<cyberware>
+		          	<name>Control Rig</name>
+					<rating>3</rating>
+		        </cyberware>
+			</subsystem>
+			<required>
+        		<parentdetails>
+					<name>Cranial Containment Unit</name>
+        		</parentdetails>
+      		</required>
+			<notes>Does not grant an additional Control Rig, it replaces it.</notes>
+		</cyberware>
+		<cyberware>
+			<id>7e45e9fc-4d70-44f6-bcb3-d862fe292795</id>
+      		<name>Chipjack</name>
+     		<limit>False</limit>
+      		<category>Cyborg</category>
+      		<ess>0</ess>
+      		<capacity>Rating * 2</capacity>
+      		<avail>Rating * 2</avail>
+      		<cost>Rating * 1000</cost>
+      		<source>CF</source>
+      		<page>79</page>
+			<required>
+        		<parentdetails>
+					<name>Cranial Containment Unit</name>
+        		</parentdetails>
+      		</required>
+      		<rating>6</rating>
+		</cyberware>
+		<cyberware>
+			<id>056d373b-356e-4956-b759-19085617fb5f</id>
+      		<name>Internal Router</name>
+     		<limit>False</limit>
+      		<category>Cyborg</category>
+      		<ess>0</ess>
+      		<capacity>28</capacity>
+      		<avail>4</avail>
+      		<cost>15000</cost>
+      		<source>CF</source>
+			<required>
+        		<parentdetails>
+					<name>Cranial Containment Unit</name>
+        		</parentdetails>
+      		</required>
+      		<page>84</page>
 		</cyberware>
 	</cyberwares>
 </chummer>

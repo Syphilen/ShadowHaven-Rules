@@ -22,6 +22,40 @@
          xsi:schemaLocation="http://www.w3.org/2001/XMLSchema priorities.xsd">
 
   <priorities>
+    <!-- Region Metatype -->
+    <priority>
+      <id>55bc32fb-e097-4234-bdd5-a70e4f043b3d</id>
+      <name>A - Any metatype</name>
+      <metatypes>
+        <metatype>
+          <name amendoperation="addnode">Cyborg</name>
+          <value>6</value>
+          <karma>0</karma>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <id>f9aa712d-7140-4ddd-9e88-4a06e8bae222</id>
+      <name>B - Any metatype</name>
+      <metatypes>
+        <metatype amendoperation="addnode">
+          <name>Cyborg</name>
+          <value>3</value>
+          <karma>0</karma>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <id>988b7ce3-5739-4300-bc21-a6c92b869262</id>
+      <name amendoperation="replace">C - Human, Dwarf, Elf, Ork, or Cyborg</name>
+      <metatypes>
+        <metatype amendoperation="addnode">
+          <name>Cyborg</name>
+          <value>0</value>
+          <karma>0</karma>
+        </metatype>
+      </metatypes>
+    </priority>
     <!-- Region Talents -->
     <priority>
       <name>B - Adept, Magician, or Technomancer</name>
