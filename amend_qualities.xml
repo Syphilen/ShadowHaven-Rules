@@ -56,12 +56,30 @@
       <bonus>
         <metageniclimit>10</metageniclimit>
       </bonus>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
     </quality>
     <quality>
       <name>Changeling (Class II SURGE)</name>
       <bonus>
         <metageniclimit>15</metageniclimit>
       </bonus>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Changeling (Class III SURGE)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
     </quality>
     <quality>
       <name>Arcane Arrester</name>

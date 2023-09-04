@@ -73,6 +73,22 @@
       		<cost>220000</cost>
       		<source>DM</source>
       		<page>0</page>
+            <bannedgrades>
+              <grade>Used</grade>
+              <grade>Used (Adapsin)</grade>
+              <grade>Greyware</grade>
+              <grade>Greyware (Adapsin)</grade>
+              <grade>Alphaware</grade>
+              <grade>Alphaware (Adapsin)</grade>
+		      <grade>Betaware</grade>
+              <grade>Betaware (Adapsin)</grade>
+			  <grade>Deltaware</grade>
+              <grade>Deltaware (Adapsin)</grade>
+              <grade>Greyware</grade>
+              <grade>Greyware (Adapsin)</grade>
+              <grade>Tailored Greyware</grade>
+              <grade>Tailored Greyware (Adapsin)</grade>
+            </bannedgrades>
 			<bannedwaregrades>
         		<grade>Used</grade>
         		<grade>Alphaware</grade>
@@ -82,11 +98,6 @@
 			<allowsubsystems>
         		<category>Cyborg</category>
       		</allowsubsystems>
-			<allowgear>
-        		<gearcategory>Commlinks</gearcategory>
-				<gearcategory>Cyberdecks</gearcategory>
-				<gearcategory>Rigger Command Consoles</gearcategory>
-      		</allowgear>
 			<subsystems>
 	        	<cyberware>
 	        		<name>Skilljack</name>
@@ -101,7 +112,7 @@
 		          	<rating>2</rating>
 		        </cyberware>
 				<cyberware>
-		         	 <name>Datajack</name>
+		         	 <name>Device Port</name>
 		        </cyberware>
 	      	</subsystems>
 			<required>
@@ -251,5 +262,27 @@
       		</required>
       		<page>84</page>
 		</cyberware>
+        <cyberware>
+          <id>6086f4ff-056a-47ff-9aef-bd0947762f43</id>
+          <name>Device Port</name>
+          <limit>False</limit>
+          <category>Cyborg</category>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>0</avail>
+          <cost>0</cost>
+          <source>DM</source>
+          <page>0</page>
+          <allowgear>
+            <gearcategory>Commlinks</gearcategory>
+            <gearcategory>Rigger Command Consoles</gearcategory>
+            <gearcategory>Cyberdecks</gearcategory>
+          </allowgear>
+          <required>
+            <parentdetails>
+                <name>Cranial Containment Unit</name>
+            </parentdetails>
+          </required>
+        </cyberware>
 	</cyberwares>
 </chummer>

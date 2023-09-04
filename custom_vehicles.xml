@@ -318,15 +318,6 @@
       </required>
     </mod>
     <mod>
-      <id>6ea5138b-a1a1-4c76-9bac-9c1ed0d64d22</id>
-      <name>Voice Mask</name>
-      <page>81</page>
-      <source>CF</source>
-      <avail>8F</avail>
-      <cost>2000</cost>
-      <slots>4</slots>
-    </mod>
-    <mod>
       <id>dbc871ba-c08b-47a0-bdd5-e1fc9efb8777</id>
       <name>Docking Station</name>
       <page>0</page>
