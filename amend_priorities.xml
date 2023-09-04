@@ -24,20 +24,18 @@
   <priorities>
     <!-- Region Metatype -->
     <priority>
-      <id>55bc32fb-e097-4234-bdd5-a70e4f043b3d</id>
       <name>A - Any metatype</name>
-      <metatypes>
-        <metatype>
-          <name amendoperation="addnode">Cyborg</name>
+      <metatypes amendoperation="recurse">
+        <metatype amendoperation="addnode">
+          <name>Cyborg</name>
           <value>6</value>
           <karma>0</karma>
         </metatype>
       </metatypes>
     </priority>
     <priority>
-      <id>f9aa712d-7140-4ddd-9e88-4a06e8bae222</id>
       <name>B - Any metatype</name>
-      <metatypes>
+      <metatypes amendoperation="recurse">
         <metatype amendoperation="addnode">
           <name>Cyborg</name>
           <value>3</value>
@@ -48,7 +46,7 @@
     <priority>
       <id>988b7ce3-5739-4300-bc21-a6c92b869262</id>
       <name amendoperation="replace">C - Human, Dwarf, Elf, Ork, or Cyborg</name>
-      <metatypes>
+      <metatypes amendoperation="recurse">
         <metatype amendoperation="addnode">
           <name>Cyborg</name>
           <value>0</value>
@@ -58,8 +56,69 @@
     </priority>
     <!-- Region Talents -->
     <priority>
+      <name>A - Magician or Technomancer</name>
+      <talents amendoperation="recurse">
+        <talent>
+          <name>Magician - 6 Magic/10 Spells</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Mystic Adept - 6 Magic/10 Spells</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Technomancer - 6 Resonance/7 Complex Forms</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+      </talents>
+    </priority>
+    <priority>
       <name>B - Adept, Magician, or Technomancer</name>
       <talents amendoperation="recurse">
+        <talent>
+          <name>Adept - 6 Magic</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Magician - 4 Magic/7 Spells</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Mystic Adept - 4 Magic/7 Spells</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Technomancer - 4 Resonance/4 Complex Forms</name>
+          <forbidden>
+            <oneof>
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
         <talent amendoperation="addnode">
           <name>Aspected Conjurer - 5 Magic</name>
           <value>Aspected Conjurer</value>
@@ -76,6 +135,7 @@
           <forbidden>
             <oneof>
               <metatype>A.I.</metatype>
+              <metatype>Cyborg</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -86,16 +146,65 @@
             <skillgroup>Enchanting</skillgroup>
             <skillgroup>Sorcery</skillgroup>
           </skillgroupchoices>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
         </talent>
         <talent>
           <name>Apprentice - 5 Magic</name>
           <spells>4</spells>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
         </talent>
       </talents>
     </priority>
     <priority>
       <name>C - Adept, Magician, or Technomancer</name>
       <talents amendoperation="recurse">
+        <talent>
+          <name>Adept - 4 Magic</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Magician - 3 Magic/5 Spells</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Mystic Adept - 3 Magic/5 Spells</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Technomancer - 3 Resonance/3 Complex Forms</name>
+          <forbidden>
+            <oneof>
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
         <talent amendoperation="addnode">
           <name>Aspected Conjurer - 3 Magic</name>
           <value>Aspected Conjurer</value>
@@ -112,6 +221,7 @@
           <forbidden>
             <oneof>
               <metatype>A.I.</metatype>
+              <metatype>Cyborg</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -122,20 +232,51 @@
             <skillgroup>Enchanting</skillgroup>
             <skillgroup>Sorcery</skillgroup>
           </skillgroupchoices>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
         </talent>
         <talent>
           <name>Enchanter - 5 Magic</name>
           <spells>8</spells>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
         </talent>
         <talent>
           <name>Apprentice - 3 Magic</name>
           <spells>3</spells>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
         </talent>
       </talents>
     </priority>
     <priority>
       <name>D - Adept or Aspected Magician</name>
       <talents amendoperation="recurse">
+        <talent>
+          <name>Adept - 2 Magic</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Aware - 3 Magic</name>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
         <talent amendoperation="addnode">
           <name>Aspected Conjurer - 2 Magic</name>
           <value>Aspected Conjurer</value>
@@ -152,6 +293,7 @@
           <forbidden>
             <oneof>
               <metatype>A.I.</metatype>
+              <metatype>Cyborg</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -162,10 +304,20 @@
             <skillgroup>Enchanting</skillgroup>
             <skillgroup>Sorcery</skillgroup>
           </skillgroupchoices>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
         </talent>
         <talent>
           <name>Apprentice - 2 Magic</name>
           <spells>2</spells>
+          <forbidden>
+            <oneof amendoperation="append">
+              <metatype>Cyborg</metatype>
+            </oneof>
+          </forbidden>
         </talent>
       </talents>
     </priority>
