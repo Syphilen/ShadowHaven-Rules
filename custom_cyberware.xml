@@ -116,7 +116,9 @@
 		        </cyberware>
 	      	</subsystems>
 			<required>
+              <oneof>
 				<metatype>Cyborg</metatype>
+              </oneof>
 			</required>
 		</cyberware>
 		<cyberware>
