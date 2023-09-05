@@ -112,7 +112,7 @@
 		          	<rating>2</rating>
 		        </cyberware>
 				<cyberware>
-		         	 <name>Device Port</name>
+		         	 <name>Matrix Device Port</name>
 		        </cyberware>
 	      	</subsystems>
 			<required>
@@ -125,7 +125,7 @@
      		<limit>False</limit>
       		<category>Cyborg</category>
       		<ess>0</ess>
-      		<capacity>Rating * 5</capacity>
+      		<capacity>[Rating * 5]</capacity>
       		<avail>(Rating * 4)+4</avail>
       		<cost>Rating * 40000</cost>
       		<source>DM</source>
@@ -149,7 +149,7 @@
      		<limit>False</limit>
       		<category>Cyborg</category>
       		<ess>0</ess>
-      		<capacity>Rating * 5</capacity>
+      		<capacity>[Rating * 5]</capacity>
       		<avail>Rating * 6</avail>
       		<cost>Rating * 40000</cost>
       		<source>DM</source>
@@ -185,7 +185,7 @@
      		<limit>False</limit>
       		<category>Cyborg</category>
       		<ess>0</ess>
-      		<capacity>5</capacity>
+      		<capacity>[5]</capacity>
       		<avail>24</avail>
       		<cost>20000</cost>
       		<source>DM</source>
@@ -209,7 +209,7 @@
      		<limit>False</limit>
       		<category>Cyborg</category>
       		<ess>0</ess>
-      		<capacity>15</capacity>
+      		<capacity>[15]</capacity>
       		<avail>15R</avail>
       		<cost>100000</cost>
       		<source>DM</source>
@@ -233,7 +233,7 @@
      		<limit>False</limit>
       		<category>Cyborg</category>
       		<ess>0</ess>
-      		<capacity>Rating * 2</capacity>
+      		<capacity>[Rating * 2]</capacity>
       		<avail>Rating * 2</avail>
       		<cost>Rating * 1000</cost>
       		<source>CF</source>
@@ -251,7 +251,7 @@
      		<limit>False</limit>
       		<category>Cyborg</category>
       		<ess>0</ess>
-      		<capacity>28</capacity>
+      		<capacity>[28]</capacity>
       		<avail>4</avail>
       		<cost>15000</cost>
       		<source>CF</source>
@@ -264,7 +264,7 @@
 		</cyberware>
         <cyberware>
           <id>6086f4ff-056a-47ff-9aef-bd0947762f43</id>
-          <name>Device Port</name>
+          <name>Matrix Device Port</name>
           <limit>False</limit>
           <category>Cyborg</category>
           <ess>0</ess>

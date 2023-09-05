@@ -21,6 +21,92 @@
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
 	<qualities>
+        <!-- Begin Cyborg Qualities -->
+        <quality>
+          <id>d1982a32-dba4-40ba-a1ca-2ed7fff3ec71</id>
+          <name>Chronic Dissociation Syndrome</name>
+          <karma>-20</karma>
+          <category>Negative</category>
+          <notes>The character receives a -3 penalty on any Willpower test other than spell defense and damage resistance tests.</notes>
+          <required>
+              <oneof>
+                <metatype>Cyborg</metatype>
+              </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
+          <id>3f0121cb-038d-4774-ba62-747e1ffcbf46</id>
+          <name>Delusion</name>
+          <karma>-10</karma>
+          <category>Negative</category>
+          <notes>The character has a firmly held (false) belief they cannot be persuaded out of. Any attempt to persuade them out of this belief must be counted with a new explanation as to why the belief is still true (from the player).</notes>
+          <required>
+              <oneof>
+                <metatype>Cyborg</metatype>
+              </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
+          <id>9f7958eb-1e46-40c9-b57b-3daf855ab49d</id>
+          <name>Dementia</name>
+          <karma>-30</karma>
+          <category>Negative</category>
+          <notes>The character suffers from extreme memory loss, hallucinations, delusions, and loss of language skills. At the beginning of each scene, the character must roll LOG+WIL and consult the following table for effects.</notes>
+          <required>
+              <oneof>
+                <metatype>Cyborg</metatype>
+              </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
+          <id>c66f5a44-80d2-4d08-b584-f2ddd291f1ee</id>
+          <name>Emotion Leak</name>
+          <karma>-10</karma>
+          <category>Negative</category>
+          <notes>The character suffers a -2 to all social tests in which the other person is physically present.</notes>
+          <required>
+              <oneof>
+                <metatype>Cyborg</metatype>
+              </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
+          <id>87df6925-b8e5-481e-8589-d3add6a1ad55</id>
+          <name>Hallucinations</name>
+          <karma>-20</karma>
+          <category>Negative</category>
+          <notes>Whenever the character is in a stressful situation they must make a Logic + Willpower (3) test. Failure means they are suffering from audio-visual hallucinations that seem real to the character and must be treated as real. At any point the GM may call for another Logic + Willpower (3) test to see if the hallucinations end. Other characters may assist with these tests by using Logic + Psychology [Mental] (treat this as an assist).</notes>
+          <required>
+              <oneof>
+                <metatype>Cyborg</metatype>
+              </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
+          <id>f5e0a55f-36bb-40eb-9436-a800e560db08</id>
+          <name>Dissociative Identity Disorder</name>
+          <karma>-20</karma>
+          <category>Negative</category>
+          <notes>When this quality is taken, the player must divide the skills the character has in half (as evenly as possible). The character is now two people; each person receives half of the total skill list. In stressful situations the currently active person must make a Willpower + Charisma (3) test or switch to the other person. The currently active person may switch voluntarily by making a Willpower + Charisma (5, 1 minute) test.</notes>
+          <required>
+              <oneof>
+                <metatype>Cyborg</metatype>
+              </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <!-- End Cyborg Qualities -->
         <quality>
           <id>88b1b013-0cb6-4094-9343-4cf8cf213bf6</id>
           <name>Mentor's Mask(Mage)</name>

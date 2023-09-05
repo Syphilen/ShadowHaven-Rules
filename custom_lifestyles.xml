@@ -102,5 +102,35 @@
 		  <cost>3000</cost>
 		  <page>12</page>
 		</quality>
+        <quality>
+		  <id>5be4d1e3-af50-417f-b6d0-72032c258665</id>
+		  <name>Going Solo</name>
+		  <category>Entertainment - Service</category>
+		  <lp>2</lp>
+          <allowed>High,Luxury</allowed>
+		  <source>DM</source>
+		  <cost>2000</cost>
+		  <page>0</page>
+          <required>
+            <oneof>
+			  <metatype>Cyborg</metatype>
+            </oneof>
+		  </required>
+		</quality>
+        <quality>
+		  <id>1e5ccb52-3eef-43c9-9710-c96b778b0097</id>
+		  <name>Corporate Support</name>
+		  <category>Entertainment - Service</category>
+		  <lp>4</lp>
+          <allowed>High,Luxury</allowed>
+		  <source>DM</source>
+		  <cost>6000</cost>
+		  <page>0</page>
+          <required>
+            <oneof>
+			  <metatype>Cyborg</metatype>
+            </oneof>
+		  </required>
+		</quality>
 	</qualities>
 </chummer>
