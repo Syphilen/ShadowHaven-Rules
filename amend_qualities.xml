@@ -837,6 +837,7 @@
           <quality>Ronin (DV/Bioware)</quality>
           <quality>Ronin (Dodge/Bioware)</quality>
           <quality>Biocompatibility (Cyberware)</quality>
+          <metatype>Cyborg</metatype>
         </oneof>
       </forbidden>
     </quality>
@@ -847,6 +848,7 @@
           <quality>Ronin (DV/Cyberware)</quality>
           <quality>Ronin (Dodge/Cyberware)</quality>
           <quality>Biocompatibility (Bioware)</quality>
+          <metatype>Cyborg</metatype>
         </oneof>
       </forbidden>
     </quality>
@@ -1472,5 +1474,613 @@
       <limit>False</limit>
     </quality>
     <!-- End Region -->
+    <quality>
+      <name>Human-Looking</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Uncommon, Mild)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Uncommon, Moderate)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Uncommon, Severe)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Uncommon, Extreme)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Common, Mild)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Common, Moderate)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Common, Severe)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Common, Extreme)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Addiction (Mild)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Addiction (Moderate)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Addiction (Severe)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Addiction (Burnout)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Weak Immune System</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>High Pain Tolerance</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Indomitable (Physical)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Natural Immunity (Natural)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Natural Immunity (Synthetic)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Quick Healer</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Resistance to Pathogens</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Resistance to Toxins</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Resistance to Pathogens/Toxins</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Will to Live</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Acrobatic Defender</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Agile Defender</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Perceptive Defender</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Too Pretty To Hit</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Radiation Sponge</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Rad-Tolerant</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Low-Light Vision</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Thermographic Vision</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Low Pain Tolerance</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Sensitive System</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Blighted (6 Months)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Blighted (12 Months)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Blighted (24 Months)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Spirit Champion</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Spirit Pariah</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Conjuring Geas</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Aged</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Illness</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Spirit Champion</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Spirit Champion</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Hawk Eye</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Night Vision</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Albinism I</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Albinism II</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Tough as Nails (Physical)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Tough as Nails (Stun)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Asthma</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Carrier (HMHVV Strain II)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Carrier (HMHVV Strain III)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Carrier (HMHVV Strain II)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Infirm</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Night Blindness</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Infirm</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Paraplegic</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Pie Iesu Domine. Dona Eis Requiem.</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Pain is Gain</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Drug Tolerant</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Prototype Transhuman</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Uncanny Healer</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Prototype Transhuman</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Cyber-snob</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Dry Addict (Mild)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Dry Addict (Moderate)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Dry Addict (Severe)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Dry Addict (Burnout)</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Family Curse</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Implant-induced Immune Deficiency</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Lightweight</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Quasimodo</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>So Jacked Up</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Latent Dracomorphosis</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>'Ware Intolerance</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Quadriplegic</name>
+      <forbidden>
+        <oneof>
+          <metatype>Cyborg</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
   </qualities>
 </chummer>

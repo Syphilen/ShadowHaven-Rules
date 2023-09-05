@@ -89,12 +89,6 @@
               <grade>Tailored Greyware</grade>
               <grade>Tailored Greyware (Adapsin)</grade>
             </bannedgrades>
-			<bannedwaregrades>
-        		<grade>Used</grade>
-        		<grade>Alphaware</grade>
-				<grade>Betaware</grade>
-				<grade>Deltaware</grade>
-      		</bannedwaregrades>
 			<allowsubsystems>
         		<category>Cyborg</category>
       		</allowsubsystems>
