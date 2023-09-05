@@ -42,10 +42,10 @@
       <speed>0</speed>
       <gears></gears>
       <mods>
-        <name>Drone Arm</name>
-        <name>Drone Arm</name>
-        <name>Drone Leg</name>
-        <name>Drone Leg</name>
+        <name>Synthetic Drone Arm</name>
+        <name>Synthetic Drone Arm</name>
+        <name>Synthetic Drone Leg</name>
+        <name>Synthetic Drone Leg</name>
       </mods>
       <required>
         <cyberware>Cranial Containment Unit</cyberware>
@@ -96,10 +96,10 @@
       <speed>0</speed>
       <gears></gears>
       <mods>
-        <name>Drone Arm</name>
-        <name>Drone Arm</name>
-        <name>Drone Leg</name>
-        <name>Drone Leg</name>
+        <name>Synthetic Drone Arm</name>
+        <name>Synthetic Drone Arm</name>
+        <name>Synthetic Drone Leg</name>
+        <name>Synthetic Drone Leg</name>
       </mods>
       <required>
         <cyberware>Cranial Containment Unit</cyberware>
