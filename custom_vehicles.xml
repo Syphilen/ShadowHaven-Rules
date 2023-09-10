@@ -23,6 +23,9 @@
   <categories>
     <category blackmarket="Vehicles" >Drones: Cyborg Shell</category>
   </categories>
+  <modcategories>
+    <category blackmarket="Vehicles" >Cyborg</category>
+  </modcategories>
   <vehicles>
     <vehicle>
       <id>65e5832b-31ba-41a4-9d9b-946384ef8742</id>
@@ -42,10 +45,10 @@
       <speed>0</speed>
       <gears></gears>
       <mods>
-        <name>Synthetic Drone Arm</name>
-        <name>Synthetic Drone Arm</name>
-        <name>Synthetic Drone Leg</name>
-        <name>Synthetic Drone Leg</name>
+        <name>Synthetic Drone Arm (Cyborg)</name>
+        <name>Synthetic Drone Arm (Cyborg)</name>
+        <name>Synthetic Drone Leg (Cyborg)</name>
+        <name>Synthetic Drone Leg (Cyborg)</name>
       </mods>
       <required>
         <cyberware>Cranial Containment Unit</cyberware>
@@ -57,7 +60,7 @@
       <page>0</page>
       <source>DM</source>
       <category>Drones: Cyborg Shell</category>
-      <avail>14F</avail>
+      <avail>12F</avail>
       <cost>260000</cost>
       <body>5</body>
       <pilot>5</pilot>
@@ -69,10 +72,10 @@
       <speed>0</speed>
       <gears></gears>
       <mods>
-        <name>Drone Arm</name>
-        <name>Drone Arm</name>
-        <name>Drone Leg</name>
-        <name>Drone Leg</name>
+        <name>Drone Arm (Cyborg)</name>
+        <name>Drone Arm (Cyborg)</name>
+        <name>Drone Leg (Cyborg)</name>
+        <name>Drone Leg (Cyborg)</name>
       </mods>
       <required>
         <cyberware>Cranial Containment Unit</cyberware>
@@ -84,7 +87,7 @@
       <page>0</page>
       <source>DM</source>
       <category>Drones: Cyborg Shell</category>
-      <avail>14F</avail>
+      <avail>12F</avail>
       <cost>180000</cost>
       <body>6</body>
       <pilot>4</pilot>
@@ -96,10 +99,10 @@
       <speed>0</speed>
       <gears></gears>
       <mods>
-        <name>Synthetic Drone Arm</name>
-        <name>Synthetic Drone Arm</name>
-        <name>Synthetic Drone Leg</name>
-        <name>Synthetic Drone Leg</name>
+        <name>Synthetic Drone Arm (Cyborg)</name>
+        <name>Synthetic Drone Arm (Cyborg)</name>
+        <name>Synthetic Drone Leg (Cyborg)</name>
+        <name>Synthetic Drone Leg (Cyborg)</name>
       </mods>
       <required>
         <cyberware>Cranial Containment Unit</cyberware>
@@ -111,7 +114,7 @@
       <page>0</page>
       <source>DM</source>
       <category>Drones: Cyborg Shell</category>
-      <avail>16F</avail>
+      <avail>12F</avail>
       <cost>310000</cost>
       <body>7</body>
       <pilot>4</pilot>
@@ -123,10 +126,10 @@
       <speed>0</speed>
       <gears></gears>
       <mods>
-        <name>Drone Arm</name>
-        <name>Drone Arm</name>
-        <name>Drone Leg</name>
-        <name>Drone Leg</name>
+        <name>Drone Arm (Cyborg)</name>
+        <name>Drone Arm (Cyborg)</name>
+        <name>Drone Leg (Cyborg)</name>
+        <name>Drone Leg (Cyborg)</name>
       </mods>
       <required>
         <cyberware>Cranial Containment Unit</cyberware>
@@ -153,6 +156,7 @@
       <avail>12</avail>
       <cost>Rating * 3000</cost>
       <rating>15</rating>
+      <category>Cyborg</category>
       <slots>Rating</slots>
       <bonus>
         <armor>+Rating</armor>
@@ -173,6 +177,7 @@
       <rating>140</rating>
       <slots>Rating</slots>
       <capacity>Rating</capacity>
+      <category>Cyborg</category>
       <required>
         <vehicledetails>
           <category>Drones: Cyborg Shell</category>
@@ -201,6 +206,7 @@
       <avail>12</avail>
       <cost>8000</cost>
       <slots>15</slots>
+      <category>Cyborg</category>
       <bonus>
         <armor>+1</armor>
         <body>+1</body>
@@ -223,6 +229,7 @@
         <armor>+2</armor>
         <body>+2</body>
       </bonus>    
+      <category>Cyborg</category>
       <required>
         <vehicledetails>
           <category>Drones: Cyborg Shell</category>
@@ -237,6 +244,7 @@
       <avail>12</avail>
       <cost>30000</cost>
       <slots>45</slots>
+      <category>Cyborg</category>
       <bonus>
         <armor>+3</armor>
         <body>+3</body>
@@ -255,6 +263,7 @@
       <avail>12</avail>
       <cost>15000</cost>
       <slots>10</slots>
+      <category>Cyborg</category>
       <required>
         <vehicledetails>
           <category>Drones: Cyborg Shell</category>
@@ -270,6 +279,7 @@
       <cost>Rating * 20000</cost>
       <rating>6</rating>
       <slots>Rating * 8</slots>
+      <category>Cyborg</category>
       <bonus>
         <specificskill>
           <name>Impersonation</name>
@@ -291,6 +301,7 @@
       <cost>Rating * 5000</cost>
       <rating>6</rating>
       <slots>Rating * 8</slots>
+      <category>Cyborg</category>
       <bonus>
         <specificskill>
           <name>Impersonation</name>
@@ -311,6 +322,7 @@
       <avail>8F</avail>
       <cost>2000</cost>
       <slots>4</slots>
+      <category>Cyborg</category>
       <required>
         <vehicledetails>
           <category>Drones: Cyborg Shell</category>
@@ -327,6 +339,92 @@
       <cost>5000</cost>
       <rating>0</rating>
       <slots>0</slots>
+    </mod>
+    <mod>
+      <id>8f7b954b-b05a-4c8f-90c9-922c5c82227d</id>
+      <name>Drone Arm (Cyborg)</name>
+      <page>DM</page>
+      <source>0</source>
+      <avail>0</avail>
+      <category>Cyborg</category>
+      <cost>7500</cost>
+      <capacity>0</capacity>
+      <rating>0</rating>
+      <slots>1</slots>
+      <conditionmonitor>1</conditionmonitor>
+      <optionaldrone />
+      <required>
+        <vehicledetails>
+          <category>Drones: Cyborg Shell</category>
+        </vehicledetails>
+      </required>
+      <subsystems>
+        <subsystem>Cyberlimb Enhancement</subsystem>
+      </subsystems>
+    </mod>
+    <mod>
+      <id>b3c69f0d-1d6d-4438-8d15-a9969156b65d</id>
+      <name>Drone Leg (Cyborg)</name>
+      <page>DM</page>
+      <source>0</source>
+      <avail>0</avail>
+      <category>Cyborg</category>
+      <cost>7500</cost>
+      <rating>0</rating>
+      <slots>1</slots>
+      <capacity>0</capacity>
+      <optionaldrone />
+      <required>
+        <vehicledetails>
+          <category>Drones: Cyborg Shell</category>
+        </vehicledetails>
+      </required>
+      <subsystems>
+        <subsystem>Cyberlimb Enhancement</subsystem>
+      </subsystems>
+    </mod>
+    <mod>
+      <id>c2c9e342-4892-40c7-8cc1-d22490dda838</id>
+      <name>Synthetic Drone Arm (Cyborg)</name>
+      <page>0</page>
+      <source>DM</source>
+      <avail>0</avail>
+      <category>Cyborg</category>
+      <cost>10000</cost>
+      <rating>0</rating>
+      <slots>1</slots>
+      <capacity>0</capacity>
+      <conditionmonitor>1</conditionmonitor>
+      <optionaldrone />
+      <required>
+        <vehicledetails>
+          <category>Drones: Cyborg Shell</category>
+        </vehicledetails>
+      </required>
+      <subsystems>
+        <subsystem>Cyberlimb Enhancement</subsystem>
+      </subsystems>
+    </mod>
+    <mod>
+      <id>7e045f6f-a75e-4051-9b75-2d03d835217b</id>
+      <name>Synthetic Drone Leg (Cyborg)</name>
+      <page>DM</page>
+      <source>0</source>
+      <avail>0</avail>
+      <category>Cyborg</category>
+      <cost>10000</cost>
+      <rating>0</rating>
+      <slots>1</slots>
+      <capacity>0</capacity>
+      <optionaldrone />
+      <required>
+        <vehicledetails>
+          <category>Drones: Cyborg Shell</category>
+        </vehicledetails>
+      </required>
+      <subsystems>
+        <subsystem>Cyberlimb Enhancement</subsystem>
+      </subsystems>
     </mod>
   </mods>
 </chummer>
