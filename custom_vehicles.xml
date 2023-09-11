@@ -43,7 +43,13 @@
       <handling>0</handling>
       <sensor>0</sensor>
       <speed>0</speed>
-      <gears></gears>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
       <mods>
         <name>Synthetic Drone Arm (Cyborg)</name>
         <name>Synthetic Drone Arm (Cyborg)</name>
@@ -70,7 +76,13 @@
       <handling>0</handling>
       <sensor>0</sensor>
       <speed>0</speed>
-      <gears></gears>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
       <mods>
         <name>Drone Arm (Cyborg)</name>
         <name>Drone Arm (Cyborg)</name>
@@ -97,7 +109,13 @@
       <handling>0</handling>
       <sensor>0</sensor>
       <speed>0</speed>
-      <gears></gears>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
       <mods>
         <name>Synthetic Drone Arm (Cyborg)</name>
         <name>Synthetic Drone Arm (Cyborg)</name>
@@ -124,7 +142,13 @@
       <handling>0</handling>
       <sensor>0</sensor>
       <speed>0</speed>
-      <gears></gears>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
       <mods>
         <name>Drone Arm (Cyborg)</name>
         <name>Drone Arm (Cyborg)</name>
