@@ -343,14 +343,14 @@
     <mod>
       <id>8f7b954b-b05a-4c8f-90c9-922c5c82227d</id>
       <name>Drone Arm (Cyborg)</name>
-      <page>DM</page>
-      <source>0</source>
+      <page>0</page>
+      <source>DM</source>
       <avail>0</avail>
       <category>Cyborg</category>
       <cost>7500</cost>
-      <capacity>0</capacity>
       <rating>0</rating>
       <slots>1</slots>
+      <capacity>0</capacity>
       <conditionmonitor>1</conditionmonitor>
       <optionaldrone />
       <required>
@@ -365,14 +365,15 @@
     <mod>
       <id>b3c69f0d-1d6d-4438-8d15-a9969156b65d</id>
       <name>Drone Leg (Cyborg)</name>
-      <page>DM</page>
-      <source>0</source>
+      <page>0</page>
+      <source>DM</source>
       <avail>0</avail>
       <category>Cyborg</category>
       <cost>7500</cost>
       <rating>0</rating>
       <slots>1</slots>
       <capacity>0</capacity>
+      <conditionmonitor>1</conditionmonitor>
       <optionaldrone />
       <required>
         <vehicledetails>
@@ -408,14 +409,15 @@
     <mod>
       <id>7e045f6f-a75e-4051-9b75-2d03d835217b</id>
       <name>Synthetic Drone Leg (Cyborg)</name>
-      <page>DM</page>
-      <source>0</source>
+      <page>0</page>
+      <source>DM</source>
       <avail>0</avail>
       <category>Cyborg</category>
       <cost>10000</cost>
       <rating>0</rating>
       <slots>1</slots>
       <capacity>0</capacity>
+      <conditionmonitor>1</conditionmonitor>
       <optionaldrone />
       <required>
         <vehicledetails>
