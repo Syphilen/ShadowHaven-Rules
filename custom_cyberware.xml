@@ -46,6 +46,200 @@
     <category blackmarket="Cyberware">Cyborg</category>
   </categories>
 	<cyberwares>
+        <cyberware>
+          <id>9f0590cf-96f6-4e9f-9f9f-5c02503a2265</id>
+          <name>Liminal Body, Spider</name>
+          <category>Cyberlimb</category>
+          <ess>3</ess>
+          <capacity>160</capacity>
+          <avail>12</avail>
+          <cost>120000</cost>
+          <source>DM</source>
+          <page>0</page>
+          <blocksmounts>ankle,knee,hip</blocksmounts>
+          <bonus>
+            <addlimb precedence="0">
+              <limbslot>leg</limbslot>
+              <val>6</val>
+            </addlimb>
+            <disablequality>Celerity</disablequality>
+            <runmultiplier>
+              <category>Ground</category>
+              <percent>100</percent>
+            </runmultiplier>
+          </bonus>
+          <forbidden>
+            <oneof>
+              <cyberwarecontains>Liminal</cyberwarecontains>
+              <cyberware>Smart Articulation</cyberware>
+            </oneof>
+          </forbidden>
+          <inheritattributes />
+          <limbslot>leg</limbslot>
+          <limbslotcount>all</limbslotcount>
+          <subsystems>
+            <cyberware>
+              <name>Spider Front Leg</name>
+              <forced>Left</forced>
+            </cyberware>
+            <cyberware>
+              <name>Spider Front Leg</name>
+              <forced>Right</forced>
+            </cyberware>
+            <cyberware>
+              <name>Spider Rear Leg</name>
+              <forced>Left</forced>
+            </cyberware>
+            <cyberware>
+              <name>Spider Rear Leg</name>
+              <forced>Right</forced>
+            </cyberware>
+            <cyberware>
+              <name>Spider Middle Front Leg</name>
+              <forced>Left</forced>
+            </cyberware>
+            <cyberware>
+              <name>Spider Middle Front Leg</name>
+              <forced>Right</forced>
+            </cyberware>
+            <cyberware>
+              <name>Spider Middle Rear Leg</name>
+              <forced>Left</forced>
+            </cyberware>
+            <cyberware>
+              <name>Spider Middle Rear Leg</name>
+              <forced>Right</forced>
+            </cyberware>
+          </subsystems>
+        </cyberware>
+        <cyberware>
+          <id>5dde84f9-96d7-48ef-a1ff-c2d862f49dfc</id>
+          <name>Spider Front Leg</name>
+          <category>Cyberlimb</category>
+          <ess>3</ess>
+          <capacity>20</capacity>
+          <avail>12</avail>
+          <cost>0</cost>
+          <source>CF</source>
+          <page>87</page>
+          <allowgear>
+            <gearcategory>Custom</gearcategory>
+            <gearcategory>Sensors</gearcategory>
+          </allowgear>
+          <allowsubsystems>
+            <category>Bodyware</category>
+            <category>Cosmetic Enhancement</category>
+            <category>Cyberlimb</category>
+            <category>Cyberlimb Enhancement</category>
+            <category>Cyberlimb Accessory</category>
+            <category>Cyber Implant Weapon</category>
+            <category>Headware</category>
+          </allowsubsystems>
+          <selectside />
+          <bonus>
+            <conditionmonitor>
+              <physical>1</physical>
+            </conditionmonitor>
+          </bonus>
+          <hide />
+          <limbslot>leg</limbslot>
+        </cyberware>
+        <cyberware>
+          <id>410e0fd7-6acb-428c-8234-c50bf35ebf4e</id>
+          <name>Spider Rear Leg</name>
+          <category>Cyberlimb</category>
+          <ess>3</ess>
+          <capacity>20</capacity>
+          <avail>12</avail>
+          <cost>0</cost>
+          <source>CF</source>
+          <page>87</page>
+          <allowgear>
+            <gearcategory>Custom</gearcategory>
+            <gearcategory>Sensors</gearcategory>
+          </allowgear>
+          <allowsubsystems>
+            <category>Bodyware</category>
+            <category>Cosmetic Enhancement</category>
+            <category>Cyberlimb</category>
+            <category>Cyberlimb Enhancement</category>
+            <category>Cyberlimb Accessory</category>
+            <category>Cyber Implant Weapon</category>
+            <category>Headware</category>
+          </allowsubsystems>
+          <selectside />
+          <bonus>
+            <conditionmonitor>
+              <physical>1</physical>
+            </conditionmonitor>
+          </bonus>
+          <hide />
+          <limbslot>leg</limbslot>
+        </cyberware>
+        <cyberware>
+          <id>e25a8170-80b9-4693-bed3-4cddcf322a92</id>
+          <name>Spider Middle Front Leg</name>
+          <category>Cyberlimb</category>
+          <ess>3</ess>
+          <capacity>20</capacity>
+          <avail>12</avail>
+          <cost>0</cost>
+          <source>CF</source>
+          <page>87</page>
+          <allowgear>
+            <gearcategory>Custom</gearcategory>
+            <gearcategory>Sensors</gearcategory>
+          </allowgear>
+          <allowsubsystems>
+            <category>Bodyware</category>
+            <category>Cosmetic Enhancement</category>
+            <category>Cyberlimb</category>
+            <category>Cyberlimb Enhancement</category>
+            <category>Cyberlimb Accessory</category>
+            <category>Cyber Implant Weapon</category>
+            <category>Headware</category>
+          </allowsubsystems>
+          <selectside />
+          <bonus>
+            <conditionmonitor>
+              <physical>1</physical>
+            </conditionmonitor>
+          </bonus>
+          <hide />
+          <limbslot>leg</limbslot>
+        </cyberware>
+        <cyberware>
+          <id>4c408fc3-8bb3-4d79-8114-eb94e71d6334</id>
+          <name>Spider Middle Rear Leg</name>
+          <category>Cyberlimb</category>
+          <ess>3</ess>
+          <capacity>20</capacity>
+          <avail>12</avail>
+          <cost>0</cost>
+          <source>CF</source>
+          <page>87</page>
+          <allowgear>
+            <gearcategory>Custom</gearcategory>
+            <gearcategory>Sensors</gearcategory>
+          </allowgear>
+          <allowsubsystems>
+            <category>Bodyware</category>
+            <category>Cosmetic Enhancement</category>
+            <category>Cyberlimb</category>
+            <category>Cyberlimb Enhancement</category>
+            <category>Cyberlimb Accessory</category>
+            <category>Cyber Implant Weapon</category>
+            <category>Headware</category>
+          </allowsubsystems>
+          <selectside />
+          <bonus>
+            <conditionmonitor>
+              <physical>1</physical>
+            </conditionmonitor>
+          </bonus>
+          <hide />
+          <limbslot>leg</limbslot>
+        </cyberware>
 		<cyberware>
 			<id>230e61d4-c6a1-4da1-a68b-be0fd55c7422</id>
       		<name>Hard Skin Mastery Armor</name>
