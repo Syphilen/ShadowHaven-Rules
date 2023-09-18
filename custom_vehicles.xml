@@ -37,11 +37,11 @@
       <cost>130000</cost>
       <body>4</body>
       <pilot>5</pilot>
-      <modslots>80</modslots>
+      <modslots>75</modslots>
       <accel>0</accel>
       <armor>0</armor>
       <handling>0</handling>
-      <sensor>0</sensor>
+      <sensor>3</sensor>
       <speed>0</speed>
       <gears>
         <gear>
@@ -74,7 +74,7 @@
       <accel>0</accel>
       <armor>0</armor>
       <handling>0</handling>
-      <sensor>0</sensor>
+      <sensor>3</sensor>
       <speed>0</speed>
       <gears>
         <gear>
@@ -107,7 +107,7 @@
       <accel>0</accel>
       <armor>0</armor>
       <handling>0</handling>
-      <sensor>0</sensor>
+      <sensor>3</sensor>
       <speed>0</speed>
       <gears>
         <gear>
@@ -140,7 +140,7 @@
       <accel>0</accel>
       <armor>0</armor>
       <handling>0</handling>
-      <sensor>0</sensor>
+      <sensor>3</sensor>
       <speed>0</speed>
       <gears>
         <gear>
