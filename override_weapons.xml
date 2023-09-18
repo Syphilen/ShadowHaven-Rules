@@ -17685,7 +17685,7 @@
 			<conceal operation="lessthanequals">0</conceal>
 			<category operation="contains">Pistol</category>
 			<category operation="contains">Submachine Guns</category>
-			<name>Krime Stopper-II</name>
+			<name operation="contains">Krime Stopper-II</name>
 		  </OR>
 		</weapondetails>
 	  </required>
@@ -17712,7 +17712,7 @@
 			<conceal operation="lessthanequals">0</conceal>
 			<category operation="contains">Pistol</category>
 			<category operation="contains">Submachine Guns</category>
-			<name>Krime Stopper-II</name>
+			<name operation="contains">Krime Stopper-II</name>
 		  </OR>
 		</weapondetails>
 	  </required>
