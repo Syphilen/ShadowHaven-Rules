@@ -111,6 +111,7 @@
               <forced>Right</forced>
             </cyberware>
           </subsystems>
+          <hide />
         </cyberware>
         <cyberware>
           <id>5dde84f9-96d7-48ef-a1ff-c2d862f49dfc</id>
