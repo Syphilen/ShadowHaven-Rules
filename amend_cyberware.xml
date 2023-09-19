@@ -207,6 +207,10 @@
 				</oneof>
 			</required>
 		</cyberware>
+        <cyberware>
+          <name>Improved Synthskin</name>
+          <capacity>[1]</capacity>
+        </cyberware>
 		<cyberware>
 			<name>Skilljack</name>
 			<ess>0.1</ess>
