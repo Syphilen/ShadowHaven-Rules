@@ -115,6 +115,40 @@
               </oneof>
 			</required>
 		</cyberware>
+    <cyberware>
+			    <id>93daafbe-4d94-4701-bf4a-00160ee9b536</id>
+      		<name>Drone Arm Adaptor</name>
+     		  <limit>140</limit>
+      		<category>Cyborg</category>
+      		<ess>0</ess>
+      		<capacity>[Rating]/Rating</capacity>
+      		<avail>4</avail>
+      		<cost>0</cost>
+      		<source>DM</source>
+			    <required>
+        		<parentdetails>
+					<name>Shell Cyberware Adaptor</name>
+        		</parentdetails>
+      		</required>
+      		<page>0</page>
+		</cyberware>
+    <cyberware>
+			    <id>dae3c74d-0798-4a8b-bb9b-6836e9271447</id>
+      		<name>Drone Leg Adaptor</name>
+     		  <limit>140</limit>
+      		<category>Cyborg</category>
+      		<ess>0</ess>
+      		<capacity>[Rating]/Rating</capacity>
+      		<avail>4</avail>
+      		<cost>0</cost>
+      		<source>DM</source>
+			    <required>
+        		<parentdetails>
+					<name>Shell Cyberware Adaptor</name>
+        		</parentdetails>
+      		</required>
+      		<page>0</page>
+		</cyberware>
 		<cyberware>
 			<id>c3437482-0f7d-4910-ab9d-a6b6bf8015bb</id>
       		<name>Cranial GPU</name>
