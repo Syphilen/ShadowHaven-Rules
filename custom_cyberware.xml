@@ -65,12 +65,12 @@
 		<cyberware>
 			<id>5e159433-21c4-44d9-9d63-f9984e2a53d2</id>
       		<name>Cranial Containment Unit</name>
-     		<limit>False</limit>
+     		 <limit>False</limit>
       		<category>Cyborg</category>
       		<ess>5.9</ess>
       		<capacity>50</capacity>
       		<avail>6</avail>
-      		<cost>220000</cost>
+      		<cost>0</cost>
       		<source>DM</source>
       		<page>0</page>
             <bannedgrades>
