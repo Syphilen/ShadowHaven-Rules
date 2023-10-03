@@ -207,6 +207,10 @@
 				</oneof>
 			</required>
 		</cyberware>
+        <cyberware>
+          <name>Improved Synthskin</name>
+          <capacity>[1]</capacity>
+        </cyberware>
 		<cyberware>
 			<name>Skilljack</name>
 			<ess>0.1</ess>
@@ -437,5 +441,53 @@
 				<disablequality amendoperation="addnode">fe67d02c-e9f0-4d8f-9888-adbea2797376</disablequality>
 			</bonus>
 		</cyberware>
+        <cyberware>
+          <name>Obvious Foot, Modular</name>
+          <mountsto amendoperation="replace">modularankle</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Hand, Modular</name>
+          <mountsto amendoperation="replace">modularwrist</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Foot, Modular</name>
+          <mountsto amendoperation="replace">modularankle</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Hand, Modular</name>
+          <mountsto amendoperation="replace">modularwrist</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Lower Arm, Modular</name>
+          <mountsto amendoperation="replace">modularelbow</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Lower Leg, Modular</name>
+          <mountsto amendoperation="replace">modularknee</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Lower Arm, Modular</name>
+          <mountsto amendoperation="replace">modularelbow</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Lower Leg, Modular</name>
+          <mountsto amendoperation="replace">modularknee</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Full Arm, Modular</name>
+          <mountsto amendoperation="replace">modularshoulder</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Full Leg, Modular</name>
+          <mountsto amendoperation="replace">modularhip</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Full Arm, Modular</name>
+          <mountsto amendoperation="replace">modularshoulder</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Full Leg, Modular</name>
+          <mountsto amendoperation="replace">modularhip</mountsto>
+        </cyberware>
 	</cyberwares>
 </chummer>
