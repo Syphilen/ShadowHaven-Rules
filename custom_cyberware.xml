@@ -44,9 +44,9 @@
 	</grades>
 	<categories>
     <category blackmarket="Cyberware">Cyborg</category>
-  <!--</categories>
+  </categories>
 	<cyberwares>
-        <cyberware>
+        <!--<cyberware>
           <id>9f0590cf-96f6-4e9f-9f9f-5c02503a2265</id>
           <name>Liminal Body, Spider</name>
           <category>Cyberlimb</category>
