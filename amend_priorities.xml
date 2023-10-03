@@ -45,7 +45,7 @@
       </metatypes>
     </priority>
     <priority>
-      <name>A - Human or Elf</name>
+      <name>D - Human or Elf</name>
       <metatypes amendoperation="recurse">
         <metatype amendoperation="addnode">
           <name>Cyborg</name>
