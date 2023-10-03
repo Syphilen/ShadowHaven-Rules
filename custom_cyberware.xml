@@ -44,7 +44,7 @@
 	</grades>
 	<categories>
     <category blackmarket="Cyberware">Cyborg</category>
-  </categories>
+  <!--</categories>
 	<cyberwares>
         <cyberware>
           <id>9f0590cf-96f6-4e9f-9f9f-5c02503a2265</id>
@@ -240,7 +240,7 @@
           </bonus>
           <hide />
           <limbslot>leg</limbslot>
-        </cyberware>
+        </cyberware>-->
 		<cyberware>
 			<id>230e61d4-c6a1-4da1-a68b-be0fd55c7422</id>
       		<name>Hard Skin Mastery Armor</name>
