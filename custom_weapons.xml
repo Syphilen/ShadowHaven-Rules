@@ -76,6 +76,17 @@
   </weapons>
   <accessories>
     <accessory>
+      <id>f3f2ba17-ed6f-4c55-a789-c3b543a72dc5</id>
+      <name>Hard Skin Torso Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>1</accuracy>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
       <id>b25496f8-bb3e-49a3-923f-f779528f220b</id>
       <name>Trajectory Mastery Accuracy Boost</name>
       <mount />
