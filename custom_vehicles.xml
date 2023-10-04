@@ -231,9 +231,9 @@
       <cost>8000</cost>
       <slots>15</slots>
       <category>Cyborg</category>
+      <notes>Please manually apply +1 body to soak tests.</notes>
       <bonus>
         <armor>+1</armor>
-        <body>+1</body>
       </bonus>      
       <required>
         <vehicledetails>
@@ -251,9 +251,9 @@
       <slots>30</slots>
       <bonus>
         <armor>+2</armor>
-        <body>+2</body>
       </bonus>    
       <category>Cyborg</category>
+      <notes>Please manually apply +2 body to soak tests.</notes>
       <required>
         <vehicledetails>
           <category>Drones: Cyborg Shell</category>
@@ -271,8 +271,8 @@
       <category>Cyborg</category>
       <bonus>
         <armor>+3</armor>
-        <body>+3</body>
       </bonus>
+      <notes>Please manually apply +3 body to soak tests.</notes>
       <required>
         <vehicledetails>
           <category>Drones: Cyborg Shell</category>
