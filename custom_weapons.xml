@@ -85,6 +85,22 @@
       <rating>0</rating>
       <source>DM</source>
       <page>0</page>
+      <required>
+        <oneof>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <cyberware>Obvious Torso</cyberware>
+          </group>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <cyberware>Synthetic Torso</cyberware>
+          </group>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <metatype>Cyborg</metatype>
+          </group>
+        </oneof>
+      </required>
     </accessory>
     <accessory>
       <id>b25496f8-bb3e-49a3-923f-f779528f220b</id>

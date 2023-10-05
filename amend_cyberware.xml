@@ -405,32 +405,6 @@
 			<source>DM</source>
 			<page>0</page>
 		</cyberware>
-		<cyberware amendoperation="addnode">
-			<id>51cbeba1-c754-44da-891c-245b48d7af59</id>
-			<name>Hard Skin Torso Boost</name>
-			<category>Cyberlimb Enhancement</category>
-			<ess>0</ess>
-			<capacity>[0]</capacity>
-			<bonus>
-				<armor>2</armor>
-			</bonus>
-			<required>
-				<allof>
-					<quality>Hard Skin</quality>
-					<parentdetails>
-						<OR>
-							<name>Obvious Torso</name>
-							<name>Synthetic Torso</name>
-						</OR>
-					</parentdetails>
-				</allof>
-			</required>
-			<avail>0</avail>
-			<cost>0</cost>
-			<rating>0</rating>
-			<source>DM</source>
-			<page>0</page>
-		</cyberware>
         <cyberware>
             <name>Renraku Tradejack</name>
             <ess>0.63</ess>
@@ -488,6 +462,38 @@
         <cyberware>
           <name>Synthetic Full Leg, Modular</name>
           <mountsto amendoperation="replace">modularhip</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Skimmers</name>
+          <required>
+            <parentdetails>
+              <OR amendoperation="replace">
+                <name operation="contains">Shell Cyberware Adaptor</name>
+                <name operation="contains">Lower Leg</name>
+                <name operation="contains">Full Leg</name>
+                <name>Centaur Front Leg</name>
+                <name>Centaur Rear Leg</name>
+                <name operation="contains">Drone Leg</name>
+                <name operation="contains">Shell Cyberware Adaptor</name>
+              </OR>
+            </parentdetails>
+          </required>
+        </cyberware>
+        <cyberware>
+          <name>Skates</name>
+          <required>
+            <parentdetails>
+              <OR amendoperation="replace">
+                <name operation="contains">Shell Cyberware Adaptor</name>
+                <name operation="contains">Lower Leg</name>
+                <name operation="contains">Full Leg</name>
+                <name>Centaur Front Leg</name>
+                <name>Centaur Rear Leg</name>
+                <name operation="contains">Drone Leg</name>
+                <name operation="contains">Shell Cyberware Adaptor</name>
+              </OR>
+            </parentdetails>
+          </required>
         </cyberware>
 	</cyberwares>
 </chummer>

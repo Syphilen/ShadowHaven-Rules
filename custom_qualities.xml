@@ -4058,6 +4058,13 @@
 					<resenabled />
 				</oneof>
 			</forbidden>
+			<required>
+				<oneof>
+					<cyberware>Smartlink</cyberware>
+                    <cyberware operation="contains">Targeting Laser</cyberware>
+                    <metatype>Cyborg</metatype>
+				</oneof>
+			</required>
 			<source>DM</source>
         	<page>0</page>
 			<notes>
@@ -4099,6 +4106,7 @@
 					<bioware>Muscle Augmentation</bioware>
 					<cyberware>Muscle Replacement</cyberware>
 					<cyberware>Enhanced Strength</cyberware>
+                    <metatype>Cyborg</metatype>
 				</oneof>
 			</required>
 			<forbidden>
@@ -4125,6 +4133,7 @@
 			<required>
 				<oneof>
 					<cyberware>Smartlink</cyberware>
+                    <metatype>Cyborg</metatype>
 				</oneof>
 			</required>
 			<forbidden>
@@ -4152,6 +4161,7 @@
 					<bioware>Muscle Augmentation</bioware>
 					<cyberware>Muscle Replacement</cyberware>
 					<cyberware>Enhanced Strength</cyberware>
+                    <metatype>Cyborg</metatype>
 				</oneof>
 			</required>
 			<forbidden>
@@ -4180,6 +4190,7 @@
 					<cyberware>Smartskin</cyberware>
 					<cyberware>Obvious Torso</cyberware>
 					<cyberware>Synthetic Torso</cyberware>
+                    <metatype>Cyborg</metatype>
 				</oneof>
 			</required>
 			<forbidden>
@@ -4269,6 +4280,7 @@
 				<oneof>
 					<cyberware>Skilljack</cyberware>
 					<cyberware>Knowledge Hardwires</cyberware>
+
 				</oneof>
 			</required>
 			<forbidden>
@@ -4297,6 +4309,7 @@
 					<cyberware>Eye Protector (Ballistic Glass)</cyberware>
 					<cyberware>Ear Protector</cyberware>
 					<cyberware>Damper</cyberware>
+                    <metatype>Cyborg</metatype>
 				</oneof>
 			</required>
 			<forbidden>

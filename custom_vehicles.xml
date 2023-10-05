@@ -452,5 +452,23 @@
         <subsystem>Cyberlimb Enhancement</subsystem>
       </subsystems>
     </mod>
+    <mod>
+      <id>1296c494-7b06-4f88-9f91-014e4e7f9ab7</id>
+      <name>Hard Skin Mastery Armor</name>
+      <page>0</page>
+      <source>DM</source>
+      <avail>0</avail>
+      <cost>0</cost>
+      <slots>0</slots>
+      <bonus>
+        <armor>2</armor>
+      </bonus>
+      <category>Cyborg</category>
+      <required>
+        <vehicledetails>
+          <category>Drones: Cyborg Shell</category>
+        </vehicledetails>
+      </required>
+    </mod>
   </mods>
 </chummer>

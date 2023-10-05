@@ -256,6 +256,11 @@
         		<armor>Rating</armor>
       		</bonus>
       		<rating>3</rating>
+            <required>
+              <oneof>
+                <quality>Hard Skin</quality>
+              </oneof>
+            </required>
 		</cyberware>
 		<cyberware>
 			<id>5e159433-21c4-44d9-9d63-f9984e2a53d2</id>
