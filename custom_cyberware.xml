@@ -46,7 +46,7 @@
     <category blackmarket="Cyberware">Cyborg</category>
   </categories>
 	<cyberwares>
-        <cyberware>
+        <!--<cyberware>
           <id>9f0590cf-96f6-4e9f-9f9f-5c02503a2265</id>
           <name>Liminal Body, Spider</name>
           <category>Cyberlimb</category>
@@ -240,7 +240,7 @@
           </bonus>
           <hide />
           <limbslot>leg</limbslot>
-        </cyberware>
+        </cyberware>-->
 		<cyberware>
 			<id>230e61d4-c6a1-4da1-a68b-be0fd55c7422</id>
       		<name>Hard Skin Mastery Armor</name>
@@ -256,6 +256,11 @@
         		<armor>Rating</armor>
       		</bonus>
       		<rating>3</rating>
+            <required>
+              <oneof>
+                <quality>Hard Skin</quality>
+              </oneof>
+            </required>
 		</cyberware>
 		<cyberware>
 			<id>5e159433-21c4-44d9-9d63-f9984e2a53d2</id>

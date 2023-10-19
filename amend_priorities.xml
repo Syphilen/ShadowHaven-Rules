@@ -23,8 +23,8 @@
 
   <priorities>
     <!-- Region Metatype -->
-    <priority>
-      <name>B - Any metatype</name>
+      <priority>
+      <name>A - Any metatype</name>
       <metatypes amendoperation="recurse">
         <metatype amendoperation="addnode">
           <name>Cyborg</name>
@@ -34,8 +34,7 @@
       </metatypes>
     </priority>
     <priority>
-      <id>988b7ce3-5739-4300-bc21-a6c92b869262</id>
-      <name amendoperation="replace">C - Human, Dwarf, Elf, Ork, or Cyborg</name>
+      <name>B - Any metatype</name>
       <metatypes amendoperation="recurse">
         <metatype amendoperation="addnode">
           <name>Cyborg</name>
@@ -45,7 +44,8 @@
       </metatypes>
     </priority>
     <priority>
-      <name>A - Human or Elf</name>
+      <id>988b7ce3-5739-4300-bc21-a6c92b869262</id>
+      <name amendoperation="replace">C - Human, Dwarf, Elf, Ork, or Cyborg</name>
       <metatypes amendoperation="recurse">
         <metatype amendoperation="addnode">
           <name>Cyborg</name>

@@ -72,6 +72,13 @@
       <movement>Special</movement>
       <source>DM</source>
       <page>0</page>
+      <bonus>
+      <addware>
+        <type>cyberware</type>
+        <name>Cranial Containment Unit</name>
+        <grade>Standard</grade>
+      </addware>
+    </bonus>
     </metatype>
     </metatypes>
 </chummer>

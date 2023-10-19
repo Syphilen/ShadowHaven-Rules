@@ -76,6 +76,33 @@
   </weapons>
   <accessories>
     <accessory>
+      <id>f3f2ba17-ed6f-4c55-a789-c3b543a72dc5</id>
+      <name>Hard Skin Torso Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>1</accuracy>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <cyberware>Obvious Torso</cyberware>
+          </group>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <cyberware>Synthetic Torso</cyberware>
+          </group>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <metatype>Cyborg</metatype>
+          </group>
+        </oneof>
+      </required>
+    </accessory>
+    <accessory>
       <id>b25496f8-bb3e-49a3-923f-f779528f220b</id>
       <name>Trajectory Mastery Accuracy Boost</name>
       <mount />
@@ -256,6 +283,43 @@
           <ammo operation="contains">(cy)</ammo>
         </weapondetails>
       </required>
+    </accessory>
+	<accessory>
+      <id>ab17b76b-c5ef-ef4f-4eb7-76da70e18c1b</id>
+      <name>Allied Weapon, per IG</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+	  <accuracy>1</accuracy>
+      <required>
+		<allof>
+          <weapondetails>
+            <type>Melee</type>
+          </weapondetails>
+          <spell>Imbue Item</spell>
+        </allof>
+      </required>
+      <rating>0</rating>
+      <source>SG</source>
+      <page>133</page>
+    </accessory>
+	<accessory>
+      <id>dc4a7818-60c8-ee21-56a8-ddf20c8da9fc</id>
+      <name>Attuned Weapon, per IG</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+	  <accuracy>1</accuracy>
+      <required>
+		<allof>
+          <spell>Attune Item</spell>
+        </allof>
+      </required>
+      <rating>0</rating>
+      <source>SG</source>
+      <page>124</page>
     </accessory>
   </accessories>
 </chummer>
