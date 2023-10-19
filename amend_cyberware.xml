@@ -463,37 +463,5 @@
           <name>Synthetic Full Leg, Modular</name>
           <mountsto amendoperation="replace">modularhip</mountsto>
         </cyberware>
-        <cyberware>
-          <name>Skimmers</name>
-          <required>
-            <parentdetails>
-              <OR amendoperation="replace">
-                <name operation="contains">Shell Cyberware Adaptor</name>
-                <name operation="contains">Lower Leg</name>
-                <name operation="contains">Full Leg</name>
-                <name>Centaur Front Leg</name>
-                <name>Centaur Rear Leg</name>
-                <name operation="contains">Drone Leg</name>
-                <name operation="contains">Shell Cyberware Adaptor</name>
-              </OR>
-            </parentdetails>
-          </required>
-        </cyberware>
-        <cyberware>
-          <name>Skates</name>
-          <required>
-            <parentdetails>
-              <OR amendoperation="replace">
-                <name operation="contains">Shell Cyberware Adaptor</name>
-                <name operation="contains">Lower Leg</name>
-                <name operation="contains">Full Leg</name>
-                <name>Centaur Front Leg</name>
-                <name>Centaur Rear Leg</name>
-                <name operation="contains">Drone Leg</name>
-                <name operation="contains">Shell Cyberware Adaptor</name>
-              </OR>
-            </parentdetails>
-          </required>
-        </cyberware>
 	</cyberwares>
 </chummer>
