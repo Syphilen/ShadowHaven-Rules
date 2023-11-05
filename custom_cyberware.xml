@@ -44,6 +44,7 @@
 	</grades>
 	<categories>
     <category blackmarket="Cyberware">Cyborg</category>
+    <category blackmarket="Cyberware">EyeMount</category>
   </categories>
 	<cyberwares>
         <!--<cyberware>
@@ -513,6 +514,54 @@
                 <name>Cranial Containment Unit</name>
             </parentdetails>
           </required>
+        </cyberware>
+        <cyberware>
+          <id>ea790d0d-0d65-487c-b4da-13ea56284a64</id>
+          <name>Single Cybereye Basic System</name>
+          <category>EyeMount</category>
+          <capacity>4/[1]</capacity>
+          <avail>3</avail>
+          <cost>2000</cost>
+          <source>SR5</source>
+          <page>453</page>
+          <allowgear>
+            <gearcategory>Custom</gearcategory>
+            <gearcategory>Sensors</gearcategory>
+          </allowgear>
+          <allowsubsystems>
+            <category>Eyeware</category>
+          </allowsubsystems>
+          <subsystems>
+            <cyberware>
+              <name>Image Link</name>
+            </cyberware>
+          </subsystems>
+          <required>
+            <parentdetails>
+              <name>Additional Eye Mount</name>
+            </parentdetails>
+          </required>
+        </cyberware>
+        <cyberware>
+          <id>cf00099e-6ab1-427d-b194-7c7d31144fb4</id>
+          <name>Additional Eye Mount</name>
+          <limit>False</limit>
+          <category>Bodyware</category>
+          <ess>0.2</ess>
+          <capacity>1/[2]</capacity>
+          <avail>8</avail>
+          <cost>1000</cost>
+          <source>CF</source>
+          <page>75</page>
+          <allowsubsystems>
+            <category>EyeMount</category>
+          </allowsubsystems>
+          <bonus>
+            <limitmodifier>
+              <limit>Physical</limit>
+              <value>-1</value>
+            </limitmodifier>
+          </bonus>
         </cyberware>
         <cyberware>
           <id>dcec5cb6-be7e-4bf6-8bad-09c5bc6215dc</id>

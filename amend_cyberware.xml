@@ -416,6 +416,16 @@
 			</bonus>
 		</cyberware>
         <cyberware>
+          <id>27aad555-301b-4dfa-826c-40c9c489d6a0</id>
+          <!-- <name>Additional Eye Mount</name> -->
+          <hide />
+        </cyberware>
+        <cyberware>
+          <id>3bfb8c0e-87a6-49ba-9b33-f2a991ed26ea</id>
+          <!-- <name>Additional Eye Mount</name> -->
+          <hide />
+        </cyberware>
+        <cyberware>
           <name>Obvious Foot, Modular</name>
           <mountsto amendoperation="replace">modularankle</mountsto>
         </cyberware>
