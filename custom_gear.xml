@@ -1233,5 +1233,15 @@
       <avail>12F</avail>
       <cost>8000</cost>
     </gear>
+    <gear>
+      <id>875bf273-1a0d-4a42-80ab-3917d7a1506a</id>
+      <name>KE-V</name>
+      <category>Toxins</category>
+      <rating>0</rating>
+      <source>SRM0804</source>
+      <page>11</page>
+      <avail>10R</avail>
+      <cost>100</cost>
+    </gear>
   </gears>
 </chummer>
