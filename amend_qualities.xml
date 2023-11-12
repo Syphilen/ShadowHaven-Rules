@@ -336,6 +336,62 @@
       </forbidden>
     </quality>
     <quality>
+      <name>Natural Venom (Injected, Mild)</name>
+      <required amendoperation="replace">
+        <oneof>
+          <quality>Fangs</quality>
+          <quality>Functional Tail (Thagomizer)</quality>
+        </oneof>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+          <quality>Changeling (Class III SURGE)</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <name>Natural Venom (Injected, Moderate)</name>
+      <required amendoperation="replace">
+        <oneof>
+          <quality>Fangs</quality>
+          <quality>Functional Tail (Thagomizer)</quality>
+        </oneof>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+          <quality>Changeling (Class III SURGE)</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <name>Natural Venom (Injected, Serious)</name>
+      <required amendoperation="replace">
+        <oneof>
+          <quality>Fangs</quality>
+          <quality>Functional Tail (Thagomizer)</quality>
+        </oneof>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+          <quality>Changeling (Class III SURGE)</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <name>Natural Venom (Injected, Deadly)</name>
+      <required amendoperation="replace">
+        <oneof>
+          <quality>Fangs</quality>
+          <quality>Functional Tail (Thagomizer)</quality>
+        </oneof>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+          <quality>Changeling (Class III SURGE)</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
       <name>Proboscis</name>
       <forbidden amendoperation="addnode">
         <oneof>
