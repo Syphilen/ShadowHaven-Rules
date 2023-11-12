@@ -292,22 +292,19 @@
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
+                        <cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<cyberware>Dermal Plating</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Armor</cyberware>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
@@ -317,43 +314,80 @@
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
 						<bioware>Orthoskin</bioware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<bioware>Orthoskin</bioware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<bioware>Orthoskin</bioware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Armor</cyberware>
-						<bioware>Orthoskin</bioware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
-						<cyberware>Armor</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
-						<cyberware>Armor</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<cyberware>Armor</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
 						<bioware>Bone Density Augmentation</bioware>
-						<cyberware>Armor</cyberware>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Orthoskin</cyberware>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Dermal Plating</cyberware>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Bone Density Augmentation</cyberware>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 				</oneof>
@@ -396,22 +430,19 @@
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
+                        <cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<cyberware>Dermal Plating</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Armor</cyberware>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
@@ -421,43 +452,80 @@
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
 						<bioware>Orthoskin</bioware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<bioware>Orthoskin</bioware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<bioware>Orthoskin</bioware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Armor</cyberware>
-						<bioware>Orthoskin</bioware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
-						<cyberware>Armor</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
-						<cyberware>Armor</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<cyberware>Armor</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
 						<bioware>Bone Density Augmentation</bioware>
-						<cyberware>Armor</cyberware>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Orthoskin</cyberware>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Dermal Plating</cyberware>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Bone Density Augmentation</cyberware>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 				</oneof>
@@ -498,22 +566,19 @@
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
+                        <cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<cyberware>Dermal Plating</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Armor</cyberware>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
@@ -523,43 +588,80 @@
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
 						<bioware>Orthoskin</bioware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<bioware>Orthoskin</bioware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<bioware>Orthoskin</bioware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Armor</cyberware>
-						<bioware>Orthoskin</bioware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
-						<cyberware>Armor</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
-						<cyberware>Armor</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<cyberware>Armor</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
 						<bioware>Bone Density Augmentation</bioware>
-						<cyberware>Armor</cyberware>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Orthoskin</cyberware>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Dermal Plating</cyberware>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Bone Density Augmentation</cyberware>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 				</oneof>
@@ -598,22 +700,19 @@
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
+                        <cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<cyberware>Dermal Plating</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Armor</cyberware>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<cyberware>Dermal Plating</cyberware>
 						<ess>-3.0</ess>
 					</group>
@@ -623,43 +722,80 @@
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
 						<bioware>Orthoskin</bioware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<bioware>Orthoskin</bioware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<bioware>Orthoskin</bioware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<bioware>Orthoskin</bioware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
-						<cyberware>Armor</cyberware>
-						<bioware>Orthoskin</bioware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Plastic)</cyberware>
-						<cyberware>Armor</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Aluminum)</cyberware>
-						<cyberware>Armor</cyberware>
-						<ess>-3.0</ess>
-					</group>
-					<group>
-						<cyberware>Bone Lacing (Titanium)</cyberware>
-						<cyberware>Armor</cyberware>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 					<group>
 						<bioware>Bone Density Augmentation</bioware>
-						<cyberware>Armor</cyberware>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<bioware>Bone Density Augmentation</bioware>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberwarecontains>Arm</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+                        <cyberwarecontains>Leg</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+					<group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberwarecontains>Bone Lacing</cyberwarecontains>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Orthoskin</cyberware>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Dermal Plating</cyberware>
+                        <cyberware>Armor</cyberware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<cyberwarecontains>Torso</cyberwarecontains>
+						<cyberware>Bone Density Augmentation</cyberware>
+                        <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
 				</oneof>
