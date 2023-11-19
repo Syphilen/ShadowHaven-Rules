@@ -1243,5 +1243,19 @@
       <avail>10R</avail>
       <cost>100</cost>
     </gear>
+	<gear>
+	  <id>53e003be-9def-6f1b-9081-dae4c823ca7d</id>
+	  <name>Spell Formula, Ritual</name>
+      <category>Formulae</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>326</page>
+      <avail>8R</avail>
+      <bonus>
+        <selecttext xml="spells.xml" xpath="/chummer/spells/spell[category = 'Ritual']" allowedit="True" />
+      </bonus>
+      <cost>2000</cost>
+      <allowrename>True</allowrename>
+	</gear>
   </gears>
 </chummer>
