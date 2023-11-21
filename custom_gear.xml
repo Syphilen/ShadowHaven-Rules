@@ -1252,7 +1252,7 @@
       <page>326</page>
       <avail>8R</avail>
       <bonus>
-        <selecttext xml="spells.xml" xpath="/chummer/spells/spell[category = 'Ritual']" allowedit="True" />
+        <selecttext xml="spells.xml" xpath="/chummer/spells/spell[category = 'Rituals']" allowedit="True" />
       </bonus>
       <cost>2000</cost>
       <allowrename>True</allowrename>
