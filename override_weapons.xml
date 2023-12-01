@@ -8793,12 +8793,9 @@
 	  <cost>1000000</cost>
 	  <source>LCD</source>
 	  <page>209</page>
-	  <allowaccessory>False</allowaccessory>
 	  <range>Light Pistols</range>
 	  <spec>Microwave</spec>
 	  <accessorymounts>
-		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
 	  </accessorymounts>
 	</weapon>
@@ -8819,12 +8816,9 @@
 	  <cost>1000000</cost>
 	  <source>LCD</source>
 	  <page>209</page>
-	  <allowaccessory>False</allowaccessory>
 	  <range>Light Pistols</range>
 	  <spec>Microwave</spec>
 	  <accessorymounts>
-		<mount>Top</mount>
-		<mount>Side</mount>
 		<mount>Internal</mount>
 	  </accessorymounts>
 	</weapon>
@@ -8851,50 +8845,6 @@
 	  </accessorymounts>
 	  <range>Submachine Guns</range>
 	</weapon>
-    <weapon>
-      <id>21fb8d4f-5958-4fd9-996f-7e88ee0282c2</id>
-      <name>Microwave Gun, High Frequency</name>
-      <category>Exotic Ranged Weapons</category>
-      <type>Ranged</type>
-      <conceal>4</conceal>
-      <accuracy>6</accuracy>
-      <reach>0</reach>
-      <damage>7P</damage>
-      <ap>-6</ap>
-      <mode>SS</mode>
-      <rc>0</rc>
-      <ammo>Energy</ammo>
-      <avail>20R</avail>
-      <cost>100000</cost>
-      <source>LCD</source>
-      <page>209</page>
-      <allowaccessory>False</allowaccessory>
-      <range>Light Pistols</range>
-      <spec>Microwave</spec>
-      <weapontype>energy</weapontype>
-    </weapon>
-    <weapon>
-      <id>10fb69db-efd0-4f63-80a7-bda5ef0480a4</id>
-      <name>Microwave Gun, Low Frequency</name>
-      <category>Exotic Ranged Weapons</category>
-      <type>Ranged</type>
-      <conceal>4</conceal>
-      <accuracy>4</accuracy>
-      <reach>0</reach>
-      <damage>10P</damage>
-      <ap>0</ap>
-      <mode>SS</mode>
-      <rc>0</rc>
-      <ammo>Energy</ammo>
-      <avail>20R</avail>
-      <cost>100000</cost>
-      <source>LCD</source>
-      <page>209</page>
-      <allowaccessory>False</allowaccessory>
-      <range>Light Pistols</range>
-      <spec>Microwave</spec>
-      <weapontype>energy</weapontype>
-    </weapon>
 	<!-- End Region -->
 	<!-- Region Shadows in Focus -->
 	<!-- Region San Francisco -->
