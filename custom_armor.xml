@@ -39,6 +39,73 @@
 -->
 
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema armor.xsd">
+    <armors>
+      <armor>
+        <id>2a85b74a-455c-484f-9ab9-c41d67684314</id>
+        <name>Cyborg Infiltrator Armor</name>
+        <category>Armor</category>
+        <armor>7</armor>
+        <armorcapacity>8</armorcapacity>
+        <avail>7</avail>
+        <cost>5000</cost>
+        <source>DM</source>
+        <page>0</page>
+        <notes>Doesn't look like you are wearing armor.</notes>
+        <required>
+          <oneof>
+		    <metatype>Cyborg</metatype>
+          </oneof>
+		</required>
+      </armor>
+      <armor>
+        <id>4aa84e92-b465-49b9-b92e-b25f76619296</id>
+        <name>Cyborg Light Armor</name>
+        <category>Armor</category>
+        <armor>11</armor>
+        <armorcapacity>16</armorcapacity>
+        <avail>15R</avail>
+        <cost>10000</cost>
+        <source>DM</source>
+        <page>0</page>
+        <required>
+          <oneof>
+		    <metatype>Cyborg</metatype>
+          </oneof>
+		</required>
+      </armor>
+      <armor>
+        <id>0450d518-c271-448f-8b9d-d018a4ffe222</id>
+        <name>Cyborg Medium Armor</name>
+        <category>Armor</category>
+        <armor>15</armor>
+        <armorcapacity>24</armorcapacity>
+        <avail>24F</avail>
+        <cost>15000</cost>
+        <source>DM</source>
+        <page>0</page>
+        <required>
+          <oneof>
+		    <metatype>Cyborg</metatype>
+          </oneof>
+		</required>
+      </armor>
+      <armor>
+        <id>fb7c2551-4625-4504-ba16-447157b2e026</id>
+        <name>Cyborg Heavy Armor</name>
+        <category>Armor</category>
+        <armor>20</armor>
+        <armorcapacity>30</armorcapacity>
+        <avail>30F</avail>
+        <cost>30000</cost>
+        <source>DM</source>
+        <page>0</page>
+        <required>
+          <oneof>
+		    <metatype>Cyborg</metatype>
+          </oneof>
+		</required>
+      </armor>
+    </armors>
 	<mods>
 		<mod>
 			<id>8c7a2b98-9bbf-40ab-ad33-2cb9997a970b</id>
