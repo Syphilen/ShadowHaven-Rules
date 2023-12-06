@@ -470,5 +470,24 @@
         </vehicledetails>
       </required>
     </mod>
+    <mod>
+      <id>0c397158-5db2-4a83-8120-9f815db16ba7</id>
+      <name>Equiped Armor</name>
+      <page>0</page>
+      <source>DM</source>
+      <avail>0</avail>
+      <cost>0</cost>
+      <rating>20</rating>
+      <category>Cyborg</category>
+      <slots>Rating</slots>
+      <bonus>
+        <armor>+Rating</armor>
+      </bonus>
+      <required>
+        <vehicledetails>
+          <category>Drones: Cyborg Shell</category>
+        </vehicledetails>
+      </required>
+    </mod>
   </mods>
 </chummer>
