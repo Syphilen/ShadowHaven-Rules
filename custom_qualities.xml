@@ -390,6 +390,10 @@
                         <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
+                    <group>
+						<metatype>Cyborg</metatype>
+						<ess>-3.0</ess>
+					</group>
 				</oneof>
 			</required>
 			<bonus>
@@ -528,6 +532,10 @@
                         <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
+                    <group>
+						<metatype>Cyborg</metatype>
+						<ess>-3.0</ess>
+					</group>
 				</oneof>
 			</required>
 			<bonus>
@@ -664,6 +672,10 @@
                         <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
+                    <group>
+						<metatype>Cyborg</metatype>
+						<ess>-3.0</ess>
+					</group>
 				</oneof>
 			</required>
 			<bonus>
@@ -798,6 +810,10 @@
                         <cyberware>Armor</cyberware>
 						<ess>-3.0</ess>
 					</group>
+                    <group>
+						<metatype>Cyborg</metatype>
+						<ess>-3.0</ess>
+					</group>
 				</oneof>
 			</required>
 			<bonus>
@@ -857,6 +873,10 @@
 					<group>
 						<ess>-3.0</ess>
 						<cyberware>Obvious Skull</cyberware>
+					</group>
+                    <group>
+						<metatype>Cyborg</metatype>
+						<ess>-3.0</ess>
 					</group>
 				</oneof>
 			</required>
@@ -926,6 +946,10 @@
 					<group>
 						<ess>-3.0</ess>
 						<cyberware>Obvious Skull</cyberware>
+					</group>
+                    <group>
+						<metatype>Cyborg</metatype>
+						<ess>-3.0</ess>
 					</group>
 				</oneof>
 			</required>
@@ -1216,6 +1240,10 @@
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
 					</group>
+                    <group>
+						<metatype>Cyborg</metatype>
+						<ess>-3.0</ess>
+					</group>
 				</oneof>
 			</required>
 			<bonus>
@@ -1307,6 +1335,10 @@
 					<group>
 						<cyberware>Laser Rangefinder</cyberware>
 						<bioware>Reflex Recorder</bioware>
+						<ess>-3.0</ess>
+					</group>
+                    <group>
+						<metatype>Cyborg</metatype>
 						<ess>-3.0</ess>
 					</group>
 				</oneof>
@@ -4416,7 +4448,7 @@
 				<oneof>
 					<cyberware>Skilljack</cyberware>
 					<cyberware>Knowledge Hardwires</cyberware>
-
+                    <cyberware>Active Hardwires</cyberware>
 				</oneof>
 			</required>
 			<forbidden>
