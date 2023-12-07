@@ -1912,7 +1912,7 @@
 	  <source>SR5</source>
 	  <page>438</page>
 	  <hide />
-	  <spec>Shields</spec>
+	  <useskill>Battering Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>1752def7-cfed-44d8-a79f-bc95f32c4c13</id>
@@ -1931,7 +1931,7 @@
 	  <cost>3500</cost>
 	  <source>RG</source>
 	  <page>103</page>
-	  <spec>Battering Ram</spec>
+	  <useskill>Battering Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>375930d0-6a29-480e-a6d8-46fe4eaf2a16</id>
@@ -1950,7 +1950,7 @@
 	  <cost>10000</cost>
 	  <source>RG</source>
 	  <page>104</page>
-	  <spec>Battering Ram</spec>
+	  <useskill>Battering Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>c0e77aad-3ecb-4136-b39d-00e9db6e6407</id>
@@ -1969,7 +1969,7 @@
 	  <cost>15000</cost>
 	  <source>RG</source>
 	  <page>104</page>
-	  <spec>Battering Ram</spec>
+	  <useskill>Battering Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>5ed720a1-bfa5-4670-85a2-5867f5caafbf</id>
@@ -1988,7 +1988,7 @@
 	  <cost>2000</cost>
 	  <source>RG</source>
 	  <page>103</page>
-	  <spec>Battering Ram</spec>
+	  <useskill>Battering Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>ebbdbe5e-17da-4a97-8a65-9839513c91fe</id>
@@ -2007,7 +2007,7 @@
 	  <cost>20000</cost>
 	  <source>RG</source>
 	  <page>104</page>
-	  <spec>Shield</spec>
+	  <useskill>Battering Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>fb814f8e-7284-4ae8-b362-63958d6a1921</id>
@@ -2026,7 +2026,7 @@
 	  <cost>500</cost>
 	  <source>SR5</source>
 	  <page>448</page>
-	  <spec>Chainsaw</spec>
+	  <useskill>Chainsaws</useskill>
 	</weapon>
 	<weapon>
 	  <id>e66ab7ea-3408-4a3b-9ab9-7bc26a8e8a6e</id>
@@ -2046,7 +2046,7 @@
 	  <source>SR5</source>
 	  <page>438</page>
 	  <hide />
-	  <spec>Shields</spec>
+	  <useskill>Battering Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>c0f77a8a-6bda-489e-aea6-bd4d6b3efe33</id>
@@ -2065,6 +2065,7 @@
 	  <cost>2000</cost>
 	  <source>RG</source>
 	  <page>21</page>
+      <useskill>Chainsaws</useskill>
 	</weapon>
 	<weapon>
 	  <id>05313081-d711-4af0-9a11-ebfbcdd4583f</id>
@@ -2083,6 +2084,7 @@
 	  <cost>7500</cost>
 	  <source>RG</source>
 	  <page>21</page>
+      <useskill>Chainsaws</useskill>
 	</weapon>
 	<weapon>
 	  <id>e3f90df3-a19e-458a-a09f-01ee4cd04502</id>
@@ -2101,6 +2103,7 @@
 	  <cost>100</cost>
 	  <source>RG</source>
 	  <page>20</page>
+      <useskill>Tensile Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>e9e5f7a1-a17f-4331-843d-c257af2130aa</id>
@@ -2119,6 +2122,7 @@
 	  <cost>50</cost>
 	  <source>RG</source>
 	  <page>20</page>
+      <useskill>Tensile Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>f2ac00fc-305c-4f2e-b48d-62f9daa528c7</id>
@@ -2137,6 +2141,7 @@
 	  <cost>2000</cost>
 	  <source>RG</source>
 	  <page>20</page>
+      <useskill>Tensile Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>c3ea1ed4-b117-4ba7-99eb-7d7b4b130b55</id>
@@ -2155,6 +2160,7 @@
 	  <cost>10000</cost>
 	  <source>SR5</source>
 	  <page>423</page>
+      <useskill>Tensile Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>dc18811b-eb07-43d8-8d95-d5c468f048f4</id>
@@ -2173,6 +2179,8 @@
 	  <cost>750</cost>
 	  <source>RG</source>
 	  <page>20</page>
+      <useskill>Blades</useskill>
+      <addweapon>Gunstock War Club (Thrown)</addweapon>
 	</weapon>
 	<weapon>
 	  <id>4f1d1416-5af6-4853-a1b3-2bb44a132d8f</id>
@@ -2213,7 +2221,7 @@
 	  <hide />
 	  <range>Light Crossbows</range>
 	  <sizecategory>Light Crossbows</sizecategory>
-	  <spec>Grapple Gun</spec>
+	  <useskill>Nonconventional Ballistics</useskill>
 	  <accessorymounts>
 		<mount>Top</mount>
 		<mount>Side</mount>
@@ -2241,7 +2249,7 @@
 	  <hide />
 	  <range>Tasers</range>
 	  <sizecategory>Tasers</sizecategory>
-	  <spec>Sprayer</spec>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>fac9d052-4f7d-43cd-a649-8703b4c0b9c2</id>
@@ -2263,7 +2271,7 @@
 	  <hide />
 	  <range>Tasers</range>
 	  <sizecategory>Tasers</sizecategory>
-	  <spec>Flare Launcher</spec>
+      <useskill>Nonconventional Ballistics</useskill>
 	  <weapontype>flaregun</weapontype>
 	</weapon>
 	<weapon>
@@ -2289,6 +2297,7 @@
 		</accessory>
 	  </accessories>
 	  <range>Light Pistols</range>
+      <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>a9a07174-a498-4e91-95c9-b6604e03a02c</id>
@@ -2308,6 +2317,7 @@
 	  <source>RG</source>
 	  <page>50</page>
 	  <range>Flamethrowers</range>
+      <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>6a8221c2-f926-4148-9349-4c16664630ae</id>
@@ -3021,7 +3031,7 @@
 	  <source>RG</source>
 	  <page>24</page>
 	  <range>Thrown Knife</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Throwing Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>469a2853-64ea-4701-8c63-dfa905f9c6fb</id>
@@ -3100,7 +3110,7 @@
 	</weapon>
 	<weapon>
 	  <id>AB91307F-B8D1-46E5-A3C1-9A0047F5B1EF</id>
-	  <name>Chakram</name>
+	  <name>Chakram (Thrown)</name>
 	  <category>Gear</category>
 	  <type>Ranged</type>
 	  <conceal>0</conceal>
@@ -3116,7 +3126,6 @@
 	  <source>RG</source>
 	  <page>20</page>
 	  <range>Shuriken</range>
-	  <spec>Blades</spec>
 	  <useskill>Throwing Weapons</useskill>
 	</weapon>
 	<weapon>
@@ -4004,8 +4013,7 @@
 		<mount>Stock</mount>
 	  </accessorymounts>
 	  <range>Sniper Rifles</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
-	  <useskillspec>Laser Weapons</useskillspec>
+	  <useskill>Laser Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>d6c4ff4a-5fbb-4885-9220-a784e2bff4f4</id>
@@ -4031,8 +4039,7 @@
 		<mount>Stock</mount>
 	  </accessorymounts>
 	  <range>Assault Rifles</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
-	  <useskillspec>Laser Weapons</useskillspec>
+	  <useskill>Laser Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>78293136-5bd0-49ac-aa9b-7c291f94c7a4</id>
@@ -4056,8 +4063,7 @@
 		<mount>Internal</mount>
 	  </accessorymounts>
 	  <range>Submachine Guns</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
-	  <useskillspec>Laser Weapons</useskillspec>
+	  <useskill>Laser Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>df19a07f-cc04-44b6-b9b2-6d4fe73062e4</id>
@@ -5916,7 +5922,7 @@
 	  </accessorymounts>
 	  <range>Light Pistols</range>
 	  <sizecategory>Assault Rifles</sizecategory>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	  <weapontype>squirtgun</weapontype>
 	</weapon>
 	<weapon>
@@ -5944,7 +5950,7 @@
 	  </accessorymounts>
 	  <range>Shotguns (flechette)</range>
 	  <sizecategory>Assault Rifles</sizecategory>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	  <weapontype>energy</weapontype>
 	</weapon>
 	<weapon>
@@ -5965,7 +5971,7 @@
 	  <source>RG</source>
 	  <page>26</page>
 	  <range>Tasers</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	</weapon>
 	<weapon>
 	  <id>07200c8e-d3f3-4ec1-8911-11be322c6d5f</id>
@@ -5985,7 +5991,7 @@
 	  <source>RG</source>
 	  <page>26</page>
 	  <range>Shuriken</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Throwing Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>a836fc0b-a1e1-491d-ad8d-7f803c88acdc</id>
@@ -6012,7 +6018,7 @@
 	  </accessorymounts>
 	  <range>Heavy Pistols</range>
 	  <sizecategory>Heavy Pistols</sizecategory>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	  <weapontype>gyrojet</weapontype>
 	</weapon>
 	<weapon>
@@ -6041,7 +6047,7 @@
 	  </accessorymounts>
 	  <range>Submachine Guns</range>
 	  <sizecategory>Submachine Guns</sizecategory>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>da91e16e-df0f-475e-9a41-c342c59540ab</id>
@@ -6062,7 +6068,7 @@
 	  <page>27</page>
 	  <ammocategory>Heavy Pistols</ammocategory>
 	  <range>Tasers</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	</weapon>
 	<weapon>
 	  <id>04fd6c88-6d3c-4e5e-8490-4cf422f3e02e</id>
@@ -6082,7 +6088,7 @@
 	  <source>RG</source>
 	  <page>26</page>
 	  <range>Shuriken</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Throwing Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>eb9c657d-d98d-476e-8a86-40d83d8cb821</id>
@@ -6103,7 +6109,7 @@
 	  <page>27</page>
 	  <ammocategory>Light Pistols</ammocategory>
 	  <range>Tasers</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	</weapon>
 	<weapon>
 	  <id>9c3d9b2e-336e-4c37-b05d-07bea9ae9c3f</id>
@@ -6128,7 +6134,7 @@
 	  </accessorymounts>
 	  <range>Heavy Pistols</range>
 	  <sizecategory>Heavy Pistols</sizecategory>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	  <weapontype>dartgun</weapontype>
 	</weapon>
 	<weapon>
@@ -6157,7 +6163,7 @@
 	  </accessorymounts>
 	  <range>Sporting Rifles</range>
 	  <sizecategory>Sporting Rifles</sizecategory>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	  <weapontype>dartgun</weapontype>
 	</weapon>
 	<weapon>
@@ -6178,7 +6184,7 @@
 	  <source>RG</source>
 	  <page>28</page>
 	  <range>Light Pistols</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	  <weapontype>netgun</weapontype>
 	</weapon>
 	<weapon>
@@ -6199,7 +6205,7 @@
 	  <source>RG</source>
 	  <page>28</page>
 	  <range>Light Pistols</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	  <weapontype>netgunxl</weapontype>
 	</weapon>
 	<weapon>
@@ -6221,7 +6227,7 @@
 	  <page>28</page>
 	  <ammocategory>Holdouts</ammocategory>
 	  <range>Tasers</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	</weapon>
 	<weapon>
 	  <id>b312c6dd-56db-4569-b96d-32a9e290e78b</id>
@@ -7294,8 +7300,7 @@
 		  <conceal operation="greaterthan">0</conceal>
 		</weapondetails>
 	  </required>
-	  <useskill>Exotic Ranged Weapon</useskill>
-	  <useskillspec>Bola</useskillspec>
+	  <useskill>Nonconventional Ballistics</useskill>
 	  <weapontype>bola</weapontype>
 	</weapon>
 	<weapon>
@@ -7322,9 +7327,7 @@
 		</weapondetails>
 	  </required>
 	  <sizecategory>Light Crossbows</sizecategory>
-	  <spec>Grapple Gun</spec>
-	  <useskill>Exotic Ranged Weapon</useskill>
-	  <useskillspec>Grapple Gun</useskillspec>
+	  <useskill>Nonconventional Ballistics</useskill>
 	</weapon>
 	<weapon>
 	  <id>747c2843-717f-4192-bad9-df21ffd4083b</id>
@@ -7581,7 +7584,7 @@
 	  <page>115</page>
 	  <allowaccessory>False</allowaccessory>
 	  <hide />
-	  <useskill>Exotic Melee Weapon</useskill>
+	  <useskill>Exotic Natural Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>c847a859-8a72-4a1b-acb5-201ddc66fe73</id>
@@ -7602,7 +7605,7 @@
 	  <page>115</page>
 	  <allowaccessory>False</allowaccessory>
 	  <hide />
-	  <useskill>Exotic Melee Weapon</useskill>
+	  <useskill>Exotic Natural Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>54048c9d-854e-41b5-b493-6aa863da8fbd</id>
@@ -7644,7 +7647,7 @@
 	  <page>117</page>
 	  <allowaccessory>False</allowaccessory>
 	  <hide />
-	  <useskill>Unarmed Combat</useskill>
+	  <useskill>Exotic Natural Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>e4124dde-69f2-4322-884a-620ba7792b82</id>
@@ -7799,7 +7802,7 @@
 	  <allowaccessory>False</allowaccessory>
 	  <cyberware>True</cyberware>
 	  <hide />
-	  <useskill>Exotic Melee Weapon</useskill>
+	  <useskill>Exotic Natural Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>a67facdd-fbd1-48dd-bb10-e5eaca69ec3d</id>
@@ -7822,6 +7825,7 @@
 	  <cyberware>True</cyberware>
 	  <hide />
 	  <range>Tasers</range>
+      <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>8a842089-5a2c-43ee-9613-7f3db793fa71</id>
@@ -8162,9 +8166,7 @@
 	  <allowaccessory>False</allowaccessory>
 	  <hide />
 	  <range>Light Crossbows</range>
-	  <spec>Grapple Gun</spec>
-	  <useskill>Exotic Ranged Weapon</useskill>
-	  <useskillspec>Grapple Gun</useskillspec>
+	  <useskill>Nonconventional Ballistics</useskill>
 	</weapon>
 	<!-- End Region -->
 	<!-- End Region-->
@@ -8194,7 +8196,7 @@
 	  <hide />
 	  <range>Heavy Crossbows</range>
 	  <sizecategory>Heavy Crossbows</sizecategory>
-	  <spec>Grapple Gun</spec>
+      <useskill>Nonconventional Ballistics</useskill>
 	  <accessorymounts>
 		<mount>Top</mount>
 		<mount>Side</mount>
@@ -8407,7 +8409,7 @@
 	  <page>183</page>
 	  <range>Aerodynamic Grenade</range>
 	  <spec>Aerodynamic</spec>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Throwing Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>c965dee9-de62-4569-b96a-4026105440b1</id>
@@ -8476,7 +8478,7 @@
 	  <source>HT</source>
 	  <page>184</page>
 	  <range>Flamethrowers</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>82aa8d25-179a-4c21-9a3c-61a171705f65</id>
@@ -8498,7 +8500,7 @@
 	  <ammocategory>Light Pistols</ammocategory>
 	  <hide />
 	  <range>Light Pistols</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Nonconventional Ballistics</useskill>
 	</weapon>
 	<weapon>
 	  <id>176ab92a-0c00-48fe-a994-668903407fbf</id>
@@ -8525,8 +8527,7 @@
 		<mount>Stock</mount>
 	  </accessorymounts>
 	  <range>Shotguns (flechette)</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
-	  <useskillspec>Laser Weapons</useskillspec>
+	  <useskill>Laser Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>7aa56de0-e709-4a0e-aadb-fbcdd2fcfeb0</id>
@@ -8771,8 +8772,7 @@
 		  </AND>
 		</OR>
 	  </required>
-	  <useskill>Exotic Ranged Weapon</useskill>
-	  <useskillspec>Laser Weapons</useskillspec>
+	  <useskill>Laser Weapons</useskill>
 	</weapon>
 	<!-- End Region -->
 	<!-- Region Boston Lockdown-->
@@ -8794,7 +8794,7 @@
 	  <source>LCD</source>
 	  <page>209</page>
 	  <range>Light Pistols</range>
-	  <spec>Microwave</spec>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	  <accessorymounts>
 		<mount>Internal</mount>
 	  </accessorymounts>
@@ -8817,7 +8817,7 @@
 	  <source>LCD</source>
 	  <page>209</page>
 	  <range>Light Pistols</range>
-	  <spec>Microwave</spec>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	  <accessorymounts>
 		<mount>Internal</mount>
 	  </accessorymounts>
@@ -9334,6 +9334,7 @@
 	  <cost>325</cost>
 	  <source>CA</source>
 	  <page>134</page>
+      <useskill>Nonconventional Ballistics</useskill>
 	</weapon>
 	<weapon>
 	  <id>a5bedab8-5421-4e70-9b9c-180ad91d0c0c</id>
@@ -9356,7 +9357,7 @@
 		<gearcategory>Drugs</gearcategory>
 		<gearcategory>Toxins</gearcategory>
 	  </allowgear>
-	  <spec>Injector Pen</spec>
+	  <useskill>Blades</useskill>
 	</weapon>
 	<weapon>
 	  <id>97037590-5324-4ab1-acdb-b2d204cb937a</id>
@@ -9375,7 +9376,7 @@
 	  <cost>45</cost>
 	  <source>CA</source>
 	  <page>134</page>
-	  <spec>Pepper Punch Pen</spec>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	  <weapontype>pepperpunch</weapontype>
 	</weapon>
 	<weapon>
@@ -9395,7 +9396,7 @@
 	  <cost>60</cost>
 	  <source>CA</source>
 	  <page>134</page>
-	  <spec>Modified Spray Pen</spec>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>bd9515ad-9d40-486e-974a-00babc4c24f9</id>
@@ -9454,7 +9455,7 @@
 	  <source>CA</source>
 	  <page>136</page>
 	  <hide />
-	  <spec>Shields</spec>
+	  <useskill>Battering Weapons</useskill>
 	</weapon>
 	<!-- SR5 2050 -->
 	<weapon>
@@ -12326,7 +12327,7 @@
 	  <accessorymounts />
 	  <hide />
 	  <range>Atomizer</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<!-- End Region -->
 	<!-- Region The Complete Trog -->
@@ -12368,6 +12369,7 @@
 	  <cost>1200</cost>
 	  <source>TSG</source>
 	  <page>29</page>
+      <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>8d9b4142-ba34-4ba8-96a0-27fc0889a225</id>
@@ -12639,7 +12641,7 @@
 	  <source>SL</source>
 	  <page>22</page>
 	  <hide />
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Throwing Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>cf1b2de4-957b-4d5d-9c38-d81d080e92d8</id>
@@ -14269,7 +14271,7 @@
 	  </accessorymounts>
 	  <range>Tasers</range>
 	  <sizecategory>Shotguns</sizecategory>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Non-Ballistic Firearms</useskill>
 	</weapon>
 	<weapon>
 	  <id>fb50cff6-1cf0-4686-9694-c5aa4cb2023d</id>
@@ -14293,7 +14295,7 @@
 		<mount>Under</mount>
 	  </accessorymounts>
 	  <range>Heavy Pistols</range>
-	  <useskill>Exotic Ranged Weapon</useskill>
+	  <useskill>Laser Weapons</useskill>
 	  <weapontype>energy</weapontype>
 	</weapon>
 	<weapon>
@@ -14691,6 +14693,7 @@
 	  <source>NF</source>
 	  <page>171</page>
 	  <useskill>Exotic Melee Weapon</useskill>
+      <useskill>Tensile Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>cf9f71b2-0207-4da7-ac0c-b7d39e2d8cf7</id>
@@ -14709,7 +14712,7 @@
 	  <cost>600</cost>
 	  <source>NF</source>
 	  <page>171</page>
-	  <useskill>Exotic Melee Weapon</useskill>
+	  <useskill>Tensile Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>e18c38e1-72b8-44e3-9afd-42c203b7b350</id>
@@ -14728,7 +14731,7 @@
 	  <cost>12000</cost>
 	  <source>NF</source>
 	  <page>171</page>
-	  <useskill>Exotic Melee Weapon</useskill>
+	  <useskill>Tensile Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>8be0faad-0a8f-4735-9928-2cfd662ba742</id>
@@ -14747,7 +14750,7 @@
 	  <cost>600</cost>
 	  <source>NF</source>
 	  <page>171</page>
-	  <useskill>Exotic Melee Weapon</useskill>
+	  <useskill>Rolling Blades</useskill>
 	</weapon>
 	<weapon>
 	  <id>dc713ac6-122b-4fa0-9a70-63822412962f</id>
@@ -14766,7 +14769,7 @@
 	  <cost>600</cost>
 	  <source>NF</source>
 	  <page>171</page>
-	  <useskill>Exotic Melee Weapon</useskill>
+	  <useskill>Rolling Blades</useskill>
 	</weapon>
 	<weapon>
 	  <id>a83ce374-cb7b-45e2-b937-dff5520bd5ae</id>
