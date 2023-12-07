@@ -20,6 +20,107 @@
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.w3.org/2001/XMLSchema skills.xsd">
+    <skills>
+        <skill>
+          <id>f613f587-0b44-4aff-b5c3-0131e77efa66</id>
+          <name>Nonconventional Ballistics</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>DM</source>
+          <page>0</page>
+        </skill>
+        <skill>
+          <id>dd8cf7f7-4bdb-4ad8-aa77-81b5ae8d6543</id>
+          <name>Tensile Weapons</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>DM</source>
+          <page>0</page>
+        </skill>
+        <skill>
+          <id>29309682-5ec4-4d16-9b01-621a1995551f</id>
+          <name>Non-Ballistic Firearms</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>DM</source>
+          <page>0</page>
+        </skill>
+        <skill>
+          <id>1dedf178-ffd1-498d-a345-472e5f62d417</id>
+          <name>Exotic Natural Weapons</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>DM</source>
+          <page>0</page>
+        </skill>
+        <skill>
+          <id>effecd7e-429b-4a9b-a6ca-0af661fd9a4d</id>
+          <name>Laser Weapons</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>DM</source>
+          <page>0</page>
+        </skill>
+        <skill>
+          <id>71672abf-094e-4d7a-9308-e6e15f001136</id>
+          <name>Rolling Blades</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>DM</source>
+          <page>0</page>
+        </skill>
+        <skill>
+          <id>f171d542-98d8-4f07-8d04-3cc15f605586</id>
+          <name>Chainsaws</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>SR5</source>
+          <page>131</page>
+        </skill>
+        <skill>
+          <id>21c72052-a071-4ac2-8730-807bb3bc16da</id>
+          <name>Implanted/Natural Raned Attacks</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>DM</source>
+          <page>0</page>
+        </skill>
+        <skill>
+          <id>bccf95de-1a91-4d33-a013-79bd353d2654</id>
+          <name>Battering Weapons</name>
+          <attribute>AGI</attribute>
+          <category>Combat Active</category>
+          <default>False</default>
+          <skillgroup />
+          <specs />
+          <source>DM</source>
+          <page>0</page>
+        </skill>
+    </skills>
 
 	<knowledgeskills>
 		<skill>
