@@ -321,5 +321,17 @@
       <source>SG</source>
       <page>124</page>
     </accessory>
+    <accessory>
+      <id>7d6e2e63-8997-448e-9ca5-a5f63d4c8372</id>
+      <name>1-Handed Penalty</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+	  <damage>-2</damage>
+      <rc>-6</rc>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
   </accessories>
 </chummer>
