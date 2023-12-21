@@ -59,7 +59,7 @@
           <name>Exotic Natural Weapons</name>
           <attribute>AGI</attribute>
           <category>Combat Active</category>
-          <default>False</default>
+          <default>True</default>
           <skillgroup />
           <specs />
           <source>DM</source>
@@ -103,7 +103,7 @@
           <name>Implanted/Natural Raned Attacks</name>
           <attribute>AGI</attribute>
           <category>Combat Active</category>
-          <default>False</default>
+          <default>True</default>
           <skillgroup />
           <specs />
           <source>DM</source>
