@@ -73,6 +73,31 @@
         <mount>Under</mount>
       </accessorymounts>
     </weapon>
+	<weapon>
+	  <id>21c89a78-6d1a-4f75-bce7-f0b0621a1af3</id>
+	  <name>Cyber Holdout Pistol (micro mount)</name>
+	  <category>Micro-Drone Weapons</category>
+	  <type>Ranged</type>
+	  <conceal>-4</conceal>
+	  <accuracy>3</accuracy>
+	  <reach>0</reach>
+	  <damage>6P</damage>
+	  <ap>-</ap>
+	  <mode>SA</mode>
+	  <rc>0</rc>
+	  <ammo>1(ml)</ammo>
+	  <avail>8R</avail>
+	  <cost>1000</cost>
+	  <source>RG</source>
+	  <page>26</page>
+	  <range>Tasers</range>
+	  <useskill>Nonconventional Ballistics</useskill>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+	</weapon>
   </weapons>
   <accessories>
     <accessory>
