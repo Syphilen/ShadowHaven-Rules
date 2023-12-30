@@ -100,7 +100,7 @@
         </skill>
         <skill>
           <id>21c72052-a071-4ac2-8730-807bb3bc16da</id>
-          <name>Implanted/Natural Raned Attacks</name>
+          <name>Implanted/Natural Ranged Attacks</name>
           <attribute>AGI</attribute>
           <category>Combat Active</category>
           <default>True</default>
