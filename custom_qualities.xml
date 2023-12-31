@@ -1247,7 +1247,7 @@
 				</oneof>
 			</required>
 			<bonus>
-				<selectskill limittoskill="Sneaking,Longarms,Automatics,Pistols,Heavy Weapons,Exotic Ranged Weapon">
+				<selectskill limittoskill="Sneaking,Longarms,Automatics,Pistols,Heavy Weapons,Exotic Ranged Weapon, Archery">
 					<val>1</val>
 				</selectskill>
 			</bonus>
@@ -1344,7 +1344,7 @@
 				</oneof>
 			</required>
 			<bonus>
-				<selectskill limittoskill="Sneaking,Longarms,Automatics,Pistols,Heavy Weapons,Exotic Ranged Weapon">
+				<selectskill limittoskill="Sneaking,Longarms,Automatics,Pistols,Heavy Weapons,Exotic Ranged Weapon, Archery">
 					<val>1</val>
 				</selectskill>
 				<weaponrangemodifier>
