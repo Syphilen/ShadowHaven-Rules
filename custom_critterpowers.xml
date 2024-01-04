@@ -58,5 +58,21 @@
       <page>163</page>
     </power>
     <!-- End Region -->
+    <power>
+      <id>65b0da09-a670-4505-9e21-cbe8eb6d72f1</id>
+      <name>Change Elemental Attack</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Complex</action>
+      <range>LOS</range>
+      <duration>Instant</duration>
+      <karma>15</karma>
+      <addweapon>Elemental Attack</addweapon>
+      <bonus>
+        <selecttext xml="strings.xml" xpath="/chummer/elements/*" allowedit="True" />
+      </bonus>
+      <source>SR5</source>
+      <page>396</page>
+    </power>
   </powers>
 </chummer>

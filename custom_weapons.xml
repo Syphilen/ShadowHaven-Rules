@@ -98,6 +98,29 @@
         </accessory>
       </accessories>
 	</weapon>
+    <!-- Howling Shadows -->
+    <weapon>
+	  <id>fdab35d3-5e80-474f-9da9-7667f4ac452c</id>
+	  <name>Elemental Attack</name>
+	  <category>exotic</category>
+	  <type>Ranged</type>
+	  <conceal>0</conceal>
+	  <accuracy>Physical</accuracy>
+	  <reach>0</reach>
+	  <damage>({MAG}*2)P</damage>
+	  <ap>-{MAG}</ap>
+	  <mode>SS</mode>
+	  <rc>0</rc>
+	  <ammo>0</ammo>
+	  <avail>0</avail>
+	  <cost>0</cost>
+	  <source>SR5</source>
+	  <page>396</page>
+      <range>Magic</range>
+	  <allowaccessory>False</allowaccessory>
+	  <useskill>Implanted/Natural Ranged Attacks</useskill>
+	</weapon>
+    <!-- End Region -->
   </weapons>
   <accessories>
     <accessory>

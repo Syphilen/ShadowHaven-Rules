@@ -982,6 +982,7 @@
         </enabletab>
         <limitcritterpowercategory>Drake</limitcritterpowercategory>
       </bonus>
+      <addweapon>Elemental Attack</addweapon>
     </quality>
     <quality>
       <id>f257ce85-fc27-4fa1-8d34-6eb4102e7614</id>
@@ -1006,6 +1007,7 @@
         </enabletab>
         <limitcritterpowercategory>Drake</limitcritterpowercategory>
       </bonus>
+      <addweapon>Elemental Attack</addweapon>
     </quality>
     <quality>
       <id>90a7cc01-ee0f-4d60-aeb9-05752e68ddf9</id>
@@ -1030,6 +1032,7 @@
         </enabletab>
         <limitcritterpowercategory>Drake</limitcritterpowercategory>
       </bonus>
+      <addweapon>Elemental Attack</addweapon>
     </quality>
     <quality>
       <id>c284e172-1d20-4844-b24c-e094d2588b72</id>
@@ -1054,6 +1057,7 @@
         </enabletab>
         <limitcritterpowercategory>Drake</limitcritterpowercategory>
       </bonus>
+      <addweapon>Elemental Attack</addweapon>
     </quality>
     <!-- End Region -->
     <!-- End Region -->

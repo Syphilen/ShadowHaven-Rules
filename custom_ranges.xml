@@ -29,5 +29,13 @@
 			<long>80</long>
 			<extreme>150</extreme>
 		</range>
+        <range>
+			<name>Magic</name>
+			<min>0</min>
+			<short>{MAG}</short>
+			<medium>{MAG}*2</medium>
+			<long>{MAG}*3</long>
+			<extreme>{MAG}*4</extreme>
+		</range>
 	</ranges>
 </chummer>
