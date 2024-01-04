@@ -121,6 +121,29 @@
 	  <useskill>Implanted/Natural Ranged Attacks</useskill>
 	</weapon>
     <!-- End Region -->
+    <!-- Dark Terrors -->
+    <weapon>
+	  <id>db63d400-c99b-4fe9-8835-6320e8ee49ac</id>
+	  <name>Sonic Shriek</name>
+	  <category>exotic</category>
+	  <type>Ranged</type>
+	  <conceal>0</conceal>
+	  <accuracy>Physical</accuracy>
+	  <reach>0</reach>
+	  <damage>{MAG}S</damage>
+	  <ap>N/A</ap>
+	  <mode>SS</mode>
+	  <rc>0</rc>
+	  <ammo>0</ammo>
+	  <avail>0</avail>
+	  <cost>0</cost>
+	  <source>DT</source>
+	  <page>162</page>
+      <range>Magic</range>
+	  <allowaccessory>False</allowaccessory>
+	  <useskill>Implanted/Natural Ranged Attacks</useskill>
+	</weapon>
+    <!-- End Region -->
   </weapons>
   <accessories>
     <accessory>
