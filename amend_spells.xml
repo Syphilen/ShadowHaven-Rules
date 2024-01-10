@@ -221,5 +221,25 @@
       <hide />
     </spell>
     <!-- End Blood Magic -->
+        <spell>
+      <name>Decrease [Attribute]</name>
+      <descriptor>Negative, Essence</descriptor>
+    </spell>
+    <spell>
+      <name>Decrease Inherent Limits</name>
+      <descriptor>Negative</descriptor>
+    </spell>
+    <spell>
+      <name>Decrease Reflexes</name>
+      <descriptor>Negative</descriptor>
+    </spell>
+    <spell>
+      <name>Dehydrate</name>
+      <descriptor>Negative</descriptor>
+    </spell>
+    <spell>
+      <name>Enabler</name>
+      <descriptor>Negative</descriptor>
+    </spell>
   </spells>
 </chummer>
