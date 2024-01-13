@@ -58,6 +58,15 @@
 		  <page>84</page>
 		</quality>
 		<quality>
+		  <id>6be8ac65-d73f-407f-8a91-3ddf4c768fc6</id>
+		  <name>Lifestyle Reduction -500Y</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-500</cost>
+		  <page>165</page>
+		</quality>
+		<quality>
 		  <id>e21dd279-6b33-44a9-9019-be63b0a9478c</id>
 		  <name>Lifestyle Reduction -1kY</name>
 		  <category>Positive</category>

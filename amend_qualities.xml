@@ -48,6 +48,16 @@
       <id>fd9b9b6d-c969-40f1-8dc7-61f8e5d9cd4d</id> <!-- Inspired from SASS -->
       <hide />
     </quality>
+    <quality>
+      <id>f8af38e2-e79a-44f9-8e72-57aba35b7056</id> <!-- Witness my Hate -->
+      <required amendoperation="replace">
+        <oneof>
+          <quality>Aspected Magician</quality>
+          <quality>Magician</quality>
+          <quality>Mystic Adept</quality>
+        </oneof>
+      </required>
+    </quality>
     <!-- End Region-->
     <!-- Region Run Faster -->
     <!-- Region Run Faster Positive Qualities -->
