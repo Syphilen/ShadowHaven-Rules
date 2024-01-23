@@ -56,6 +56,16 @@
         </addqualities>
       </bonus>
     </tradition>
+    <tradition>
+      <name>Elder God</name>
+      <bonus amendoperation="remove">
+        <drainresist>-2</drainresist>
+        <spellcategory>
+          <name>Illusion</name>
+          <val>3</val>
+        </spellcategory>
+      </bonus>
+    </tradition>
   </traditions>
   <spirits>
     <spirit>

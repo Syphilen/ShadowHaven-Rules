@@ -36,6 +36,16 @@
       <hide />
     </gear> --> <!-- FIXME: Chummer bug makes the houseruled ammo not selectable (since you can't add categories to the chooser) -->
     <!-- Region Kill Code -->
+    <gear>
+      <name>Evo Sublime</name>
+      <requireparent amendoperation="remove" />
+      <required amendoperation="remove">
+        <parentdetails>
+          <name>Cyberdeck</name>
+          <category>Headware</category>
+        </parentdetails>
+      </required>
+    </gear>
     <gear amendoperation="replace">
       <name>Ammo: Looper</name>
       <hide />
