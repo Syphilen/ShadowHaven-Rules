@@ -37,6 +37,49 @@
       </required>
     </power>
     <power>
+      <id>153bc9aa-1a5e-41ac-877d-751470624bc7</id>
+      <!-- Mimicry -->
+      <required>
+        <oneof>
+          <metatype>Sasquatch</metatype>
+        </oneof>
+      </required>
+    </power>
+    <power>
+      <id>67B58736-8BD3-4C88-9310-5051C8683966</id>
+      <!-- Mimicry -->
+      <required>
+        <oneof>
+          <metatype>Sasquatch</metatype>
+        </oneof>
+      </required>
+    </power>
+    <power>
+      <id>5589e7d4-0573-40c4-9798-eb6b604ef82c</id>
+      <!-- Terrorscape -->
+      <required amendoperation="replace">
+        <oneof>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
+        </oneof>
+      </required>
+    </power>
+    <power>
+      <id>224f6093-af49-4fd4-a30a-b0c38673ffb7</id>
+      <!-- Secretion/Substance Extrusion -->
+      <category amendoperation="replace">Mundane/Infected</category>
+      <required>
+        <oneof>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
+        </oneof>
+      </required>
+    </power>
+    <power>
       <id>4881c2cc-1e45-43ad-89df-9e5b264648f2</id>
       <!-- Silence -->
       <category>Paranormal/Infected</category>
