@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema cyberware.xsd">
+	<grades>
+		<!-- Region Standard -->
+		<grade>
+			<name>Gammaware</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Omegaware</name>
+			<hide />
+		</grade>
+		<!-- End Region -->
+		<!-- Region Adapsin -->
+		<grade>
+			<name>Gammaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Omegaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Standard (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Alphaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Betaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Deltaware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Greyware (Adapsin)</name>
+			<hide />
+		</grade>
+		<grade>
+			<name>Used (Adapsin)</name>
+			<hide />
+		</grade>
+		<!-- End Region -->
+	</grades>
+	<cyberwares>
+		<cyberware amendoperation="addnode">
+			<id>70553a3b-e874-45c5-9990-b49491a4de9c</id>
+			<name>Special Modification: Improved AP</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<ap>-1</ap>
+			<required>
+				<allof>
+					<parentdetails>
+						<category>Cyber Implant Weapon</category>
+					</parentdetails>
+					<oneof>
+						<specialmodificationlimit>1</specialmodificationlimit>
+					</oneof>
+				</allof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>d544c3d6-123c-4de6-90de-0d1b52002e24</id>
+			<name>Special Modification: Improved Accuracy</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<bonus>
+				<accuracy>1</accuracy>
+			</bonus>
+			<required>
+				<parentdetails>
+					<category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+                    <specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>1c15bd22-2ed2-4fd5-a64d-f828e040034d</id>
+			<name>Special Modification: Improved Ammunition Capacity</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<modifyammocapacity>+(Weapon * 0.5)</modifyammocapacity>
+			<required>
+				<parentdetails>
+                    <category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+					<specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>ac16f799-2016-4a44-870c-775506a8f33f</id>
+			<name>Special Modification: Improved Concealment</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<conceal>-1</conceal>
+			<required>
+				<parentdetails>
+                    <category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+                    <specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+			</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>8f03060d-ec02-438a-83ae-e86208284e25</id>
+			<name>Special Modification: Damage</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<conceal>-1</conceal>
+			<required>
+				<parentdetails>
+					<category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+                    <specialmodificationlimit>2</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>f1e48435-cd07-4c73-8c29-4d2efda53f51</id>
+			<name>Special Modification: Improved Recoil Comp</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>BTB</source>
+			<page>161</page>
+			<rc>1</rc>
+			<required>
+				<parentdetails>
+					<category>Cyber Implant Weapon</category>
+				</parentdetails>
+				<oneof>
+					<specialmodificationlimit>1</specialmodificationlimit>
+				</oneof>
+			</required>
+		</cyberware>
+        <cyberware>
+          <name>Improved Synthskin</name>
+          <capacity>[1]</capacity>
+        </cyberware>
+		<cyberware>
+			<name>Skilljack</name>
+			<ess>0.1</ess>
+			<cost>Rating * 1000</cost>
+		</cyberware>
+		<cyberware>
+			<name>Skillwires</name>
+			<ess>Rating * 0.1</ess>
+		</cyberware>
+		<cyberware>
+            <name>Breast Implant (One Breast)</name>
+            <ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Cosmetic Surgery</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Cyber Genitalia</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Fiberoptic Hair</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Large LED Tattoo</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Medium LED Tattoo</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Small LED Tattoo</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware>
+			<name>Steamers</name>
+			<ess>0</ess>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>d0b4a7d7-81eb-4b3a-a8c7-bb5a89c74cad</id>
+			<name>Trajectory Mastery Damage Boost</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<mount />
+			<avail>0</avail>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<cost>0</cost>
+			<damage>+1</damage>
+			<required>
+				<oneof>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Smartgun System, External</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Smartgun System, Internal</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Krime Dual-Mode External Smartgun Link</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Laser Sight</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Red Dot Sight</cyberware>
+					</group>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<accessory>Ceramic/Plasteel Components</accessory>
+					<accessory>Collapsible Traditional Bow</accessory>
+					<accessory>Vintage</accessory>
+				</oneof>
+				<weapondetails>
+					<type>Melee</type>
+				</weapondetails>
+			</forbidden>
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>cb87d124-7c17-4f5c-8322-dde26c7672e6</id>
+			<name>Augmented Strength Mastery Damage Boost</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon Accessory</category>
+			<mount />
+			<avail>0</avail>
+			<cost>0</cost>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<damage>+1</damage>
+			<required>
+				<allof>
+					<quality>Augmented Strength Mastery</quality>
+				</allof>
+			</required>
+			<forbidden>
+				<weapondetails>
+					<type>Ranged</type>
+				</weapondetails>
+			</forbidden>
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>7ee25acd-24e2-49e4-ad23-c61e92ea1700</id>
+			<name>Trajectory Mastery Accuracy Boost</name>
+			<category>Cyber Implant Weapon Accessory</category>
+			<mount />
+			<avail>0</avail>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<cost>0</cost>
+			<accuracy>3</accuracy>
+			<required>
+				<oneof>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Smartgun System, External</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Smartgun System, Internal</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Krime Dual-Mode External Smartgun Link</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Laser Sight</cyberware>
+					</group>
+					<group>
+						<quality>Trajectory Mastery</quality>
+						<cyberware>Red Dot Sight</cyberware>
+					</group>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<accessory>Ceramic/Plasteel Components</accessory>
+					<accessory>Collapsible Traditional Bow</accessory>
+					<accessory>Vintage</accessory>
+				</oneof>
+				<weapondetails>
+					<type>Melee</type>
+				</weapondetails>
+			</forbidden>
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
+		</cyberware>
+		<cyberware amendoperation="addnode">
+			<id>e2c9f9f9-91f7-425a-8880-1eec7265be03</id>
+			<name>Augmented Strength Mastery Accuracy Boost</name>
+			<category>Cyber Implant Weapon Accessory</category>
+			<mount />
+			<avail>0</avail>
+			<cost>0</cost>
+			<ess>0</ess>
+			<addtoparentess />
+			<capacity>[0]</capacity>
+			<addtoparentcapacity />
+			<accuracy>4</accuracy>
+			<required>
+				<allof>
+					<weapondetails>
+						<type>Melee</type>
+					</weapondetails>
+					<quality>Augmented Strength Mastery</quality>
+				</allof>
+			</required>
+			<forbidden />
+			<rating>0</rating>
+			<source>DM</source>
+			<page>0</page>
+		</cyberware>
+        <cyberware>
+            <name>Renraku Tradejack</name>
+            <ess>0.63</ess>
+        </cyberware>
+		<cyberware>
+			<name>Metatype Reduction (Troll)</name>
+			<bonus>
+				<disablequality amendoperation="addnode">fe67d02c-e9f0-4d8f-9888-adbea2797376</disablequality>
+			</bonus>
+		</cyberware>
+        <cyberware>
+          <id>27aad555-301b-4dfa-826c-40c9c489d6a0</id>
+          <!-- <name>Additional Eye Mount</name> -->
+          <hide />
+        </cyberware>
+        <cyberware>
+          <id>3bfb8c0e-87a6-49ba-9b33-f2a991ed26ea</id>
+          <!-- <name>Additional Eye Mount</name> -->
+          <hide />
+        </cyberware>
+        <cyberware>
+          <name>Obvious Foot, Modular</name>
+          <mountsto amendoperation="replace">modularankle</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Hand, Modular</name>
+          <mountsto amendoperation="replace">modularwrist</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Foot, Modular</name>
+          <mountsto amendoperation="replace">modularankle</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Hand, Modular</name>
+          <mountsto amendoperation="replace">modularwrist</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Lower Arm, Modular</name>
+          <mountsto amendoperation="replace">modularelbow</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Lower Leg, Modular</name>
+          <mountsto amendoperation="replace">modularknee</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Lower Arm, Modular</name>
+          <mountsto amendoperation="replace">modularelbow</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Lower Leg, Modular</name>
+          <mountsto amendoperation="replace">modularknee</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Full Arm, Modular</name>
+          <mountsto amendoperation="replace">modularshoulder</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Obvious Full Leg, Modular</name>
+          <mountsto amendoperation="replace">modularhip</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Full Arm, Modular</name>
+          <mountsto amendoperation="replace">modularshoulder</mountsto>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Full Leg, Modular</name>
+          <mountsto amendoperation="replace">modularhip</mountsto>
+        </cyberware>
+	</cyberwares>
+</chummer>
