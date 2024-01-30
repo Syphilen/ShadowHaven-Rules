@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# Let the shadowhavent stuff through.
+!*.gitignore*
+!*/

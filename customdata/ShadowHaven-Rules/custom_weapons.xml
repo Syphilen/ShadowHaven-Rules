@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.w3.org/2001/XMLSchema weapons.xsd">
+  <weapons>
+    <weapon>
+      <id>35d3e76d-f3a6-495c-8d9d-0cc32aa54fff</id>
+      <name>Krime T-Shirt Cannon (AR)</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>0S</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>-</rc>
+      <ammo>5(m)</ammo>
+      <avail>8</avail>
+      <cost>500</cost>
+      <source>KK</source>
+      <page>22</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>35d3e76d-f3a6-495c-8d9d-0cc32aa54ddd</id>
+      <name>Krime T-Shirt Cannon (SG)</name>
+      <category>Shotguns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>0S</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>-</rc>
+      <ammo>5(m)</ammo>
+      <avail>8</avail>
+      <cost>500</cost>
+      <source>KK</source>
+      <page>22</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+	  <id>21c89a78-6d1a-4f75-bce7-f0b0621a1af3</id>
+	  <name>Cyber Holdout Pistol (micro mount)</name>
+	  <category>Micro-Drone Weapons</category>
+	  <type>Ranged</type>
+	  <conceal>-4</conceal>
+	  <accuracy>3</accuracy>
+	  <reach>0</reach>
+	  <damage>6P</damage>
+	  <ap>-</ap>
+	  <mode>SA</mode>
+	  <rc>0</rc>
+	  <ammo>1(ml)</ammo>
+	  <avail>8R</avail>
+	  <cost>1000</cost>
+	  <source>RG</source>
+	  <page>26</page>
+	  <range>Tasers</range>
+	  <useskill>Nonconventional Ballistics</useskill>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+	</weapon>
+    <!-- Howling Shadows -->
+    <weapon>
+	  <id>fdab35d3-5e80-474f-9da9-7667f4ac452c</id>
+	  <name>Elemental Attack</name>
+	  <category>exotic</category>
+	  <type>Ranged</type>
+	  <conceal>0</conceal>
+	  <accuracy>Physical</accuracy>
+	  <reach>0</reach>
+	  <damage>({MAG}*2)P</damage>
+	  <ap>-{MAG}</ap>
+	  <mode>SS</mode>
+	  <rc>0</rc>
+	  <ammo>0</ammo>
+	  <avail>0</avail>
+	  <cost>0</cost>
+	  <source>SR5</source>
+	  <page>396</page>
+      <range>Magic</range>
+	  <allowaccessory>False</allowaccessory>
+	  <useskill>Implanted/Natural Ranged Attacks</useskill>
+	</weapon>
+    <!-- End Region -->
+    <!-- Dark Terrors -->
+    <weapon>
+	  <id>db63d400-c99b-4fe9-8835-6320e8ee49ac</id>
+	  <name>Sonic Shriek</name>
+	  <category>exotic</category>
+	  <type>Ranged</type>
+	  <conceal>0</conceal>
+	  <accuracy>Physical</accuracy>
+	  <reach>0</reach>
+	  <damage>{MAG}S</damage>
+	  <ap>N/A</ap>
+	  <mode>SS</mode>
+	  <rc>0</rc>
+	  <ammo>0</ammo>
+	  <avail>0</avail>
+	  <cost>0</cost>
+	  <source>DT</source>
+	  <page>162</page>
+      <range>Magic</range>
+	  <allowaccessory>False</allowaccessory>
+	  <useskill>Implanted/Natural Ranged Attacks</useskill>
+	</weapon>
+    <!-- End Region -->
+  </weapons>
+  <accessories>
+    <accessory>
+      <id>f3f2ba17-ed6f-4c55-a789-c3b543a72dc5</id>
+      <name>Hard Skin Torso Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>1</accuracy>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <cyberware>Obvious Torso</cyberware>
+          </group>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <cyberware>Synthetic Torso</cyberware>
+          </group>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <metatype>Cyborg</metatype>
+          </group>
+        </oneof>
+      </required>
+    </accessory>
+    <accessory>
+      <id>b25496f8-bb3e-49a3-923f-f779528f220b</id>
+      <name>Trajectory Mastery Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>3</accuracy>
+      <required>
+        <oneof>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, External</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, Internal</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Krime Dual-Mode External Smartgun Link</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Laser Sight</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Red Dot Sight</accessory>
+          </group>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>774d4974-0a24-44c1-87d9-b43fa8078eed</id>
+      <name>Augmented Strength Mastery Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>4</accuracy>
+      <required>
+        <allof>
+          <weapondetails>
+            <type>Melee</type>
+          </weapondetails>
+          <quality>Augmented Strength Mastery</quality>
+        </allof>
+      </required>
+      <forbidden />
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>4c6b1978-02a4-418e-81fb-54d614b88f21</id>
+      <name>Trajectory Mastery Damage Boost</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <damage>+1</damage>
+      <required>
+        <oneof>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, External</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, Internal</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Krime Dual-Mode External Smartgun Link</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Laser Sight</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Red Dot Sight</accessory>
+          </group>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>1e0ae700-f5d2-4bfb-bad7-17a1d9739018</id>
+      <name>Augmented Strength Mastery Damage Boost</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <damage>+1</damage>
+      <required>
+        <allof>
+          <weapondetails>
+            <type>Melee</type>
+          </weapondetails>
+          <quality>Augmented Strength Mastery</quality>
+        </allof>
+      </required>
+      <forbidden>
+        <weapondetails>
+          <type>Ranged</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>803d6aa0-8e6b-47a5-8256-f3fb8895777d</id>
+      <name>Deft Thrower Damage Boost</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <damage>+1</damage>
+      <required>
+        <allof>
+          <weapondetails>
+            <type>Ranged</type>
+          </weapondetails>
+          <quality>Deft Thrower</quality>
+        </allof>
+      </required>
+      <forbidden>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <notes>Can NOT be applied to grenades!</notes>
+    </accessory>
+    <accessory>
+      <id>a6981da9-0013-4c3f-a3a9-0f4c6c9bc676</id>
+      <name>Ammo Skip(Revolver)</name>
+      <mount />
+      <avail>8R</avail>
+      <cost>250</cost>
+      <source>HT</source>
+      <page>180</page>
+      <forbidden>
+        <oneof>
+          <accessory>Vintage</accessory>
+        </oneof>
+      </forbidden>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <ammo operation="contains">(cy)</ammo>
+        </weapondetails>
+      </required>
+    </accessory>
+	<accessory>
+      <id>ab17b76b-c5ef-ef4f-4eb7-76da70e18c1b</id>
+      <name>Allied Weapon, per IG</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+	  <accuracy>1</accuracy>
+      <required>
+		<allof>
+          <weapondetails>
+            <type>Melee</type>
+          </weapondetails>
+          <spell>Imbue Item</spell>
+        </allof>
+      </required>
+      <rating>0</rating>
+      <source>SG</source>
+      <page>133</page>
+    </accessory>
+	<accessory>
+      <id>dc4a7818-60c8-ee21-56a8-ddf20c8da9fc</id>
+      <name>Attuned Weapon, per IG</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+	  <accuracy>1</accuracy>
+      <required>
+		<allof>
+          <spell>Attune Item</spell>
+        </allof>
+      </required>
+      <rating>0</rating>
+      <source>SG</source>
+      <page>124</page>
+    </accessory>
+    <accessory>
+      <id>7d6e2e63-8997-448e-9ca5-a5f63d4c8372</id>
+      <name>1-Handed Penalty</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+	  <damage>-2</damage>
+      <rc>-6</rc>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+  </accessories>
+</chummer>
