@@ -1243,6 +1243,30 @@
       <avail>10R</avail>
       <cost>100</cost>
     </gear>
+    <gear>
+      <id>f553daf8-d422-43d7-b207-f4290a70a126</id>
+      <name>Khamsa (Mage Blinder, Eloyce Inhibitor)</name>
+      <category>Drugs</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>12F</avail>
+      <cost>2500</cost>
+      <notes>Vector: Ingested
+Speed: 1 Minute
+Duration: 1d4+ESS Hours
+Addiction Type: Psychological
+Addiction Rating 7, Addiction Threshold 3
+Effect: Masking or Nausea
+Exotic Ingredient: FAB 3
+Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose consumed (resets after resting properly, enough to regain Edge)
+
+    A development released by the Draco Foundation after confidential research, the Eloyce Inhibitor - better known by its colloquial title, 'khamsa' - was designed through study of both FAB strains and SURGE mutations interacting with the Astral Plane.
+    When ingested, body heat activates the bacteria that quickly spreads through the user's bloodstream. Similarly to FAB III, it feeds on mana; unlike FAB III, this is a much more sluggish process, akin to photosynthesizing via astral 'light'. This dims the colors of the user's aura to nearly background levels, while at the same time, the astrally luminescent byproducts create a flowing aura in their host's form.
+    While khamsa is active, the user's aura is masked to a generic mundane metahuman with no particular mood. If an astral observer gets at least 3 hits on an Assensing Test, they do not see the underlying aura, but it becomes apparent the presented one is fake, similarly to noticing camera footage is being looped.
+    If a prospective user is currently on the astral plane (astrally perceiving or projecting), or enters it while khamsa is active, the effect is immediately lost. Instead, they suffer from nausea for 10 minutes.
+    HMHVV Infected are entirely unaffected by khamsa. HMHVV treats the bacteria like a hostile claimant and viciously defends its host, similar to its response to CFD.</notes>
+    </gear>
 	<gear>
 	  <id>53e003be-9def-6f1b-9081-dae4c823ca7d</id>
 	  <name>Spell Formula, Ritual</name>
