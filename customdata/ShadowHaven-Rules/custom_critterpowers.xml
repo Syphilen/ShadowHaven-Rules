@@ -23,40 +23,7 @@
 
   <powers>
 	<!-- Skills as optional powers (hidden from normal view, only accessible through bonuses) -->
-    <power>
-      <id>65db8e5f-1ff4-459e-9b51-9cb9d09a573f</id>
-      <name>Ghoul Tunneling Claws</name>
-      <category>Infected</category>
-      <type>P</type>
-      <action>Auto</action>
-      <range>Self</range>
-      <duration>Always</duration>
-      <required>
-        <oneof>
-          <quality>Infected: Ghoul (Dwarf)</quality>
-          <quality>Infected: Ghoul (Elf)</quality>
-          <quality>Infected: Ghoul (Human)</quality>
-          <quality>Infected: Ghoul (Ork)</quality>
-          <quality>Infected: Ghoul (Sasquatch)</quality>
-          <quality>Infected: Ghoul (Troll)</quality>
-        </oneof>
-      </required>
-	  <bonus>
-        <naturalweapon>
-          <name>Ghoul Tunneling Claws</name>
-          <reach>0</reach>
-          <damage>({STR}+2)P</damage>
-          <ap>-2</ap>
-          <useskill>Unarmed Combat</useskill>
-          <accuracy>Physical</accuracy>
-          <source>DTR</source>
-          <page>163</page>
-        </naturalweapon>
-      </bonus>
-      <karma>6</karma>
-      <source>DTR</source>
-      <page>163</page>
-    </power>
+
     <!-- End Region -->
     <power>
       <id>65b0da09-a670-4505-9e21-cbe8eb6d72f1</id>
