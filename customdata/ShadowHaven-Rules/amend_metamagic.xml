@@ -38,6 +38,15 @@
       <name>Cannibalize</name>
       <hide />
     </metamagic>
+    <metamagic>
+      <name>Danger Sense</name>
+      <required amendoperation="replace">
+        <allof>
+          <art>Divination</art>
+          <metamagic>Divining</metamagic>
+        </allof>
+      </required>
+    </metamagic>
     <!-- End Region -->
     <!-- Region Forbidden Arcana -->
     <metamagic>

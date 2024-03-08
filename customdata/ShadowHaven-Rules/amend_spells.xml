@@ -58,6 +58,10 @@
         </allof>
       </required>
     </spell>
+    <spell>
+      <name>Augury and Sortilege</name>
+      <hide />
+    </spell>
     <!-- Bans -->
     <spell>
       <name>Calling [Spirit Type]</name>
@@ -129,7 +133,11 @@
     </spell> -->
     <spell>
       <name>Necro Summoning</name>
-      <hide />
+      <required>
+        <allof>
+          <tradition>Necro Magic</tradition>
+        </allof>
+      </required>
     </spell>
     <!-- Begin Blood Magic -->
     <spell>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema metamagic.xsd">
+
+  <metamagics>
+    <metamagic>
+      <id>cea9d54e-4139-4572-8ad1-4e7e48fa5974</id>
+      <name>Divining</name>
+      <adept>True</adept>
+      <magician>True</magician>
+      <required>
+        <allof>
+          <art>Divination</art>
+        </allof>
+      </required>
+      <source>SG</source>
+      <page>147</page>
+      <notes> In order to divine a subject the initiate must first be able to assense the subject, or possess a viable material link. They then enter a mild trance which reveals flashes of what the future might hold. The diviner must use the arcana+logic+IG skill test to interpret these flashes, see the table on SG PG 125 for difficulty examples. While in this trance, which lasts for 1 minute, the initiate takes a -2 on all actions due to the distraction. Subsequent uses on the same target increase the threshold by 1 per attempt.</notes>
+    </metamagic>
+  </metamagics>
+
+</chummer>
