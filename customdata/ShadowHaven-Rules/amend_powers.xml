@@ -29,6 +29,15 @@
       <name>Plague Cloud</name>
       <hide />
     </power>
+    <power>
+      <name>Critical Strike</name>
+      <bonus amendoperation="replace">
+        <weaponcategorydv>
+          <selectskill limittoskill="Astral Combat,Blades,Clubs,Unarmed Combat,Exotic Natural Weapons,Rolling Blades,Chainsaws,Battering Weapons" />
+          <bonus>1</bonus>
+        </weaponcategorydv>
+      </bonus>
+    </power>
     <!-- End Region -->
   </powers>
 </chummer>
