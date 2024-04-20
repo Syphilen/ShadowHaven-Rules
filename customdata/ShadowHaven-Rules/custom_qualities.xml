@@ -1372,8 +1372,35 @@
 			<category>Positive</category>
 			<required>
 				<oneof>
-					<!--
 					<group>
+                    <!--
+                        <oneof>
+                            <cyberware>Custom Grenade Launcher</cyberware>
+                            <cyberware>Custom Heavy Pistol</cyberware>
+                            <cyberware>Custom Holdout Pistol</cyberware>
+                            <cyberware>Custom Light Pistol</cyberware>
+                            <cyberware>Custom Machine Pistol</cyberware>
+                            <cyberware>Custom Submachine Gun</cyberware>
+                            <cyberware>Cyberfangs</cyberware>
+                            <name>Cyberfangs, Retractable</name>
+                            <name>Extreme Cyberimplant Weapon</name>
+                            <name>Flametosser</name>
+                            <name>Hand Blade</name>
+                            <name>Hand Razors</name>
+                            <name>Heavy Pistol</name>
+                            <name>Holdout Pistol</name>
+                            <name>Junkyard Jaw</name>
+                            <name>Light Pistol</name>
+                            <name>Machine Pistol</name>
+                            <name>Oral Slasher</name>
+                            <name>Shock Hand</name>
+                            <name>Shotgun</name>
+                            <name>Spurs</name>
+                            <name>Submachine Gun</name>
+                            <name>Foot Blade</name>
+                            <name>Grenade Launcher</name>
+                        </oneof> doesnt work
+                        --> 
 						<cyberware>Cybereyes Basic System</cyberware>
 						<category>Cyber Implant Weapon</category>
 						<ess>-3.0</ess>
@@ -1382,11 +1409,8 @@
 							<val>4</val>
 						</specificskill>
 					</group>
-					-->
 					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
+						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Enhanced Articulation</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1395,9 +1419,7 @@
 						</skilltotal>
 					</group>
 					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
+						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1406,20 +1428,7 @@
 						</skilltotal>
 					</group>
 					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
-						<bioware>Synthacardium</bioware>
-						<ess>-3.0</ess>
-						<skilltotal>
-							<skills>{Sneaking}</skills>
-							<value>4</value>
-						</skilltotal>
-					</group>
-					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
+						<cyberware>Cybereyes Basic System</cyberware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1428,9 +1437,7 @@
 						</skilltotal>
 					</group>
 					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
+						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1447,7 +1454,7 @@
 							<skills>{Sneaking}</skills>
 							<value>4</value>
 						</skilltotal>
-					</group>
+					</group>doesnt work
 					<group>
 						<category>Cyber Implant Weapon</category>
 						<bioware>Synthacardium</bioware>
@@ -1574,9 +1581,7 @@
 					</group>
 					-->
 					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
+                        <cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Enhanced Articulation</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1585,9 +1590,7 @@
 						</skilltotal>
 					</group>
 					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
+						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Synthacardium</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1596,20 +1599,7 @@
 						</skilltotal>
 					</group>
 					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
-						<bioware>Synthacardium</bioware>
-						<ess>-3.0</ess>
-						<skilltotal>
-							<skills>{Sneaking}</skills>
-							<value>4</value>
-						</skilltotal>
-					</group>
-					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
+						<cyberware>Cybereyes Basic System</cyberware>
 						<cyberware>Radar Sensor</cyberware>
 						<ess>-3.0</ess>
 						<skilltotal>
@@ -1618,9 +1608,7 @@
 						</skilltotal>
 					</group>
 					<group>
-						<allof>
-							<cyberware>Cybereyes Basic System</cyberware>
-						</allof>
+						<cyberware>Cybereyes Basic System</cyberware>
 						<bioware>Reflex Recorder</bioware>
 						<ess>-3.0</ess>
 						<skilltotal>

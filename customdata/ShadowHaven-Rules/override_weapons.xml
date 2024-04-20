@@ -17275,6 +17275,8 @@
 		  <OR>
 			<ammo operation="contains">External Source</ammo>
 			<ammo operation="contains">Energy</ammo>
+            <name operation="contains">Ares Screech Sonic Rifle</name>
+            <weapontype>energy</weapontype>
 		  </OR>
 		</weapondetails>
 	  </required>
@@ -17295,6 +17297,7 @@
 		  <OR>
 			<ammo operation="contains">External Source</ammo>
 			<ammo operation="contains">Energy</ammo>
+            <name operation="contains">Ares Screech Sonic Rifle</name>
 		  </OR>
 		</weapondetails>
 	  </required>
@@ -17315,6 +17318,7 @@
 		  <OR>
 			<ammo operation="contains">External Source</ammo>
 			<ammo operation="contains">Energy</ammo>
+            <name operation="contains">Ares Screech Sonic Rifle</name>
 		  </OR>
 		</weapondetails>
 	  </required>
