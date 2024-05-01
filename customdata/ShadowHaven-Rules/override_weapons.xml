@@ -8882,6 +8882,7 @@
 		<mount>Internal</mount>
 	  </accessorymounts>
 	  <range>Submachine Guns</range>
+      <useskill>Laser Weapons</useskill>
 	</weapon>
 	<!-- End Region -->
 	<!-- Region Shadows in Focus -->
