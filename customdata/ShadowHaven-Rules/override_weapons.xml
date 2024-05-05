@@ -4063,9 +4063,9 @@
 	  <reach>0</reach>
 	  <damage>10P</damage>
 	  <ap>-10</ap>
-	  <mode>SA</mode>
+	  <mode>SA/BF</mode>
 	  <rc>0</rc>
-	  <ammo>2x10(c) or External Source</ammo>
+	  <ammo>2x15(c) or External Source</ammo>
 	  <avail>18F</avail>
 	  <cost>16000</cost>
 	  <source>RG</source>
@@ -4091,7 +4091,7 @@
 	  <ap>-10</ap>
 	  <mode>SA</mode>
 	  <rc>0</rc>
-	  <ammo>10(c) or External Source</ammo>
+	  <ammo>15(c) or External Source</ammo>
 	  <avail>14F</avail>
 	  <cost>7500</cost>
 	  <source>RG</source>
@@ -5975,7 +5975,7 @@
 	  <ap>-</ap>
 	  <mode>SS</mode>
 	  <rc>0</rc>
-	  <ammo>10(c)</ammo>
+	  <ammo>15(c)</ammo>
 	  <avail>16R</avail>
 	  <cost>8000</cost>
 	  <source>RG</source>
@@ -8548,11 +8548,11 @@
 	  <conceal>6</conceal>
 	  <accuracy>6</accuracy>
 	  <reach>0</reach>
-	  <damage>11P</damage>
+	  <damage>12P</damage>
 	  <ap>-5</ap>
-	  <mode>SA</mode>
+	  <mode>SA/BF</mode>
 	  <rc>0</rc>
-	  <ammo>10(c) or External Source</ammo>
+	  <ammo>15(c) or External Source</ammo>
 	  <avail>20F</avail>
 	  <cost>19000</cost>
 	  <source>HT</source>
@@ -8872,7 +8872,7 @@
 	  <ap>-8</ap>
 	  <mode>SA/BF/FA</mode>
 	  <rc>0</rc>
-	  <ammo>10(c) or External Source</ammo>
+	  <ammo>15(c) or External Source</ammo>
 	  <avail>16F</avail>
 	  <cost>100000</cost>
 	  <source>LCD</source>
@@ -17268,7 +17268,7 @@
 	  <cost>400</cost>
 	  <source>RG</source>
 	  <page>52</page>
-	  <ammoreplace>10</ammoreplace>
+	  <ammoreplace>15</ammoreplace>
 	  <ammoslots>1</ammoslots>
 	  <rating>0</rating>
 	  <required>
@@ -17290,7 +17290,7 @@
 	  <cost>900</cost>
 	  <source>RG</source>
 	  <page>52</page>
-	  <ammoreplace>20</ammoreplace>
+	  <ammoreplace>30</ammoreplace>
 	  <ammoslots>1</ammoslots>
 	  <rating>0</rating>
 	  <required>
@@ -17311,7 +17311,7 @@
 	  <cost>2500</cost>
 	  <source>RG</source>
 	  <page>52</page>
-	  <ammoreplace>30</ammoreplace>
+	  <ammoreplace>90</ammoreplace>
 	  <ammoslots>1</ammoslots>
 	  <rating>0</rating>
 	  <required>

@@ -26,6 +26,28 @@
   </categories>
   <gears>
   <gear>
+      <id>3358875d-34fc-47db-a44a-f6b5a9cd2435</id>
+      <name>Ghost Hound(Magic Sense)</name>
+      <category>Animals</category>
+      <rating>0</rating>
+      <avail>8</avail>
+      <cost>7000</cost>
+      <source>DM</source>
+      <page>0</page>
+	  <notes>Upkeep: 10% extra to lifestyle for each step under a Med lifestyle or higher.</notes>
+  </gear>
+  <gear>
+      <id>e010c79c-0e95-4f47-b06c-967efbe626c5</id>
+      <name>Ghost Hound(Astral Perception)</name>
+      <category>Animals</category>
+      <rating>0</rating>
+      <avail>10</avail>
+      <cost>9000</cost>
+      <source>DM</source>
+      <page>0</page>
+	  <notes>Upkeep: 10% extra to lifestyle for each step under a Med lifestyle or higher.</notes>
+  </gear>
+  <gear>
       <id>0198f16e-8bb2-a618-ab2a-f478abe6a4c7</id>
       <name>Gyrojet Stick'n'shock</name>
       <category>Ammunition</category>
@@ -1212,6 +1234,26 @@
       <avail>0</avail>
       <armorcapacity>[1]</armorcapacity>
       <cost>25</cost>
+    </gear>
+    <gear>
+      <id>3f2bb800-cb27-4e31-9cb9-1d60d8f9b2b7</id>
+      <name>Lucifer Lamp</name>
+      <category>Magical Supplies</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>15</avail>
+      <cost>35000</cost>
+    </gear>
+    <gear>
+      <id>488a105d-f087-4720-a32d-ebaf11bc9c7a</id>
+      <name>Lucifer Lamp Replacement Bulb</name>
+      <category>Magical Supplies</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>15</avail>
+      <cost>12500</cost>
     </gear>
     <gear>
       <id>525fd4b4-c174-4154-ab6d-5ff1cabf645e</id>
