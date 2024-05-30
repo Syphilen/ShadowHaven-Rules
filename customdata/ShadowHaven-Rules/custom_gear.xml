@@ -1323,5 +1323,15 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <cost>2000</cost>
       <allowrename>True</allowrename>
 	</gear>
+    <gear>
+      <id>bdebc478-503a-43ae-814c-f3b77049c99a</id>
+      <name>Cinderella</name>
+      <category>Magical Compounds</category>
+      <rating>20</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>10R</avail>
+      <cost>Rating * 500</cost>
+    </gear>
   </gears>
 </chummer>

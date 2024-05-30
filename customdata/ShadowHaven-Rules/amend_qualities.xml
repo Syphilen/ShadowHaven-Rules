@@ -1328,7 +1328,7 @@
     </quality>
     <quality>
       <name>Human Lifespan</name>
-      <hide />
+      <karma>0</karma>
     </quality>
     <quality>
       <name>Nasty Trog</name>
