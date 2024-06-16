@@ -2152,5 +2152,11 @@
         </oneof>
       </forbidden>
     </quality>
+    <quality>
+      <name>The Artisan's Way</name>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </quality>
   </qualities>
 </chummer>

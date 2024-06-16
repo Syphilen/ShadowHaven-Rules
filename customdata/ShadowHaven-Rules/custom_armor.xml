@@ -144,5 +144,17 @@
           <source>SL</source>
           <page>130</page>
         </mod>
+        <mod>
+          <id>00436770-dbf1-4f7b-b8ba-b371bc023bc7</id>
+          <name>Shiftable Armor</name>
+          <category>General</category>
+          <armor>0</armor>
+          <maxrating>1</maxrating>
+          <armorcapacity>0</armorcapacity>
+          <avail>0</avail>
+          <cost>Variable(0-1000000)</cost>
+          <source>DM</source>
+          <page>0</page>
+        </mod>
 	</mods>
 </chummer>

@@ -1544,7 +1544,7 @@
 				</oneof>
 			</required>
 			<bonus>
-				<selectskill limittoskill="Sneaking,Throwing Weapons,Blades,Clubs,Exotic Melee Weapon,Unarmed">
+				<selectskill limittoskill="Sneaking,Throwing Weapons,Blades,Clubs,Tensile Weapons, Exotic Natural Weapons, Rolling Blades, Chainsaws, Battering Weapons,Unarmed">
 					<val>1</val>
 				</selectskill>
 			</bonus>
@@ -1715,7 +1715,7 @@
 				</oneof>
 			</required>
 			<bonus>
-				<selectskill limittoskill="Sneaking,Throwing Weapons,Blades,Clubs,Exotic Melee Weapon,Unarmed Combat">
+				<selectskill limittoskill="Sneaking,Throwing Weapons,Blades,Clubs,Tensile Weapons, Exotic Natural Weapons, Rolling Blades, Chainsaws, Battering Weapons,Unarmed">
 					<val>1</val>
 				</selectskill>
 				<surprise>3</surprise>
