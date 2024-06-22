@@ -357,7 +357,7 @@
       		<category>Cyborg</category>
       		<ess>0</ess>
       		<capacity>[Rating * 5]</capacity>
-      		<avail>(Rating * 4)+4</avail>
+      		<avail>((Rating - 1) * 4)+12</avail>
       		<cost>Rating * 40000</cost>
       		<source>DM</source>
       		<page>0</page>
