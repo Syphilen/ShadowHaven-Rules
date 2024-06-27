@@ -2121,6 +2121,7 @@
 				<specificattribute>
                     <name>CHA</name>
                     <max>-2</max>
+                    <min>-2</min>
 				</specificattribute>
 				<specificattribute>
                     <name>INT</name>
