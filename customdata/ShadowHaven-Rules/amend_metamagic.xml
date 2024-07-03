@@ -39,6 +39,10 @@
       <hide />
     </metamagic>
     <metamagic>
+      <name>Centering</name>
+      <adept>True</adept>
+    </metamagic>
+    <metamagic>
       <name>Danger Sense</name>
       <required amendoperation="replace">
         <allof>

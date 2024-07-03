@@ -238,6 +238,11 @@
 			<order>8</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
+		<customdatadirectoryname>
+			<directoryname>90be9581-a053-45ec-b6a8-13b5ae139c09&gt;1.0</directoryname>
+			<order>9</order>
+			<enabled>True</enabled>
+		</customdatadirectoryname>
 	</customdatadirectorynames>
 	<buildmethod>SumtoTen</buildmethod>
 	<buildpoints>35</buildpoints>
