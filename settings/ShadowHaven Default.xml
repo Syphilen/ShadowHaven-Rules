@@ -38,7 +38,7 @@
 	<nosinglearmorencumbrance>False</nosinglearmorencumbrance>
 	<ignorecomplexformlimit>True</ignorecomplexformlimit>
 	<noarmorencumbrance>False</noarmorencumbrance>
-	<uncappedarmoraccessorybonuses>False</uncappedarmoraccessorybonuses>
+	<uncappedarmoraccessorybonuses>True</uncappedarmoraccessorybonuses>
 	<esslossreducesmaximumonly>False</esslossreducesmaximumonly>
 	<allowskillregrouping>True</allowskillregrouping>
 	<specializationsbreakskillgroups>True</specializationsbreakskillgroups>
