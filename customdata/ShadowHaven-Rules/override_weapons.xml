@@ -12772,6 +12772,7 @@
 	  <cost>900</cost>
 	  <source>SL</source>
 	  <page>24</page>
+      <useskill>Battering Weapons</useskill>
 	</weapon>
 	<weapon>
 	  <id>5aa40509-e444-4802-8ba5-201447f74a0e</id>
