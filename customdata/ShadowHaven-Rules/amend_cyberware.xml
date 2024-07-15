@@ -426,6 +426,34 @@
           <hide />
         </cyberware>
         <cyberware>
+          <name>Obvious Skull</name>
+          <capacity>6</capacity>
+        </cyberware>
+        <cyberware>
+          <name>Synthetic Skull</name>
+          <capacity>4</capacity>
+        </cyberware>
+        <cyberware>
+          <name>Oral Slasher</name>
+          <capacity>[2]</capacity>
+        </cyberware>
+        <cyberware>
+          <name>Junkyard Jaw</name>
+          <capacity>[3]</capacity>
+        </cyberware>
+        <cyberware>
+          <name>Cyberfangs, Retractable</name>
+          <capacity>[2]</capacity>
+        </cyberware>
+        <cyberware>
+          <name>Cyberfangs</name>
+          <capacity>[1]</capacity>
+        </cyberware>
+        <cyberware>
+          <name>False Face</name>
+          <capacity>[2]</capacity>
+        </cyberware>
+        <cyberware>
           <name>Obvious Foot, Modular</name>
           <mountsto amendoperation="replace">modularankle</mountsto>
         </cyberware>
