@@ -65,5 +65,28 @@
         </choice>
       </choices>
     </mentor>
+    <mentor>
+      <name>Stag</name>
+      <choices amendoperation="replace">
+        <choice>
+          <name>+2 dice to Blades Tests</name>
+          <bonus>
+        <specificskill>
+          <name>Blades</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+        </choice>
+        <choice>
+          <name>+2 dice to Clubs Tests</name>
+          <bonus>
+        <specificskill>
+          <name>Clubs</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+        </choice>
+      </choices>
+    </mentor>
   </mentors>
 </chummer>
