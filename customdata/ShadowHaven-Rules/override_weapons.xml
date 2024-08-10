@@ -5044,10 +5044,16 @@
 	  <ap>Missile</ap>
 	  <mode>SA/BF</mode>
 	  <rc>0</rc>
-	  <ammo>4x2(m)</ammo>
+	  <ammo>1(m)</ammo>
+      <ammoslots>4</ammoslots>
 	  <avail>20F</avail>
 	  <cost>14000</cost>
 	  <source>RG</source>
+	  <accessories>
+		<accessory>
+		  <name>Smartgun System, Internal</name>
+		</accessory>
+	  </accessories>
 	  <page>47</page>
 	  <accessorymounts>
 		<mount>Stock</mount>
