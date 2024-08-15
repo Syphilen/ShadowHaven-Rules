@@ -4782,23 +4782,24 @@
           <source>DM</source>
           <page>0</page>
         </quality>
-	<quality>
-		<id>5a81e308-85bf-41b6-bb42-1176419d396c</id>
-		<name>CSS Willpower Bonus</name>
-		<limit>2</limit>
-		<karma>0</karma>
-		<category>Positive</category>
-		<bonus>
-        		<specificattribute>
-          		<name>BOD</name>
-          		<val>1</val>
-        		</specificattribute>
-      		</bonus>
-		<required>
-			<quality>Cyber-Singularity Seeker</quality>
-		</required>
-		<source>DM</source>
-		<page>0</page>
-	</quality>
+    <quality>
+      <id>5a81e308-85bf-41b6-bb42-1176419d396c</id>
+      <name>Cyber-Singularity Seeker</name>
+      <karma>12</karma>
+      <category>Positive</category>
+      <bonus>
+         <specificattribute>
+           <name>WIL</name>
+           <val>2</val>
+         </specificattribute>
+      </bonus>
+      <required>
+          <oneof>
+            <metatype>Cyborg</metatype>
+          </oneof>
+      </required>
+      <source>CF</source>
+      <page>54</page>
+    </quality>
 	</qualities>
 </chummer>

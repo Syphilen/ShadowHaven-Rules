@@ -889,6 +889,15 @@
     <!-- Region Chrome Flesh -->
     <!-- Region Chrome Flesh Positive Qualities -->
     <quality>
+      <id>b47319f5-372d-4e23-9fd9-a8e4aecd4c85</id>
+      <!-- Cyber-Singularity Seeker -->
+      <forbidden>
+          <oneof>
+            <metatype>Cyborg</metatype>
+          </oneof>
+      </forbidden>
+    </quality>
+    <quality>
       <name>Better to be Feared Than Loved</name>
       <hide />
     </quality>
