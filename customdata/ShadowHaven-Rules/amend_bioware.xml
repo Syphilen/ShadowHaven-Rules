@@ -193,5 +193,13 @@
       <name>Severe Allergy Resistance</name>
       <ess>0</ess>
     </bioware>
+    <bioware>
+	<name>Control Rig Optimization</name>
+	<required amendoperation="addnode">
+            <oneof>
+          	<echo>MMRI</echo>
+            </oneof>
+      	</required>
+    </bioware>
   </biowares>
 </chummer>
