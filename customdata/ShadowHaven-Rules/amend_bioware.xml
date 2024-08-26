@@ -195,11 +195,7 @@
     </bioware>
     <bioware>
 	<name>Control Rig Optimization</name>
-	<required amendoperation="addnode">
-            <oneof>
-          	<echo>MMRI</echo>
-            </oneof>
-      	</required>
+	<required amendoperation="remove" />
     </bioware>
   </biowares>
 </chummer>
