@@ -572,6 +572,10 @@
       <name>Crucible</name>
       <hide />
     </gear>
+    <gear>
+      <name>Minigrenade: Winchester-Howe Hornet Direct-Fire</name>
+      <hide />
+    </gear>
     <!-- End Region -->
 
     <!-- Region Kill Code -->
@@ -593,6 +597,10 @@
     <gear>
       <id>17136c4b-af3b-44a4-b5cf-2eedf7e9d217</id>
       <name>Ammo: Krime Splash Self-Defense Ammunition</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Grenade: Krime Party</name>
       <hide />
     </gear>
   </gears>
