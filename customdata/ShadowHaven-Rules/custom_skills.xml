@@ -263,5 +263,17 @@
 				<spec>The Bridge</spec>
 			</specs>
 		</skill>
+        <skill>
+			<id>db1ca118-5785-4e83-a79e-905b15535226</id>
+			<name>The Scourge</name>
+			<attribute>INT</attribute>
+			<category>Interest</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Tactics</spec>
+				<spec>History</spec>
+			</specs>
+		</skill>
 	</knowledgeskills>
 </chummer>
