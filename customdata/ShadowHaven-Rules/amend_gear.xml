@@ -31,10 +31,11 @@
     </gear>
     <!-- End Region -->
     <!-- Region Ammo -->
-<!--    <gear>
+    <gear>
       <name>Ammo: Gyrojet</name>
-      <hide />
-    </gear> --> <!-- FIXME: Chummer bug makes the houseruled ammo not selectable (since you can't add categories to the chooser) -->
+      <cost amendoperation="replace">80</cost>
+      <weaponbonus amendoperation="remove"> </weaponbonus>
+    </gear>
     <!-- Region Kill Code -->
     <gear>
       <name>Evo Sublime</name>

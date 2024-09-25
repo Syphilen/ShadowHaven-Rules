@@ -49,7 +49,7 @@
   </gear>
   <gear>
       <id>0198f16e-8bb2-a618-ab2a-f478abe6a4c7</id>
-      <name>Gyrojet Stick'n'shock</name>
+      <name>Ammo:Gyrojet Stick'n'shock</name>
       <category>Ammunition</category>
       <rating>0</rating>
       <source>DM</source>
@@ -58,11 +58,82 @@
       <cost>160</cost>
       <costfor>10</costfor>
       <weaponbonus>
-        <ap>-5</ap>
+        <apreplace>-5</apreplace>
         <damage>-2</damage>
         <damagetype>S(e)</damagetype>
       </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>e2678b25-f769-41ab-80b0-919f2d0dbd8b</id>
+      <name>Ammo:Gyrojet Plus</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>118</page>
+      <avail>16F</avail>
+      <cost>200</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>+1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>57d01a5b-fc13-491e-81c5-90b26c034379</id>
+      <name>Ammo:Gyrojet Security Tag</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>118</page>
+      <avail>14F</avail>
+      <cost>200</cost>
+      <costfor>10</costfor>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>5e01c8b5-f71a-4cef-88c0-fcf3ceefe3ca</id>
+      <name>Ammo:Gyrojet Stealth Tag</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>118</page>
+      <avail>16F</avail>
+      <cost>125</cost>
+      <costfor>10</costfor>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>483d6def-de9d-48f1-a7ae-1991f958b1ae</id>
+      <name>Ammo: Anti-Vehicular</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>118</page>
+      <avail>14F</avail>
+      <cost>175</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
+      <notes>-1 Vs personal, -5 Vs vehicle armor</notes>
+    </gear>
+    <gear>
+      <id>73b7ecb7-dac5-455a-afab-679ea5c0cb95</id>
+      <name>Ammo: Anti-Vehicular Assault Cannon</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>118</page>
+      <avail>12F</avail>
+      <cost>575</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+      <notes>-1 Vs personal, -5 Vs vehicle armor</notes>
     </gear>
     <!-- Region Handload AP -->
     <gear>
@@ -75,10 +146,6 @@
       <avail>28F</avail>
       <cost>1000 * 1.1</cost>
       <costfor>10</costfor>
-      <weaponbonus>
-        <ap>-6</ap>
-        <damage>1</damage>
-      </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
     </gear>
     <gear>
@@ -896,8 +963,307 @@
       <costfor>10</costfor>
       <weaponbonus>
         <damage>1</damage>
+        <ap>-1</ap>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>588673b2-b941-46d3-bedd-d0959d771a58</id>
+      <name>Ammo +AP: Assault Cannon</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>12F</avail>
+      <cost>400 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>402d9af2-dce3-4e61-8f03-48c9f7fb9a81</id>
+      <name>Ammo +AP: Gauss</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>18F</avail>
+      <cost>400 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>13f2ad02-8f4d-4706-975b-cc57133ba3bd</id>
+      <name>Ammo +AP: Krime Punisher Assault Cannon Rounds</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>8F</avail>
+      <cost>200 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-3</damage>
+        <ap>-4</ap>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b1d5253c-49bd-4e46-aa69-b2c701d23e6e</id>
+      <name>Ammo +AP: Gyrojet</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>14R</avail>
+      <cost>80 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>dc2efef3-20e9-4c70-9834-9e83bb72cb33</id>
+      <name>Ammo +AP: Gyrojet Stick'n'shock</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>14R</avail>
+      <cost>200 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-6</apreplace>
+        <damage>-2</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f05dd589-5473-4214-9800-990e1849b0f3</id>
+      <name>Ammo +AP: Gyrojet Plus</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>16F</avail>
+      <cost>200 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>+1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>5ac0fd54-298b-4288-8f85-ffba5f242505</id>
+      <name>Ammo +AP: Gyrojet Security Tag</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>14F</avail>
+      <cost>200 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>acbf8d1a-6b6e-4d7f-a51a-c26e5613b151</id>
+      <name>Ammo +AP: Gyrojet Stealth Tag</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>16F</avail>
+      <cost>125 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>fa7cdc66-eec3-4193-8fa8-444944d89ca5</id>
+      <name>Ammo +AP: Anti-Vehicular</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>14F</avail>
+      <cost>175 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <notes>-2 Vs personal, -6 Vs vehicle armor</notes>
+    </gear>
+    <gear>
+      <id>bed403fa-d08e-42da-b768-f1ef997ef98a</id>
+      <name>Ammo +AP: Anti-Vehicular Assault Cannon</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>12F</avail>
+      <cost>575 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+      <notes>-2 Vs personal, -6 Vs vehicle armor</notes>
+    </gear>
+    <gear>
+      <id>df39888d-4af8-411d-ac32-87f253575cda</id>
+      <name>Ammo +DV: Assault Cannon</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>12F</avail>
+      <cost>400 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>+1</damage>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>8c97176a-47a8-424b-bcb1-1fa8b5a18ad3</id>
+      <name>Ammo +DV: Gauss</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>18F</avail>
+      <cost>400 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>+1</damage>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>cf02c541-4b32-4aed-b581-fbe393534d1e</id>
+      <name>Ammo +DV: Krime Punisher Assault Cannon Rounds</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>8F</avail>
+      <cost>200 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-2</damage>
+        <ap>-3</ap>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>fedf7530-bc67-4a17-bdff-4aa78238fe2f</id>
+      <name>Ammo +DV: Gyrojet Stick'n'shock</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>14R</avail>
+      <cost>80 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-5</apreplace>
+        <damage>-1</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>97c407de-a03d-44ae-824c-8f23a282cc6e</id>
+      <name>Ammo +DV: Gyrojet Plus</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>16F</avail>
+      <cost>200 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>+2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b54b47ad-7606-4884-b4a9-d6d57f99dc5b</id>
+      <name>Ammo +DV: Gyrojet Security Tag</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>14F</avail>
+      <cost>200 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>+1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>ab71d2f3-bfcd-4087-9b33-0fe249af4038</id>
+      <name>Ammo +DV: Gyrojet Stealth Tag</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>16F</avail>
+      <cost>125 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>+1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>97d2a054-7620-444e-9693-222e492db48d</id>
+      <name>Ammo +DV: Anti-Vehicular</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>14F</avail>
+      <cost>175 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>+1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <notes>-1 Vs personal, -5 Vs vehicle armor</notes>
+    </gear>
+    <gear>
+      <id>9ac5e3fb-1d85-4b7a-b284-434846843105</id>
+      <name>Ammo +DV: Anti-Vehicular Assault Cannon</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>12F</avail>
+      <cost>575 * 1.1</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>+1</damage>
+      </weaponbonus>
+      <ammoforweapontype>cannon</ammoforweapontype>
+      <notes>-1 Vs personal, -5 Vs vehicle armor</notes>
     </gear>
     <!-- End Region -->
     <!-- Region Street Lethal -->
