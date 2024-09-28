@@ -64,6 +64,10 @@
     </spell>
     <!-- Bans -->
     <spell>
+      <name>Petrify</name>
+      <hide />
+    </spell>
+    <spell>
       <name>Calling [Spirit Type]</name>
       <hide />
     </spell>
