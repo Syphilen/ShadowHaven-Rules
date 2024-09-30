@@ -52,6 +52,16 @@
           <value>0</value>
           <karma>0</karma>
         </metatype>
+        <metatype>
+          <name>Ork</name>
+          <metavariants amendoperation="recurse">
+            <metavariant amendoperation="replace">
+              <name>Oni</name>
+              <value>0</value>
+              <karma>4</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
       </metatypes>
     </priority>
     <!-- Region Talents -->
