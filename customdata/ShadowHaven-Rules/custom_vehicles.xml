@@ -223,6 +223,27 @@
       </subsystems>
     </mod>
     <mod>
+      <id>7286d796-4eb4-4795-8a28-aa0395918ebd</id>
+      <name>Custom Item</name>
+      <page>0</page>
+      <source>DM</source>
+      <cost>Variable(0-1000000)</cost>
+      <avail>0</avail>
+      <cost>0</cost>
+      <rating>140</rating>
+      <slots>Rating</slots>
+      <capacity>0</capacity>
+      <category>Cyborg</category>
+      <required>
+        <vehicledetails>
+          <category>Drones: Cyborg Shell</category>
+        </vehicledetails>
+      </required>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </mod>
+    <mod>
       <id>3357eaf8-743a-4724-a93d-0a1415846a41</id>
       <name>Improved Internal Structure (Plastic)</name>
       <page>0</page>
