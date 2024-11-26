@@ -584,96 +584,592 @@
       <hide />
     </quality>
 	<quality>
-      <id>0a3f2c4f-efdc-422f-91bf-07baf2229bc6</id>
-      <!--<name>Infected: Banshee</name>-->
-      <hide />
+      <name>Infected: Banshee</name>
+      <bonus amendoperation="recurse">
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>8325c7f3-c578-458a-9068-e159b2c686ef</id>
-      <!--<<name>Infected: Ghoul (Sasquatch)</name>-->
-      <hide />
+      <name>Infected: Ghoul (Sasquatch)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <min>2</min>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>2d99bbb6-7af0-45c6-a83b-46d9d9f10838</id>
-      <!--<<name>Infected: Ghoul (Human)</name>-->
-      <hide />
+      <name>Infected: Ghoul (Human)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>e156dc45-66ca-4b45-baf8-5c875b9866c4</id>
-      <!--<<name>Infected: Ghoul (Elf)</name>-->
-      <hide />
+      <name>Infected: Ghoul (Elf)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
       <id>92123580-1f4f-4c6a-b2f5-3b9c9031d705</id>
-      <!--<<name>Infected: Ghoul (Troll)</name>-->
-      <hide />
+      <name>Infected: Ghoul (Troll)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>ea7c269f-6843-488a-b0fa-8f79c935f568</id>
-      <!--<<name>Infected: Ghoul (Ork)</name>-->
-      <hide />
+      <name>Infected: Ghoul (Ork)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>ed801fa4-0514-458a-b850-9eeddf0c2fed</id>
-      <!--<<name>Infected: Ghoul (Dwarf)</name>-->
-      <hide />
+      <name>Infected: Ghoul (Dwarf)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>5f31925d-cc76-49da-acab-644b66d5e93d</id>
-      <!--<<name>Infected: Gnawer</name>-->
-      <hide />
+      <name>Infected: Gnawer</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-1</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>fe0c2ae0-fc0f-40fe-9bae-1c3ad5c7e29a</id>
-      <!--<<name>Infected: Loup-Garou</name>-->
-      <hide />
+      <name>Infected: Loup-Garou</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>7d0a1679-846a-4cf2-b8b5-b5c686766a90</id>
-      <!--<<name>Infected: Vampire (Human)</name>-->
-      <hide />
+      <name>Infected: Vampire (Human)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>4024b100-c762-4354-95e4-db5cb0694a9a</id>
-      <!--<<name>Infected: Vampire (Non-Human)</name>-->
-      <hide />
+      <name>Infected: Vampire (Non-Human)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>3c746778-bec5-4b9b-a1a4-62ac6eb98342</id>
-      <!--<<name>Infected: Sukuyan (Human)</name>-->
-      <hide />
+      <name>Infected: Sukuyan (Human)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>2</max>
+        </specificattribute>
+      </bonus>
     </quality>
 	<quality>
-      <id>735aee59-2236-43e4-b618-9b9923513597</id>
-      <!--<<name>Infected: Sukuyan (Non-Human)</name>-->
-      <hide />
+      <name>Infected: Sukuyan (Non-Human)</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>2</max>
+        </specificattribute>
+      </bonus>
     </quality>
     <quality>
-      <id>ae5e7ba4-5b9e-40f9-8ace-66f19c6e11eb</id>
-      <!--<<name>Infected: Golbin</name>-->
-      <hide />
+      <name>Infected: Golbin</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>2</max>
+        </specificattribute>
+      </bonus>
     </quality>
     <quality>
-      <id>6556d48f-2cbd-4bc6-a2c8-e9fe3f99ac7e</id>
-      <!--<<name>Infected: Dzoo-Noo-Qua</name>-->
-      <hide />
+      <name>Infected: Dzoo-Noo-Qua</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
     <quality>
-      <id>fe01a71d-50c2-4ba3-9604-54af663ae8af</id>
-      <!--<<name>Infected: Fomoraig</name>-->
-      <hide />
+      <name>Infected: Fomoraig</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>-2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>-1</max>
+        </specificattribute>
+      </bonus>
     </quality>
     <quality>
-      <id>ba87adfa-6c7e-4c9b-bf13-b6576b59bd1f</id>
-      <!--<<name>Infected: Grendel</name>-->
-      <hide />
+      <name>Infected: Grendel</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-1</max>
+        </specificattribute>
+      </bonus>
     </quality>
     <quality>
-      <id>65026e10-6fa5-49a4-9da6-d9575b5b9cde</id>
-      <!--<<name>Infected: Bandersnatch</name>-->
-      <hide />
+      <name>Infected: Bandersnatch</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <min>1</min>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
     </quality>
-
     <quality>
       <!-- Infected Optional Power: Armor -->
       <id>f466b913-5df0-4370-abf0-fad4ab380d19</id>
