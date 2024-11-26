@@ -53,13 +53,6 @@
     <metatype>
       <name>Ork</name>
         <metavariants>
-          <metavariant xpathfilter="name = 'Hobgoblin'">
-            <qualities>
-              <negative amendoperation="addnode">
-                <quality removable="True">Tusks</quality>
-              </negative>
-            </qualities>
-          </metavariant>
           <metavariant xpathfilter="name = 'Oni'">
             <qualities>
               <negative amendoperation="addnode">
