@@ -67,26 +67,68 @@
     </mentor>
     <mentor>
       <name>Stag</name>
+      <advantage>All: +2 to Blades or Clubs tests.</advantage>
+      <disadvantage>Followers of the Stag demand respect, especially to those they give it to. Once disrespected, they must succeed in a Charisma + Willpower (3) Test, or they will demand satisfaction against the slight.</disadvantage>
+      <bonus amendoperation="remove">
+      </bonus>
       <choices amendoperation="replace">
         <choice>
-          <name>+2 dice to Blades Tests</name>
+          <name>Magician: +2 to summoning earth spirits(Blades).</name>
           <bonus>
-        <specificskill>
-          <name>Blades</name>
-          <bonus>2</bonus>
-        </specificskill>
-      </bonus>
+            <specificskill>
+              <name>Summoning</name>
+              <bonus>2</bonus>
+              <condition>Spirits of Earth</condition>
+            </specificskill>
+            <specificskill>
+              <name>Blades</name>
+              <bonus>2</bonus>
+            </specificskill>
+          </bonus>
         </choice>
         <choice>
-          <name>+2 dice to Clubs Tests</name>
+          <name>Magician: +2 to summoning earth spirits(Clubs).</name>
           <bonus>
-        <specificskill>
-          <name>Clubs</name>
-          <bonus>2</bonus>
-        </specificskill>
-      </bonus>
+            <specificskill>
+              <name>Summoning</name>
+              <bonus>2</bonus>
+              <condition>Spirits of Earth</condition>
+            </specificskill>
+            <specificskill>
+              <name>Clubs</name>
+              <bonus>2</bonus>
+            </specificskill>
+          </bonus>
+        </choice>
+        <choice>
+          <name>Adept: Gain +2 levels of Light Body for free(Blades).</name>
+          <bonus>
+            <specificpower>
+              <name>Light Body</name>
+              <val>2</val>
+            </specificpower>
+            <specificskill>
+              <name>Blades</name>
+              <bonus>2</bonus>
+            </specificskill>
+          </bonus>
+        </choice>
+        <choice>
+          <name>Adept: Gain +2 levels of Light Body for free(Clubs).</name>
+          <bonus>
+            <specificpower>
+              <name>Light Body</name>
+              <val>2</val>
+            </specificpower>
+            <specificskill>
+              <name>Clubs</name>
+              <bonus>2</bonus>
+            </specificskill>
+          </bonus>
         </choice>
       </choices>
+      <source>FA</source>
+      <page>99</page>
     </mentor>
   </mentors>
 </chummer>
