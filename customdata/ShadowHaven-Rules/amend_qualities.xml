@@ -646,6 +646,16 @@
             <name>CHA</name>
             <max>-2</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
 	<quality>
@@ -680,6 +690,16 @@
             <name>CHA</name>
             <max>-2</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
 	<quality>
@@ -714,6 +734,16 @@
             <name>CHA</name>
             <max>-2</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
 	<quality>
@@ -749,6 +779,16 @@
             <name>CHA</name>
             <max>-2</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
 	<quality>
@@ -783,6 +823,16 @@
             <name>CHA</name>
             <max>-2</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
 	<quality>
@@ -817,6 +867,16 @@
             <name>CHA</name>
             <max>-2</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
 	<quality>
@@ -854,6 +914,50 @@
       </bonus>
     </quality>
 	<quality>
+      <name>Infected: Goblin</name>
+      <bonus>
+        <replaceattributes amendoperation="remove" />
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-1</max>
+        </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
+      </bonus>
+    </quality>
+	<quality>
       <name>Infected: Loup-Garou</name>
       <bonus>
         <replaceattributes amendoperation="remove" />
@@ -885,6 +989,16 @@
             <name>CHA</name>
             <max>-2</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
 	<quality>
@@ -1099,6 +1213,12 @@
             <name>INT</name>
             <max>-1</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
     <quality>
@@ -1133,6 +1253,16 @@
             <name>CHA</name>
             <max>-1</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
     <quality>
@@ -1168,6 +1298,16 @@
             <name>CHA</name>
             <max>-2</max>
         </specificattribute>
+        <selectattributes amendoperation="recurse">
+          <selectattribute amendoperation="addnode">
+            <attribute>LOG</attribute>
+            <val>-1</val>
+          </selectattribute>
+          <selectattribute amendoperation="addnode">
+            <attribute>CHA</attribute>
+            <val>-1</val>
+          </selectattribute>
+        </selectattributes>
       </bonus>
     </quality>
     <quality>
