@@ -108,6 +108,31 @@
         </quality>
         <!-- End Cyborg Qualities -->
         <quality>
+          <id>9faa3f2e-58c5-4813-a3d6-d3c2613abd71</id>
+          <name>Sterile</name>
+          <karma>5</karma>
+          <category>Positive</category>
+          <notes>This character can nolonger infect others with HMHVV.</notes>
+          <required>
+              <oneof>
+                  <quality>Infected: Bandersnatch</quality>
+                  <quality>Infected: Fomoraig</quality>
+                  <quality>Infected: Ghoul (Dwarf)</quality>
+                  <quality>Infected: Ghoul (Elf)</quality>
+                  <quality>Infected: Ghoul (Human)</quality>
+                  <quality>Infected: Ghoul (Ork)</quality>
+                  <quality>Infected: Ghoul (Sasquatch)</quality>
+                  <quality>Infected: Ghoul (Troll)</quality>
+                  <quality>Infected: Gnawer</quality>
+                  <quality>Infected: Grendel</quality>
+                  <quality>Infected: Harvester</quality>
+                  <quality>Infected: Loup-Garou</quality>
+              </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
           <id>88b1b013-0cb6-4094-9343-4cf8cf213bf6</id>
           <name>Mentor's Mask(Mage)</name>
           <karma>0</karma>
