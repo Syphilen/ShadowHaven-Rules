@@ -50,6 +50,7 @@
           <metamagic>Divining</metamagic>
         </allof>
       </required>
+      <adept>True</adept>
     </metamagic>
     <!-- End Region -->
     <!-- Region Forbidden Arcana -->
