@@ -83,6 +83,14 @@
         </oneof>
       </required>
     </power>
+    <power>
+      <id>7f98220b-95c4-4b76-aca7-6f0308cf25a7</id>
+      <name amendoperation="replace">Adaptive Camouflage</name>
+      <action amendoperation="replace">Simple</action>
+      <duration amendoperation="replace">Sustained</duration>
+      <source amendoperation="replace">RF</source>
+      <page amendoperation="replace">143</page>
+    </power>
     
   <!-- Drake Stuff -->
     <power>

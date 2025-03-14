@@ -1258,6 +1258,11 @@
     <quality>
       <name>Infected: Bandersnatch</name>
       <bonus>
+        <critterpowers amendoperation="replace">
+          <power>Adaptive Camouflage</power>
+          <power select="Sunlight, Mild">Allergy</power>
+          <power select="Metahuman Flesh">Dietary Requirement</power>
+        </critterpowers>
         <replaceattributes amendoperation="remove" />
         <specificattribute amendoperation="addnode">
             <name>BOD</name>

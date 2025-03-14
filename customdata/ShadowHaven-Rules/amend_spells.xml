@@ -127,14 +127,10 @@
 	  <name>False Impressions</name>
 	  <hide />
 	</spell>
-<!--    <spell>
-      <name>Corps Cadavre</name>
-      <hide />
-    </spell>
     <spell>
-      <name>Zombie</name>
-      <hide />
-    </spell> -->
+      <name>Air Filter</name>
+      <duration amendoperation="replace">P</duration>
+    </spell>
     <spell>
       <name>Necro Summoning</name>
       <required>
