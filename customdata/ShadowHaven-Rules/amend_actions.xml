@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema armor.xsd">
+    <!-- Region Street Lethal-->
+    <!-- End Region -->
+    <!-- Region Kill Code -->
+    <!-- End Region -->
+  <actions>
+    <action>
+      <id>73cd3043-94ac-4406-85ce-59b951d0d945</id>
+      <name amendoperation="replace">Brute Force</name>
+    </action>
+    <action>
+      <name>Brute Force (2 Marks)</name>
+      <hide />
+    </action>
+    <action>
+      <name>Brute Force (3 Marks)</name>
+      <hide />
+    </action>
+        <action>
+      <id>1dae5310-0d39-4464-b3a4-1b3483d0c4eb</id>
+      <name amendoperation="replace">Erase Mark</name>
+    </action>
+    <action>
+      <name>Erase Mark (2 Marks)</name>
+      <hide />
+    </action>
+    <action>
+      <name>Erase Mark (3 Marks)</name>
+      <hide />
+    </action>
+    <action>
+      <id>119aa0ed-314c-45cb-917e-17cf0644c7df</id>
+      <name amendoperation="replace">Hack on the Fly</name>
+    </action>
+    <action>
+      <name>Hack on the Fly (2 Marks)</name>
+      <hide />
+    </action>
+    <action>
+      <name>Hack on the Fly (3 Mark)</name>
+      <hide />
+    </action>
+    <action>
+      <id>21eda7c5-3ca5-4aba-b5e5-b05be4afe6c9</id>
+      <name amendoperation="replace">Control Device</name>
+    </action>
+    <action>
+      <name>Control Device (Simple)</name>
+      <hide />
+    </action>
+    <action>
+      <name>Control Device (Complex)</name>
+      <hide />
+    </action>
+  </actions>
+</chummer>
