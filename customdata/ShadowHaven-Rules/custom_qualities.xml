@@ -2452,24 +2452,45 @@
           <source>DM</source>
           <page>0</page>
         </quality>
-    <quality>
-      <id>5a81e308-85bf-41b6-bb42-1176419d396c</id>
-      <name>Cyber-Singularity Seeker</name>
-      <karma>12</karma>
-      <category>Positive</category>
-      <bonus>
-         <specificattribute>
-           <name>WIL</name>
-           <val>2</val>
-         </specificattribute>
-      </bonus>
-      <required>
-          <oneof>
-            <metatype>Cyborg</metatype>
-          </oneof>
-      </required>
-      <source>CF</source>
-      <page>54</page>
-    </quality>
+        <quality>
+          <id>5a81e308-85bf-41b6-bb42-1176419d396c</id>
+          <name>Cyber-Singularity Seeker</name>
+          <karma>12</karma>
+          <category>Positive</category>
+          <bonus>
+             <specificattribute>
+               <name>WIL</name>
+               <val>2</val>
+             </specificattribute>
+          </bonus>
+          <required>
+              <oneof>
+                <metatype>Cyborg</metatype>
+              </oneof>
+          </required>
+          <source>CF</source>
+          <page>54</page>
+        </quality>
+        <quality>
+          <id>00852c06-951e-4ff3-8e0d-50464ab5f6af</id>
+          <name>CyberAdept Daemon Bonus</name>
+          <karma>0</karma>
+          <category>Positive</category>
+          <contributetolimit>False</contributetolimit>
+          <limit>6</limit>
+          <bonus>
+            <specificattribute amendoperation="addnode">
+                <name>RES</name>
+                <val>Rating</val>
+            </specificattribute>
+          </bonus>
+          <required>
+            <allof>
+              <quality>Resonant Stream: Cyberadept</quality>
+            </allof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
 	</qualities>
 </chummer>

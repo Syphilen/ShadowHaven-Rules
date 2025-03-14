@@ -2172,6 +2172,10 @@
           <bonus>2</bonus>
           <condition>Companion Sprite</condition>
         </specificskill>
+        <specificattribute>
+          <name>RES</name>
+          <aug>6</aug>
+        </specificattribute>
       </bonus>
     </quality>
     <quality>
