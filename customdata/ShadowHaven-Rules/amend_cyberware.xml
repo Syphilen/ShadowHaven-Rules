@@ -454,6 +454,23 @@
           <capacity>[2]</capacity>
         </cyberware>
         <cyberware>
+          <id>8538aff0-ab67-4d7b-9310-deae1672e003</id>
+          <name>CAST</name>
+          <avail amendoperation="replace">18F</avail>
+        </cyberware>
+        <cyberware>
+          <name>CAST w/ Friend or Foe Recognition</name>
+          <avail amendoperation="replace">19F</avail>
+        </cyberware>
+        <cyberware>
+          <name>Stirrup Interface</name>
+          <avail amendoperation="replace">FixedValues(15R,18R,21R)</avail>
+        </cyberware>
+        <cyberware>
+          <name>Digigrade Legs</name>
+          <ess amendoperation="remove">0.25</ess>
+        </cyberware>
+        <cyberware>
           <name>Obvious Foot, Modular</name>
           <mountsto amendoperation="replace">modularankle</mountsto>
         </cyberware>

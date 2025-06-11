@@ -62,6 +62,10 @@
       <name>Augury and Sortilege</name>
       <hide />
     </spell>
+    <spell>
+      <name>Air Filter</name>
+      <duration>P</duration>
+    </spell>
     <!-- Bans -->
     <spell>
       <name>Petrify</name>
