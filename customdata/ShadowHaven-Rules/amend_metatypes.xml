@@ -24,6 +24,18 @@
       <hide />
     </metatype>
     <metatype>
+      <name>Naga</name>
+      <qualities>
+        <positive>
+          <quality>Natural Weapon: Bite (Naga)</quality>
+          <quality>Naga Arms/Legs</quality>
+        </positive>
+        <negative>
+          <quality>Cold-Blooded</quality>
+        </negative>
+      </qualities>
+    </metatype>  
+    <metatype>
       <name>Pixie</name>
       <hide />
     </metatype>

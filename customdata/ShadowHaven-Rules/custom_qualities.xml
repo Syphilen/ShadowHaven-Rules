@@ -108,6 +108,30 @@
         </quality>
         <!-- End Cyborg Qualities -->
         <quality>
+          <id>cb37608c-8034-4d46-916a-bebaa6ed0fc7</id>
+          <name>Naga Arms/Legs</name>
+          <karma>0</karma>
+          <category>Positive</category>
+          <bonus>
+            <addlimb>
+              <limbslot>arm</limbslot>
+              <val>-2</val>
+            </addlimb>
+            <addlimb>
+              <limbslot>leg</limbslot>
+              <val>-2</val>
+            </addlimb>
+          </bonus>
+          <required>
+            <oneof>
+              <metatype>Naga</metatype>
+            </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+          <notes>This quality just tells chummer the naga don't have arms and legs. Please note, movement will not calculate properly for naga because of this.</notes>
+        </quality>
+        <quality>
           <id>9faa3f2e-58c5-4813-a3d6-d3c2613abd71</id>
           <name>Sterile</name>
           <karma>5</karma>
