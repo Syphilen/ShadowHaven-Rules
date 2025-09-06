@@ -36,6 +36,14 @@
       <page>147</page>
       <notes> In order to divine a subject the initiate must first be able to assense the subject, or possess a viable material link. They then enter a mild trance which reveals flashes of what the future might hold. The diviner must use the arcana+logic+IG skill test to interpret these flashes, see the table on SG PG 125 for difficulty examples. While in this trance, which lasts for 1 minute, the initiate takes a -2 on all actions due to the distraction. Subsequent uses on the same target increase the threshold by 1 per attempt.</notes>
     </metamagic>
+    <metamagic>
+      <id>ec1ead1e-072e-4718-94b1-5502346372af</id>
+      <name>Advanced Spirit Expansion: UMT</name>
+      <adept>False</adept>
+      <magician>True</magician>
+      <source>DM</source>
+      <page>0</page>
+      <notes>The Master Shedim that created the ritual for Spirit Expansion: Shedim did not realize in the process that they would inspire researchers to continue to expand the conceptual validity of Universal Magic Theory. In showing the world that any mage could be taught to summon a Shedim, the Master Shedim inadvertently seeded the idea that any mage could summon a spirit that interacted in the world with a different method than their tradition commonly allowed. Experimenting with Wild summoning techniques and controlled study of binding banished spirits of varied types lead to a breakthrough. In 2086 Street Magi from Seattle and a Research team in New Orleans demonstrated the ability nearly simultaneously of a Mage to summon a spirit outside the normal arrival methods a tradition would allowed. It was first officially documented at the Loyola U. Thaumaturgical Research Dept of New Orleans under the eyes of Dr. Kathleen Rubidoux. When a summoner with this metamagic summons a spirit, they may choose for it to use a different physical interaction power than what their tradition normally offers. A summoner with a possession tradition may summon a materialization spirit and a summoner with a materialization tradition may summon a possession spirit. This metamagic does not work for inhabitation. This metamagic allows the summoner to have one spirit at a time with this counter tradition power, including bound spirits, so if a summoner with a materialization tradition has a bound possession spirit, they may not summon another possession spirit until their current possession spirit is disrupted, released or banished.</notes>
+    </metamagic>
   </metamagics>
-
 </chummer>

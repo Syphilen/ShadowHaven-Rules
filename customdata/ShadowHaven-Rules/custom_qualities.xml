@@ -28,11 +28,6 @@
           <karma>-20</karma>
           <category>Negative</category>
           <notes>The character receives a -3 penalty on any Willpower test other than spell defense and damage resistance tests.</notes>
-          <required>
-              <oneof>
-                <metatype>Cyborg</metatype>
-              </oneof>
-          </required>
           <source>DM</source>
           <page>0</page>
         </quality>
@@ -42,11 +37,6 @@
           <karma>-10</karma>
           <category>Negative</category>
           <notes>The character has a firmly held (false) belief they cannot be persuaded out of. Any attempt to persuade them out of this belief must be counted with a new explanation as to why the belief is still true (from the player).</notes>
-          <required>
-              <oneof>
-                <metatype>Cyborg</metatype>
-              </oneof>
-          </required>
           <source>DM</source>
           <page>0</page>
         </quality>
@@ -56,11 +46,6 @@
           <karma>-30</karma>
           <category>Negative</category>
           <notes>The character suffers from extreme memory loss, hallucinations, delusions, and loss of language skills. At the beginning of each scene, the character must roll LOG+WIL and consult the following table for effects.</notes>
-          <required>
-              <oneof>
-                <metatype>Cyborg</metatype>
-              </oneof>
-          </required>
           <source>DM</source>
           <page>0</page>
         </quality>
@@ -70,11 +55,6 @@
           <karma>-10</karma>
           <category>Negative</category>
           <notes>The character suffers a -2 to all social tests in which the other person is physically present.</notes>
-          <required>
-              <oneof>
-                <metatype>Cyborg</metatype>
-              </oneof>
-          </required>
           <source>DM</source>
           <page>0</page>
         </quality>
@@ -84,25 +64,15 @@
           <karma>-20</karma>
           <category>Negative</category>
           <notes>Whenever the character is in a stressful situation they must make a Logic + Willpower (3) test. Failure means they are suffering from audio-visual hallucinations that seem real to the character and must be treated as real. At any point the GM may call for another Logic + Willpower (3) test to see if the hallucinations end. Other characters may assist with these tests by using Logic + Psychology [Mental] (treat this as an assist).</notes>
-          <required>
-              <oneof>
-                <metatype>Cyborg</metatype>
-              </oneof>
-          </required>
           <source>DM</source>
           <page>0</page>
         </quality>
         <quality>
           <id>f5e0a55f-36bb-40eb-9436-a800e560db08</id>
           <name>Dissociative Identity Disorder</name>
-          <karma>-20</karma>
+          <karma>-10</karma>
           <category>Negative</category>
-          <notes>When this quality is taken, the player must divide the skills the character has in half (as evenly as possible). The character is now two people; each person receives half of the total skill list. In stressful situations the currently active person must make a Willpower + Charisma (3) test or switch to the other person. The currently active person may switch voluntarily by making a Willpower + Charisma (5, 1 minute) test.</notes>
-          <required>
-              <oneof>
-                <metatype>Cyborg</metatype>
-              </oneof>
-          </required>
+          <notes>The character has one or more alternate personalities commonly referred to as alters. They do not share memory, finding frequent blackouts and blank spaces in their memory which can be a source of frustration. They suffer a -2 on all Memory Tests due to the frequent memory gaps. The alters don't have the exact same skillset as the host, each one suffering a -1 dice pool penalty to two skill categories (note: this is not the same as a skill group). Skill categories that the character cannot access are invalid (a mundane character cannot choose the Resonant Active category). Other skills can be performed normally, although the player may impose additional penalties in addition. If possible, no two alters should have the exact same skill category penalties. The skill categories have to have at least one skill that the character has ranks in (faces can't choose the technical skill category if they have no ranks in them). A character with this quality can have up to five alters. When determining which personality is active, either because of a switch or after waking up from sleep or unconsciousness, roll a die with faces equal to the amount of personalities + 1 (Five total personalities would roll 1d6). Rolling a 1 or the highest value means the host personality is active. The other values in between represent specific alters. Consciously making a switching roll requires a Composure (4) Test first. Situations of great stress may require a Composure Test to resist a switch as well. The gamemaster may force a switch when appropriate. Alters are not aware of the actions of one another and can at best be aware of what happened during their dormancy as second hand knowledge. Recording cybereye footage, leaving notes or Matrix reminders are all possible methods of communication, to give a few examples..</notes>
           <source>DM</source>
           <page>0</page>
         </quality>
