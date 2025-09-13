@@ -43,7 +43,7 @@
   <enhancements>
     <enhancement>
       <name>Hot Qi</name>
-      <notes amendoperation="addnode">
+      <notes>
         Now functions as following: Hot Qi may be used to activate a qi focus to gain ranks in an adept power that exceeds the adept’s Magic Attribute, but doing so inflicts 1 unresisted Physical Drain. If the power has an innate limit in Rating, it cannot be bypassed.
       </notes>
     </enhancement>
