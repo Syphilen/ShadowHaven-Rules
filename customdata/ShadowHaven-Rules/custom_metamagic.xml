@@ -178,6 +178,20 @@
         By stretching his astral form out of his body, the spiritual adept can attain a portion of an astrally projecting magician’s ability. Treat this as astral projection, but the duration for any one projection attempt is limited to Essence + Initiate Grade in Combat Turns. After this, the adept’s astral form is forcibly rebounded back to his body. If something blocks the adept from returning, such as a mana barrier, make the test for astral intersection for each such obstacle. Any failed tests means the adept rebounds but his Stun Condition Monitor is completely filled and he falls unconscious. If the Stun Condition Monitor is already full, his Physical Condition Monitor fills instead. Can be performed (Magic) times per day. Requires: Astral Perception / Dual-Natured
       </notes>
     </metamagic>
+    <metamagic>
+      <id>e268d65a-7089-41bd-95ac-a552e6f82f29</id>
+      <name>Channeling</name> <!-- Second version for Spiritual Way Mysads-->
+      <adept>True</adept>
+      <magician>True</magician>
+      <required>
+        <allof>
+		  <quality>Mystic Adept</quality>
+		  <quality>The Spiritual Way</quality>
+        </allof>
+      </required>
+      <source>SG</source>
+      <page>148</page>
+    </metamagic>
   </metamagics>
-
 </chummer>
+
