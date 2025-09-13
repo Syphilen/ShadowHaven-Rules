@@ -81,7 +81,6 @@
         Body Sculpt can now be used to mimic any metahuman metatype or metavariant, causing the adept to swell or shrink in accordance to the metatype being mimicked. This does not alter the adept’s attributes or give them additional abilities; dermal plating and horns given by imitating a troll are purely aesthetic and are not durable enough to be used as weapons. Metasapients like pixies or centaurs cannot be imitated. The adept must resist Stun Drain equal to the difference in base Body score between original and target metavariant.
       </notes>
     </enhancement>
-    <enhancements>
     <enhancement>
       <id>f0f838de-e752-4e5a-88fa-ec4b77012eda</id>
       <name>Junkyard Tinkerer</name>
