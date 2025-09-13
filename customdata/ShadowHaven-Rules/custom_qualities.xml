@@ -2486,5 +2486,69 @@
           <source>DM</source>
           <page>0</page>
         </quality>
+        <quality>
+          <id>64ac8c8f-ff01-418f-895e-389b411f23a0</id>
+          <name>Flash</name>
+          <karma>10</karma>
+          <category>Positive</category>
+          <canbuywithspellpoints>True</canbuywithspellpoints>
+          <doublecareer>False</doublecareer>
+          <bonus />
+          <required>
+            <allof>
+              <metamagic>Soundstep</metamagic>
+              <enhancement>Windwalk</enhancement>
+            </allof>
+          </required>
+          <notes>
+            An adept with the prerequisite metamagics can combine them. As a Simple Action, they can use Soundstep to reach any location they would have a straight line to, assuming they jumped or used the Windwalk technique. The adept must resist Drain equal to the number of meters travelled after arriving. If the Adept moves more meters than their Magic score, the Drain is Physical.
+          </notes>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
+          <id>64726de5-20e6-40ad-ac0e-b9fe8b279336</id>
+          <name>Reckless Spellblade</name>
+          <karma>3</karma>
+          <category>Positive</category>
+          <canbuywithspellpoints>True</canbuywithspellpoints>
+          <doublecareer>False</doublecareer>
+          <bonus />
+          <required>
+            <oneof>
+              <spell>Manablade</spell>
+              <spell>Powerblade</spell>
+            </oneof>
+          </required>
+          <notes>
+            A character with this quality may recklessly cast and attack with a Spellblade in a single Simple Action.
+          </notes>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
+          <id>3b83439b-56e9-44b8-b3b4-9b9f368cd7c9</id>
+          <name>Spellblade Adept</name>
+          <karma>10</karma>
+          <category>Positive</category>
+          <canbuywithspellpoints>True</canbuywithspellpoints>
+          <doublecareer>False</doublecareer>
+          <bonus />
+          <required>
+            <oneof>
+              <spell>Manablade</spell>
+              <spell>Powerblade</spell>
+            </oneof>
+            <allof>
+              <quality>Adept</quality>
+              <power>Adept Spell</power>
+            </allof>
+          </required>
+          <notes>
+            The maximum force of Adept Spell is changed to twice the adept’s magic rating. The spell’s drain is reduced by 2, to a minimum of 2.
+          </notes>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
 	</qualities>
 </chummer>

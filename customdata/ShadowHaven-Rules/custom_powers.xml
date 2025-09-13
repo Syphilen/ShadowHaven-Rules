@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema powers.xsd">
+
+  <powers>
+    <power>
+      <id>6fa8c965-7281-4e63-b646-6c5add0ff015</id>
+      <name>Lightning Speed</name>
+      <points>0.5</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>DM</source>
+      <page>0</page>
+      <action>Free</action>
+      <adeptway>0.25</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Athlete's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+        As a Free Action, make a Magic + (Power Rating) Test. For (Magic) Combat Turns, the adept adds their hits on the test to all Sprinting tests as successes regardless of the movement skill used (Swimming, Running, Flight). Physical Limit for Sprinting Tests is increased by the Rating of this power. After the power expires, resist Drain equal to twice the power’s Rating.
+      </notes>
+    </power>
+    <power>
+      <id>70c8acbe-38de-4c2a-b1cc-a4207f8bfa31</id>
+      <name>Improved Grapple</name>
+      <points>0.5</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>DM</source>
+      <page>0</page>
+      <adeptway>0.25</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Athlete's Way</quality>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+        Each Rating of this power adds a +1 dice pool modifier in tests related to Subduing or Clinching
+      </notes>  
+    </power>
+  </powers>
+  <enhancements>
+    <enhancement>
+      <id>e1bb7cda-f21c-43f9-a820-00a43c8fdc3d</id>
+      <name>Recurring Theme</name>
+      <power>Body Sculpt</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Body Sculpt</power>
+          <quality>The Artist's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        Body Sculpt can now be used to mimic any metahuman metatype or metavariant, causing the adept to swell or shrink in accordance to the metatype being mimicked. This does not alter the adept’s attributes or give them additional abilities; dermal plating and horns given by imitating a troll are purely aesthetic and are not durable enough to be used as weapons. Metasapients like pixies or centaurs cannot be imitated. The adept must resist Stun Drain equal to the difference in base Body score between original and target metavariant.
+      </notes>
+    </enhancement>
+    <enhancements>
+    <enhancement>
+      <id>f0f838de-e752-4e5a-88fa-ec4b77012eda</id>
+      <name>Junkyard Tinkerer</name>
+      <power>Analytics</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Analytics</power>
+          <quality>The Artisan's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        An artisan with this enhancement gains a bonus to any skill tests equal to their Initiate Grade when it comes to repairing equipment.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>52a7bdb7-6a0b-45ce-b2a1-52b0c8931f47</id>
+      <name>Windwalk</name>
+      <power>Skate</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Skate</power>
+          <quality>The Athlete's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        By spending a Free Action to utilize this metamagic technique, the adept can run seemingly on thin air without falling. The maximum distance they can run in mid-air is equal to their Initiate Grade in meters. If the adept ends their movement in the air, they immediately begin falling and cannot use Windwalk until they find a solid foothold again. By stressing their ability, the adept can extend this distance further. For every meter they choose to run beyond the safe distance, they must resist 1 point of Drain per meter. If the Drain exceeds their Magic Attribute, the Drain becomes Physical. When the adept can rest their weight on a real, physical load-bearing surface, the distance they can run resets. Using Windwalk leaves behind an astral signature.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>a87dcd21-0ac2-4b41-948f-0227d9ce2269</id>
+      <name>Endless Motion</name>
+      <power>Lightning Speed</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Lightning Speed</power>
+          <quality>The Athlete's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        Once per Combat Turn, the adept may Sprint as a Free Action.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>0fc5576a-c15e-4158-9b08-b11c41ca89cd</id>
+      <name>Instinctive Rage</name>
+      <power>Berserk</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Berserk</power>
+          <quality>The Beast's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        Activating the Berserk adept power is a Free Action. This applies to Berserker Rage as well.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>de184432-182a-4c6e-b2cf-32ec12127383</id>
+      <name>Dampening Field</name>
+      <power>Traceless Walk</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Traceless Walk</power>
+          <quality>The Invisible Way</quality>
+        </allof>
+      </required>
+      <notes>
+        An adept with this enhancement finds his weapons quieter and harder to detect. Attempts to detect the sound of silent/suppressed weapons held by the adept suffer a dice pool penalty equal to the adept’s Initiate Grade. The threshold for Perception tests to detect suppressed firearms as well as silent melee (like knives) and ranged weapons (such as bows) have their threshold increased by 4, typically to 6 assuming no other modifications. This applies to Sensor Tests as well.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>7672119b-b0a4-4590-8eef-84a0cbc50137</id>
+      <name>Living Nobody</name>
+      <power>Facial Sculpt</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Facial Sculpt</power>
+          <quality>The Invisible Way</quality>
+        </allof>
+      </required>
+      <notes>
+        Memory Tests to recall any details about the adept’s appearance have to succeed at a threshold of (ranks in Facial Sculpt power) to give any useful information. Attempts to consciously memorize the adept’s physical appearance and characteristics suffer a penalty equal to his Initiate Grade.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>0decffaa-f093-4b20-b448-31121170aadb</id>
+      <name>Vicious Lunge</name>
+      <power>Improved Grapple</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Improved Grapple</power>
+          <quality>The Invisible Way</quality>
+        </allof>
+      </required>
+      <notes>
+        After successfully subduing an opponent, the adept may immediately after subdual perform one of the three options tied to maintaining a grapple freely without spending an additional action. This effect only occurs once per grapple. The target cannot take any actions before Vicious Lunge resolves. If opting to do damage, this damage benefits from Fisher’s Method unless using a garrote.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>4d6189c0-da1b-45ca-bdc3-3a4c0e3d9110</id>
+      <name>Mocking Retort</name>
+      <power>Authoritative Tone</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Authoritative Tone</power>
+          <quality>The Speaker's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        Whenever the adept dodges an attack, the attacker loses 1 Initiative per rank of Authoritative Tone the adept possesses (max 3).
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>9a1fb8cd-7948-4b5b-a768-30ecb9a466ce</id>
+      <name>One Man Army</name>
+      <power>Improved Ability</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Improved Ability</power>
+          <quality>The Warrior's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        When splitting dice to attack multiple targets, the adept gains a bonus to each split dice pool equal to their Initiate Grade. The split dice pool cannot be higher than the original dice pool. This only works with attacks enhanced by the Improved Ability adept power, including Barehanded Adept.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>52890164-eb45-440d-b644-7df915f02a37</id>
+      <name>Fearsome Mien</name>
+      <power>Kiai</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Kiai</power>
+          <quality>The Warrior's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        A warrior adept with this enhancement adds their Weapon Focus’ Force to Intimidation Tests.
+      </notes>
+    </enhancement>
+    <enhancement>
+      <id>266fd171-7cd4-47bd-93b3-338f2ab8c935</id>
+      <name>Clarity of Rage</name>
+      <power>Berserk</power>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <power>Berserk</power>
+          <quality>The Warrior's Way</quality>
+        </allof>
+      </required>
+      <notes>
+        The penalties caused by the Berserk power to Mental Attributes are reduced by 1. If using the Berserker Rage power, it imparts only a -1 to Mental Attributes instead of -2.
+      </notes>
+    </enhancement>
+  </enhancements>
+</chummer>

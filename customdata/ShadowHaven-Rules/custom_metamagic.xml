@@ -45,5 +45,137 @@
       <page>0</page>
       <notes>The Master Shedim that created the ritual for Spirit Expansion: Shedim did not realize in the process that they would inspire researchers to continue to expand the conceptual validity of Universal Magic Theory. In showing the world that any mage could be taught to summon a Shedim, the Master Shedim inadvertently seeded the idea that any mage could summon a spirit that interacted in the world with a different method than their tradition commonly allowed. Experimenting with Wild summoning techniques and controlled study of binding banished spirits of varied types lead to a breakthrough. In 2086 Street Magi from Seattle and a Research team in New Orleans demonstrated the ability nearly simultaneously of a Mage to summon a spirit outside the normal arrival methods a tradition would allowed. It was first officially documented at the Loyola U. Thaumaturgical Research Dept of New Orleans under the eyes of Dr. Kathleen Rubidoux. When a summoner with this metamagic summons a spirit, they may choose for it to use a different physical interaction power than what their tradition normally offers. A summoner with a possession tradition may summon a materialization spirit and a summoner with a materialization tradition may summon a possession spirit. This metamagic does not work for inhabitation. This metamagic allows the summoner to have one spirit at a time with this counter tradition power, including bound spirits, so if a summoner with a materialization tradition has a bound possession spirit, they may not summon another possession spirit until their current possession spirit is disrupted, released or banished.</notes>
     </metamagic>
+    <metamagic>
+      <id>3a524829-3c43-4ee9-8510-63a7bb4d8564</id>
+      <name>Living Canvas</name>
+      <adept>True</adept>
+      <magician>False</magician>
+      <required>
+        <allof>
+          <quality>The Artist's Way</quality>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        An adept with this metamagic can treat up to (Initiate Grade) number of Qi Foci as being Force 1 for the purposes of calculating focus addiction and whether an Addiction Test is required. If any part of a qi tattoo was damaged by non-magical damage, it is repaired if the adept heals through magical means.
+      </notes>
+    </metamagic>
+    <metamagic>
+      <id>cd69c97f-86c5-4c9c-9c4a-7925faddece7</id>
+      <name>Artistic Creation</name>
+      <adept>True</adept>
+      <magician>False</magician>
+      <required>
+        <allof>
+          <quality>The Artist's Way</quality>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        With this metamagic, an adept may create and upgrade tattooed qi foci on their body. Qi foci made with this metamagic are always tattoos and cannot be any other focus type. The adept can conceal them from mundane detection with powers like Melanin Control and Body Sculpt as if they weren’t present. Physical adepts using this metamagic use Artisan + Magic instead of Artificing during the enchanting test. Follow standard focus creation rules otherwise. This metamagic cannot be used to make qi foci for others and these foci cannot be individualized.
+      </notes>
+    </metamagic>
+    <metamagic>
+      <id>35eb3cc0-b6b6-4f6f-babb-709815b25675</id>
+      <name>Part of Me</name>
+      <adept>True</adept>
+      <magician>False</magician>
+      <required>
+        <allof>
+          <quality>The Artisan's Way</quality>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        Up to (Initiate Grade) times per day, the adept may treat an item’s Object Resistance as 2 lower for any one test. This technique requires line of sight. This effect does not stack.
+      </notes>
+    </metamagic>
+    <metamagic>
+      <id>d229b95b-4d84-4102-a52c-16325c900d79</id>
+      <name>Soundstep</name>
+      <adept>True</adept>
+      <magician>False</magician>
+      <required>
+        <allof>
+          <quality>The Athlete's Way</quality>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        As a Simple Action, the adept may move with extreme celerity up to (Magic) meters, appearing to observers as if they disappear only to re-appear at their destination. This movement cannot be intercepted. The adept is difficult to see when moving, but astral perception can see their astral signature connecting the origin and destination point and cameras and Sensors of Rating 4 or higher can see the adept as a blur when they move. Despite appearing like teleportation, the adept’s body does physically move in a straight line between the two points, is blocked by barriers and requires a movement path the entire way there. Soundstep makes a distinct noise at the beginning and end locations that can be heard with a Perception (Audio) (2) Test. Using Soundstep leaves behind an astral signature. After arriving, the adept resists Drain equal to (Meters travelled / 2).
+      </notes>
+    </metamagic>
+    <metamagic>
+      <id>27e6529b-6500-4eb1-91a4-cbb12a0cfff6</id>
+      <name>Cybernetic Haze</name>
+      <adept>True</adept>
+      <magician>False</magician>
+      <required>
+        <allof>
+          <quality>The Burnout's Way</quality>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        Activating this metamagic technique is a Complex Action and creates an aura of astral hazing around the adept. The rating of the astral hazing is equal to the Essence the adept has lost to augmentations, rounded down (maximum 5) and has a radius of (6 - Essence) Meters. The adept is partially attuned to this astral haze and doesn’t take penalties to non-magical Skill Tests even if they are enhanced by magic, but any foci in the area of effect including the adept’s own are reduced in Force normally. Cyberzombies and other Burnout’s Way adepts are always partially attuned to Cybernetic Haze, regardless of source. Possession of this metamagic renders the adept immune to a cyberzombie’s astral hazing. Cybernetic Haze leaves behind an astral signature, but it is unreadable to be that of the adept themselves. An Arcana (3) Test will reveal it to be the result of this technique. Cybernetic Haze can be sustained for up to (Magic) Combat Turns, after which Physical Drain must be resisted equal to the number of turns the haze was active (minimum 2). Ending it prematurely is a Free Action.
+      </notes>
+    </metamagic>
+    <metamagic>
+      <id>c6bcc4f0-2821-4ac9-b7a6-07cff7728bed</id>
+      <name>Fisher’s Method</name>
+      <adept>True</adept>
+      <magician>False</magician>
+      <required>
+        <allof>
+          <quality>The Invisible Way</quality>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        When using suppressed one-handed firearms, one-handed melee/natural weapons, the adept gains a bonus to DV on their first attack against a completely unaware target equal to their Initiate Grade. If the target gets a Defense Test against the attack, Fisher’s Method doesn’t apply. Firearms must use subsonic ammunition on top of being suppressed to gain this benefit.
+      </notes>
+    </metamagic>
+    <metamagic>
+      <id>2f67da09-af82-4bea-91b4-545dce13553f</id>
+      <name>Departing Shot</name>
+      <adept>True</adept>
+      <magician>False</magician>
+      <required>
+        <allof>
+          <quality>The Spiritual Way</quality>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        While the technique references firing a weapon, Departing Shot can be performed with both melee and ranged attacks. As a Complex Action, the adept may make a single melee attack or fire a single projectile of their choice. If this connects with a valid spirit target, they may immediately make an Exorcism test as per the metamagic. An attack using the Departing Shot metamagic is always considered magic damage for the purposes of magically gained Immunity to Normal Weapons and/or Regeneration.
+      </notes>
+    </metamagic>
+    <metamagic>
+      <id>1aca1822-e9ab-4ad8-9fde-4cba9aed3fc8</id>
+      <name>Astral Reach</name>
+      <adept>True</adept>
+      <magician>False</magician>
+      <required>
+        <allof>
+          <quality>The Spiritual Way</quality>
+        </allof>
+        <oneof>
+          <power>Astral Perception</power>
+          <critterpower>Dual Natured</critterpower>
+        </oneof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        By stretching his astral form out of his body, the spiritual adept can attain a portion of an astrally projecting magician’s ability. Treat this as astral projection, but the duration for any one projection attempt is limited to Essence + Initiate Grade in Combat Turns. After this, the adept’s astral form is forcibly rebounded back to his body. If something blocks the adept from returning, such as a mana barrier, make the test for astral intersection for each such obstacle. Any failed tests means the adept rebounds but his Stun Condition Monitor is completely filled and he falls unconscious. If the Stun Condition Monitor is already full, his Physical Condition Monitor fills instead. Can be performed (Magic) times per day. Requires: Astral Perception / Dual-Natured
+      </notes>
+    </metamagic>
   </metamagics>
 </chummer>
