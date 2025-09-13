@@ -149,6 +149,7 @@
       <required>
         <allof>
           <quality>The Spiritual Way</quality>
+            <metamagic>Exorcism</metamagic>
         </allof>
       </required>
       <source>DM</source>
@@ -178,4 +179,5 @@
       </notes>
     </metamagic>
   </metamagics>
+
 </chummer>
