@@ -57,7 +57,7 @@
       <notes>Altered to only apply to a single action per use, even when in combat.</notes>
     </metamagic>
     <metamagic>
-      <name>Totem Form</name>
+      <name>Totem Form (Animal)</name>
       <notes>
         Altered to the following: As a Complex Action, the adept shifts into the animal form that matches the animal she is attuned to, with all the abilities of said animal. The adept's physical attributes and limits become those of the animal, but Mental attributes and skills remain the adept's own. In addition, the adept gains (Initiate Grade) number of attribute points to enhance the totem form's Physical Attributes that count as augmented bonuses. In addition, if the adept has Empowered their attuned animal with the Qi Marked ritual, their totem form gains identical benefits. The adept needs a successful Arcana + Magic [Mental] (2) Test to Shift back into their metahuman form. The threshold for this test is increased by (weeks in Totem Form - 1). Totem form subsumes augmentations similar to the Shapechange spell, but tattooed foci adjust with the form and remain functional, as do all other foci that can physically fit on the new form.
       </notes>
