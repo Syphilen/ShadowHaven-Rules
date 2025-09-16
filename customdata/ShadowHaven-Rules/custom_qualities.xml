@@ -237,7 +237,7 @@
 		</quality>
 		<quality>
 			<id>43772e65-1f3f-4c4b-8ed0-e75dc64fa534</id>
-			<name>Bodyguard</name>
+			<name>Bodyguard(Take Aim)</name>
 			<karma>10</karma>
 			<category>Positive</category>
 			<required>
@@ -265,6 +265,49 @@
 			</bonus>
 			<forbidden>
 				<oneof>
+                    <quality>Bodyguard(Ready Weapon)</quality>
+					<quality>Magician</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Adept</quality>
+				</oneof>
+			</forbidden>
+			<source>WotS</source>
+			<page>10</page>
+		</quality>
+		<quality>
+			<id>57f81658-acab-460b-a897-d84fc118d536</id>
+			<name>Bodyguard(Ready Weapon)</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<required>
+				<allof>
+					<skill>
+						<name>Pistols</name>
+						<val>3</val>
+					</skill>
+					<skill>
+						<name>Perception</name>
+						<val>3</val>
+					</skill>
+					<attributetotal>
+						<attributes>{CHA}+{INT}</attributes>
+						<val>7</val>
+					</attributetotal>
+					<ess>-3.0</ess>
+				</allof>
+			</required>
+			<bonus>
+				<specificskill>
+					<name>Perception</name>
+					<bonus>2</bonus>
+				</specificskill>
+			</bonus>
+			<forbidden>
+				<oneof>
+                    <quality>Bodyguard(Take Aim)</quality>
 					<quality>Magician</quality>
 					<quality>Aspected Magician</quality>
 					<quality>Enchanter</quality>
