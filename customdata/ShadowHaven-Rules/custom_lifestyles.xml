@@ -58,8 +58,17 @@
 		  <page>84</page>
 		</quality>
 		<quality>
+		  <id>50d6e92a-dd6b-452e-ab70-e390d4b1a50e</id>
+		  <name>Base Lifestyle Reduction -100Y</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-500</cost>
+		  <page>165</page>
+		</quality>
+		<quality>
 		  <id>6be8ac65-d73f-407f-8a91-3ddf4c768fc6</id>
-		  <name>Lifestyle Reduction -500Y</name>
+		  <name>Base Lifestyle Reduction -500Y</name>
 		  <category>Positive</category>
 		  <lp>0</lp>
 		  <source>BTB</source>
@@ -68,7 +77,7 @@
 		</quality>
 		<quality>
 		  <id>e21dd279-6b33-44a9-9019-be63b0a9478c</id>
-		  <name>Lifestyle Reduction -1kY</name>
+		  <name>Base Lifestyle Reduction -1kY</name>
 		  <category>Positive</category>
 		  <lp>0</lp>
 		  <source>BTB</source>
@@ -77,11 +86,65 @@
 		</quality>
 		<quality>
 		  <id>c1ede74f-4231-4f91-8b4a-010f085e339c</id>
-		  <name>Lifestyle Reduction -5kY</name>
+		  <name>Base Lifestyle Reduction -5kY</name>
 		  <category>Positive</category>
 		  <lp>0</lp>
 		  <source>BTB</source>
 		  <cost>-5000</cost>
+		  <page>165</page>
+		</quality>
+        <quality>
+		  <id>b8329dbd-f514-41c5-82a9-37abfe978ed0</id>
+		  <name>Base Lifestyle Reduction -10kY</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-10000</cost>
+		  <page>165</page>
+		</quality>
+        <quality>
+		  <id>9628bd43-cfba-484d-b559-b9bb29e0db62</id>
+		  <name>Lifestyle Payout -100Y</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-500</cost>
+		  <page>165</page>
+		</quality>
+        <quality>
+		  <id>5b4592c9-63e7-47e0-afe3-6bc30f39e6be</id>
+		  <name>Lifestyle Payout -500Y</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-500</cost>
+		  <page>165</page>
+		</quality>
+		<quality>
+		  <id>e0d0ecda-4028-4c98-b52b-f4545dc06e1c</id>
+		  <name>Lifestyle Payout -1kY</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-1000</cost>
+		  <page>165</page>
+		</quality>
+		<quality>
+		  <id>fcb85489-6e34-4711-97ff-50d20b8486d2</id>
+		  <name>Lifestyle Payout -5kY</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-5000</cost>
+		  <page>165</page>
+		</quality>
+        <quality>
+		  <id>79ce069b-68ff-4cde-b9f5-6b8756ebc00b</id>
+		  <name>Lifestyle Payout -10kY</name>
+		  <category>Contracts</category>
+		  <lp>0</lp>
+		  <source>BTB</source>
+		  <cost>-10000</cost>
 		  <page>165</page>
 		</quality>
         <quality>
