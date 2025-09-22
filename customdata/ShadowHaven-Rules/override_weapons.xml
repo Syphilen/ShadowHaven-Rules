@@ -4026,7 +4026,7 @@
 	  <name>Ares Archon Heavy MP Laser</name>
 	  <category>Laser Weapons</category>
 	  <type>Ranged</type>
-	  <conceal>10</conceal>
+	  <conceal>8</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>0</reach>
 	  <damage>15P</damage>
@@ -4058,7 +4058,7 @@
 	  <name>Ares Lancer MP Laser</name>
 	  <category>Laser Weapons</category>
 	  <type>Ranged</type>
-	  <conceal>6</conceal>
+	  <conceal>4</conceal>
 	  <accuracy>7</accuracy>
 	  <reach>0</reach>
 	  <damage>10P</damage>
@@ -4084,7 +4084,7 @@
 	  <name>Ares Redline</name>
 	  <category>Laser Weapons</category>
 	  <type>Ranged</type>
-	  <conceal>2</conceal>
+	  <conceal>0</conceal>
 	  <accuracy>9</accuracy>
 	  <reach>0</reach>
 	  <damage>8P</damage>
