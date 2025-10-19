@@ -217,7 +217,7 @@
       <page>0</page>
       <required>
         <allof>
-          <power>Improved Ability</power>
+          <power>Improved Ability (skill)</power>
           <quality>The Warrior's Way</quality>
         </allof>
       </required>
