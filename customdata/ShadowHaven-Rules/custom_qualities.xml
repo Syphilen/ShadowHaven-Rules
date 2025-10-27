@@ -2593,5 +2593,97 @@
           <source>DM</source>
           <page>0</page>
         </quality>
+        <quality>
+          <id>f243da86-555f-4842-8013-8d0e112c9eb5</id>
+          <name>Metasapient Skill Modifiers</name>
+          <karma>0</karma>
+          <category>Positive</category>
+          <bonus>
+            <activeskillkarmacost>
+              <name>Cybercombat</name>
+              <val>-1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Electronic Warfare</name>
+              <val>-1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Hacking</name>
+              <val>-1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Computer</name>
+              <val>-1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Hardware</name>
+              <val>-1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Software</name>
+              <val>-1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Disguise</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Palming</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Sneaking</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Diving</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Escape Artist</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Free-Fall</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Flight</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Gymnastics</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Running</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Swimming</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Perception</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Survival</name>
+              <val>1</val>
+            </activeskillkarmacost>
+            <activeskillkarmacost>
+              <name>Tracking</name>
+              <val>1</val>
+            </activeskillkarmacost>
+          </bonus>
+          <required>
+            <oneof>
+              <metatype>Metasapient</metatype>
+            </oneof>
+          </required>
+          <hide />
+          <source>DM</source>
+          <page>0</page>
+        </quality>
 	</qualities>
 </chummer>

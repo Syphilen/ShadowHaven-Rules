@@ -31,6 +31,18 @@
           <value>6</value>
           <karma>0</karma>
         </metatype>
+        <metatype amendoperation="recurse">
+          <name>A.I.</name>
+          <value>12</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>E-Ghost</name>
+              <value>12</value>
+              <karma>0</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
       </metatypes>
     </priority>
     <priority>
@@ -40,6 +52,18 @@
           <name>Cyborg</name>
           <value>3</value>
           <karma>0</karma>
+        </metatype>
+        <metatype amendoperation="recurse">
+          <name>A.I.</name>
+          <value>9</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>E-Ghost</name>
+              <value>9</value>
+              <karma>0</karma>
+            </metavariant>
+          </metavariants>
         </metatype>
       </metatypes>
     </priority>
@@ -52,6 +76,18 @@
           <value>0</value>
           <karma>0</karma>
         </metatype>
+        <metatype amendoperation="recurse">
+          <name>A.I.</name>
+          <value>6</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>E-Ghost</name>
+              <value>6</value>
+              <karma>0</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
         <metatype>
           <name>Ork</name>
           <metavariants amendoperation="recurse">
@@ -59,6 +95,42 @@
               <name>Oni</name>
               <value>0</value>
               <karma>4</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <id>255da2ba-8d21-4a73-9f81-37156901db72</id>
+      <name amendoperation="replace">D - Human, Elf, or AI</name>
+      <metatypes amendoperation="recurse">
+        <metatype amendoperation="addnode">
+          <name>A.I.</name>
+          <value>3</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>E-Ghost</name>
+              <value>3</value>
+              <karma>0</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <id>91dccab9-c3fc-4868-abf8-1825b70e8a6c</id>
+      <name amendoperation="replace">E - Human, or AI</name>
+      <metatypes amendoperation="recurse">
+        <metatype amendoperation="addnode">
+          <name>A.I.</name>
+          <value>1</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>E-Ghost</name>
+              <value>1</value>
+              <karma>0</karma>
             </metavariant>
           </metavariants>
         </metatype>
@@ -73,6 +145,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -81,6 +154,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -89,8 +163,12 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
+        </talent>
+        <talent amendoperation="remove">
+          <name>A.I. - 6 Depth</name>
         </talent>
       </talents>
     </priority>
@@ -102,6 +180,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -118,6 +197,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -126,6 +206,7 @@
           <forbidden>
             <oneof>
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -159,6 +240,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -168,8 +250,12 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
+        </talent>
+        <talent amendoperation="remove">
+          <name>A.I. - 4 Depth</name>
         </talent>
       </talents>
     </priority>
@@ -181,6 +267,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -189,6 +276,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -197,6 +285,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -204,6 +293,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -212,6 +302,7 @@
           <forbidden>
             <oneof>
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -245,6 +336,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -254,6 +346,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -263,8 +356,12 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
+        </talent>
+        <talent amendoperation="remove">
+          <name>A.I. - 3 Depth</name>
         </talent>
       </talents>
     </priority>
@@ -276,6 +373,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -284,6 +382,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -317,6 +416,7 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -326,8 +426,54 @@
           <forbidden>
             <oneof amendoperation="append">
               <metatype>Cyborg</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
+        </talent>
+        <talent amendoperation="remove">
+          <name>A.I. - 2 Depth</name>
+        </talent>
+      </talents>
+    </priority>
+    <priority>
+      <name>E - Mundane</name>
+      <talents amendoperation="recurse">
+        <talent amendoperation="replace">
+          <name>A.I. - 1 Depth</name>
+          <value>A.I.</value>
+          <depth>1</depth>
+          <skillchoices>
+            <skill>Aeronautics Mechanic</skill>
+            <skill>Animal Handling</skill>
+            <skill>Armorer</skill>
+            <skill>Artisan</skill>
+            <skill>Automotive Mechanic</skill>
+            <skill>Biotechnology</skill>
+            <skill>Chemistry</skill>
+            <skill>Computer</skill>
+            <skill>Cybercombat</skill>
+            <skill>Cybertechnology</skill>
+            <skill>Demolitions</skill>
+            <skill>Electronic Warfare</skill>
+            <skill>First Aid</skill>
+            <skill>Forgery</skill>
+            <skill>Hacking</skill>
+            <skill>Hardware</skill>
+            <skill>Industrial Mechanic</skill>
+            <skill>Medicine</skill>
+            <skill>Nautical Mechanic</skill>
+            <skill>Navigation</skill>
+            <skill>Software</skill>
+          </skillchoices>
+          <depth>0</depth>
+          <skillqty>1</skillqty>
+          <skillval>5</skillval>
+          <skilltype>specific</skilltype>
+          <required>
+            <oneof>
+              <metatype>A.I.</metatype>
+            </oneof>
+          </required>
         </talent>
       </talents>
     </priority>

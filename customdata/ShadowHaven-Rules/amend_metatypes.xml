@@ -21,7 +21,32 @@
   <metatypes>
     <metatype>
       <name>A.I.</name>
-      <hide />
+      <category>Metasapient</category>
+      <edgmin>1</edgmin>
+      <edgmax>6</edgmax>
+      <edgaug>6</edgaug>
+      <depmin>1</depmin>
+      <depmax>7</depmax>
+      <depaug>7</depaug>
+      <metavariants>
+        <metavariant>
+          <name>E-Ghost</name>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <depmin>1</depmin>
+          <depmax>7</depmax>
+          <depaug>7</depaug>
+        </metavariant>
+        <metavariant>
+          <name>Xenosapient</name>
+          <hide />
+        </metavariant>
+        <metavariant>
+          <name>Protosapient</name>
+          <hide />
+        </metavariant>
+      </metavariants>
     </metatype>
     <metatype>
       <name>Naga</name>
