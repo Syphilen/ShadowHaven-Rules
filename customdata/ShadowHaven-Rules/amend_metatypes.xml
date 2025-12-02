@@ -28,6 +28,108 @@
       <depmin>1</depmin>
       <depmax>7</depmax>
       <depaug>7</depaug>
+      <qualityrestriction amendoperation="replace">
+        <positive>
+            <quality>Adrenaline Surge</quality>
+            <quality>Ambidextrous</quality>
+            <quality>Biocompatibility</quality>
+            <quality>Black Forest Native</quality>
+            <quality>Delicate Fingers</quality>
+            <quality>Double Jointed</quality>
+            <quality>Drug Tolerant</quality>
+            <quality>Emotional Atachment</quality>
+            <quality>Exceptional Attribute</quality>
+            <quality>Good Looking and Knows It</quality>
+            <quality>Hawk Eye</quality>
+            <quality>Human Lifespan</quality>
+            <quality>Human-Looking</quality>
+            <quality>Indomitable (Physical)</quality>
+            <quality>Lightning Reflexes</quality>
+            <quality>Location Attunement I</quality>
+            <quality>Location Attunement II</quality>
+            <quality>Location Attunement III</quality>
+            <quality>Magic Resistance</quality>
+            <quality>Natural Athlete</quality>
+            <quality>Natural hardening</quality>
+            <quality>Natural Immunity</quality>
+            <quality>Night Vision</quality>
+            <quality>Pain is Gain</quality>
+            <quality>Outdoorsman</quality>
+            <quality>Perceptive Defender</quality>
+            <quality>Phenotypic Variation</quality>
+            <quality>Poor Link</quality>
+            <quality>Privileged Family Name</quality>
+            <quality>Radiation Sponge</quality>
+            <quality>Rad Tolerant</quality>
+            <quality>Redliner</quality>          
+            <quality>Resistance to Pathogens</quality>
+            <quality>Resistance to Toxins</quality>
+            <quality>Resistance to Pathogens/Toxins</quality>
+            <quality>Reverberant</quality>
+            <quality>Spacer</quality>
+            <quality>Too Pretty To Hit</quality>
+            <quality>Tough as Nails</quality>
+            <quality>Toughness</quality>
+            <quality>Trust Fund</quality>
+            <quality>Uncanny Healer</quality>
+            <quality>Will To Live</quality>
+        </positive>
+        <negative>
+            <quality>Aged</quality>
+            <quality>Ex-Con</quality>
+            <quality>Family Curse</quality>
+            <quality>Elevated Stress</quality>
+            <quality>Elf Poser</quality>
+            <quality>Discombobulated</quality>
+            <quality>Disheveled</quality>
+            <quality>Distinctive Style</quality>
+            <quality>AIPS</quality>
+            <quality>Albinism</quality>
+            <quality>Allergy (Uncommon, Mild)</quality>
+            <quality>Allergy (Uncommon, Moderate)</quality>
+            <quality>Allergy (Uncommon, Severe)</quality>
+            <quality>Allergy (Uncommon, Extreme)</quality>
+            <quality>Allergy (Common, Mild)</quality>
+            <quality>Allergy (Common, Moderate)</quality>
+            <quality>Allergy (Common, Severe)</quality>
+            <quality>Allergy (Common, Extreme)</quality>
+            <quality>Asthma</quality>
+            <quality>AVRse</quality>
+            <quality>Basement Dweller</quality>
+            <quality>Big Baby</quality>
+            <quality>Blandness</quality>
+            <quality>Blank Slate</quality>
+            <quality>Blighted</quality>
+            <quality>Blind</quality>
+            <quality>Busted Cyberware</quality>
+            <quality>Cyberpsychosis</quality>
+            <quality>Cyber-snob</quality>
+            <quality>Deaf</quality>
+            <quality>Implant-Induced Immune Deficiency</quality>
+            <quality>Infirm</quality>
+            <quality>Latest and Greatest</quality>
+            <quality>Lightweight</quality>
+            <quality>Motion Sickness</quality>
+            <quality>Nasty Trog</quality>
+            <quality>Night Blindness</quality>
+            <quality>On The Wagon</quality>
+            <quality>Ork Poser</quality>
+            <quality>Paraplegic</quality>
+            <quality>Quadriplegic</quality>
+            <quality>Quasimodo</quality>
+            <quality>Reduced Sense</quality>
+            <quality>Sensitive System</quality>
+            <quality>Sensory Overload Syndrome</quality>
+            <quality>Simsense Vertigo</quality>
+            <quality>Social Appearance Anxiety</quality>
+            <quality>Spirit Bane</quality>
+            <quality>Spirit Pariah</quality>
+            <quality>TLE-X</quality>
+          <quality>Trog ____ (All Trog-named qualities)</quality>
+            <quality>Ugly and Doesn't Care</quality>
+            <quality>Weak Immune System</quality>
+        </negative>
+      </qualityrestriction>
       <metavariants>
         <metavariant>
           <name>E-Ghost</name>
