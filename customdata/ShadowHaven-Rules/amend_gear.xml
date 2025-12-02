@@ -47,7 +47,7 @@
         </parentdetails>
       </required>
     </gear>
-    <gear amendoperation="replace">
+    <gear>
       <name>Ammo: Looper</name>
       <hide />
     </gear>
