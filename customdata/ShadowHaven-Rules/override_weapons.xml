@@ -7628,7 +7628,7 @@
 	  <page>115</page>
 	  <allowaccessory>False</allowaccessory>
 	  <hide />
-	  <useskill>Exotic Natural Weapons</useskill>
+	  <useskill>Unarmed Combat</useskill>
 	</weapon>
 	<weapon>
 	  <id>c847a859-8a72-4a1b-acb5-201ddc66fe73</id>
@@ -7649,7 +7649,7 @@
 	  <page>115</page>
 	  <allowaccessory>False</allowaccessory>
 	  <hide />
-	  <useskill>Exotic Natural Weapons</useskill>
+	  <useskill>Unarmed Combat</useskill>
 	</weapon>
 	<weapon>
 	  <id>54048c9d-854e-41b5-b493-6aa863da8fbd</id>
@@ -7691,7 +7691,7 @@
 	  <page>117</page>
 	  <allowaccessory>False</allowaccessory>
 	  <hide />
-	  <useskill>Exotic Natural Weapons</useskill>
+	  <useskill>Unarmed Combat</useskill>
 	</weapon>
 	<weapon>
 	  <id>e4124dde-69f2-4322-884a-620ba7792b82</id>
