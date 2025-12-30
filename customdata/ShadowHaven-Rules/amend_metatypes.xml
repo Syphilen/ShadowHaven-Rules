@@ -359,6 +359,11 @@
             <quality>A Terrible Fascination</quality>
         </negative>
       </qualityrestriction>
+      <qualities amendoperation="recurse">
+        <positive amendoperation="recurse">
+          <quality amendoperation="addnode">Munge</quality>
+        </positive>
+      </qualities>
       <metavariants>
         <metavariant>
           <name>E-Ghost</name>
@@ -699,6 +704,11 @@
                 <quality>A Terrible Fascination</quality>
             </negative>
           </qualityrestriction>
+          <qualities amendoperation="recurse">
+            <positive amendoperation="recurse">
+              <quality amendoperation="addnode">Munge</quality>
+            </positive>
+          </qualities>
         </metavariant>
         <metavariant>
           <name>Xenosapient</name>
