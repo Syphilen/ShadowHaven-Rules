@@ -19,6 +19,73 @@
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
   <qualities>
+  <!--AI updates-->
+      <quality>
+      <name>Exceptional Entity</name>
+      <bonus>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <max>3</max>
+          </selectattribute>
+        </selectattributes>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <max>3</max>
+          </selectattribute>
+        </selectattributes>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <max>3</max>
+          </selectattribute>
+        </selectattributes>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <max>96</max>
+          </selectattribute>
+        </selectattributes>
+      </bonus>
+    </quality>
+    <quality>
+      <name>Redundancy</name>
+      <limit>99</limit>
+      <bonus>
+        <conditionmonitor>
+          <physical>2</physical>
+        </conditionmonitor>
+      </bonus>
+    </quality>
   <!--Region Shadowrun Core Positive Qualities -->
 	<!-- End Region -->
     <!-- Region Core Negative Qualities -->
