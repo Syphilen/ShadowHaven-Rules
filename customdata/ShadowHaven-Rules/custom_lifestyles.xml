@@ -204,5 +204,102 @@
             </oneof>
 		  </required>
 		</quality>
+    <!--AI LS-->
+    <quality>
+		  <id>9dfbf274-a91f-4c5f-b918-48cd6c8d6b5f</id>
+		  <name>AI Lifestyle</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>DM</source>
+		  <cost>-0</cost>
+      <allowed>Street</allowed>
+		  <page>0</page>
+      <required>
+        <allof>
+			    <metatype>A.I.</metatype>
+          <lifestyle>Street</lifestyle>
+        </allof>
+		  </required>
+		</quality>
+    <quality>
+		  <id>c66f227f-9471-4e7a-aa66-95702b7ff0df</id>
+		  <name>AI Lifestyle</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>DM</source>
+		  <cost>-250</cost>
+      <allowed>Squatter</allowed>
+		  <page>0</page>
+      <required>
+        <allof>
+			    <metatype>A.I.</metatype>
+          <lifestyle>Squatter</lifestyle>
+        </allof>
+		  </required>
+		</quality>
+    <quality>
+		  <id>420a0375-e2fa-4323-85d0-3dab44697414</id>
+		  <name>AI Lifestyle</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>DM</source>
+		  <cost>-1000</cost>
+      <allowed>Low</allowed>
+		  <page>0</page>
+      <required>
+        <allof>
+			    <metatype>A.I.</metatype>
+          <lifestyle>Low</lifestyle>
+        </allof>
+		  </required>
+		</quality>
+    <quality>
+		  <id>23a4ee24-62f9-400b-aa1c-044381ef957b</id>
+		  <name>AI Lifestyle</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>DM</source>
+		  <cost>-2500</cost>
+      <allowed>Medium</allowed>
+		  <page>0</page>
+      <required>
+        <allof>
+			    <metatype>A.I.</metatype>
+          <lifestyle>Medium</lifestyle>
+        </allof>
+		  </required>
+		</quality>
+    <quality>
+		  <id>753d92e1-d5be-4a90-a2fe-51e2b9fecb97</id>
+		  <name>AI Lifestyle</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>DM</source>
+		  <cost>-5000</cost>
+      <allowed>High</allowed>
+		  <page>0</page>
+      <required>
+        <allof>
+			    <metatype>A.I.</metatype>
+          <lifestyle>High</lifestyle>
+        </allof>
+		  </required>
+		</quality>
+    <quality>
+		  <id>0361640e-7ddf-47b9-b42c-ad1f181922c8</id>
+		  <name>AI Lifestyle</name>
+		  <category>Positive</category>
+		  <lp>0</lp>
+		  <source>DM</source>
+		  <cost>-50000</cost>
+      <allowed>Luxury</allowed>
+		  <page>0</page>
+      <required>
+        <allof>
+			    <metatype>A.I.</metatype>
+          <lifestyle>Luxury</lifestyle>
+        </allof>
+		  </required>
+		</quality>
 	</qualities>
 </chummer>
