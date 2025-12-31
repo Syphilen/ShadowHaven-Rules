@@ -1,7 +1,7 @@
 # Ignore everything
 *
 
-# Let the shadowhaven stuff through.
-!*.gitignore*
+# Let the shadowhavent stuff through.
+!.gitignore
 !customdata/
 !settings/

@@ -2137,7 +2137,6 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <required>
         <geardetails>
           <OR>
-            <name>Custom Deck Core</name>
             <name>Custom Deck Core With Advanced Components</name>
           </OR>
         </geardetails>
@@ -2231,7 +2230,7 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <page>0</page>
       <avail>Rating * 3</avail>
       <capacity>[ceiling(Rating * 0.5)]</capacity>
-      <cost>FixedValues(-3000, -6000, -9000, -24000, -30000, -36000)</cost>
+      <cost>FixedValues(3000, 6000, 9000, 24000, 30000, 36000)</cost>
       <gears>
         <usegear>
           <name>Agent</name>
@@ -2389,7 +2388,7 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <source>DM</source>
       <page>0</page>
       <avail>0</avail>
-      <capacity>[Rating * 4]</capacity>
+      <capacity>[Rating]</capacity>
       <cost>0</cost>
       <required>
         <geardetails>
@@ -2460,6 +2459,25 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
     <gear>
       <id>d9b70aa9-eb66-412e-8d6c-534c7953b02e</id>
       <name>Waveform Analyzer</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>0361640e-7ddf-47b9-b42c-ad1f181922c8</id>
+      <name>Throwback interface card ports</name>
       <category>Custom Deck Accessories</category>
       <rating>0</rating>
       <source>DM</source>
