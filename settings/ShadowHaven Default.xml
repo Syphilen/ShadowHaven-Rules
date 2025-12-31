@@ -77,7 +77,6 @@
 	<dontusecyberlimbcalculation>False</dontusecyberlimbcalculation>
 	<alternatemetatypeattributekarma>False</alternatemetatypeattributekarma>
 	<reverseattributepriorityorder>False</reverseattributepriorityorder>
-	<allowobsolescentupgrade>False</allowobsolescentupgrade>
 	<allowbiowaresuites>False</allowbiowaresuites>
 	<freespiritpowerpointsmag>False</freespiritpowerpointsmag>
 	<compensateskillgroupkarmadifference>False</compensateskillgroupkarmadifference>
@@ -121,7 +120,7 @@
 		<karmaspell>5</karmaspell>
 		<karmaenhancement>2</karmaenhancement>
 		<karmanewcomplexform>4</karmanewcomplexform>
-		<karmanewaiprogram>5</karmanewaiprogram>
+		<karmanewaiprogram>4</karmanewaiprogram>
 		<karmanewaiadvancedprogram>8</karmanewaiadvancedprogram>
 		<karmacontact>1</karmacontact>
 		<karmaenemy>1</karmaenemy>
@@ -253,6 +252,7 @@
 	<availability>12</availability>
 	<maxmartialarts>1</maxmartialarts>
 	<maxmartialtechniques>5</maxmartialtechniques>
+	<nuyencarryover>5000</nuyencarryover>
 	<nuyenmaxbp>10</nuyenmaxbp>
 	<bannedwaregrades>
 		<grade>Gammaware</grade>
