@@ -2754,7 +2754,6 @@
       <name>Fix Luck</name>
       <karma>0</karma>
       <category>Positive</category>
-      <limit>1</limit>
       <bonus>
         <specificattribute>
           <name>EDG</name>
