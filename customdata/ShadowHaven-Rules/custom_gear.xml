@@ -1812,6 +1812,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>84aaa8dc-698b-4518-b64a-b92514ea13e3</id>
@@ -1833,6 +1848,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>7207df29-1a69-4bb9-b1f7-e2e4d2da8360</id>
@@ -1854,6 +1884,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>f1c6eb1d-024c-4002-bfe6-ad10eb45fd45</id>
@@ -1875,6 +1920,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>0411b274-b73c-4117-a78d-9d2e71cd1ad8</id>
@@ -1896,6 +1956,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>8769a3f6-c700-4fab-9248-0e44fd9500a3</id>
@@ -1917,6 +1992,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>d5c9e0de-b6be-4e32-8532-a45c78501b82</id>
@@ -1938,6 +2028,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>c78711f2-e972-4c09-8d7f-8c622b16ecdd</id>
@@ -1959,6 +2064,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>d6bfadbc-0b7d-404f-b3e0-26836659d3bb</id>
@@ -1980,6 +2100,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>af1a2d4c-4f03-4efd-a6c4-7337af352470</id>
@@ -2001,6 +2136,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>506b33c0-e2c8-43be-86c8-dd0a389e4303</id>
@@ -2022,6 +2172,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>47ef6fb3-5984-4caa-8284-0d1e539c2393</id>
@@ -2043,6 +2208,21 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>2d897b27-e8f0-4149-8749-ce41eb98be33</id>
@@ -2063,6 +2243,16 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>35497f66-be06-432a-b814-5d8155df09e4</id>
@@ -2083,6 +2273,16 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>59ac4452-7dd9-4b9a-a5f8-e1f109d6b2f7</id>
@@ -2103,6 +2303,16 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>eb5123c3-b5e6-40a6-ad3f-fc59b7317668</id>
@@ -2123,6 +2333,16 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>f437dc0f-18d0-4835-a6be-e83160b26c7d</id>
@@ -2474,6 +2694,11 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Throwback interface card ports</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <gear>
       <id>0361640e-7ddf-47b9-b42c-ad1f181922c8</id>
@@ -2493,6 +2718,11 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           </OR>
         </geardetails>
       </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Waveform Analyzer</gear>
+        </oneof>
+      </forbidden>
     </gear>
     <!-- End Region -->
   </gears>
