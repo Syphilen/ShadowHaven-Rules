@@ -22,7 +22,7 @@
   <!--AI updates-->
       <quality>
       <name>Exceptional Entity</name>
-      <bonus>
+      <bonus amendoperation="replace">
         <selectattributes>
           <selectattribute>
             <excludeattribute>EDG</excludeattribute>
@@ -76,6 +76,11 @@
           </selectattribute>
         </selectattributes>
       </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Depth Augmnetation</quality>
+        </oneof>
+      </forbidden>
     </quality>
     <quality>
       <name>Redundancy</name>
@@ -1440,66 +1445,6 @@
 	<!-- End Region -->
     <!-- Region Data Trails -->
     <!-- Region Data Trails Positive Qualities -->
-    <quality>
-      <name>Chatty</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Designer</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Exceptional Entity</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Hello World!</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Inherent Program</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Improved Restoration</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Low Profile</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Munge</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Multiprocessing</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Pilot Origins</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Redundancy</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Sapper</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Sensor Upgrade</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Snooper</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Virtual Stability</name>
-      <hide />
-    </quality>
     <!-- End Region -->
     <!-- Region Data Trails Negative Qualities -->
     <quality>
