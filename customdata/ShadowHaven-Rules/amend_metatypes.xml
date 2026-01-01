@@ -30,6 +30,9 @@
       <depaug>7</depaug>
       <qualityrestriction amendoperation="replace">
         <positive>
+            <quality>Exceptional Depth Augmnetation</quality>
+            <quality>Depth Augmnetation</quality>
+            <quality>Fix Luck</quality>
             <quality>Analytical Mind</quality>
             <quality>Aptitude</quality>
             <quality>Bilingual</quality>
@@ -362,6 +365,7 @@
       <qualities amendoperation="recurse">
         <positive amendoperation="recurse">
           <quality amendoperation="addnode">Munge</quality>
+          <quality amendoperation="addnode">Fix Luck</quality>
         </positive>
       </qualities>
       <metavariants>
@@ -375,6 +379,9 @@
           <depaug>7</depaug>
           <qualityrestriction amendoperation="replace">
             <positive>
+                <quality>Exceptional Depth Augmnetation</quality>
+                <quality>Depth Augmnetation</quality>
+                <quality>Fix Luck</quality>
                 <quality>Analytical Mind</quality>
                 <quality>Aptitude</quality>
                 <quality>Bilingual</quality>
@@ -707,6 +714,7 @@
           <qualities amendoperation="recurse">
             <positive amendoperation="recurse">
               <quality amendoperation="addnode">Munge</quality>
+              <quality amendoperation="addnode">Fix Luck</quality>
             </positive>
           </qualities>
         </metavariant>

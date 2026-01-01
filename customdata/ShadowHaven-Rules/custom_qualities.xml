@@ -2685,5 +2685,92 @@
           <source>DM</source>
           <page>0</page>
         </quality>
+    <quality>
+      <id>603cc6f5-f9fa-48e1-9a70-2d19b50a6c0b</id>
+      <name>Depth Augmnetation</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <limit>99</limit>
+      <bonus>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <val>1</val>
+          </selectattribute>
+        </selectattributes>
+      </bonus>
+      <required>
+        <oneof>
+          <metatype>A.I.</metatype>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <quality>Exceptional Entity</quality>
+        </oneof>
+      </forbidden>
+      <source>DM</source>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>acf81acd-5616-4fcc-b60c-99cf6b54d20a</id>
+      <name>Exceptional Depth Augmnetation</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <limit>99</limit>
+      <bonus>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <min>1</min>
+          </selectattribute>
+        </selectattributes>
+      </bonus>
+      <required>
+        <allof>
+          <metatype>A.I.</metatype>
+          <quality>Exceptional Entity</quality>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>d7ef465c-f84b-4863-ad3b-36447ff2aaa6</id>
+      <name>Fix Luck</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <limit>1</limit>
+      <bonus>
+        <specificattribute>
+          <name>EDG</name>
+          <max>5</max>
+        </specificattribute>
+      </bonus>
+      <required>
+        <oneof>
+          <metatype>A.I.</metatype>
+        </oneof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+      <notes>
+        Temp hack to fix max edge on AI, 6 is your cap do not go over that ever please.
+      </notes>
+    </quality>
 	</qualities>
 </chummer>
