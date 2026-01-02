@@ -21,6 +21,12 @@
   <qualities>
   <!--AI updates-->
       <quality>
+        <name>Pilot Origins</name>
+        <bonus amendoperation="remove">
+          <selecttext />
+        </bonus>
+      </quality>
+      <quality>
       <name>Exceptional Entity</name>
       <bonus amendoperation="replace">
         <selectattributes>
