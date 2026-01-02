@@ -1447,26 +1447,6 @@
     <!-- Region Data Trails Positive Qualities -->
     <!-- End Region -->
     <!-- Region Data Trails Negative Qualities -->
-    <quality>
-      <name>Corrupter</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Easily Exploitable</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Fragmentation</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Persnickety Renter</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Real World Naiveté</name>
-      <hide />
-    </quality>
     <!-- End Region -->
     <!-- End Region -->
     <!-- Region Chrome Flesh -->
