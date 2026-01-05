@@ -75,32 +75,231 @@
       <allowed>Luxury</allowed>
     </quality>
     <quality>
-      <name>CarnivoreGold</name>
-      <category>Positive</category>
-    </quality>
-    <quality>
-      <name>MonaLisa</name>
-      <category>Positive</category>
-    </quality>
-    <quality>
       <name>Pheromone Detection</name>
       <hide />
     </quality>
+    <!-- End Region -->
     <quality>
-      <name>Speech Template Comparison</name>
-      <category>Positive</category>
+      <name>Armory</name>
+      <category amendoperation="replace">Entertainment - Service</category>
     </quality>
     <quality>
-      <name>Target Tracking Software</name>
-      <category>Positive</category>
+      <name>Cramped Garage (Airplane)</name>
+      <category amendoperation="replace">Entertainment - Outing</category>
     </quality>
     <quality>
-      <name>Thermal Mood Reading</name>
-      <category>Positive</category>
+      <name>Cramped Garage (Boat)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
     </quality>
     <quality>
-      <name>Vocal Tension Lie Detection</name>
-      <category>Positive</category>
+      <name>Cramped Garage (Car (Body 4 or Less))</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Cramped Garage (Car (Body 5 or More))</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Cramped Garage (Helicopter)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Garage (Airplane)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Garage (Boat)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Garage (Car (Body 4 or Less))</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Garage (Car (Body 5 or More))</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Garage (Helicopter)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Greenhouse</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Grid Subscription</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Gym</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Indoor Arboretum</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Merchandise: Goods (Specific Item) (Avail 3)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Merchandise: Goods (Specific Item) (Avail 5)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Merchandise: Goods (Specific Item) (Avail 7)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Merchandise: Goods (Specific Item) (Avail 9)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Panic Room</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Private Room</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Shooting Range</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Soy Processing Unit</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Sports Court - Small</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Swimming Pool</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Walk-In Freezer</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Workshop/Facility</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Cramped Workshop/Facility</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Yard</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Zen Den</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Bat Cave</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Cramped</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Dangerous Area</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Obscure/Difficult to Find</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Safehouse</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Special Work Area</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Thrifty</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <!-- Hard Targets -->
+    <quality>
+      <name>Local Grid Subscription</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Global Grid Subscription</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Drone Maids/Manservants</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Maids/Manservants</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Zombie Maids/Manservants</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Household Gremlins I</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Household Gremlins II</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Dug a Hole</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Dug a Hole</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>No Masters</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <!-- Region Shadows in Focus: Butte-->
+    <quality>
+      <name>Escape Tunnel, 100 Meters</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Escape Tunnel, 200 Meters</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Escape Tunnel, 300 Meters</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Escape Tunnel, 400 Meters</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Escape Tunnel, 500 Meters</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Cramped Garage (Stable)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Garage (Stable)</name>
+      <category amendoperation="replace">Entertainment - Service</category>
+    </quality>
+    <quality>
+      <name>Haunted</name>
+      <category amendoperation="replace">Entertainment - Service</category>
     </quality>
     <!-- End Region -->
   </qualities>
