@@ -19,6 +19,84 @@
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
   <qualities>
+  <!--AI updates-->
+      <quality>
+        <name>Pilot Origins</name>
+        <bonus amendoperation="remove">
+          <selecttext />
+        </bonus>
+      </quality>
+      <quality>
+      <name>Exceptional Entity</name>
+      <bonus amendoperation="replace">
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <max>3</max>
+          </selectattribute>
+        </selectattributes>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <max>3</max>
+          </selectattribute>
+        </selectattributes>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <max>3</max>
+          </selectattribute>
+        </selectattributes>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <excludeattribute>MAG</excludeattribute>
+            <excludeattribute>RES</excludeattribute>
+            <excludeattribute>DEP</excludeattribute>
+            <excludeattribute>BOD</excludeattribute>
+            <excludeattribute>AGI</excludeattribute>
+            <excludeattribute>STR</excludeattribute>
+            <excludeattribute>REA</excludeattribute>
+            <max>96</max>
+          </selectattribute>
+        </selectattributes>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Depth Augmnetation</quality>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Redundancy</name>
+      <limit>99</limit>
+      <bonus>
+        <conditionmonitor>
+          <physical>2</physical>
+        </conditionmonitor>
+      </bonus>
+    </quality>
   <!--Region Shadowrun Core Positive Qualities -->
 	<!-- End Region -->
     <!-- Region Core Negative Qualities -->
@@ -1373,88 +1451,8 @@
 	<!-- End Region -->
     <!-- Region Data Trails -->
     <!-- Region Data Trails Positive Qualities -->
-    <quality>
-      <name>Chatty</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Designer</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Exceptional Entity</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Hello World!</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Inherent Program</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Improved Restoration</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Low Profile</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Munge</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Multiprocessing</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Pilot Origins</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Redundancy</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Sapper</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Sensor Upgrade</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Snooper</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Virtual Stability</name>
-      <hide />
-    </quality>
     <!-- End Region -->
     <!-- Region Data Trails Negative Qualities -->
-    <quality>
-      <name>Corrupter</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Easily Exploitable</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Fragmentation</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Persnickety Renter</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Real World Naiveté</name>
-      <hide />
-    </quality>
     <!-- End Region -->
     <!-- End Region -->
     <!-- Region Chrome Flesh -->

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema programs.xsd">
+  <programs>
+    <program>
+      <id>6abc5f29-8a3e-479d-9dd7-6ec694b9cbe0</id>
+      <name>Blacklight</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Armor</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: 1 or Special
+      Effect: When the AI resists an Attack action successfully, it may choose a number of personas it has a mark on or that are on the same PAN as the AI itself. The maximum number of personas targeted is equal to the AI's Depth. These personas gain a bonus to resist offensive Matrix actions from the target that attacked the AI equal to the AI's net hits on the original defense test. This bonus does not stack with Full Matrix Defense.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>38114b31-0442-45e9-a5ba-6fe69178686d</id>
+      <name>Bluescreen</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Crash</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: 3
+      Effect: Any persona or device the AI has three MARKs on has significant issues during the boot process. The reboot cycle of such targets is extended by a number of Combat Turns equal to the AI’s Depth (in addition to the usual Combat Turn).</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>8592e23d-bc44-45d6-aeff-6a066e9e041d</id>
+      <name>Breakpoint</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Decryption</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: None
+      Effect: The AI may take Attack actions as if it had one more MARK on the target. This also increases damage caused by actions like Data Spike.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>015efd3a-c658-42ee-9b2f-7353a08b42fd</id>
+      <name>Cold War</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Defuse</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: Varies
+      Effect: When taking the Disarm Data Bomb action, the AI treats the Data Bomb’s Rating as if it was (MARKs on file) lower. This affects opposed test dice pools and damage dealt on detonation.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>813e6731-891c-4266-945b-aa344608e25b</id>
+      <name>Cookie Tracker</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Toolbox</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: None
+      Effect: While running Toolbox, the AI adds its Depth as a dice pool bonus to resist any persona attempting to take the Hide action against it.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>9481aff5-b2b3-4986-9967-6a7da5bc2a07</id>
+      <name>George Washington</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Browse</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: 1
+      Effect: When the AI successfully uses the Squelch action on a target, it may take a Free Action to roll an Impersonation + Logic [Data Processing] vs. Perception + Charisma Test against the target. If successful, the AI generates a response that convinces the target the message was seen and responded to by the intended recipient. The AI cannot learn information about the responder this way, as the process is based on predictive programming instead of genuine impersonation skills.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>12f9089b-f9c6-472d-872a-361cec6be691</id>
+      <name>Horizon Clock</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Baby Monitor</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: Owner
+      Effect: As a Free Action, the AI may voluntarily increase its Overwatch Score by up to a maximum equal to its Depth. It then gains a dice pool bonus on its next Matrix action equal to the amount of OS it added.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>deef27c5-ba8c-4f94-8054-c3840b33e431</id>
+      <name>Ironclad</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Encryption</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: Owner
+      Effect: Damage taken from Attack actions is reduced by (Depth / 3, rounded down). Taking damage from failed Attack actions is reduced as well.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>aa21c3a8-e900-43e0-b7d6-1a741f9f645b</id>
+      <name>Minefield</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Demolition</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: Varies
+      Effect: The AI may set a digital minefield on a host or device it has a MARK on. The minefield persists for (MARKs on host/device) hours or until triggered by a persona or IC entering the host or accessing the device and may detonate up to (Depth) times. Unlike regular data bombs, minefields do (Net Hits on Set Data Bomb action) Matrix Damage flat. Minefields are disarmed as if they were Data Bombs but only deal their lower amount of damage on failure; devices that are running personas are invalid targets.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>50290e46-7a88-4740-8e99-a08e13ffb707</id>
+      <name>Null Mantle</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Biofeedback Filter</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: Owner
+      Effect: While this program is running and the AI is running on a device, damage cannot brick the AI’s device. Regardless of damage taken, the device always retains at least one box intact on its Matrix Condition Monitor. Any further damage causes the AI to go into defragmentation. If damage is transferred from the Matrix Condition Monitor to the AI’s Core via Shunt, the damage is reduced by half (round up).</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>8c6c44fc-4b3d-4fd2-8502-77fe03febe1d</id>
+      <name>Phantom Menace</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Stealth</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: 1
+      Effect: When the AI successfully resists a Sleaze action aimed at it, it may immediately transfer one MARK currently on it to the persona that attempted the Sleaze action. The MARK does not have to belong to the persona that failed the Sleaze action. Your own MARKs are invalid to be transferred.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>29e6f482-41b4-4a29-8959-c9c65da92680</id>
+      <name>RCE Trojan</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Bootstrap</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: 3
+      Effect: The AI may use the Bootstrap program to slip in a Trojan virus instead of its usual effects, automatically inviting a MARK on the target device or persona the next time it reboots or comes online. The trojan will continue to proc until the Erase Mark action is taken against the MARK itself or the device is formatted.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>1efd5331-1510-42ca-b269-fb2b51e1c07f</id>
+      <name>Rollback</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Configurator</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: Owner
+      Effect: As a Complex Action, the AI may save its current persona as a Configurator preset, recording its Matrix Attribute array, loaded programs, all held MARKs and its current Overwatch Score.
+      The AI may load this preset with a Complex Action at any point within the next (Depth) Combat Turns. Doing so instantly restores the saved state, including attributes, programs, MARKs, and Overwatch Score exactly as they were when the preset was saved. Loading advanced programs from the Configurator preset will trigger OS increases as normal, even if they had been accounted for in the existing OS value.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>f4ff258e-8619-43f7-9174-49a36e9518ee</id>
+      <name>Teersumpf</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Tarball</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: 2
+      Effect: The AI may use the Crash Program against a host it’s inside of to disable one of its IC tray options. The targeted IC is chosen randomly; if it’s already deployed, the IC disappears instantly. The AI gains a modifier on this Crash Program test equal to its Depth and the IC tray blockage remains in place for (Depth / 2) minutes.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>f7084991-3c72-4aab-bcdc-90955083b8dc</id>
+      <name>Twitch</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Edit</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: 2
+      Effect: When the AI successfully performs a continuous edit with the Edit File action, it may maintain it as a Free Action for as long as it remains online and on the same grid. No additional tests are required. This is most commonly used with security camera feeds, allowing the AI to continuously spoof visuals or overlay false footage.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+    <program>
+      <id>3006903e-33cf-4d00-9777-5118c00ee744</id>
+      <name>Zipbomb</name>
+      <category>Advanced Programs</category>
+      <avail>0F</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <program>Blackout</program>
+        </oneof>
+      </required>
+      <notes>Marks Required: 1
+      Effect: When the AI successfully inflicts Matrix Damage with an action while this program is loaded, the target’s Matrix Initiative is reduced by an amount equal to the AI’s net hits (maximum 5). This penalty lasts until the end of the Combat Turn. If Brute Force is used to gain the first MARK, Zipbomb applies on it as well. Zipbomb’s initiative reduction from the same AI does not stack. Rebounding damage from failed action does not apply Zipbomb’s effects.</notes>
+      <source>DM</source>
+      <page>0</page>
+    </program>
+  </programs>
+</chummer>
