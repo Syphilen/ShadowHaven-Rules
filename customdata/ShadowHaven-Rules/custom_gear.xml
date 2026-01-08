@@ -23,6 +23,7 @@
     <category blackmarket="Weapons">Ammunition Handloads +DV</category>
     <category blackmarket="Weapons">Ammunition Handloads +AP</category>
     <category>Possession Homonculi</category>
+    <category>Custom Deck Accessories</category>
   </categories>
   <gears>
   <gear>
@@ -1699,5 +1700,1031 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <avail>10R</avail>
       <cost>Rating * 500</cost>
     </gear>
+    <!-- Region Custom Cyberdecks -->
+    <gear>
+      <id>d900139a-d044-4da5-a999-e2fc860d6902</id>
+      <name>Custom Deck Core</name>
+      <category>Cyberdecks</category>
+      <rating>8</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>Rating*3R</avail>
+      <capacity>0</capacity>
+      <cost>FixedValues(10000, 40000, 90000, 160000, 270000, 400000, 570000, 760000)</cost>
+      <devicerating>{Rating} * 0.5 + 1</devicerating>
+      <attack>{Rating}</attack>
+      <sleaze>{Rating}</sleaze>
+      <dataprocessing>{Rating}</dataprocessing>
+      <firewall>{Rating}</firewall>
+      <programs>{Rating} * 0.5 + 1</programs>
+      <canformpersona>Self</canformpersona>
+      <gears>
+        <usegear>
+          <name>Sim Module, Hot</name>
+          <category>Commlink Accessories</category>
+        </usegear>
+        <usegear>
+          <name>Universal Connector Cord</name>
+          <category>Tools</category>
+          <rating>1</rating>
+        </usegear>
+        <usegear>
+          <name>Commlink Functionality</name>
+          <category>Electronics Accessories</category>
+          <category>Custom Deck Accessories</category>
+        </usegear>
+      </gears>
+    </gear>
+    <gear>
+      <id>367c5d95-21e8-4017-b5f2-9c8518af18f4</id>
+      <name>Custom Deck Core With Advanced Components</name>
+      <category>Cyberdecks</category>
+      <rating>8</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>Rating*3R</avail>
+      <capacity>0</capacity>
+      <cost>FixedValues(10000, 40000, 90000, 160000, 270000, 400000, 570000, 760000)</cost>
+      <devicerating>{Rating} * 0.5 + 2</devicerating>
+      <attack>{Rating}</attack>
+      <sleaze>{Rating}</sleaze>
+      <dataprocessing>{Rating}</dataprocessing>
+      <firewall>{Rating}</firewall>
+      <programs>{Rating} * 0.5 + 1</programs>
+      <canformpersona>Self</canformpersona>
+      <gears>
+        <usegear>
+          <name>Sim Module, Hot</name>
+          <category>Commlink Accessories</category>
+        </usegear>
+        <usegear>
+          <name>Universal Connector Cord</name>
+          <category>Tools</category>
+          <rating>1</rating>
+        </usegear>
+        <usegear>
+          <name>Advanced Core Components</name>
+          <category>Custom Deck Accessories</category>
+        </usegear>
+        <usegear>
+          <name>Commlink Functionality</name>
+          <category>Electronics Accessories</category>
+          <category>Custom Deck Accessories</category>
+        </usegear>
+      </gears>
+    </gear>
+    <gear>
+      <id>55890adf-ed80-4aed-8c3d-05bd8c612dcc</id>
+      <name>Hardware Skill</name>
+      <category>Custom Deck Accessories</category>
+      <rating>13</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[-((Rating * 3) - {Parent Rating}*2)]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>3e7bc956-7806-4ed9-9f79-fe4f600d4781</id>
+      <name>Core Destabilizer (Attack/Sleeze)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modattack>{Rating}</modattack>
+      <modsleaze>-{Rating}</modsleaze>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>84aaa8dc-698b-4518-b64a-b92514ea13e3</id>
+      <name>Core Destabilizer (Attack/Data Processing)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modattack>{Rating}</modattack>
+      <moddataprocessing>-{Rating}</moddataprocessing>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>7207df29-1a69-4bb9-b1f7-e2e4d2da8360</id>
+      <name>Core Destabilizer (Attack/Firewall)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modattack>{Rating}</modattack>
+      <modfirewall>-{Rating}</modfirewall>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>f1c6eb1d-024c-4002-bfe6-ad10eb45fd45</id>
+      <name>Core Destabilizer (Sleeze/Attack)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modsleaze>{Rating}</modsleaze>
+      <modattack>-{Rating}</modattack>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>0411b274-b73c-4117-a78d-9d2e71cd1ad8</id>
+      <name>Core Destabilizer (Sleeze/Data Processing)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modsleaze>{Rating}</modsleaze>
+      <moddataprocessing>-{Rating}</moddataprocessing>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>8769a3f6-c700-4fab-9248-0e44fd9500a3</id>
+      <name>Core Destabilizer (Sleeze/Firewall)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modsleaze>{Rating}</modsleaze>
+      <modfirewall>-{Rating}</modfirewall>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>d5c9e0de-b6be-4e32-8532-a45c78501b82</id>
+      <name>Core Destabilizer (Data Processing/Attack)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <moddataprocessing>{Rating}</moddataprocessing>
+      <modattack>-{Rating}</modattack>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>c78711f2-e972-4c09-8d7f-8c622b16ecdd</id>
+      <name>Core Destabilizer (Data Processing/Sleeze)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <moddataprocessing>{Rating}</moddataprocessing>
+      <modsleaze>-{Rating}</modsleaze>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>d6bfadbc-0b7d-404f-b3e0-26836659d3bb</id>
+      <name>Core Destabilizer (Data Processing/Firewall)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <moddataprocessing>{Rating}</moddataprocessing>
+      <modfirewall>-{Rating}</modfirewall>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>af1a2d4c-4f03-4efd-a6c4-7337af352470</id>
+      <name>Core Destabilizer (Firewall/Attack)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modfirewall>{Rating}</modfirewall>
+      <modattack>-{Rating}</modattack>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+          <gear sameparent="True">Attribute attenuator (Attack)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>506b33c0-e2c8-43be-86c8-dd0a389e4303</id>
+      <name>Core Destabilizer (Firewall/Sleeze)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modfirewall>{Rating}</modfirewall>
+      <modsleaze>-{Rating}</modsleaze>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+          <gear sameparent="True">Attribute attenuator (Sleaze)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>47ef6fb3-5984-4caa-8284-0d1e539c2393</id>
+      <name>Core Destabilizer (Firewall/Data Processing)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <modfirewall>{Rating}</modfirewall>
+      <moddataprocessing>-{Rating}</moddataprocessing>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Attribute attenuator (Firewall)</gear>
+          <gear sameparent="True">Attribute attenuator (Data Processing)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>2d897b27-e8f0-4149-8749-ce41eb98be33</id>
+      <name>Attribute attenuator (Attack)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>{Parent Rating}</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[floor({Parent Rating}*-0.5)]</capacity>
+      <cost>FixedValues(-2500, -10000, -22500, -40000, -67500, -100000, -142500, -190000)</cost>
+      <modattack>-{Parent Rating}</modattack>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>35497f66-be06-432a-b814-5d8155df09e4</id>
+      <name>Attribute attenuator (Sleeze)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>{Parent Rating}</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[floor({Parent Rating}*-0.5)]</capacity>
+      <cost>FixedValues(-2500, -10000, -22500, -40000, -67500, -100000, -142500, -190000)</cost>
+      <moddataprocessing>-{Parent Rating}</moddataprocessing>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>59ac4452-7dd9-4b9a-a5f8-e1f109d6b2f7</id>
+      <name>Attribute attenuator (Data Processing)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>{Parent Rating}</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[floor({Parent Rating}*-0.5)]</capacity>
+      <cost>FixedValues(-2500, -10000, -22500, -40000, -67500, -100000, -142500, -190000)</cost>
+      <modsleaze>-{Parent Rating}</modsleaze>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>eb5123c3-b5e6-40a6-ad3f-fc59b7317668</id>
+      <name>Attribute attenuator (Firewall)</name>
+      <category>Custom Deck Accessories</category>
+      <rating>{Parent Rating}</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[floor({Parent Rating}*-0.5)]</capacity>
+      <cost>FixedValues(-2500, -10000, -22500, -40000, -67500, -100000, -142500, -190000)</cost>
+      <modfirewall>-{Parent Rating}</modfirewall>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Core Destabilizer (Firewall/Attack)</gear>
+          <gear sameparent="True">Core Destabilizer (Attack/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Sleaze)</gear>
+          <gear sameparent="True">Core Destabilizer (Sleaze/Firewall)</gear>
+          <gear sameparent="True">Core Destabilizer (Firewall/Data Processing)</gear>
+          <gear sameparent="True">Core Destabilizer (Data Processing/Firewall)</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>f437dc0f-18d0-4835-a6be-e83160b26c7d</id>
+      <name>Advanced Core Components</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[3]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>a72e476a-c334-4a77-8f6b-a42b8b76a319</id>
+      <name>Core attribute optimization</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[2]</capacity>
+      <cost>0</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>fc3df72a-21fc-4686-9d74-58e3a338cd1a</id>
+      <name>Interruptible Array Reprogrammer</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[3]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>b9ab3153-4fef-4a79-8f88-b85c8af04292</id>
+      <name>Additional module slot</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>46a4590f-386f-4a65-83ef-e7ec1192a6e2</id>
+      <name>Additional Program slot</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[1]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>5b9c0be5-ad5b-49ed-9e6c-5f043b54d609</id>
+      <name>Intelligent Host Chip</name>
+      <category>Custom Deck Accessories</category>
+      <rating>6</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>Rating * 3</avail>
+      <capacity>[ceiling(Rating * 0.5)]</capacity>
+      <cost>FixedValues(3000, 6000, 9000, 24000, 30000, 36000)</cost>
+      <gears>
+        <usegear>
+          <name>Agent</name>
+          <category>Software</category>
+          <rating>Rating</rating>
+        </usegear>
+      </gears>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>34526b74-0bd9-41b4-9890-ab4b5d9d111d</id>
+      <name>Orichalcum inlaying</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>20F</avail>
+      <capacity>[3]</capacity>
+      <cost>100000</cost>
+      <matrixcmbonus>-2</matrixcmbonus>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>f5db11e5-3c86-4fae-a369-edf344b01166</id>
+      <name>Autosoft Controller</name>
+      <category>Custom Deck Accessories</category>
+      <rating>{Parent Rating}</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating*2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>bb5cf74b-1aef-4452-ac37-52001aa9d51f</id>
+      <name>Active Noise Filtering</name>
+      <category>Custom Deck Accessories</category>
+      <rating>{Parent Rating}</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating*2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>639d0c7b-7a97-4bfa-a6c1-02647997eec3</id>
+      <name>Parallel Slaving Processor</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[1]</capacity>
+      <cost>0</cost>
+       <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>7f0f036a-8545-4a7d-ba43-09ff4dd67d69</id>
+      <name>Enhanced Jump Processor</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[1]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>5768a13e-3759-4075-978b-22e35b37b11d</id>
+      <name>Enhanced Command Processor</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>09cb65b8-40e0-48f1-88fd-a0aab1a04c7c</id>
+      <name>Persona Enhancing Processor</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating * 2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>5786c252-60f1-4721-a2d1-4eb675b0406f</id>
+      <name>Booster Circuits</name>
+      <category>Custom Deck Accessories</category>
+      <rating>4</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>1e6d53b9-64ce-43cd-83d8-79cfffe062b3</id>
+      <name>False Mask</name>
+      <category>Custom Deck Accessories</category>
+      <rating>5</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>8438ae07-0f0f-4f2b-8165-544c0cc1884d</id>
+      <name>Switch Board</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[Rating]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>ada1fe89-023d-4b4e-9d2c-4bc068f41bec</id>
+      <name>Last Chance</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>d9b70aa9-eb66-412e-8d6c-534c7953b02e</id>
+      <name>Waveform Analyzer</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Throwback interface card ports</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <gear>
+      <id>0361640e-7ddf-47b9-b42c-ad1f181922c8</id>
+      <name>Throwback interface card ports</name>
+      <category>Custom Deck Accessories</category>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[2]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <gear sameparent="True">Waveform Analyzer</gear>
+        </oneof>
+      </forbidden>
+    </gear>
+    <!-- End Region -->
   </gears>
 </chummer>
