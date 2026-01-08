@@ -1777,7 +1777,7 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <id>55890adf-ed80-4aed-8c3d-05bd8c612dcc</id>
       <name>Hardware Skill</name>
       <category>Custom Deck Accessories</category>
-      <rating>20</rating>
+      <rating>13</rating>
       <source>DM</source>
       <page>0</page>
       <avail>0</avail>
@@ -2477,6 +2477,7 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <avail>20F</avail>
       <capacity>[3]</capacity>
       <cost>100000</cost>
+      <matrixcmbonus>-2</matrixcmbonus>
       <required>
         <geardetails>
           <OR>
