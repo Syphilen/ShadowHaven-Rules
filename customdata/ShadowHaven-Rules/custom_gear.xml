@@ -1711,7 +1711,7 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <avail>Rating*3R</avail>
       <capacity>0</capacity>
       <cost>FixedValues(10000, 40000, 90000, 160000, 270000, 400000, 570000, 760000)</cost>
-      <devicerating>{Rating} * 0.5 + 1</devicerating>
+      <devicerating>floor({Rating} * 0.5) + 1</devicerating>
       <attack>{Rating}</attack>
       <sleaze>{Rating}</sleaze>
       <dataprocessing>{Rating}</dataprocessing>
@@ -1745,7 +1745,7 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <avail>Rating*3R</avail>
       <capacity>0</capacity>
       <cost>FixedValues(10000, 40000, 90000, 160000, 270000, 400000, 570000, 760000)</cost>
-      <devicerating>{Rating} * 0.5 + 2</devicerating>
+      <devicerating>floor({Rating} * 0.5) + 2</devicerating>
       <attack>{Rating}</attack>
       <sleaze>{Rating}</sleaze>
       <dataprocessing>{Rating}</dataprocessing>
@@ -2724,6 +2724,151 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
           <gear sameparent="True">Waveform Analyzer</gear>
         </oneof>
       </forbidden>
+    </gear>
+    <gear>
+      <id>c7c84a57-abb6-4f23-91c8-14a33e4895a6</id>
+      <name>Specmod +1 Attack</name>
+      <category>Cyberdeck Modules</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <modattack>{Rating}</modattack>
+      <required>
+        <oneof>
+          <specialmodificationlimit>2</specialmodificationlimit>
+        </oneof>
+      </required>
+    </gear>
+    <gear>
+      <id>315f0340-4627-4ae7-9bfe-db6e8e3ca427</id>
+      <name>Specmod +1 Sleaze</name>
+      <category>Cyberdeck Modules</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <modsleaze>{Rating}</modsleaze>
+      <required>
+        <oneof>
+          <specialmodificationlimit>2</specialmodificationlimit>
+        </oneof>
+      </required>
+    </gear>
+    <gear>
+      <id>d7f27628-8f41-4b5d-b0a0-3787924beb3b</id>
+      <name>Specmod +1 Data Processing</name>
+      <category>Cyberdeck Modules</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <moddataprocessing>{Rating}</moddataprocessing>
+      <required>
+        <oneof>
+          <specialmodificationlimit>2</specialmodificationlimit>
+        </oneof>
+      </required>
+    </gear>
+    <gear>
+      <id>83bc0536-aaec-4d71-88a0-c5c11f127ce4</id>
+      <name>Specmod +1 Firewall</name>
+      <category>Cyberdeck Modules</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <modfirewall>{Rating}</modfirewall>
+      <required>
+        <oneof>
+          <specialmodificationlimit>2</specialmodificationlimit>
+        </oneof>
+      </required>
+    </gear>
+    <gear>
+      <id>cddb680e-837d-492a-b66d-adf03cd8bd2e</id>
+      <name>Specmod +3 Slaved Devices Capacity</name>
+      <category>Cyberdeck Modules</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <specialmodificationlimit>2</specialmodificationlimit>
+        </oneof>
+      </required>
+    </gear>
+    <gear>
+      <id>427ba624-2e0e-4a63-b848-8b3bbe144cf0</id>
+      <name>Specmod +1 Program Slot</name>
+      <category>Cyberdeck Modules</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <modfirewall>{Rating}</modfirewall>
+      <required>
+        <oneof>
+          <specialmodificationlimit>2</specialmodificationlimit>
+        </oneof>
+      </required>
+    </gear>
+    <gear>
+      <id>1abac62b-b790-4545-bf0a-2f1265709f65</id>
+      <name>Specmod +2 Noise Reduction</name>
+      <category>Cyberdeck Modules</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <required>
+        <oneof>
+          <specialmodificationlimit>2</specialmodificationlimit>
+        </oneof>
+      </required>
+    </gear>
+    <gear>
+      <id>723c265e-f14a-4aef-9328-9e3a8bccd4bc</id>
+      <name>Specmod +3 Matrix condition monitor</name>
+      <category>Cyberdeck Modules</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <matrixcmbonus>{Rating}*3</matrixcmbonus>
+      <required>
+        <oneof>
+          <specialmodificationlimit>2</specialmodificationlimit>
+        </oneof>
+      </required>
+    </gear>
+    <gear>
+      <id>2451611b-4a8f-414f-8b8d-801f1aa9f890</id>
+      <name>Specmod +2 Capacity</name>
+      <category>Custom Deck Accessories</category>
+      <rating>3</rating>
+      <source>DM</source>
+      <page>0</page>
+      <avail>0</avail>
+      <capacity>[-(Rating * 2)]</capacity>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Custom Deck Core</name>
+            <name>Custom Deck Core With Advanced Components</name>
+          </OR>
+        </geardetails>
+      </required>
     </gear>
     <!-- End Region -->
   </gears>

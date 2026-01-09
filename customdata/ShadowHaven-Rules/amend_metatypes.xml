@@ -30,8 +30,14 @@
       <depaug>7</depaug>
       <qualityrestriction amendoperation="replace">
         <positive>
-            <quality>Exceptional Depth Augmnetation</quality>
-            <quality>Depth Augmnetation</quality>
+            <quality>Exceptional Depth Augmnetation(CHA)</quality>
+            <quality>Exceptional Depth Augmnetation(INT)</quality>
+            <quality>Exceptional Depth Augmnetation(LOG)</quality>
+            <quality>Exceptional Depth Augmnetation(WIL)</quality>
+            <quality>Depth Augmnetation(CHA)</quality>
+            <quality>Depth Augmnetation(INT)</quality>
+            <quality>Depth Augmnetation(LOG)</quality>
+            <quality>Depth Augmnetation(WIL)</quality>
             <quality>Fix Luck</quality>
             <quality>Analytical Mind</quality>
             <quality>Aptitude</quality>
@@ -379,8 +385,14 @@
           <depaug>7</depaug>
           <qualityrestriction amendoperation="replace">
             <positive>
-                <quality>Exceptional Depth Augmnetation</quality>
-                <quality>Depth Augmnetation</quality>
+                <quality>Exceptional Depth Augmnetation(CHA)</quality>
+                <quality>Exceptional Depth Augmnetation(INT)</quality>
+                <quality>Exceptional Depth Augmnetation(LOG)</quality>
+                <quality>Exceptional Depth Augmnetation(WIL)</quality>
+                <quality>Depth Augmnetation(CHA)</quality>
+                <quality>Depth Augmnetation(INT)</quality>
+                <quality>Depth Augmnetation(LOG)</quality>
+                <quality>Depth Augmnetation(WIL)</quality>
                 <quality>Fix Luck</quality>
                 <quality>Analytical Mind</quality>
                 <quality>Aptitude</quality>
