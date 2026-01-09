@@ -2610,6 +2610,9 @@ Crash: Astral Beacon for equal duration, -1 dicepool on all actions per dose con
       <page>0</page>
       <avail>0</avail>
       <capacity>[Rating]</capacity>
+      <bonus>
+        <selecttext />
+      </bonus>
       <cost>0</cost>
       <required>
         <geardetails>
