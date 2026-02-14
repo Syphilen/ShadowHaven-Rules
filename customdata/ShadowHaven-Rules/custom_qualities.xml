@@ -2891,5 +2891,39 @@
         Temp hack to fix max edge on AI, 6 is your cap do not go over that ever please.
       </notes>
     </quality>
+	<quality>
+      <id>e508350b-f61d-4878-bd6d-98f8c9e31037</id>
+      <name>Support Gunner</name>
+      <karma>4</karma>
+      <category>Positive</category>
+      <required>
+        <allof>
+          <skill>
+            <name>Heavy Weapons</name>
+            <val>4</val>
+          </skill>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+	  <notes>A character with this quality may take a Simple Full Auto action as a Simple Action once per pass while suppressing an area with a machine gun. This attack can only be aimed at anyone within the suppression and does not break suppression. No other actions can be taken without breaking the suppression, including common combinations such as Adept Centering, Take Aim and Called Shot. You may only attack one target per pass with Support Gunner. This quality does not work with miniguns.</notes>
+    </quality>
+	<quality>
+      <id>e508350b-f61d-4878-bd6d-98f8c9e35892</id>
+      <name>Bullethose</name>
+      <karma>4</karma>
+      <category>Positive</category>
+      <required>
+        <allof>
+          <skill>
+            <name>Heavy Weapons</name>
+            <val>4</val>
+          </skill>
+        </allof>
+      </required>
+      <source>DM</source>
+      <page>0</page>
+	  <notes>A character with this quality may suppress additional zones with miniguns. For every 4 ranks in the Heavy Weapons skill, they may suppress an additional zone. The total number of zones cannot exceed 5.</notes>
+    </quality>
 	</qualities>
 </chummer>
