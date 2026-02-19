@@ -207,10 +207,17 @@
 				</oneof>
 			</required>
 		</cyberware>
-        <cyberware>
-          <name>Improved Synthskin</name>
-          <capacity>[1]</capacity>
-        </cyberware>
+    <cyberware>
+      <name>Improved Synthskin</name>
+      <capacity>[1]</capacity>
+      <required>
+        <parentdetails>
+          <OR>
+            <name amendoperation="addnode">Shell Cyberware Adaptor (including Drone Arm/Drone Leg stuff)</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
 		<cyberware>
 			<name>Skilljack</name>
 			<ess>0.1</ess>

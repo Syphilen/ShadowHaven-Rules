@@ -215,7 +215,7 @@
 		  <page>0</page>
       <required>
         <allof>
-			    <metatype>A.I.</metatype>
+		      <metatype>A.I.</metatype>
           <lifestyle>Street</lifestyle>
         </allof>
 	    </required>
