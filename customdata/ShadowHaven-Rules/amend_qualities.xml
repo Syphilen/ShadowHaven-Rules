@@ -1068,6 +1068,19 @@
             <max>2</max>
         </specificattribute>
       </bonus>
+      <forbidden amendoperation="replace">
+        <oneof>
+          <metatype>Human</metatype>
+          <metatype>A.I.</metatype>
+          <metatype>Cyborg</metatype>
+          <metatype>Sasquatch</metatype>
+          <metatypecategory>Shapeshifter</metatypecategory>
+          <quality>Magic Resistance</quality>
+          <resenabled />
+          <depenabled />
+          <quality>Latent Dracomorphosis</quality>
+        </oneof>
+      </forbidden>
     </quality>
 	<quality>
       <name>Infected: Sukuyan (Human)</name>
@@ -1128,6 +1141,19 @@
             <max>2</max>
         </specificattribute>
       </bonus>
+      <forbidden amendoperation="replace">
+        <oneof>
+          <metatype>Human</metatype>
+          <metatype>A.I.</metatype>
+          <metatype>Cyborg</metatype>
+          <metatype>Sasquatch</metatype>
+          <metatypecategory>Shapeshifter</metatypecategory>
+          <quality>Magic Resistance</quality>
+          <resenabled />
+          <depenabled />
+          <quality>Latent Dracomorphosis</quality>
+        </oneof>
+      </forbidden>
     </quality>
     <quality>
       <name>Infected: Golbin</name>

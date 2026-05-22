@@ -2925,5 +2925,223 @@
       <page>0</page>
 	  <notes>A character with this quality may suppress additional zones with miniguns. For every 4 ranks in the Heavy Weapons skill, they may suppress an additional zone. The total number of zones cannot exceed 5.</notes>
     </quality>
+    <quality>
+      <id>c66257d8-536b-4780-b65a-fbbd79cb243f</id>
+      <name>Infected: Ghoul (Naga)</name>
+      <karma>29</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <naturalweapons>
+        <naturalweapon>
+          <name>Infected Bite</name>
+          <reach>-1</reach>
+          <damage>({STR}+1)P</damage>
+          <ap>-1</ap>
+          <useskill>Unarmed Combat</useskill>
+          <accuracy>Physical</accuracy>
+          <source>RF</source>
+          <page>137</page>
+        </naturalweapon>
+      </naturalweapons>
+      <bonus useselected="False">
+        <armor>1</armor>
+        <critterpowers>
+          <power>Dual Natured</power>
+          <power select="Hearing">Enhanced Senses</power>
+          <power select="Smell">Enhanced Senses</power>
+          <power select="Sunlight, Moderate">Allergy</power>
+          <power select="Metahuman Flesh">Dietary Requirement</power>
+        </critterpowers>
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+        <enabletab>
+          <name>critter</name>
+        </enabletab>
+        <essencepenalty>-1</essencepenalty>
+        <limitcritterpowercategory>Infected</limitcritterpowercategory>
+        <selectattributes>
+          <selectattribute>
+            <attribute>BOD</attribute>
+            <attribute>REA</attribute>
+            <attribute>STR</attribute>
+            <val>1</val>
+          </selectattribute>
+          <selectattribute>
+            <attribute>BOD</attribute>
+            <attribute>REA</attribute>
+            <attribute>STR</attribute>
+            <val>1</val>
+          </selectattribute>
+          <selectattribute>
+            <attribute>WIL</attribute>
+            <attribute>INT</attribute>
+            <val>1</val>
+          </selectattribute>
+          <selectattribute>
+            <attribute>WIL</attribute>
+            <attribute>INT</attribute>
+            <val>1</val>
+          </selectattribute>
+        </selectattributes>
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Magic Resistance</quality>
+          <resenabled />
+          <depenabled />
+          <quality>Latent Dracomorphosis</quality>
+        </oneof>
+      </forbidden>
+      <required>
+        <oneof>
+          <metatype>Naga</metatype>
+        </oneof>
+      </required>
+      <source>RF</source>
+      <page>138</page>
+    </quality>
+    <quality>
+      <id>e8db3d2a-ee23-418a-983d-c92916be7d5a</id>
+      <name>Infected: Ghoul (Centaur)</name>
+      <karma>29</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <naturalweapons>
+          <naturalweapon>
+          <name>Infected Claws</name>
+          <reach>0</reach>
+          <damage>({STR}+2)P</damage>
+          <ap>-1</ap>
+          <useskill>Unarmed Combat</useskill>
+          <accuracy>Physical</accuracy>
+          <source>RF</source>
+          <page>137</page>
+        </naturalweapon>
+        <naturalweapon>
+          <name>Infected Bite</name>
+          <reach>-1</reach>
+          <damage>({STR}+1)P</damage>
+          <ap>-1</ap>
+          <useskill>Unarmed Combat</useskill>
+          <accuracy>Physical</accuracy>
+          <source>RF</source>
+          <page>137</page>
+        </naturalweapon>
+      </naturalweapons>
+      <bonus useselected="False">
+        <armor>1</armor>
+        <critterpowers>
+          <power>Dual Natured</power>
+          <power select="Hearing">Enhanced Senses</power>
+          <power select="Smell">Enhanced Senses</power>
+          <power select="Sunlight, Moderate">Allergy</power>
+          <power select="Metahuman Flesh">Dietary Requirement</power>
+        </critterpowers>
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+        <enabletab>
+          <name>critter</name>
+        </enabletab>
+        <essencepenalty>-1</essencepenalty>
+        <limitcritterpowercategory>Infected</limitcritterpowercategory>
+        <selectattributes>
+          <selectattribute>
+            <attribute>BOD</attribute>
+            <attribute>REA</attribute>
+            <attribute>STR</attribute>
+            <val>1</val>
+          </selectattribute>
+          <selectattribute>
+            <attribute>BOD</attribute>
+            <attribute>REA</attribute>
+            <attribute>STR</attribute>
+            <val>1</val>
+          </selectattribute>
+          <selectattribute>
+            <attribute>WIL</attribute>
+            <attribute>INT</attribute>
+            <val>1</val>
+          </selectattribute>
+          <selectattribute>
+            <attribute>WIL</attribute>
+            <attribute>INT</attribute>
+            <val>1</val>
+          </selectattribute>
+        </selectattributes>
+        <specificattribute amendoperation="addnode">
+            <name>BOD</name>
+            <max>4</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>REA</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>STR</name>
+            <max>3</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>WIL</name>
+            <max>2</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>LOG</name>
+            <max>-1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>INT</name>
+            <max>1</max>
+        </specificattribute>
+        <specificattribute amendoperation="addnode">
+            <name>CHA</name>
+            <max>-2</max>
+        </specificattribute>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Magic Resistance</quality>
+          <resenabled />
+          <depenabled />
+          <quality>Latent Dracomorphosis</quality>
+        </oneof>
+      </forbidden>
+      <required>
+        <oneof>
+          <metatype>Centaur</metatype>
+        </oneof>
+      </required>
+      <source>RF</source>
+      <page>138</page>
+    </quality>
 	</qualities>
 </chummer>
