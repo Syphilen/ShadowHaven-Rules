@@ -20,6 +20,12 @@
 <chummer>
   <metatypes>
     <metatype>
+      <name>Centaur</name>
+      <walk>2/2/0</walk>
+      <run>6/0/0</run>
+      <sprint>4/1/0</sprint>
+    </metatype>
+    <metatype>
       <name>A.I.</name>
       <category>Metasapient</category>
       <edgmin>1</edgmin>

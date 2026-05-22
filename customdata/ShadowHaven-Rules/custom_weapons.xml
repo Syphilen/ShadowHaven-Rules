@@ -394,12 +394,22 @@
     </accessory>
     <accessory>
       <id>7d6e2e63-8997-448e-9ca5-a5f63d4c8372</id>
-      <name>1-Handed Penalty</name>
+      <name>1-Handed Penalty(Mele)</name>
       <limit>False</limit>
       <mount />
       <avail>0</avail>
       <cost>0</cost>
 	  <damage>-2</damage>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>07b2534b-9505-4f92-81f5-554292c9a6fe</id>
+      <name>1-Handed Penalty(Gun)</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
       <rc>-6</rc>
       <source>DM</source>
       <page>0</page>
