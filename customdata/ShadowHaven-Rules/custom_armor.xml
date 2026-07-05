@@ -156,5 +156,17 @@
           <source>DM</source>
           <page>0</page>
         </mod>
+        <mod>
+          <id>5d105bb2-a85a-4753-b886-6b6aac35a3bc</id>
+          <name>Internal Gel Packs</name>
+          <category>General</category>
+          <armor>+2</armor>
+          <maxrating>1</maxrating>
+          <armorcapacity>[8]</armorcapacity>
+          <avail>6</avail>
+          <cost>1500</cost>
+          <source>RG</source>
+          <page>85</page>
+        </mod>
 	</mods>
 </chummer>

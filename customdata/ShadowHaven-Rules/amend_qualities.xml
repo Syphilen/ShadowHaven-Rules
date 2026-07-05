@@ -1213,10 +1213,6 @@
             <name>INT</name>
             <max>2</max>
         </specificattribute>
-        <specificattribute amendoperation="addnode">
-            <name>CHA</name>
-            <max>-2</max>
-        </specificattribute>
       </bonus>
     </quality>
     <quality>
