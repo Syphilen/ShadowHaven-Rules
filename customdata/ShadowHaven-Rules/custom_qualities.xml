@@ -78,6 +78,34 @@
         </quality>
         <!-- End Cyborg Qualities -->
         <quality>
+          <id>0393e5ca-05b3-4229-9980-23590ae9994e</id>
+          <name>Beholden to Fate R1</name>
+          <karma>-10</karma>
+          <category>Negative</category>
+          <forbidden>
+            <oneof>
+              <quality>Beholden to Fate R2</quality>
+            </oneof>
+          </forbidden>
+          <notes>Runners are notorious for doing the impossible, but you're more limited than usual. You cannot burn Edge. If you take the second rank of the quality, it can never be bought off.</notes>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
+          <id>9557300f-7f6e-4c86-8bdf-00228599c8ab</id>
+          <name>Beholden to Fate R2</name>
+          <karma>-15</karma>
+          <category>Negative</category>
+          <forbidden>
+            <oneof>
+              <quality>Beholden to Fate R1</quality>
+            </oneof>
+          </forbidden>
+          <notes>Runners are notorious for doing the impossible, but you're more limited than usual. You cannot burn Edge. If you take the second rank of the quality, it can never be bought off.</notes>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
+        <quality>
           <id>cb37608c-8034-4d46-916a-bebaa6ed0fc7</id>
           <name>Naga Arms/Legs</name>
           <karma>0</karma>
