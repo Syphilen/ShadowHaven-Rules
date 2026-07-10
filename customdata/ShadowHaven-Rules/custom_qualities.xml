@@ -1911,6 +1911,25 @@
             <source>RF</source>
             <page>136</page>
         </quality>
+        <quality>
+          <id>a0aafe66-0375-43c7-92df-c23cbffd5bca</id>
+          <name>Extended Mimicry</name>
+          <karma>5</karma>
+          <category>Positive</category>
+          <canbuywithspellpoints>True</canbuywithspellpoints>
+          <doublecareer>False</doublecareer>
+          <bonus />
+          <required>
+            <allof>
+              <magenabled />
+            </allof>
+            <oneof>
+              <power>Mimic</power>
+            </oneof>
+          </required>
+          <source>DM</source>
+          <page>0</page>
+        </quality>
 		<!--Mundane Masteries-->
 		<quality>
 			<id>25e12560-5f00-436d-ac72-152ee7a87366</id>
